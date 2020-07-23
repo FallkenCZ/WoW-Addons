@@ -1,0 +1,44 @@
+
+sArena3DB = {
+	["profileKeys"] = {
+		["Fállkén - Drak'thul"] = "Default",
+		["Fållkèn - Drak'thul"] = "Default",
+		["Fàllkèn - Drak'thul"] = "Default",
+		["Fãllkên - Drak'thul"] = "Default",
+		["Fállkèn - Burning Blade"] = "Default",
+		["Fàllkên - Drak'thul"] = "Default",
+		["Fallkengold - Sylvanas"] = "Default",
+		["Faallken - Drak'thul"] = "Default",
+		["Fallkenchoco - Burning Blade"] = "Default",
+		["Fallkenxd - Burning Blade"] = "Default",
+		["Fällkên - Drak'thul"] = "Default",
+		["Fàllkèn - Burning Blade"] = "Default",
+		["Gfgdhfdghfgh - Burning Blade"] = "Default",
+		["Fållken - Burning Blade"] = "Default",
+		["Fallkenji - Burning Blade"] = "Default",
+		["Fallkenmekac - Burning Blade"] = "Default",
+		["Fallkenthicc - Burning Blade"] = "Default",
+		["Fållkên - Drak'thul"] = "Default",
+		["Fallkentiny - Burning Blade"] = "Default",
+		["Fallkenfurry - Drak'thul"] = "Default",
+		["Fàllkén - Drak'thul"] = "Default",
+		["Fâllken - Drak'thul"] = "Default",
+		["Fallkên - Drak'thul"] = "Default",
+		["Fállken - Burning Blade"] = "Default",
+		["Fällkèn - Drak'thul"] = "Default",
+		["Fallken - Burning Blade"] = "Default",
+		["Fállkén - Outland"] = "Default",
+		["Fallkenez - Drak'thul"] = "Default",
+		["Fállkên - Drak'thul"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["layoutSettings"] = {
+				["BlizzArena"] = {
+					["scale"] = 1.7,
+					["posX"] = 322,
+				},
+			},
+		},
+	},
+}

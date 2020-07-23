@@ -1,0 +1,150 @@
+
+TomTomDB = {
+	["profileKeys"] = {
+		["Fállkén - Drak'thul"] = "Default",
+		["Fållkèn - Drak'thul"] = "Default",
+		["Fàllkèn - Drak'thul"] = "Default",
+		["Fãllkên - Drak'thul"] = "Default",
+		["Fállkèn - Burning Blade"] = "Default",
+		["Fàllkên - Drak'thul"] = "Default",
+		["Fallkengold - Sylvanas"] = "Default",
+		["Faallken - Drak'thul"] = "Default",
+		["Fallkenchoco - Burning Blade"] = "Default",
+		["Fallkenxd - Burning Blade"] = "Default",
+		["Fállkén - Outland"] = "Default",
+		["Fàllkèn - Burning Blade"] = "Default",
+		["Gfgdhfdghfgh - Burning Blade"] = "Default",
+		["Fållken - Burning Blade"] = "Default",
+		["Fallkenji - Burning Blade"] = "Default",
+		["Fallkenmekac - Burning Blade"] = "Default",
+		["Fallkenthicc - Burning Blade"] = "Default",
+		["Fållkên - Drak'thul"] = "Default",
+		["Fallkentiny - Burning Blade"] = "Default",
+		["Fallkenfurry - Drak'thul"] = "Default",
+		["Fàllkén - Drak'thul"] = "Default",
+		["Fâllken - Drak'thul"] = "Default",
+		["Fällkèn - Drak'thul"] = "Default",
+		["Fállken - Burning Blade"] = "Default",
+		["Fallkên - Drak'thul"] = "Default",
+		["Fallken - Burning Blade"] = "Default",
+		["Fällkên - Drak'thul"] = "Default",
+		["Fallkenez - Drak'thul"] = "Default",
+		["Fállkên - Drak'thul"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["arrow"] = {
+				["position"] = {
+					"CENTER", -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					-1.926095962524414, -- [4]
+					140.9747314453125, -- [5]
+				},
+			},
+			["block"] = {
+				["position"] = {
+					"TOPRIGHT", -- [1]
+					nil, -- [2]
+					"TOPRIGHT", -- [3]
+					0, -- [4]
+					-178.3508605957031, -- [5]
+				},
+			},
+		},
+	},
+}
+TomTomWaypoints = nil
+TomTomWaypointsM = {
+	["profileKeys"] = {
+		["Fállkén - Drak'thul"] = "Fállkén - Drak'thul",
+		["Fållkèn - Drak'thul"] = "Fållkèn - Drak'thul",
+		["Fàllkèn - Drak'thul"] = "Fàllkèn - Drak'thul",
+		["Fãllkên - Drak'thul"] = "Fãllkên - Drak'thul",
+		["Fállkèn - Burning Blade"] = "Fállkèn - Burning Blade",
+		["Fàllkên - Drak'thul"] = "Fàllkên - Drak'thul",
+		["Fallkengold - Sylvanas"] = "Fallkengold - Sylvanas",
+		["Faallken - Drak'thul"] = "Faallken - Drak'thul",
+		["Fallkenchoco - Burning Blade"] = "Fallkenchoco - Burning Blade",
+		["Fallkenxd - Burning Blade"] = "Fallkenxd - Burning Blade",
+		["Fállkén - Outland"] = "Fállkén - Outland",
+		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
+		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
+		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
+		["Fallkenthicc - Burning Blade"] = "Fallkenthicc - Burning Blade",
+		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
+		["Fallkentiny - Burning Blade"] = "Fallkentiny - Burning Blade",
+		["Fallkenfurry - Drak'thul"] = "Fallkenfurry - Drak'thul",
+		["Fàllkén - Drak'thul"] = "Fàllkén - Drak'thul",
+		["Fâllken - Drak'thul"] = "Fâllken - Drak'thul",
+		["Fällkèn - Drak'thul"] = "Fällkèn - Drak'thul",
+		["Fállken - Burning Blade"] = "Fállken - Burning Blade",
+		["Fallkên - Drak'thul"] = "Fallkên - Drak'thul",
+		["Fallken - Burning Blade"] = "Fallken - Burning Blade",
+		["Fällkên - Drak'thul"] = "Fällkên - Drak'thul",
+		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+	},
+	["profiles"] = {
+		["Fállkén - Drak'thul"] = {
+		},
+		["Fållkèn - Drak'thul"] = {
+		},
+		["Fàllkèn - Drak'thul"] = {
+		},
+		["Fãllkên - Drak'thul"] = {
+		},
+		["Fállkèn - Burning Blade"] = {
+		},
+		["Fàllkên - Drak'thul"] = {
+		},
+		["Fallkengold - Sylvanas"] = {
+		},
+		["Faallken - Drak'thul"] = {
+		},
+		["Fallkenchoco - Burning Blade"] = {
+		},
+		["Fallkenxd - Burning Blade"] = {
+		},
+		["Fállkén - Outland"] = {
+		},
+		["Fàllkèn - Burning Blade"] = {
+		},
+		["Gfgdhfdghfgh - Burning Blade"] = {
+		},
+		["Fållken - Burning Blade"] = {
+		},
+		["Fallkenji - Burning Blade"] = {
+		},
+		["Fallkenmekac - Burning Blade"] = {
+		},
+		["Fallkenthicc - Burning Blade"] = {
+		},
+		["Fållkên - Drak'thul"] = {
+		},
+		["Fallkentiny - Burning Blade"] = {
+		},
+		["Fallkenfurry - Drak'thul"] = {
+		},
+		["Fàllkén - Drak'thul"] = {
+		},
+		["Fâllken - Drak'thul"] = {
+		},
+		["Fällkèn - Drak'thul"] = {
+		},
+		["Fállken - Burning Blade"] = {
+		},
+		["Fallkên - Drak'thul"] = {
+		},
+		["Fallken - Burning Blade"] = {
+		},
+		["Fällkên - Drak'thul"] = {
+		},
+		["Fallkenez - Drak'thul"] = {
+		},
+		["Fállkên - Drak'thul"] = {
+		},
+	},
+}

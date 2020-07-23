@@ -1,0 +1,296 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Faallken|Drak'thul|Horde|120|PALADIN", -- [1]
+				"Fallkenchoco|Burning Blade|Alliance|60|WARRIOR", -- [2]
+				"Fallkenez|Drak'thul|Horde|120|ROGUE", -- [3]
+				"Fallkenfurry|Drak'thul|Horde|56|WARLOCK", -- [4]
+				"Fallkengold|Sylvanas|Horde|20|MAGE", -- [5]
+				"Fallkenji|Burning Blade|Horde|71|SHAMAN", -- [6]
+				"Fallkenmekac|Burning Blade|Alliance|31|MAGE", -- [7]
+				"Fallkenthicc|Burning Blade|Alliance|31|DRUID", -- [8]
+				"Fallkentiny|Burning Blade|Alliance|61|DEATHKNIGHT", -- [9]
+				"Fallkenxd|Burning Blade|Alliance|120|HUNTER", -- [10]
+				"Fallken|Burning Blade|Horde|120|DRUID", -- [11]
+				"Fallkên|Drak'thul|Alliance|120|DRUID", -- [12]
+				"Fàllkèn|Burning Blade|Alliance|71|PALADIN", -- [13]
+				"Fàllkèn|Drak'thul|Horde|120|MONK", -- [14]
+				"Fàllkén|Drak'thul|Horde|120|MAGE", -- [15]
+				"Fàllkên|Drak'thul|Horde|120|HUNTER", -- [16]
+				"Fállken|Burning Blade|Horde|120|DEMONHUNTER", -- [17]
+				"Fállkèn|Burning Blade|Alliance|75|PRIEST", -- [18]
+				"Fállkén|Drak'thul|Horde|120|SHAMAN", -- [19]
+				"Fállkén|Outland|Alliance|101|MAGE", -- [20]
+				"Fállkên|Drak'thul|Alliance|111|DEMONHUNTER", -- [21]
+				"Fâllken|Drak'thul|Horde|107|DRUID", -- [22]
+				"Fãllkên|Drak'thul|Horde|41|HUNTER", -- [23]
+				"Fällkèn|Drak'thul|Horde|120|WARRIOR", -- [24]
+				"Fällkên|Drak'thul|Horde|120|DEATHKNIGHT", -- [25]
+				"Fållken|Burning Blade|Horde|120|PRIEST", -- [26]
+				"Fållkèn|Drak'thul|Horde|70|MAGE", -- [27]
+				"Fållkên|Drak'thul|Horde|120|WARLOCK", -- [28]
+				"Gfgdhfdghfgh|Burning Blade|Horde|110|PALADIN", -- [29]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Fállkén - Drak'thul"] = "Fállkén - Drak'thul",
+		["Fållkèn - Drak'thul"] = "Fållkèn - Drak'thul",
+		["Fàllkèn - Drak'thul"] = "Fàllkèn - Drak'thul",
+		["Fãllkên - Drak'thul"] = "Fãllkên - Drak'thul",
+		["Fállkèn - Burning Blade"] = "Fállkèn - Burning Blade",
+		["Fàllkên - Drak'thul"] = "Fàllkên - Drak'thul",
+		["Fallkengold - Sylvanas"] = "Fallkengold - Sylvanas",
+		["Faallken - Drak'thul"] = "Faallken - Drak'thul",
+		["Fallkenchoco - Burning Blade"] = "Fallkenchoco - Burning Blade",
+		["Fallkenxd - Burning Blade"] = "Fallkenxd - Burning Blade",
+		["Fállkén - Outland"] = "Fállkén - Outland",
+		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
+		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
+		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
+		["Fallkenthicc - Burning Blade"] = "Fallkenthicc - Burning Blade",
+		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
+		["Fallkentiny - Burning Blade"] = "Fallkentiny - Burning Blade",
+		["Fallkenfurry - Drak'thul"] = "Fallkenfurry - Drak'thul",
+		["Fàllkén - Drak'thul"] = "Fàllkén - Drak'thul",
+		["Fâllken - Drak'thul"] = "Fâllken - Drak'thul",
+		["Fällkèn - Drak'thul"] = "Fällkèn - Drak'thul",
+		["Fállken - Burning Blade"] = "Fállken - Burning Blade",
+		["Fallkên - Drak'thul"] = "Fallkên - Drak'thul",
+		["Fallken - Burning Blade"] = "Fallken - Burning Blade",
+		["Fällkên - Drak'thul"] = "Fällkên - Drak'thul",
+		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+	},
+	["profiles"] = {
+		["Fállkén - Drak'thul"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fàllkén-Drak'thul|Drak'thul|Horde", -- [1]
+					"Fàllkên|Drak'thul|Horde", -- [2]
+				},
+			},
+		},
+		["Fållkèn - Drak'thul"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fàllkén-Drak'thul|Drak'thul|Horde", -- [1]
+					"Fallken-Burning Blade|Drak'thul|Horde", -- [2]
+				},
+			},
+		},
+		["Fàllkèn - Drak'thul"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fallkenez-Drak'thul|Drak'thul|Horde", -- [1]
+					"Fàllkén-Drak'thul|Drak'thul|Horde", -- [2]
+				},
+			},
+		},
+		["Fãllkên - Drak'thul"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fàllkén-Drak'thul|Drak'thul|Horde", -- [1]
+				},
+			},
+		},
+		["Fállkèn - Burning Blade"] = {
+		},
+		["Fàllkên - Drak'thul"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fàllkén-Drak'thul|Drak'thul|Horde", -- [1]
+				},
+			},
+		},
+		["Fallkengold - Sylvanas"] = {
+		},
+		["Faallken - Drak'thul"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fallken-Burning Blade|Drak'thul|Horde", -- [1]
+					"Fàllkén-Drak'thul|Drak'thul|Horde", -- [2]
+				},
+			},
+		},
+		["Fallkenchoco - Burning Blade"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fallkên-Drak'thul|Burning Blade|Alliance", -- [1]
+				},
+			},
+		},
+		["Fallkenxd - Burning Blade"] = {
+		},
+		["Fállkén - Outland"] = {
+		},
+		["Fàllkèn - Burning Blade"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fallkên-Drak'thul|Burning Blade|Alliance", -- [1]
+				},
+			},
+		},
+		["Gfgdhfdghfgh - Burning Blade"] = {
+		},
+		["Fållken - Burning Blade"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fallken-Burning Blade|Burning Blade|Horde", -- [1]
+					"Fallken|Burning Blade|Horde", -- [2]
+					"Fàllkén-Drak'thul|Burning Blade|Horde", -- [3]
+				},
+			},
+		},
+		["Fallkenji - Burning Blade"] = {
+		},
+		["Fallkenmekac - Burning Blade"] = {
+		},
+		["Fallkenthicc - Burning Blade"] = {
+		},
+		["Fållkên - Drak'thul"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fallken-Burning Blade|Drak'thul|Horde", -- [1]
+					"Fàllkén-Drak'thul|Drak'thul|Horde", -- [2]
+					"Fàllkén|Drak'thul|Horde", -- [3]
+				},
+			},
+		},
+		["Fallkentiny - Burning Blade"] = {
+		},
+		["Fallkenfurry - Drak'thul"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fàllkén-Drak'thul|Drak'thul|Horde", -- [1]
+				},
+			},
+		},
+		["Fàllkén - Drak'thul"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fallken-Burning Blade|Drak'thul|Horde", -- [1]
+					"Fallkenez-Drak'thul|Drak'thul|Horde", -- [2]
+					"Fållkên-Drak'thul|Drak'thul|Horde", -- [3]
+					"Fällkèn-Drak'thul|Drak'thul|Horde", -- [4]
+					"Fàllkên-Drak'thul|Drak'thul|Horde", -- [5]
+					"Fállkén-Drak'thul|Drak'thul|Horde", -- [6]
+					"Fällkèn|Drak'thul|Horde", -- [7]
+					"Justamemer|Drak'thul|Horde", -- [8]
+					"Fallkenez|Drak'thul|Horde", -- [9]
+					"Johnywickk|Drak'thul|Horde", -- [10]
+					"Fállken-Burning Blade|Drak'thul|Horde", -- [11]
+					"Fållken-Burning Blade|Drak'thul|Horde", -- [12]
+					"Fällkên|Drak'thul|Horde", -- [13]
+				},
+			},
+		},
+		["Fâllken - Drak'thul"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fallkenmekac-Burning Blade|Drak'thul|Horde", -- [1]
+					"Fallkenthicc-Burning Blade|Drak'thul|Horde", -- [2]
+					"Fallkenchoco-Burning Blade|Drak'thul|Horde", -- [3]
+					"Fàllkèn-Burning Blade|Drak'thul|Horde", -- [4]
+					"Fállkèn-Burning Blade|Drak'thul|Horde", -- [5]
+					"Fallkenji-Burning Blade|Drak'thul|Horde", -- [6]
+					"Fãllkên|Drak'thul|Horde", -- [7]
+					"Fallkenfurry|Drak'thul|Horde", -- [8]
+					"Fållkèn|Drak'thul|Horde", -- [9]
+				},
+			},
+		},
+		["Fällkèn - Drak'thul"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fallken-Burning Blade|Drak'thul|Horde", -- [1]
+					"Faallken-Drak'thul|Drak'thul|Horde", -- [2]
+					"Fállkén-Drak'thul|Drak'thul|Horde", -- [3]
+					"Fàllkén-Drak'thul|Drak'thul|Horde", -- [4]
+				},
+			},
+		},
+		["Fállken - Burning Blade"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fallken|Burning Blade|Horde", -- [1]
+					"Fàllkén-Drak'thul|Burning Blade|Horde", -- [2]
+					"Fållkên-Drak'thul|Burning Blade|Horde", -- [3]
+					"Fällkên-Drak'thul|Burning Blade|Horde", -- [4]
+					"Fällkèn-Drak'thul|Burning Blade|Horde", -- [5]
+					"Fállkén-Drak'thul|Burning Blade|Horde", -- [6]
+					"Fàllkên-Drak'thul|Burning Blade|Horde", -- [7]
+					"Fàllkèn-Drak'thul|Burning Blade|Horde", -- [8]
+					"Fallkenez-Drak'thul|Burning Blade|Horde", -- [9]
+					"Faallken-Drak'thul|Burning Blade|Horde", -- [10]
+					"Fållken|Burning Blade|Horde", -- [11]
+				},
+			},
+		},
+		["Fallkên - Drak'thul"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fallken-Burning Blade|Drak'thul|Alliance", -- [1]
+					"Fallkenthicc-Burning Blade|Drak'thul|Alliance", -- [2]
+					"Fallkenchoco-Burning Blade|Drak'thul|Alliance", -- [3]
+					"Fàllkèn-Burning Blade|Drak'thul|Alliance", -- [4]
+					"Fallkenji-Burning Blade|Drak'thul|Alliance", -- [5]
+					"Fallkenfurry-Drak'thul|Drak'thul|Alliance", -- [6]
+					"Fãllkên-Drak'thul|Drak'thul|Alliance", -- [7]
+					"Fâllken-Drak'thul|Drak'thul|Alliance", -- [8]
+				},
+			},
+		},
+		["Fallken - Burning Blade"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fàllkén-Drak'thul|Burning Blade|Horde", -- [1]
+					"Fallkenez-Drak'thul|Burning Blade|Horde", -- [2]
+					"Fållken-Burning Blade|Burning Blade|Horde", -- [3]
+					"Fållkên-Drak'thul|Burning Blade|Horde", -- [4]
+					"Fällkèn-Drak'thul|Burning Blade|Horde", -- [5]
+					"Fállkén-Drak'thul|Burning Blade|Horde", -- [6]
+					"Fállken-Burning Blade|Burning Blade|Horde", -- [7]
+					"Fàllkên-Drak'thul|Burning Blade|Horde", -- [8]
+					"Fàllkèn-Drak'thul|Burning Blade|Horde", -- [9]
+					"Faallken-Drak'thul|Burning Blade|Horde", -- [10]
+					"Fallkenji-Burning Blade|Burning Blade|Horde", -- [11]
+					"Fallkenfurry-Drak'thul|Burning Blade|Horde", -- [12]
+					"Fãllkên-Drak'thul|Burning Blade|Horde", -- [13]
+					"Fållkèn-Drak'thul|Burning Blade|Horde", -- [14]
+					"Wokzen-Drak'thul|Burning Blade|Horde", -- [15]
+					"Fällkên-Drak'thul|Burning Blade|Horde", -- [16]
+					"Fallkên-Drak'thul|Burning Blade|Horde", -- [17]
+				},
+			},
+		},
+		["Fällkên - Drak'thul"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fàllkén-Drak'thul|Drak'thul|Horde", -- [1]
+					"Fallken-Burning Blade|Drak'thul|Horde", -- [2]
+				},
+			},
+		},
+		["Fallkenez - Drak'thul"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fallken-Burning Blade|Drak'thul|Horde", -- [1]
+					"Fàllkén-Drak'thul|Drak'thul|Horde", -- [2]
+					"Fàllkén|Drak'thul|Horde", -- [3]
+				},
+			},
+		},
+		["Fállkên - Drak'thul"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fallkên|Drak'thul|Alliance", -- [1]
+				},
+			},
+		},
+	},
+}

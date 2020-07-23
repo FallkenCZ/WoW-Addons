@@ -1,0 +1,5 @@
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Mortal Strike
+/use Sharpen Blade
+/use Mortal Strike
+END

@@ -1,0 +1,13 @@
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [harm] Dispell
+/cast [help] Purify Disease
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Holy Word: Sanctify
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Angelic Feather
+END

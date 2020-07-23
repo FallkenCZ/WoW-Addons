@@ -1,0 +1,71 @@
+
+MADB = {
+	["noMMMW"] = false,
+	["characters"] = {
+	},
+	["alwaysShowNudger"] = false,
+	["tooltips"] = true,
+	["profiles"] = {
+		["default"] = {
+			["name"] = "default",
+			["frames"] = {
+				["BasicActionButtonsMover"] = {
+					["orgPos"] = {
+						"BOTTOMLEFT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						348.0370483398438, -- [4]
+						27, -- [5]
+					},
+					["name"] = "BasicActionButtonsMover",
+					["pos"] = {
+						"BOTTOMLEFT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						344.8765869140625, -- [4]
+						1.987914562225342, -- [5]
+					},
+				},
+				["PlayerPowerBarAltMover"] = {
+					["orgPos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						0, -- [4]
+						155, -- [5]
+					},
+					["name"] = "PlayerPowerBarAltMover",
+					["pos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						291.5556640625, -- [4]
+						241.9134216308594, -- [5]
+					},
+				},
+				["ZoneAbilityFrame"] = {
+					["orgPos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						0, -- [4]
+						155, -- [5]
+					},
+					["name"] = "ZoneAbilityFrame",
+					["pos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						201.7406616210938, -- [4]
+						212.6793670654297, -- [5]
+					},
+				},
+			},
+		},
+	},
+	["frameListRows"] = 18,
+	["squareMM"] = false,
+	["playSound"] = false,
+	["noBags"] = false,
+	["closeGUIOnEscape"] = false,
+}

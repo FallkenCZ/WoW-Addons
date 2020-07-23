@@ -1,0 +1,443 @@
+
+DataStore_MailsDB = {
+	["profileKeys"] = {
+		["Fállkén - Drak'thul"] = "Fállkén - Drak'thul",
+		["Fållkèn - Drak'thul"] = "Fållkèn - Drak'thul",
+		["Fàllkèn - Drak'thul"] = "Fàllkèn - Drak'thul",
+		["Fãllkên - Drak'thul"] = "Fãllkên - Drak'thul",
+		["Fállkèn - Burning Blade"] = "Fállkèn - Burning Blade",
+		["Fàllkên - Drak'thul"] = "Fàllkên - Drak'thul",
+		["Faallken - Drak'thul"] = "Faallken - Drak'thul",
+		["Fallkenthicc - Burning Blade"] = "Fallkenthicc - Burning Blade",
+		["Fallkenxd - Burning Blade"] = "Fallkenxd - Burning Blade",
+		["Fallkenchoco - Burning Blade"] = "Fallkenchoco - Burning Blade",
+		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
+		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
+		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
+		["Fállkén - Outland"] = "Fállkén - Outland",
+		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
+		["Fallkentiny - Burning Blade"] = "Fallkentiny - Burning Blade",
+		["Fallkenfurry - Drak'thul"] = "Fallkenfurry - Drak'thul",
+		["Fàllkén - Drak'thul"] = "Fàllkén - Drak'thul",
+		["Fällkèn - Drak'thul"] = "Fällkèn - Drak'thul",
+		["Fallkên - Drak'thul"] = "Fallkên - Drak'thul",
+		["Fállken - Burning Blade"] = "Fállken - Burning Blade",
+		["Fâllken - Drak'thul"] = "Fâllken - Drak'thul",
+		["Fallken - Burning Blade"] = "Fallken - Burning Blade",
+		["Fällkên - Drak'thul"] = "Fällkên - Drak'thul",
+		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Outland.Fállkén"] = {
+				["lastUpdate"] = 1571473043,
+				["lastVisitDate"] = "2019/10/19 10:17",
+			},
+			["Default.Drak'thul.Fàllkén"] = {
+				["lastUpdate"] = 1595503109,
+				["Mails"] = {
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 27429,
+						["link"] = "|cffffffff|Hitem:27429::::::::120:63::::::|h[Zangarian Sporefish]|h|r",
+						["count"] = 11,
+						["lastCheck"] = 1595503109,
+						["icon"] = 133920,
+						["daysLeft"] = 25.3686580657959,
+					}, -- [1]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 27425,
+						["link"] = "|cffffffff|Hitem:27425::::::::120:63::::::|h[Spotted Feltail]|h|r",
+						["count"] = 2,
+						["lastCheck"] = 1595503109,
+						["icon"] = 133925,
+						["daysLeft"] = 25.36887741088867,
+					}, -- [2]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 43013,
+						["link"] = "|cffffffff|Hitem:43013::::::::120:63::::::|h[Chilled Meat]|h|r",
+						["count"] = 4,
+						["lastCheck"] = 1595503109,
+						["icon"] = 237333,
+						["daysLeft"] = 25.36887741088867,
+					}, -- [3]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 27422,
+						["link"] = "|cffffffff|Hitem:27422::::::::120:63::::::|h[Barbed Gill Trout]|h|r",
+						["count"] = 11,
+						["lastCheck"] = 1595503109,
+						["icon"] = 133923,
+						["daysLeft"] = 25.36887741088867,
+					}, -- [4]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 152512,
+						["link"] = "|cffffffff|Hitem:152512::::::::120:63::::::|h[Monelite Ore]|h|r",
+						["count"] = 5,
+						["lastCheck"] = 1595503109,
+						["icon"] = 2037638,
+						["daysLeft"] = 25.36887741088867,
+					}, -- [5]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 168185,
+						["link"] = "|cffffffff|Hitem:168185::::::::120:63::::::|h[Osmenite Ore]|h|r",
+						["count"] = 7,
+						["lastCheck"] = 1595503109,
+						["icon"] = 2543233,
+						["daysLeft"] = 25.36887741088867,
+					}, -- [6]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 6889,
+						["link"] = "|cffffffff|Hitem:6889::::::::120:63::::::|h[Small Egg]|h|r",
+						["count"] = 8,
+						["lastCheck"] = 1595503109,
+						["icon"] = 132832,
+						["daysLeft"] = 25.36887741088867,
+					}, -- [7]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 154722,
+						["link"] = "|cff1eff00|Hitem:154722::::::::120:63::::::|h[Tempest Hide]|h|r",
+						["count"] = 5,
+						["lastCheck"] = 1595503109,
+						["icon"] = 2032179,
+						["daysLeft"] = 25.36906242370606,
+					}, -- [8]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 168649,
+						["link"] = "|cffffffff|Hitem:168649::::::::120:63::::::|h[Dredged Leather]|h|r",
+						["count"] = 7,
+						["lastCheck"] = 1595503109,
+						["icon"] = 962489,
+						["daysLeft"] = 25.36906242370606,
+					}, -- [9]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 152541,
+						["link"] = "|cffffffff|Hitem:152541::::::::120:63::::::|h[Coarse Leather]|h|r",
+						["count"] = 8,
+						["lastCheck"] = 1595503109,
+						["icon"] = 2032174,
+						["daysLeft"] = 25.36906242370606,
+					}, -- [10]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 74866,
+						["link"] = "|cffffffff|Hitem:74866::::::::120:63::::::|h[Golden Carp]|h|r",
+						["count"] = 35,
+						["lastCheck"] = 1595503109,
+						["icon"] = 633440,
+						["daysLeft"] = 25.36906242370606,
+					}, -- [11]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 53070,
+						["link"] = "|cffffffff|Hitem:53070::::::::120:63::::::|h[Fathom Eel]|h|r",
+						["count"] = 4,
+						["lastCheck"] = 1595503109,
+						["icon"] = 348530,
+						["daysLeft"] = 25.36906242370606,
+					}, -- [12]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 124108,
+						["link"] = "|cffffffff|Hitem:124108::::::::120:63::::::|h[Mossgill Perch]|h|r",
+						["count"] = 42,
+						["lastCheck"] = 1595503109,
+						["icon"] = 1387368,
+						["daysLeft"] = 25.36906242370606,
+					}, -- [13]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 152576,
+						["link"] = "|cffffffff|Hitem:152576::::::::120:63::::::|h[Tidespray Linen]|h|r",
+						["count"] = 7,
+						["lastCheck"] = 1595503109,
+						["icon"] = 2067081,
+						["daysLeft"] = 25.36940956115723,
+					}, -- [14]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 53062,
+						["link"] = "|cffffffff|Hitem:53062::::::::120:63::::::|h[Sharptooth]|h|r",
+						["count"] = 5,
+						["lastCheck"] = 1595503109,
+						["icon"] = 350867,
+						["daysLeft"] = 25.36940956115723,
+					}, -- [15]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 53064,
+						["link"] = "|cffffffff|Hitem:53064::::::::120:63::::::|h[Highland Guppy]|h|r",
+						["count"] = 5,
+						["lastCheck"] = 1595503109,
+						["icon"] = 347920,
+						["daysLeft"] = 25.36940956115723,
+					}, -- [16]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 53068,
+						["link"] = "|cffffffff|Hitem:53068::::::::120:63::::::|h[Lavascale Catfish]|h|r",
+						["count"] = 4,
+						["lastCheck"] = 1595503109,
+						["icon"] = 348528,
+						["daysLeft"] = 25.36940956115723,
+					}, -- [17]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 6299,
+						["link"] = "|cffffffff|Hitem:6299::::::::120:63::::::|h[Sickly Looking Fish]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1595503109,
+						["icon"] = 133914,
+						["daysLeft"] = 27.22285842895508,
+					}, -- [18]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 6289,
+						["link"] = "|cffffffff|Hitem:6289::::::::120:63::::::|h[Raw Longjaw Mud Snapper]|h|r",
+						["count"] = 11,
+						["lastCheck"] = 1595503109,
+						["icon"] = 133918,
+						["daysLeft"] = 27.22285842895508,
+					}, -- [19]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 43007,
+						["link"] = "|cffffffff|Hitem:43007::::::::120:63::::::|h[Northern Spices]|h|r",
+						["count"] = 4,
+						["lastCheck"] = 1595503109,
+						["icon"] = 133591,
+						["daysLeft"] = 27.22285842895508,
+					}, -- [20]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 6308,
+						["link"] = "|cffffffff|Hitem:6308::::::::120:63::::::|h[Raw Bristle Whisker Catfish]|h|r",
+						["count"] = 6,
+						["lastCheck"] = 1595503109,
+						["icon"] = 133916,
+						["daysLeft"] = 27.22285842895508,
+					}, -- [21]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 6291,
+						["link"] = "|cffffffff|Hitem:6291::::::::120:63::::::|h[Raw Brilliant Smallfish]|h|r",
+						["count"] = 3,
+						["lastCheck"] = 1595503109,
+						["icon"] = 133894,
+						["daysLeft"] = 27.22285842895508,
+					}, -- [22]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 168311,
+						["link"] = "|cffffffff|Hitem:168311::::::::120:63::::::|h[Abyssal-Fried Rissole]|h|r",
+						["count"] = 20,
+						["lastCheck"] = 1595503109,
+						["icon"] = 133904,
+						["daysLeft"] = 30.99807929992676,
+					}, -- [23]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 168311,
+						["link"] = "|cffffffff|Hitem:168311::::::::120:63::::::|h[Abyssal-Fried Rissole]|h|r",
+						["count"] = 20,
+						["lastCheck"] = 1595503109,
+						["icon"] = 133904,
+						["daysLeft"] = 30.99807929992676,
+					}, -- [24]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 168310,
+						["link"] = "|cffffffff|Hitem:168310::::::::120:63::::::|h[Mech-Dowel's \"Big Mech\"]|h|r",
+						["count"] = 20,
+						["lastCheck"] = 1595503109,
+						["icon"] = 1046262,
+						["daysLeft"] = 30.99807929992676,
+					}, -- [25]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 169299,
+						["link"] = "|cffffffff|Hitem:169299::::::::120:63::::::|h[Potion of Unbridled Fury]|h|r",
+						["count"] = 3,
+						["lastCheck"] = 1595503109,
+						["icon"] = 464028,
+						["daysLeft"] = 30.99807929992676,
+					}, -- [26]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 169299,
+						["link"] = "|cffffffff|Hitem:169299::::::::120:63::::::|h[Potion of Unbridled Fury]|h|r",
+						["count"] = 20,
+						["lastCheck"] = 1595503109,
+						["icon"] = 464028,
+						["daysLeft"] = 30.99807929992676,
+					}, -- [27]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 168310,
+						["link"] = "|cffffffff|Hitem:168310::::::::120:63::::::|h[Mech-Dowel's \"Big Mech\"]|h|r",
+						["count"] = 18,
+						["lastCheck"] = 1595503109,
+						["icon"] = 1046262,
+						["daysLeft"] = 30.99807929992676,
+					}, -- [28]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 152561,
+						["link"] = "|cffffffff|Hitem:152561::::::::120:63::::::|h[Potion of Replenishment]|h|r",
+						["count"] = 7,
+						["lastCheck"] = 1595503109,
+						["icon"] = 2057566,
+						["daysLeft"] = 30.99807929992676,
+					}, -- [29]
+					{
+						["returned"] = false,
+						["sender"] = "Fallken-BurningBlade",
+						["itemID"] = 169451,
+						["link"] = "|cffffffff|Hitem:169451::::::::120:63::::::|h[Abyssal Healing Potion]|h|r",
+						["count"] = 12,
+						["lastCheck"] = 1595503109,
+						["icon"] = 463548,
+						["daysLeft"] = 30.99807929992676,
+					}, -- [30]
+				},
+				["lastVisitDate"] = "2020/07/23 13:18",
+			},
+			["Default.Burning Blade.Fallkenthicc"] = {
+				["lastUpdate"] = 1593736283,
+				["lastVisitDate"] = "2020/07/03 02:31",
+			},
+			["Default.Drak'thul.Fällkên"] = {
+				["lastUpdate"] = 1593906318,
+				["lastVisitDate"] = "2020/07/05 01:45",
+			},
+			["Default.Drak'thul.Fâllken"] = {
+				["lastUpdate"] = 1586305619,
+				["lastVisitDate"] = "2020/04/08 02:26",
+			},
+			["Default.Drak'thul.Fàllkèn"] = {
+				["lastUpdate"] = 1593907111,
+				["lastVisitDate"] = "2020/07/05 01:58",
+			},
+			["Default.Burning Blade.Fallkenxd"] = {
+				["lastUpdate"] = 1579375269,
+				["lastVisitDate"] = "2020/01/18 20:21",
+			},
+			["Default.Burning Blade.Fallkenmekac"] = {
+				["lastUpdate"] = 1593890926,
+				["lastVisitDate"] = "2020/07/04 21:28",
+			},
+			["Default.Drak'thul.Fállkên"] = {
+				["lastUpdate"] = 1589746141,
+				["lastVisitDate"] = "2020/05/17 22:09",
+			},
+			["Default.Burning Blade.Fállken"] = {
+				["lastUpdate"] = 1593904905,
+				["lastVisitDate"] = "2020/07/05 01:21",
+			},
+			["Default.Drak'thul.Fãllkên"] = {
+				["lastUpdate"] = 1586296426,
+				["lastVisitDate"] = "2020/04/07 23:53",
+			},
+			["Default.Drak'thul.Fállkén"] = {
+				["lastUpdate"] = 1593907525,
+				["lastVisitDate"] = "2020/07/05 02:05",
+			},
+			["Default.Drak'thul.Fallkên"] = {
+				["lastUpdate"] = 1591047885,
+				["lastVisitDate"] = "2020/06/01 23:44",
+			},
+			["Default.Burning Blade.Fallken"] = {
+				["lastUpdate"] = 1595502934,
+				["lastVisitDate"] = "2020/07/23 13:15",
+			},
+			["Default.Drak'thul.Faallken"] = {
+				["lastUpdate"] = 1593907050,
+				["lastVisitDate"] = "2020/07/05 01:57",
+			},
+			["Default.Drak'thul.Fållkèn"] = {
+				["lastUpdate"] = 1593554628,
+				["lastVisitDate"] = "2020/07/01 00:03",
+			},
+			["Default.Drak'thul.Fållkên"] = {
+				["lastUpdate"] = 1593905999,
+				["lastVisitDate"] = "2020/07/05 01:39",
+			},
+			["Default.Burning Blade.Fallkenji"] = {
+				["lastUpdate"] = 1591571085,
+				["lastVisitDate"] = "2020/06/08 01:04",
+			},
+			["Default.Drak'thul.Fällkèn"] = {
+				["lastUpdate"] = 1593906490,
+				["lastVisitDate"] = "2020/07/05 01:48",
+			},
+			["Default.Drak'thul.Fallkenfurry"] = {
+				["lastUpdate"] = 1590966246,
+				["lastVisitDate"] = "2020/06/01 01:04",
+			},
+			["Default.Burning Blade.Fållken"] = {
+				["lastUpdate"] = 1593904710,
+				["lastVisitDate"] = "2020/07/05 01:18",
+			},
+			["Default.Burning Blade.Fallkentiny"] = {
+				["lastUpdate"] = 1577049955,
+				["lastVisitDate"] = "2019/12/22 22:25",
+			},
+			["Default.Drak'thul.Fàllkên"] = {
+				["lastUpdate"] = 1593907876,
+				["lastVisitDate"] = "2020/07/05 02:11",
+			},
+			["Default.Burning Blade.Fállkèn"] = {
+				["lastUpdate"] = 1593195288,
+				["lastVisitDate"] = "2020/06/26 20:14",
+			},
+			["Default.Burning Blade.Fàllkèn"] = {
+				["lastUpdate"] = 1591055375,
+				["lastVisitDate"] = "2020/06/02 01:49",
+			},
+			["Default.Drak'thul.Fallkenez"] = {
+				["lastUpdate"] = 1594226388,
+				["lastVisitDate"] = "2020/07/08 18:39",
+			},
+		},
+	},
+}

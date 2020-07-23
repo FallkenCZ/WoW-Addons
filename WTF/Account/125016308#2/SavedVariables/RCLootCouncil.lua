@@ -1,0 +1,182 @@
+
+RCLootCouncilDB = {
+	["profileKeys"] = {
+		["Zugzugxd - Burning Blade"] = "Default",
+		["Asdasdsadasd - Burning Blade"] = "Default",
+		["Gdfsdfghfghf - Burning Blade"] = "Default",
+		["Aswdasdsad - Burning Blade"] = "Default",
+		["Sgdfadaadsad - Burning Blade"] = "Default",
+		["Sdsadaaddfaa - Burning Blade"] = "Default",
+		["Tghdssgdfhgd - Burning Blade"] = "Default",
+		["Xdmydude - Burning Blade"] = "Default",
+	},
+	["global"] = {
+		["locale"] = "enUS",
+		["log"] = {
+			"12/22/19", -- [1]
+			"22:39:29 - Logged In", -- [2]
+			"22:39:29 - ML initialized!", -- [3]
+			"22:39:29 - TradeUI enabled", -- [4]
+			"22:40:03 - Aswdasdsad-BurningBlade (2.15.1) (nil)", -- [5]
+			"22:40:03 - ActivateSkin (bfa)", -- [6]
+			"22:40:09 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [7]
+			"22:40:09 - GetML()", -- [8]
+			"22:40:09 - UpdatePlayersData()", -- [9]
+			"23:05:14 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [10]
+			"23:05:14 - GetML()", -- [11]
+			"12/22/19", -- [12]
+			"23:15:34 - Logged In", -- [13]
+			"23:15:34 - ML initialized!", -- [14]
+			"23:15:34 - TradeUI enabled", -- [15]
+			"23:16:16 - Zugzugxd-BurningBlade (2.15.1) (nil)", -- [16]
+			"23:16:16 - ActivateSkin (bfa)", -- [17]
+			"23:16:21 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [18]
+			"23:16:21 - GetML()", -- [19]
+			"23:16:21 - UpdatePlayersData()", -- [20]
+			"12/25/19", -- [21]
+			"01:46:10 - Logged In", -- [22]
+			"01:46:10 - ML initialized!", -- [23]
+			"01:46:10 - TradeUI enabled", -- [24]
+			"01:46:46 - Asdasdsadasd-BurningBlade (2.16.0) (nil)", -- [25]
+			"01:46:46 - ActivateSkin (bfa)", -- [26]
+			"01:46:46 - <Compat> (Executing:) (5) (Fix for wrong responseID for awardReasons)", -- [27]
+			"01:46:50 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [28]
+			"01:46:50 - GetML()", -- [29]
+			"01:46:50 - UpdatePlayersData()", -- [30]
+			"01:53:32 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [31]
+			"01:53:32 - GetML()", -- [32]
+			"12/25/19", -- [33]
+			"01:56:00 - Logged In", -- [34]
+			"01:56:00 - ML initialized!", -- [35]
+			"01:56:00 - TradeUI enabled", -- [36]
+			"01:56:28 - Tghdssgdfhgd-BurningBlade (2.16.0) (nil)", -- [37]
+			"01:56:28 - ActivateSkin (bfa)", -- [38]
+			"01:56:32 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [39]
+			"01:56:32 - GetML()", -- [40]
+			"01:56:32 - UpdatePlayersData()", -- [41]
+			"02:01:24 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [42]
+			"02:01:24 - GetML()", -- [43]
+			"02:05:08 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [44]
+			"02:05:08 - GetML()", -- [45]
+			"12/25/19", -- [46]
+			"02:07:29 - Logged In", -- [47]
+			"02:07:29 - ML initialized!", -- [48]
+			"02:07:29 - TradeUI enabled", -- [49]
+			"02:07:49 - Sdsadaaddfaa-BurningBlade (2.16.0) (nil)", -- [50]
+			"02:07:49 - ActivateSkin (bfa)", -- [51]
+			"02:07:53 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [52]
+			"02:07:53 - GetML()", -- [53]
+			"02:07:53 - UpdatePlayersData()", -- [54]
+			"02:13:15 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [55]
+			"02:13:15 - GetML()", -- [56]
+			"02:17:05 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [57]
+			"02:17:05 - GetML()", -- [58]
+			"12/25/19", -- [59]
+			"02:19:44 - Logged In", -- [60]
+			"02:19:44 - ML initialized!", -- [61]
+			"02:19:44 - TradeUI enabled", -- [62]
+			"02:20:21 - Gdfsdfghfghf-BurningBlade (2.16.0) (nil)", -- [63]
+			"02:20:21 - ActivateSkin (bfa)", -- [64]
+			"02:20:25 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [65]
+			"02:20:25 - GetML()", -- [66]
+			"02:20:25 - UpdatePlayersData()", -- [67]
+			"02:27:18 - Event: (LOOT_READY) (false)", -- [68]
+			"02:27:33 - Event: (LOOT_READY) (false)", -- [69]
+			"02:37:18 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [70]
+			"02:37:18 - GetML()", -- [71]
+			"12/25/19", -- [72]
+			"02:42:04 - Logged In", -- [73]
+			"02:42:04 - ML initialized!", -- [74]
+			"02:42:04 - TradeUI enabled", -- [75]
+			"02:42:31 - Sgdfadaadsad-BurningBlade (2.16.0) (nil)", -- [76]
+			"02:42:31 - ActivateSkin (bfa)", -- [77]
+			"02:42:36 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [78]
+			"02:42:36 - GetML()", -- [79]
+			"02:42:36 - UpdatePlayersData()", -- [80]
+			"02/21/20", -- [81]
+			"02:01:19 - Logged In", -- [82]
+			"02:01:19 - ML initialized!", -- [83]
+			"02:01:19 - TradeUI enabled", -- [84]
+			"02:03:19 - Xdmydude-BurningBlade (2.17.1) (nil)", -- [85]
+			"02:03:19 - ActivateSkin (bfa)", -- [86]
+			"02:03:34 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [87]
+			"02:03:34 - GetML()", -- [88]
+			"02:03:34 - UpdatePlayersData()", -- [89]
+			"02/21/20", -- [90]
+			"12:01:14 - Logged In", -- [91]
+			"12:01:14 - ML initialized!", -- [92]
+			"12:01:14 - TradeUI enabled", -- [93]
+			"12:02:21 - Aswdasdsad-BurningBlade (2.17.1) (nil)", -- [94]
+			"12:02:21 - ActivateSkin (bfa)", -- [95]
+			"12:02:41 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [96]
+			"12:02:41 - GetML()", -- [97]
+			"12:02:41 - UpdatePlayersData()", -- [98]
+		},
+		["regionID"] = 3,
+		["version"] = "2.17.1",
+		["oldVersion"] = "2.17.1",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["UI"] = {
+				["tradeui"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+				},
+				["lootframe"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+				},
+				["default"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+				},
+			},
+		},
+	},
+}
+RCLootCouncilLootDB = {
+	["profileKeys"] = {
+		["Zugzugxd - Burning Blade"] = "Zugzugxd - Burning Blade",
+		["Asdasdsadasd - Burning Blade"] = "Asdasdsadasd - Burning Blade",
+		["Gdfsdfghfghf - Burning Blade"] = "Gdfsdfghfghf - Burning Blade",
+		["Aswdasdsad - Burning Blade"] = "Aswdasdsad - Burning Blade",
+		["Sgdfadaadsad - Burning Blade"] = "Sgdfadaadsad - Burning Blade",
+		["Sdsadaaddfaa - Burning Blade"] = "Sdsadaaddfaa - Burning Blade",
+		["Tghdssgdfhgd - Burning Blade"] = "Tghdssgdfhgd - Burning Blade",
+		["Xdmydude - Burning Blade"] = "Xdmydude - Burning Blade",
+	},
+}

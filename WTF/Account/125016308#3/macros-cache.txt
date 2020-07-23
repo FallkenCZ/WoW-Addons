@@ -1,0 +1,33 @@
+VER 3 0000000000000005 "blizz" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/assist Fàllkén
+/cast [@player] Blizzard
+END
+VER 3 0000000000000002 "fb" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/assist Fàllkén
+/cast Frostbolt
+END
+VER 3 0000000000000004 "flurry" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/assist Fàllkén
+/cast Flurry
+END
+VER 3 0000000000000001 "follow" "INV_MISC_QUESTIONMARK"
+/follow Fàllkén
+END
+VER 3 0000000000000003 "Lance" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/assist Fàllkén
+/cast Ice Lance
+END
+VER 3 0000000000000007 "nova" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/assist Fàllkén
+/cast Ice Nova
+END
+VER 3 0000000000000006 "ray" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/assist Fàllkén
+/cast Ray of Frost
+END

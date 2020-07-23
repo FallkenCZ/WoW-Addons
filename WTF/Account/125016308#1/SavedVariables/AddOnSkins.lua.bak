@@ -1,0 +1,19 @@
+
+AddOnSkinsDB = {
+	["profileKeys"] = {
+		["Fallken - Burning Blade"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["EmbedOoCDelay"] = 3,
+			["Blizzard_AbilityButton"] = true,
+			["BackgroundTexture"] = "ElvUI Gloss",
+			["Blizzard_ExtraActionButton"] = true,
+			["ElvUIStyle"] = false,
+			["EmbedOoC"] = true,
+			["EmbedSystemDual"] = true,
+		},
+	},
+}
+AddOnSkinsDS = {
+}

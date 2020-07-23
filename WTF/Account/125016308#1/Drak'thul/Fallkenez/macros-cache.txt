@@ -1,0 +1,61 @@
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:3/3] Marked for Death
+/cast [talent:7/2] Secret Technique
+/cast [talent:7/3] Shuriken Tornado
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast !Stealth
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Cheap shot
+/cast Cold Blood
+/cast Cheap Shot
+END
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Shadowstrike
+/cast Cold Blood
+/cast Shadowstrike
+END
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/2] Toxic Blade
+/cast [talent:6/3] Exsanguinate
+END
+VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@] Tricks of the Trade
+END
+VER 3 010000000000000C " focus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Sap
+END
+VER 3 0100000000000007 " swifty" "INV_MISC_QUESTIONMARK"
+#showtooltip Vendetta
+/use Corrupted Gladiator's Badge
+/cast Blood Fury
+/cast Vendetta
+END
+VER 3 010000000000000A "combo" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Shadowstep
+/cast [@focus] Kick
+END
+VER 3 0100000000000009 "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Blind
+END
+VER 3 010000000000000D "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Garrote
+END
+VER 3 010000000000000B "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] kick
+END
+VER 3 0100000000000008 "swifty" "INV_MISC_QUESTIONMARK"
+#showtooltip Adrenaline Rush
+/cast Blood Fury
+/cast Adrenaline Rush
+END

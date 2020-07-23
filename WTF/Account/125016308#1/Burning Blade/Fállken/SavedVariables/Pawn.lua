@@ -1,0 +1,102 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0329,
+	["ItemLevels"] = {
+		{
+			["ID"] = 127548,
+			["Level"] = 300,
+			["Link"] = "|cff0070dd|Hitem:127548::::::::120:581:512:22:2:6424:6652:119:::|h[Helm of Cheated Fate]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 158075,
+			["Level"] = 296,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:577::11:4:4932:4933:4935:1488:::|h[Heart of Azeroth]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 122376,
+			["Level"] = 284,
+			["Link"] = "|cff00ccff|Hitem:122376::::::::119:581:::1:5805:::|h[Exceptional Stormshroud Shoulders]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 122383,
+			["Level"] = 284,
+			["Link"] = "|cff00ccff|Hitem:122383::::::::119:581:::1:5805:::|h[Stained Shadowcraft Tunic]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 121299,
+			["Level"] = 240,
+			["Link"] = "|cffa335ee|Hitem:121299::::::::112:581::35:4:3536:40:1551:3337:::|h[Dreadhide Girdle]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 127209,
+			["Level"] = 289,
+			["Link"] = "|cff0070dd|Hitem:127209::::::::120:581:512:22:2:6424:6652:118:::|h[Earthsoul Britches]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 146669,
+			["Level"] = 265,
+			["Link"] = "|cffff8000|Hitem:146669::151580:151580:151580::::112:581::13:2:1811:3630:::|h[The Sentinel's Eternal Refuge]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 109882,
+			["Level"] = 425,
+			["Link"] = "|cff0070dd|Hitem:109882::::::::120:581:512:22:2:6424:6652:120:::|h[Blackwater Wristguards]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 152120,
+			["Level"] = 230,
+			["Link"] = "|cffa335ee|Hitem:152120::::::::112:581::5:3:3611:1492:3336:::|h[Felreaper Gloves]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 127562,
+			["Level"] = 300,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff0070dd|Hitem:127562::::::::120:581:512:22:2:6424:6652:119:::|h[Gal'darah's Signet]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 127562,
+			["Level"] = 300,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cff0070dd|Hitem:127562::::::::120:577:512:22:2:6424:6652:119:::|h[Gal'darah's Signet]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 122361,
+			["Level"] = 284,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff00ccff|Hitem:122361::::::::119:581:::1:5805:::|h[Swift Hand of Justice]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 122361,
+			["Level"] = 284,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff00ccff|Hitem:122361::::::::119:577:::1:5805:::|h[Swift Hand of Justice]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 122261,
+			["Level"] = 284,
+			["Link"] = "|cff00ccff|Hitem:122261::::::::119:581:::1:5805:::|h[Inherited Cape of the Black Baron]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 159502,
+			["Level"] = 266,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff1eff00|Hitem:159502::::::::120:581:512::2:4796:1711:120:::|h[Stagheart Warglaives of the Harmonious]|h|r",
+		}, -- [16]
+		{
+			["ID"] = 159504,
+			["Level"] = 266,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff1eff00|Hitem:159504::::::::120:581:512::2:4796:1711:120:::|h[Shipwrecker Crescents of the Harmonious]|h|r",
+		}, -- [17]
+	},
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Fállken-Burning Blade",
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "DEMONHUNTER",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

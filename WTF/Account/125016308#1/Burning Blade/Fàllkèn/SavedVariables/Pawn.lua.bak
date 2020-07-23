@@ -1,0 +1,100 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0328,
+	["LastPlayerFullName"] = "Fàllkèn-Burning Blade",
+	["AutoSelectScales"] = false,
+	["ItemLevels"] = {
+		{
+			["ID"] = 122245,
+			["Level"] = 85,
+			["Link"] = "|cff00ccff|Hitem:122245::::::::71:66:::1:3592:::|h[Polished Helm of Valor]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 153130,
+			["Level"] = 85,
+			["Link"] = "|cff00ccff|Hitem:153130::::::::71:66:::1:5805:::|h[Man'ari Training Amulet]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 122355,
+			["Level"] = 85,
+			["Link"] = "|cff00ccff|Hitem:122355::::::::71:66:::1:3592:::|h[Polished Spaulders of Valor]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 122381,
+			["Level"] = 85,
+			["Link"] = "|cff00ccff|Hitem:122381::::::::71:66:::1:3592:::|h[Polished Breastplate of Valor]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 37171,
+			["Level"] = 69,
+			["Link"] = "|cff0070dd|Hitem:37171::::::::63:70:512:1:1:4131:63:::|h[Flame-Bathed Steel Girdle]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 122251,
+			["Level"] = 85,
+			["Link"] = "|cff00ccff|Hitem:122251::::::::71:66:::1:3592:::|h[Polished Legplates of Valor]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 51990,
+			["Level"] = 67,
+			["Link"] = "|cff0070dd|Hitem:51990::::::::61:70:512:18:2:1709:4243:61:::|h[Stalwart Treads of the Aurora]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 51989,
+			["Level"] = 61,
+			["Link"] = "|cff0070dd|Hitem:51989::::::::55:66:512:17:2:1693:4244:55:::|h[Stalwart Bands of the Fireflash]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 51987,
+			["Level"] = 79,
+			["Link"] = "|cff0070dd|Hitem:51987::::::::68:66:512:18:2:1691:4243:68:::|h[Stalwart Grips of the Fireflash]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 122529,
+			["Level"] = 85,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff00ccff|Hitem:122529::::::::71:66:::1:5805:::|h[Dread Pirate Ring]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 128172,
+			["Level"] = 85,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cff00ccff|Hitem:128172::::::::71:66:::1:5805:::|h[Captain Sander's Returned Band]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 122361,
+			["Level"] = 85,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff00ccff|Hitem:122361::::::::71:66:::1:5805:::|h[Swift Hand of Justice]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 122361,
+			["Level"] = 77,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff00ccff|Hitem:122361::::::::68:66:::1:5805:::|h[Swift Hand of Justice]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 166770,
+			["Level"] = 85,
+			["Link"] = "|cff00ccff|Hitem:166770::::::::71:66:::1:582:::|h[Banded Gilnean Cloak]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 122369,
+			["Level"] = 85,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff00ccff|Hitem:122369::::::::71:66:::1:5805:::|h[Battleworn Thrash Blade]|h|r",
+		}, -- [16]
+		{
+			["ID"] = 122391,
+			["Level"] = 85,
+			["Link"] = "|cff00ccff|Hitem:122391::::::::71:66:::1:5805:::|h[Flamescarred Draconian Deflector]|h|r",
+		}, -- [17]
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "PALADIN",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

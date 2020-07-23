@@ -1,0 +1,12 @@
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:3/2] Repentance
+/cast [talent:3/3] Blinding Light
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@Dalía-Hyjal] Blessing of Sanctuary
+END
+VER 3 0100000000000001 "shock" "INV_MISC_QUESTIONMARK"
+/cast [target=self] Holy
+END

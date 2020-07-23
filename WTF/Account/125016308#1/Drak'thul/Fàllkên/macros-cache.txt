@@ -1,0 +1,16 @@
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Trueshot
+/cast Blood Fury
+END
+VER 3 0100000000000001 "burst" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Aspect of the Wild
+/cast Bestial Wrath
+/cast Blood Fury
+END
+VER 3 0100000000000003 "mis" "INV_MISC_QUESTIONMARK"
+#showtooltip Cobra Shot
+/cast Cobra shot
+/cast [target=pet] Misdirection
+END

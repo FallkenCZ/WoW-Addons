@@ -1,0 +1,35 @@
+
+flyPlateBuffsDB = {
+	["profileKeys"] = {
+		["Fállkén - Drak'thul"] = "Default",
+		["Fållkèn - Drak'thul"] = "Default",
+		["Fâllken - Drak'thul"] = "Default",
+		["Fãllkên - Drak'thul"] = "Default",
+		["Fállkèn - Burning Blade"] = "Default",
+		["Fàllkên - Drak'thul"] = "Default",
+		["Faallken - Drak'thul"] = "Default",
+		["Fàllkèn - Burning Blade"] = "Default",
+		["Fallkengold - Sylvanas"] = "Default",
+		["Fållken - Burning Blade"] = "Default",
+		["Fállkên - Drak'thul"] = "Default",
+		["Fallken - Burning Blade"] = "Default",
+		["Fallkenchoco - Burning Blade"] = "Default",
+		["Fållkên - Drak'thul"] = "Default",
+		["Fallkenthicc - Burning Blade"] = "Default",
+		["Fallkenfurry - Drak'thul"] = "Default",
+		["Fàllkén - Drak'thul"] = "Default",
+		["Fallkenmekac - Burning Blade"] = "Default",
+		["Fállken - Burning Blade"] = "Default",
+		["Fàllkèn - Drak'thul"] = "Default",
+		["Fällkèn - Drak'thul"] = "Default",
+		["Fallkenji - Burning Blade"] = "Default",
+		["Fällkên - Drak'thul"] = "Default",
+		["Fallkenez - Drak'thul"] = "Default",
+		["Fallkên - Drak'thul"] = "Default",
+	},
+	["version"] = 2,
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

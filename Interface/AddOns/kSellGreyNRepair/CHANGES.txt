@@ -1,0 +1,36 @@
+lightweight tag 0b640fe09adb89d1e59762f758f109a3e06fc0c9 v1.4.1
+Author:	GitHub <noreply@github.com>
+Date:	Mon Sep 3 07:35:25 2018 +0200
+
+commit 541c41c183aa1b0afa3da232c16d3da1003ee415
+Author: Jérémie Carpentier-Roy <jeremie.carpentier.roy@gmail.com>
+Date:   Sun Sep 2 16:03:57 2018 -0400
+
+    Increase grey item selling responsiveness
+    
+    This commit adds a call to the PickupMerchantItem() API function in order
+    to send items to the merchant one at a time while the selling loop is
+    running.
+    
+    I added this since I noticed that it took a long time before my grey
+    items would disappear from my inventory. Sometimes they wouldn't disappear
+    until I closed and reopened my bags.
+    
+    Signed-off-by: Jérémie Carpentier-Roy <jeremie.carpentier.roy@gmail.com>
+
+commit 541c41c183aa1b0afa3da232c16d3da1003ee415
+Author: Jérémie Carpentier-Roy <jeremie.carpentier.roy@gmail.com>
+Date:   Sun Sep 2 16:03:57 2018 -0400
+
+    Increase grey item selling responsiveness
+    
+    This commit adds a call to the PickupMerchantItem() API function in order
+    to send items to the merchant one at a time while the selling loop is
+    running.
+    
+    I added this since I noticed that it took a long time before my grey
+    items would disappear from my inventory. Sometimes they wouldn't disappear
+    until I closed and reopened my bags.
+    
+    Signed-off-by: Jérémie Carpentier-Roy <jeremie.carpentier.roy@gmail.com>
+

@@ -1,0 +1,50 @@
+
+DataStore_AgendaDB = {
+	["profileKeys"] = {
+		["Asgrsdfgagsd - Drak'thul"] = "Asgrsdfgagsd - Drak'thul",
+		["Adfsdfsasdfa - Drak'thul"] = "Adfsdfsasdfa - Drak'thul",
+		["Dgfagfgfdaag - Drak'thul"] = "Dgfagfgfdaag - Drak'thul",
+		["Fallkenmage - Drak'thul"] = "Fallkenmage - Drak'thul",
+		["Edwfdfadsfaf - Drak'thul"] = "Edwfdfadsfaf - Drak'thul",
+		["Gdfgfgdfggfd - Drak'thul"] = "Gdfgfgdfggfd - Drak'thul",
+		["Asdfdafsadsf - Drak'thul"] = "Asdfdafsadsf - Drak'thul",
+		["Fzgsdzggdfzd - Drak'thul"] = "Fzgsdzggdfzd - Drak'thul",
+		["Dgfgdfagfdag - Drak'thul"] = "Dgfgdfagfdag - Drak'thul",
+	},
+	["global"] = {
+		["Options"] = {
+			["WeeklyResetHour"] = 6,
+			["WeeklyResetDay"] = 3,
+			["NextWeeklyReset"] = "2020-02-26",
+		},
+		["Characters"] = {
+			["Default.Drak'thul.Edwfdfadsfaf"] = {
+				["lastUpdate"] = 1582250954,
+			},
+			["Default.Drak'thul.Fallkenmage"] = {
+				["lastUpdate"] = 1582284520,
+			},
+			["Default.Drak'thul.Gdfgfgdfggfd"] = {
+				["lastUpdate"] = 1582251409,
+			},
+			["Default.Drak'thul.Adfsdfsasdfa"] = {
+				["lastUpdate"] = 1582250273,
+			},
+			["Default.Drak'thul.Asdfdafsadsf"] = {
+				["lastUpdate"] = 1582250426,
+			},
+			["Default.Drak'thul.Asgrsdfgagsd"] = {
+				["lastUpdate"] = 1582250664,
+			},
+			["Default.Drak'thul.Fzgsdzggdfzd"] = {
+				["lastUpdate"] = 1582252605,
+			},
+			["Default.Drak'thul.Dgfgdfagfdag"] = {
+				["lastUpdate"] = 1582253210,
+			},
+			["Default.Drak'thul.Dgfagfgfdaag"] = {
+				["lastUpdate"] = 1582251191,
+			},
+		},
+	},
+}

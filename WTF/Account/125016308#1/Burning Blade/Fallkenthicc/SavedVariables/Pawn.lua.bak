@@ -1,0 +1,94 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0328,
+	["LastPlayerFullName"] = "Fallkenthicc-Burning Blade",
+	["AutoSelectScales"] = false,
+	["ItemLevels"] = {
+		{
+			["ID"] = 122249,
+			["Level"] = 35,
+			["Link"] = "|cff00ccff|Hitem:122249::::::::31:104:::1:3592:::|h[Preened Tribal War Feathers]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 153130,
+			["Level"] = 35,
+			["Link"] = "|cff00ccff|Hitem:153130::::::::31:104:::1:5805:::|h[Man'ari Training Amulet]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 122377,
+			["Level"] = 35,
+			["Link"] = "|cff00ccff|Hitem:122377::::::::31:104:::1:3592:::|h[Lasting Feralheart Spaulders]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 122382,
+			["Level"] = 35,
+			["Link"] = "|cff00ccff|Hitem:122382::::::::31:104:::1:3592:::|h[Preened Ironfeather Breastplate]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 51964,
+			["Level"] = 37,
+			["Link"] = "|cff0070dd|Hitem:51964::::::::31:102:512:17:2:1695:4244:31:::|h[Vigorous Belt of the Fireflash]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 122255,
+			["Level"] = 35,
+			["Link"] = "|cff00ccff|Hitem:122255::::::::31:104:::1:3592:::|h[Preened Wildfeather Leggings]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 157667,
+			["Level"] = 25,
+			["Link"] = "|cff1eff00|Hitem:157667::::::::20:102::::::|h[Wildshifter Treads]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 58922,
+			["Level"] = 27,
+			["Link"] = "|cff1eff00|Hitem:58922::::::::28:102:512:11:1:3637:27:::|h[Worn Defias Bracers]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 157668,
+			["Level"] = 25,
+			["Link"] = "|cff1eff00|Hitem:157668::::::::20:102::::::|h[Wildshifter Grips]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 122529,
+			["Level"] = 35,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff00ccff|Hitem:122529::::::::31:104:::1:5805:::|h[Dread Pirate Ring]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 128173,
+			["Level"] = 35,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cff00ccff|Hitem:128173::::::::31:104:::1:5805:::|h[Admiral Taylor's Loyalty Ring]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 122361,
+			["Level"] = 35,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff00ccff|Hitem:122361::::::::31:104:::1:5805:::|h[Swift Hand of Justice]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 122361,
+			["Level"] = 35,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff00ccff|Hitem:122361::::::::31:102:::1:5805:::|h[Swift Hand of Justice]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 166770,
+			["Level"] = 35,
+			["Link"] = "|cff00ccff|Hitem:166770::::::::31:104:::1:582:::|h[Banded Gilnean Cloak]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 140773,
+			["Level"] = 35,
+			["Link"] = "|cff00ccff|Hitem:140773::::::::31:104:::1:5805:::|h[Eagletalon Spear]|h|r",
+		}, -- [16]
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "DRUID",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

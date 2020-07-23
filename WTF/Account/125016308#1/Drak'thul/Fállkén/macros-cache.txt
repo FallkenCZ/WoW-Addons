@@ -1,0 +1,67 @@
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Ascendance
+/cast Ascendance
+/cast Blood Fury
+END
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Earthbind Totem
+END
+VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Spirit Link Totem
+END
+VER 3 0100000000000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Gift of the Queen
+END
+VER 3 0100000000000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Healing Rain
+END
+VER 3 010000000000000B " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [pvptalent:3/1, @cursor] Skyfury Totem
+/cast [pvptalent:3/2, @cursor] Counterstrike Totem
+/cast [pvptalent:3/3, @cursor] Windfury Totem
+END
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Earthen Shield Totem
+END
+VER 3 010000000000000C " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@Thoxtwister-Blackmoore,nodead,exists][help,nodead,exists][@self]Bloodlust
+/cast Doom Winds
+/cast Blood Fury
+/cast Feral Spirit
+END
+VER 3 010000000000000D " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/2] Fury of Air
+/cast [talent:6/3] Sundering
+END
+VER 3 010000000000000E " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Feral Spirit
+/cast Blood Fury
+END
+VER 3 010000000000000F " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Capacitor Totem
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Earthquake
+/cast [@cursor] Earthquake
+END
+VER 3 0100000000000006 "SK" "INV_MISC_QUESTIONMARK"
+#showtooltip Stormkeeper
+/cast Blood Fury
+/cast Stormkeeper
+END
+VER 3 0100000000000003 "totem" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:3/1, @cursor] Lightning Surge Totem
+/cast [talent:3/2, @cursor] Earthgrab Totem
+/cast [talent:3/3, @cursor] Voodoo Totem
+END

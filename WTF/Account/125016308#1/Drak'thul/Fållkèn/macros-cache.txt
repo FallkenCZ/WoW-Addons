@@ -1,0 +1,13 @@
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Blizzard
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Flamestrike
+END
+VER 3 0100000000000003 " swifty" "INV_MISC_QUESTIONMARK"
+#showtooltip Icy Veins
+/use Loa-Touched Warscroll
+/cast Icy Veins
+END

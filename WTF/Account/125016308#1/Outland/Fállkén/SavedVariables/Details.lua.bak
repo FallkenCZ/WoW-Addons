@@ -1,0 +1,1876 @@
+
+_detalhes_database = {
+	["savedbuffs"] = {
+	},
+	["mythic_dungeon_id"] = 0,
+	["tabela_historico"] = {
+		["tabelas"] = {
+		},
+	},
+	["last_version"] = "v8.2.0.7183",
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
+	},
+	["tabela_instancias"] = {
+	},
+	["on_death_menu"] = true,
+	["nick_tag_cache"] = {
+		["nextreset"] = 1570442434,
+		["last_version"] = 11,
+	},
+	["last_instance_id"] = 575,
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["last_instance_time"] = 1569146477,
+	["active_profile"] = "Fállkén-Outland",
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
+	},
+	["ignore_nicktag"] = false,
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["useclasscolors"] = false,
+			["animate"] = false,
+			["useplayercolor"] = false,
+			["showamount"] = false,
+			["author"] = "Details! Team",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["enabled"] = true,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["tank_block_texture"] = "Details Serenity",
+			["tank_block_color"] = {
+				0.24705882, -- [1]
+				0.0039215, -- [2]
+				0, -- [3]
+				0.8, -- [4]
+			},
+			["show_inc_bars"] = false,
+			["author"] = "Details! Team",
+			["first_run"] = false,
+			["tank_block_size"] = 150,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["author"] = "Details! Team",
+			["window_scale"] = 1,
+			["hide_on_combat"] = false,
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["encounter_timers_dbm"] = {
+			},
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["is_first_run"] = false,
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["main_frame_size"] = {
+				300, -- [1]
+				500.0000305175781, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 349.2156638425518,
+				["radius"] = 160,
+				["hide"] = false,
+			},
+			["arrow_anchor_x"] = 0,
+			["row_texture"] = "Details Serenity",
+			["scale"] = 1,
+			["point"] = "CENTER",
+			["y"] = 4.57763671875e-05,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["author"] = "Details! Team",
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["row_height"] = 20,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 3.0517578125e-05,
+				["x"] = 3.0517578125e-05,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+				["attribute_type"] = 1,
+			},
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["arrow_anchor_y"] = 0,
+			["use_spark"] = true,
+			["main_frame_locked"] = false,
+			["font_size"] = 10,
+		},
+	},
+	["cached_talents"] = {
+	},
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["last_day"] = "22",
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["last_realversion"] = 140,
+	["combat_id"] = 5,
+	["savedStyles"] = {
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["combat_counter"] = 17,
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.013566,
+					["spec"] = 63,
+					["damage_from"] = {
+						["Ymirjar Harpooner"] = true,
+						["[*] Freezing Cloud"] = true,
+						["Bloodthirsty Tundra Wolf"] = true,
+						["Ymirjar Savage"] = true,
+						["Ymirjar Warrior"] = true,
+						["Ymirjar Flesh Hunter"] = true,
+						["Dragonflayer Fanatic"] = true,
+					},
+					["targets"] = {
+						["Ymirjar Harpooner"] = 93451,
+						["Ymirjar Savage"] = 211255,
+						["Ymirjar Witch Doctor"] = 16521,
+						["Scourge Hulk"] = 95333,
+						["Bloodthirsty Tundra Wolf"] = 51746,
+						["Ymirjar Warrior"] = 667549,
+						["Dragonflayer Fanatic"] = 231978,
+						["Ymirjar Flesh Hunter"] = 131676,
+						["Dragonflayer Deathseeker"] = 199414,
+						["Dragonflayer Seer"] = 207839,
+					},
+					["pets"] = {
+					},
+					["last_event"] = 0,
+					["classe"] = "MAGE",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 1906762.013566,
+					["friendlyfire"] = {
+					},
+					["dps_started"] = false,
+					["end_time"] = 1569146517,
+					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["nome"] = "Fállkén",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 9029,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Ymirjar Warrior"] = 9029,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 9029,
+								["c_max"] = 9029,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+							[31661] = {
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 350379,
+								["g_amt"] = 0,
+								["n_max"] = 60410,
+								["targets"] = {
+									["Ymirjar Warrior"] = 583965,
+									["Ymirjar Harpooner"] = 60410,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 293996,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 8,
+								["total"] = 644375,
+								["c_max"] = 116793,
+								["id"] = 31661,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 5,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[2120] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 226603,
+								["g_amt"] = 0,
+								["n_max"] = 64427,
+								["targets"] = {
+									["Ymirjar Flesh Hunter"] = 64427,
+									["Scourge Hulk"] = 53669,
+									["Dragonflayer Deathseeker"] = 59632,
+									["Dragonflayer Fanatic"] = 226603,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 177728,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 404331,
+								["c_max"] = 119265,
+								["id"] = 2120,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[235314] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 27012,
+								["g_amt"] = 0,
+								["n_max"] = 14006,
+								["targets"] = {
+									["Ymirjar Savage"] = 27012,
+									["Bloodthirsty Tundra Wolf"] = 26537,
+									["Ymirjar Warrior"] = 23768,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 50305,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 77317,
+								["c_max"] = 27012,
+								["id"] = 235314,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 4,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[2948] = {
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 105556,
+								["g_amt"] = 0,
+								["n_max"] = 17745,
+								["targets"] = {
+									["Ymirjar Harpooner"] = 33041,
+									["Scourge Hulk"] = 38248,
+									["Ymirjar Witch Doctor"] = 16521,
+									["Ymirjar Savage"] = 17133,
+									["Ymirjar Warrior"] = 50787,
+									["Ymirjar Flesh Hunter"] = 66083,
+									["Dragonflayer Seer"] = 34266,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 150523,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 12,
+								["total"] = 256079,
+								["c_max"] = 38248,
+								["id"] = 2948,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 9,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[108853] = {
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 445878,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Ymirjar Savage"] = 167110,
+									["Dragonflayer Deathseeker"] = 134406,
+									["Dragonflayer Seer"] = 144362,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 445878,
+								["c_max"] = 167110,
+								["id"] = 108853,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[122] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 10751,
+								["g_amt"] = 0,
+								["n_max"] = 5376,
+								["targets"] = {
+									["Dragonflayer Fanatic"] = 5375,
+									["Dragonflayer Deathseeker"] = 5376,
+									["Dragonflayer Seer"] = 10751,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 10751,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 21502,
+								["c_max"] = 10751,
+								["id"] = 122,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 2,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[12654] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 488,
+								["targets"] = {
+									["Ymirjar Flesh Hunter"] = 1166,
+									["Scourge Hulk"] = 3416,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 4582,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 11,
+								["total"] = 4582,
+								["c_max"] = 0,
+								["id"] = 12654,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 11,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[205472] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 24930,
+								["g_amt"] = 0,
+								["n_max"] = 6482,
+								["targets"] = {
+									["Bloodthirsty Tundra Wolf"] = 25209,
+									["Dragonflayer Seer"] = 18460,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 18739,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 43669,
+								["c_max"] = 12485,
+								["id"] = 205472,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["total"] = 1906762.013566,
+					["serial"] = "Player-1301-083E1E16",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 217.013566,
+					["start_time"] = 1569146466,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.00385,
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Fállkén"] = true,
+					},
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.00385,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1569146517,
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["nome"] = "Scourge Hulk",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Fállkén"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 1,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+						},
+					},
+					["monster"] = true,
+					["total"] = 0.00385,
+					["serial"] = "Creature-0-3111-575-24453-26555-000107466A",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 95333.00385000001,
+					["start_time"] = 1569146514,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [2]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.008903999999999999,
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Fállkén"] = true,
+					},
+					["targets"] = {
+						["Fállkén"] = 10,
+					},
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 10.008904,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1569146517,
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["nome"] = "Dragonflayer Fanatic",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 10,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Fállkén"] = 10,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 10,
+								["c_max"] = 10,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 1,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+						},
+					},
+					["monster"] = true,
+					["total"] = 10.008904,
+					["serial"] = "Creature-0-3111-575-24453-26553-000007466A",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 231978.008904,
+					["start_time"] = 1569146513,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [3]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.010814,
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Fállkén"] = true,
+					},
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.010814,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1569146517,
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["nome"] = "Dragonflayer Deathseeker",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Fállkén"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 1,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+						},
+					},
+					["monster"] = true,
+					["total"] = 0.010814,
+					["serial"] = "Creature-0-3111-575-24453-26550-000007466A",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 199414.010814,
+					["start_time"] = 1569146514,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [4]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.014953,
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Fállkén"] = true,
+					},
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.014953,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1569146517,
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["nome"] = "Dragonflayer Seer",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							[59083] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 59083,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["monster"] = true,
+					["total"] = 0.014953,
+					["serial"] = "Creature-0-3111-575-24453-26554-000007466A",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 207839.014953,
+					["start_time"] = 1569146514,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [5]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 7.007869,
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Fállkén"] = true,
+					},
+					["targets"] = {
+						["Fállkén"] = 25,
+					},
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 25.007869,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1569146640,
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["nome"] = "Bloodthirsty Tundra Wolf",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 10,
+								["targets"] = {
+									["Fállkén"] = 25,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 25,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 25,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 2,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+							[49026] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 49026,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["monster"] = true,
+					["total"] = 25.007869,
+					["serial"] = "Creature-0-3111-575-24453-26672-000087466A",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 51746.007869,
+					["start_time"] = 1569146629,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [6]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 102.01112,
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Fállkén"] = true,
+					},
+					["targets"] = {
+						["Fállkén"] = 102,
+					},
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 102.01112,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1569146640,
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["nome"] = "Ymirjar Flesh Hunter",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							[59243] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Fállkén"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 59243,
+								["r_dmg"] = 0,
+								["MISS"] = 1,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[59244] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 22,
+								["targets"] = {
+									["Fállkén"] = 65,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 65,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 65,
+								["c_max"] = 0,
+								["id"] = 59244,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 3,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[59241] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 20,
+								["targets"] = {
+									["Fállkén"] = 37,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 37,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 37,
+								["c_max"] = 0,
+								["id"] = 59241,
+								["r_dmg"] = 0,
+								["MISS"] = 1,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 2,
+								["b_dmg"] = 0,
+								["n_amt"] = 2,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["monster"] = true,
+					["total"] = 102.01112,
+					["serial"] = "Creature-0-3111-575-24453-26670-000107466A",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 131676.01112,
+					["start_time"] = 1569146621,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [7]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 10.008008,
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Fállkén"] = true,
+					},
+					["targets"] = {
+						["Fállkén"] = 10,
+					},
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 10.008008,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1569146640,
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["nome"] = "Ymirjar Savage",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 10,
+								["targets"] = {
+									["Fállkén"] = 10,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 10,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 10,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 1,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+						},
+					},
+					["monster"] = true,
+					["total"] = 10.008008,
+					["serial"] = "Creature-0-3111-575-24453-26669-000087466A",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 211255.008008,
+					["start_time"] = 1569146634,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [8]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 7.009656000000001,
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Fállkén"] = true,
+					},
+					["targets"] = {
+						["Fállkén"] = 7,
+					},
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 7.009656000000001,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1569146640,
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["nome"] = "Ymirjar Warrior",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 5,
+								["targets"] = {
+									["Fállkén"] = 5,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 5,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 5,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 1,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+							[48639] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 2,
+								["targets"] = {
+									["Fállkén"] = 2,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 2,
+								["c_max"] = 0,
+								["id"] = 48639,
+								["r_dmg"] = 0,
+								["MISS"] = 1,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 2,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["monster"] = true,
+					["total"] = 7.009656000000001,
+					["serial"] = "Creature-0-3111-575-24453-26690-00038746D1",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 667549.009656,
+					["start_time"] = 1569146632,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [9]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 8.013881000000001,
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Fállkén"] = true,
+					},
+					["targets"] = {
+						["Fállkén"] = 8,
+					},
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 8.013881000000001,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1569146640,
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["nome"] = "Ymirjar Harpooner",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							[49091] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 8,
+								["targets"] = {
+									["Fállkén"] = 8,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 8,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 8,
+								["c_max"] = 0,
+								["id"] = 49091,
+								["r_dmg"] = 0,
+								["MISS"] = 1,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 2,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["monster"] = true,
+					["total"] = 8.013881000000001,
+					["serial"] = "Creature-0-3111-575-24453-26692-00008746D1",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 93451.01388099999,
+					["start_time"] = 1569146636,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [10]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.007532,
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Fállkén"] = true,
+					},
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.007532,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1569146640,
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["nome"] = "Ymirjar Witch Doctor",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+						},
+					},
+					["monster"] = true,
+					["total"] = 0.007532,
+					["serial"] = "Creature-0-3111-575-24453-26691-00000746D1",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 16521.007532,
+					["start_time"] = 1569146637,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [11]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 55.006632,
+					["on_hold"] = false,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Fállkén"] = 55,
+					},
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 55.006632,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1569146640,
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["nome"] = "[*] Freezing Cloud",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							[60020] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 10,
+								["targets"] = {
+									["Fállkén"] = 55,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 55,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 6,
+								["total"] = 55,
+								["c_max"] = 0,
+								["id"] = 60020,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 6,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["monster"] = true,
+					["total"] = 55.006632,
+					["serial"] = "",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 0.006632000000000001,
+					["start_time"] = 1569146630,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [12]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["targets_overheal"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 0.014027,
+					["total_without_pet"] = 197.014027,
+					["total"] = 197.014027,
+					["targets_absorbs"] = {
+						["Fállkén"] = 197,
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-1301-083E1E16",
+					["totalabsorb"] = 197.014027,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Fállkén"] = 197,
+					},
+					["totalover_without_pet"] = 0.014027,
+					["healing_taken"] = 197.014027,
+					["fight_component"] = true,
+					["end_time"] = 1569146640,
+					["healing_from"] = {
+						["Fállkén"] = true,
+					},
+					["nome"] = "Fállkén",
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[235313] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 197,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 22,
+								["targets"] = {
+									["Fállkén"] = 197,
+								},
+								["n_min"] = 0,
+								["counter"] = 17,
+								["overheal"] = 0,
+								["total"] = 197,
+								["c_max"] = 0,
+								["id"] = 235313,
+								["targets_absorbs"] = {
+									["Fállkén"] = 197,
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 197,
+								["n_amt"] = 17,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["start_time"] = 1569146611,
+					["classe"] = "MAGE",
+					["custom"] = 0,
+					["tipo"] = 2,
+					["spec"] = 63,
+					["totaldenied"] = 0.014027,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[12654] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 0,
+								["appliedamt"] = 3,
+								["id"] = 12654,
+								["uptime"] = 10,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[122] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 3,
+								["id"] = 122,
+								["uptime"] = 8,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[31661] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 8,
+								["id"] = 31661,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["debuff_uptime_targets"] = {
+					},
+					["pets"] = {
+					},
+					["cc_done_targets"] = {
+						["Ymirjar Harpooner"] = 1,
+						["Dragonflayer Fanatic"] = 1,
+						["Ymirjar Warrior"] = 7,
+						["Dragonflayer Deathseeker"] = 1,
+						["Dragonflayer Seer"] = 1,
+					},
+					["cc_done_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[122] = {
+								["id"] = 122,
+								["targets"] = {
+									["Dragonflayer Fanatic"] = 1,
+									["Dragonflayer Deathseeker"] = 1,
+									["Dragonflayer Seer"] = 1,
+								},
+								["counter"] = 3,
+							},
+							[31661] = {
+								["id"] = 31661,
+								["targets"] = {
+									["Ymirjar Warrior"] = 7,
+									["Ymirjar Harpooner"] = 1,
+								},
+								["counter"] = 8,
+							},
+						},
+					},
+					["classe"] = "MAGE",
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[116267] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 116267,
+								["uptime"] = 90,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[235313] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 235313,
+								["uptime"] = 61,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[48107] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 48107,
+								["uptime"] = 10,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[212653] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 212653,
+								["uptime"] = 2,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[48108] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 48108,
+								["uptime"] = 2,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[182057] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 182057,
+								["uptime"] = 12,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["cc_break_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[108853] = {
+								["cc_break_oque"] = {
+									[122] = 1,
+								},
+								["id"] = 108853,
+								["cc_break"] = 1,
+								["targets"] = {
+									["Dragonflayer Deathseeker"] = 1,
+								},
+								["counter"] = 0,
+							},
+							[2120] = {
+								["cc_break_oque"] = {
+									[122] = 1,
+								},
+								["id"] = 2120,
+								["cc_break"] = 1,
+								["targets"] = {
+									["Dragonflayer Fanatic"] = 1,
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["fight_component"] = true,
+					["debuff_uptime"] = 18,
+					["cc_break"] = 2.005761,
+					["cc_done"] = 11.012121,
+					["nome"] = "Fállkén",
+					["spec"] = 63,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[108853] = 2,
+						[2120] = 3,
+						[2948] = 11,
+						[31661] = 2,
+						[212653] = 3,
+						[235313] = 1,
+						[122] = 1,
+					},
+					["cc_break_oque"] = {
+						[122] = 2,
+					},
+					["buff_uptime_targets"] = {
+					},
+					["tipo"] = 4,
+					["buff_uptime"] = 177,
+					["cc_break_targets"] = {
+						["Dragonflayer Deathseeker"] = 1,
+						["Dragonflayer Fanatic"] = 1,
+					},
+					["serial"] = "Player-1301-083E1E16",
+					["last_event"] = 0,
+				}, -- [1]
+				{
+					["monster"] = true,
+					["tipo"] = 4,
+					["nome"] = "Dragonflayer Seer",
+					["pets"] = {
+					},
+					["spell_cast"] = {
+						[59083] = 1,
+					},
+					["flag_original"] = 2632,
+					["last_event"] = 0,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-3111-575-24453-26554-000007466A",
+					["classe"] = "UNKNOW",
+				}, -- [2]
+				{
+					["monster"] = true,
+					["tipo"] = 4,
+					["nome"] = "Ymirjar Flesh Hunter",
+					["pets"] = {
+					},
+					["spell_cast"] = {
+						[59243] = 1,
+						[59244] = 3,
+						[59241] = 2,
+					},
+					["flag_original"] = 2632,
+					["last_event"] = 0,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-3111-575-24453-26670-000087466A",
+					["classe"] = "UNKNOW",
+				}, -- [3]
+				{
+					["monster"] = true,
+					["tipo"] = 4,
+					["nome"] = "Bloodthirsty Tundra Wolf",
+					["pets"] = {
+					},
+					["spell_cast"] = {
+						[49026] = 1,
+					},
+					["flag_original"] = 2632,
+					["last_event"] = 0,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-3111-575-24453-26672-000087466A",
+					["classe"] = "UNKNOW",
+				}, -- [4]
+				{
+					["monster"] = true,
+					["tipo"] = 4,
+					["nome"] = "Ymirjar Warrior",
+					["pets"] = {
+					},
+					["spell_cast"] = {
+						[48639] = 2,
+					},
+					["flag_original"] = 68168,
+					["last_event"] = 0,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-3111-575-24453-26690-00040746D1",
+					["classe"] = "UNKNOW",
+				}, -- [5]
+				{
+					["monster"] = true,
+					["tipo"] = 4,
+					["nome"] = "Ymirjar Harpooner",
+					["pets"] = {
+					},
+					["spell_cast"] = {
+						[49091] = 2,
+					},
+					["flag_original"] = 2632,
+					["last_event"] = 0,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-3111-575-24453-26692-00000746D1",
+					["classe"] = "UNKNOW",
+				}, -- [6]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["tempo_start"] = 1569146485,
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 4,
+		["totals"] = {
+			1906979.072352001, -- [1]
+			197.018528, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 2.005761,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["spells_cast_timeline"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["__call"] = {
+		},
+		["data_inicio"] = "12:01:42",
+		["end_time"] = 215208.563,
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 12.36100000000442,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "12:05:08",
+			}, -- [1]
+			{
+				["elapsed"] = 70.03099999998813,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "12:02:50",
+			}, -- [2]
+			{
+				["elapsed"] = 14.96800000002259,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "12:01:42",
+			}, -- [3]
+		},
+		["totals_grupo"] = {
+			1906762.01201, -- [1]
+			197.006638, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 2.005761,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["frags"] = {
+		},
+		["data_fim"] = "12:05:21",
+		["overall_enemy_name"] = "-- x -- x --",
+		["CombatSkillCache"] = {
+		},
+		["cleu_timeline"] = {
+		},
+		["start_time"] = 215111.203,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+			["damage"] = {
+			},
+		},
+	},
+	["force_font_outline"] = "",
+	["local_instances_config"] = {
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = false,
+			["snap"] = {
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -245.7283782958984,
+					["x"] = 505.6788330078125,
+					["w"] = 310.0000610351563,
+					["h"] = 157.9999847412109,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+	},
+	["character_data"] = {
+		["logons"] = 1,
+	},
+	["announce_cooldowns"] = {
+		["enabled"] = false,
+		["ignored_cooldowns"] = {
+		},
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["rank_window"] = {
+		["last_difficulty"] = 15,
+		["last_raid"] = "",
+	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["cached_specs"] = {
+		["Player-1301-083E1E16"] = 63,
+	},
+}

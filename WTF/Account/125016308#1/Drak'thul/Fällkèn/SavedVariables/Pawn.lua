@@ -1,0 +1,102 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0329,
+	["ItemLevels"] = {
+		{
+			["ID"] = 173457,
+			["Level"] = 415,
+			["Link"] = "|cff0070dd|Hitem:173457::::::::120:71::14:3:1472:4785:6258:::|h[Malignant Leviathan's Headguard]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 144127,
+			["Level"] = 395,
+			["Link"] = "|cff0070dd|Hitem:144127::::::::120:71:512:22:1:6314:120:::|h[Cloudstrike Pendant]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 169286,
+			["Level"] = 310,
+			["Link"] = "|cff1eff00|Hitem:169286::::::::120:71::::::|h[Black Tooth Grunt's Pauldrons]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 127211,
+			["Level"] = 425,
+			["Link"] = "|cff0070dd|Hitem:127211::::::::120:73:512:22:2:6424:6652:120:::|h[Breastplate of Righteous Fury]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 173821,
+			["Level"] = 410,
+			["Link"] = "|cff0070dd|Hitem:173821::::::::120:71::14:4:6412:6513:1467:4785:::|h[Malignant Leviathan's Clasp]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 173486,
+			["Level"] = 410,
+			["Link"] = "|cff0070dd|Hitem:173486::::::::120:71::14:4:6412:6513:1467:4785:::|h[Malignant Leviathan's Legplates]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 173475,
+			["Level"] = 410,
+			["Link"] = "|cff0070dd|Hitem:173475::::::::120:73::14:4:6412:6515:1467:4785:::|h[Malignant Leviathan's Warboots]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 173474,
+			["Level"] = 410,
+			["Link"] = "|cff0070dd|Hitem:173474::::::::120:71::14:4:6412:6515:1467:4785:::|h[Malignant Leviathan's Vambraces]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 109859,
+			["Level"] = 425,
+			["Link"] = "|cff0070dd|Hitem:109859::::::::120:73:512:22:2:6424:6652:120:::|h[Gutcrusher Gauntlets]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 143904,
+			["Level"] = 395,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cffa335ee|Hitem:143904::::::::120:73:512::1:6315:120:::|h[Seal of Ghoulish Glee]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 143904,
+			["Level"] = 395,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cffa335ee|Hitem:143904::::::::120:71:512::1:6315:120:::|h[Seal of Ghoulish Glee]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 133268,
+			["Level"] = 395,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff0070dd|Hitem:133268::::::::120:73:512:22:1:6314:120:::|h[Heart of Solace]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 133268,
+			["Level"] = 395,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff0070dd|Hitem:133268::::::::120:71:512:22:1:6314:120:::|h[Heart of Solace]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 127559,
+			["Level"] = 425,
+			["Link"] = "|cff0070dd|Hitem:127559::::::::120:73:512:22:2:6424:6652:120:::|h[Cloak of Bloodied Waters]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 117356,
+			["Level"] = 395,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cffa335ee|Hitem:117356::::::::120:73:512:11:1:6315:120:::|h[The Horseman's Sinister Slicer]|h|r",
+		}, -- [16]
+		{
+			["ID"] = 117356,
+			["Level"] = 395,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cffa335ee|Hitem:117356::::::::120:71:512:11:1:6315:120:::|h[The Horseman's Sinister Slicer]|h|r",
+		}, -- [17]
+	},
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Fällkèn-Drak'thul",
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "WARRIOR",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

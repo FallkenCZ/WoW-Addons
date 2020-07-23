@@ -1,0 +1,22 @@
+
+BigDebuffsDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Asgrsdfgagsd - Drak'thul"] = "Default",
+		["Adfsdfsasdfa - Drak'thul"] = "Default",
+		["Dgfagfgfdaag - Drak'thul"] = "Default",
+		["Fallkenmage - Drak'thul"] = "Default",
+		["Edwfdfadsfaf - Drak'thul"] = "Default",
+		["Gdfgfgdfggfd - Drak'thul"] = "Default",
+		["Asdfdafsadsf - Drak'thul"] = "Default",
+		["Fzgsdzggdfzd - Drak'thul"] = "Default",
+		["Dgfgdfagfdag - Drak'thul"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

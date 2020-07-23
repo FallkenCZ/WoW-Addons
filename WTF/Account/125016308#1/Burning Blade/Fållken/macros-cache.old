@@ -1,0 +1,8 @@
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Angelic Feather
+/cast [@player] Angelic Feather
+END
+VER 3 0100000000000002 "dispel" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@target,harm,exists] Dispel Magic; [@target,help,exists] Purify
+END

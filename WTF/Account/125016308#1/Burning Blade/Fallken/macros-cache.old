@@ -1,0 +1,84 @@
+VER 3 0100000000000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Berserk
+/use 13
+/use 14
+/cast Berserk
+/cast Berserking
+END
+VER 3 010000000000001A " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@Katheria-Drak'thul,nodead,exists][@Kaern-Drak'thul,nodead,exists][@target]Innervate
+END
+VER 3 0100000000000017 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:1/2] Warrior of Elune
+/cast [talent:1/3] Force of Nature
+END
+VER 3 010000000000001B " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:7/2] Fury of Elune
+/cast [talent:7/3] New Moon
+END
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:2/3] Wild Charge
+/cast [talent:2/2] Renewal
+/cast [talent:2/1] Tiger Dash
+END
+VER 3 0100000000000019 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast !prowl
+END
+VER 3 010000000000001D " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Efflorescence
+END
+VER 3 010000000000001C " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Ursol's Vortex
+END
+VER 3 0100000000000012 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Innervate
+/cast Berserking(Racial)
+/cast [target=player] Innervate
+END
+VER 3 0100000000000022 " " "INV_MISC_QUESTIONMARK"
+/cancelform
+/cast Moonkin Form
+END
+VER 3 010000000000001E " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 15
+END
+VER 3 010000000000001F " " "INV_MISC_QUESTIONMARK"
+#showtooltip Solar Wrath
+/cast Solar Wrath
+/cancelaura Flap
+END
+VER 3 0100000000000020 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Barkskin
+/use 6
+END
+VER 3 0100000000000023 " " "INV_MISC_QUESTIONMARK"
+/cancelform
+/cast moonfire
+END
+VER 3 0100000000000024 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:2/3] Wild Charge
+/cast [talent:2/2] Ursol's Vortex
+END
+VER 3 0100000000000005 " swifty" "INV_MISC_QUESTIONMARK"
+#showtooltip Celestial Alignment
+/use Corrupted Gladiator's Badge
+/cast Celestial Alignment
+END
+VER 3 0100000000000007 "dispel" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/use [@Mooses-Spinebreaker,nodead,exists][@target] [@self]Remove Corruption
+END
+VER 3 010000000000000A "SF" "INV_MISC_QUESTIONMARK"
+#showtooltip Starfall
+/cast [@cursor] Starfall
+END

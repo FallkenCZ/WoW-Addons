@@ -1,0 +1,31 @@
+VER 3 0100000000000019 " " "INV_MISC_QUESTIONMARK"
+#showooltip
+/cast [@cursor] Efflorescence
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip prowl
+/cast !prowl
+END
+VER 3 0100000000000014 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:1/2] Warrior of Elune
+/cast [talent:1/3] Force of Nature
+END
+VER 3 0100000000000015 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:2/2] Renewal
+/cast [talent:2/3] Wild Charge
+END
+VER 3 010000000000001A " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Starfall
+END
+VER 3 0100000000000016 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:7/2] Fury of Elune
+/cast [talent:7/3] New Moon
+END
+VER 3 0100000000000017 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Innervate
+END

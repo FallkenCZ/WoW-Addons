@@ -1,0 +1,95 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0329,
+	["LastPlayerFullName"] = "Fàllkên-Drak'thul",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["ItemLevels"] = {
+		{
+			["ID"] = 122247,
+			["Level"] = 284,
+			["Link"] = "|cff00ccff|Hitem:122247::::::::119:253:::1:5805:::|h[Mystical Coif of Elements]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 158075,
+			["Level"] = 290,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:255::11:4:4932:4933:4935:1482:::|h[Heart of Azeroth]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 122374,
+			["Level"] = 284,
+			["Link"] = "|cff00ccff|Hitem:122374::::::::119:253:::1:5805:::|h[Prized Beastmaster's Mantle]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 122379,
+			["Level"] = 284,
+			["Link"] = "|cff00ccff|Hitem:122379::::::::119:253:::1:5805:::|h[Champion's Deathdealer Breastplate]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 127540,
+			["Level"] = 230,
+			["Link"] = "|cff0070dd|Hitem:127540::::::::113:255:512:22:2:6314:6313:112:::|h[Slad'ran's Coiled Cord]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 122253,
+			["Level"] = 284,
+			["Link"] = "|cff00ccff|Hitem:122253::::::::119:253:::1:5805:::|h[Mystical Kilt of Elements]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 152684,
+			["Level"] = 195,
+			["Link"] = "|cffa335ee|Hitem:152684::::::::111:253::4:3:3613:1457:3528:::|h[Greatboots of the Searing Tempest]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 127597,
+			["Level"] = 425,
+			["Link"] = "|cff0070dd|Hitem:127597::::::::120:253:512:22:2:6424:6652:120:::|h[Interwoven Scale Bracers]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 127572,
+			["Level"] = 300,
+			["Link"] = "|cff0070dd|Hitem:127572::::::::119:253:512:22:2:6424:6652:119:::|h[Gauntlets of Serpent Scales]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 128173,
+			["Level"] = 284,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff00ccff|Hitem:128173::::::::119:253:::1:5805:::|h[Admiral Taylor's Loyalty Ring]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 122529,
+			["Level"] = 284,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cff00ccff|Hitem:122529::::::::119:253:::1:5805:::|h[Dread Pirate Ring]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 122361,
+			["Level"] = 284,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff00ccff|Hitem:122361::::::::119:253:::1:5805:::|h[Swift Hand of Justice]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 122361,
+			["Level"] = 284,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff00ccff|Hitem:122361::::::::120:253:::1:5805:::|h[Swift Hand of Justice]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 127603,
+			["Level"] = 300,
+			["Link"] = "|cff0070dd|Hitem:127603::::::::120:253:512:22:2:6424:6652:119:::|h[Cloak of the Enemy]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 122352,
+			["Level"] = 284,
+			["Link"] = "|cff00ccff|Hitem:122352::::::::119:253:::1:5805:::|h[Charmed Ancient Bone Bow]|h|r",
+		}, -- [16]
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "HUNTER",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

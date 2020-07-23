@@ -1,0 +1,33 @@
+
+REFlexSettings = {
+	["MiniMapButtonSettings"] = {
+		["minimapPos"] = 351.9952041900834,
+		["hide"] = false,
+	},
+	["ShowServerName"] = false,
+	["CurrentTab"] = 1,
+	["LDBMode"] = 3,
+	["Toasts"] = true,
+	["LDBSide"] = "A",
+	["ArenaStatsLimit"] = 3,
+	["ConfigVersion"] = 273,
+	["FirstTime"] = true,
+	["Filters"] = {
+		["Map"] = 1,
+		["Bracket"] = 1,
+		["Date"] = {
+			0, -- [1]
+			0, -- [2]
+		},
+		["Spec"] = "All",
+		["Season"] = 0,
+		["DateMode"] = 1,
+	},
+}
+REFlexDatabase = {
+}
+REFlexHonorDatabase = {
+	[1577829600] = 14,
+	[1577570400] = 3,
+	[1576792800] = 8,
+}

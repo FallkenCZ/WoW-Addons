@@ -1,0 +1,84 @@
+
+AUCTIONATOR_SAVEDVARS = {
+	["_50000"] = 500,
+	["_2000"] = 100,
+	["STARTING_DISCOUNT"] = 5,
+	["LOG_DE_DATA_X"] = true,
+	["_1000000"] = 2500,
+	["_5000000"] = 10000,
+	["_500"] = 5,
+	["_10000"] = 200,
+	["_200000"] = 1000,
+}
+AUCTIONATOR_PRICING_HISTORY = {
+}
+AUCTIONATOR_SHOPPING_LISTS = {
+	{
+		["items"] = {
+		},
+		["isRecents"] = 1,
+		["name"] = "Recent Searches",
+	}, -- [1]
+	{
+		["items"] = {
+			"Greater Cosmic Essence", -- [1]
+			"Infinite Dust", -- [2]
+			"Dream Shard", -- [3]
+			"Abyss Crystal", -- [4]
+		},
+		["name"] = "Sample Shopping List #1",
+		["isSorted"] = false,
+	}, -- [2]
+}
+AUCTIONATOR_SHOPPING_LISTS_MIGRATED_V2 = true
+AUCTIONATOR_PRICE_DATABASE = {
+	["Burning Blade_Alliance"] = {
+	},
+	["__dbversion"] = 4,
+	["Burning Blade_Horde"] = {
+	},
+}
+AUCTIONATOR_LAST_SCAN_TIME = nil
+AUCTIONATOR_TOONS = {
+	["Aswdasdsad"] = {
+		["firstSeen"] = 1577050802,
+		["firstVersion"] = "8.2.0",
+		["guid"] = "Player-1092-0947BD50",
+	},
+	["Zugzugxd"] = {
+		["firstSeen"] = 1577052974,
+		["guid"] = "Player-1092-0947BE04",
+		["firstVersion"] = "8.2.0",
+	},
+	["Sdsadaaddfaa"] = {
+		["firstSeen"] = 1577236068,
+		["firstVersion"] = "8.2.0",
+		["guid"] = "Player-1092-094856B3",
+	},
+	["Asdasdsadasd"] = {
+		["firstSeen"] = 1577234804,
+		["firstVersion"] = "8.2.0",
+		["guid"] = "Player-1092-0948567E",
+	},
+	["Tghdssgdfhgd"] = {
+		["firstSeen"] = 1577235387,
+		["guid"] = "Player-1092-0948568E",
+		["firstVersion"] = "8.2.0",
+	},
+	["Gdfsdfghfghf"] = {
+		["firstSeen"] = 1577236820,
+		["guid"] = "Player-1092-094856C2",
+		["firstVersion"] = "8.2.0",
+	},
+}
+AUCTIONATOR_STACKING_PREFS = {
+}
+AUCTIONATOR_SCAN_MINLEVEL = 1
+AUCTIONATOR_DB_MAXITEM_AGE = 180
+AUCTIONATOR_DB_MAXHIST_AGE = -1
+AUCTIONATOR_DB_MAXHIST_DAYS = 5
+AUCTIONATOR_FS_CHUNK = nil
+AUCTIONATOR_DE_DATA = nil
+AUCTIONATOR_DE_DATA_BAK = nil
+ITEM_ID_VERSION = "3.2.6"
+AUCTIONATOR_SHOW_MAILBOX_TIPS = nil

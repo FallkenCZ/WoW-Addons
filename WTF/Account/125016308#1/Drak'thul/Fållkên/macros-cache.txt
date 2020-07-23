@@ -1,0 +1,40 @@
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [pvptalent:4/2] Casting Circle
+/cast [pvptalent:4/3] Nether Ward
+END
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+/cancelaura Demonic Circle
+END
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=focus] Spell Lock
+END
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Dark Soul: Instability
+/cast Blood Fury(Racial)
+/cast Dark Soul: Instability
+/use 13
+/use 14
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [pvptalent:3/1] Curse of Tongues
+/cast [pvptalent:3/2] Curse of Weakness
+/cast [pvptalent:3/3] Curse of Fragility
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=focus] Grimoire: Felhunter
+END
+VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Rain of Fire
+END
+VER 3 0100000000000008 " swifty" "INV_MISC_QUESTIONMARK"
+#showtooltip Dark Soul: Misery
+/use 13
+/use 14
+/cast Blood Fury(Racial)
+/cast Dark Soul: Misery
+END

@@ -1,0 +1,14 @@
+
+RaiderIO_Config = {
+}
+RaiderIO_LastCharacter = "eu-Fallkenmage-drakthul"
+RaiderIO_MissingCharacters = {
+	["eu-Lajirv-kazzak"] = true,
+	["eu-Lyela-drakthul"] = true,
+	["eu-Infectu-drakthul"] = true,
+	["eu-Niikiitka-drakthul"] = true,
+	["eu-Executorcz-drakthul"] = true,
+	["eu-Ostegoth-drakthul"] = true,
+	["eu-Trulko-drakthul"] = true,
+	["eu-Mugarod-drakthul"] = true,
+}

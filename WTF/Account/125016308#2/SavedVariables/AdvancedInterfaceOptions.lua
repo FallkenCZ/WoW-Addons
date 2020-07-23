@@ -1,0 +1,42 @@
+
+AdvancedInterfaceOptionsSaved = {
+	["CustomVars"] = {
+	},
+	["DBVersion"] = 3,
+	["ModifiedCVars"] = {
+		["graphicsviewdistance"] = "Interface\\SharedXML\\VideoOptionsPanels.lua:381",
+		["chatstyle"] = "Interface\\FrameXML\\InterfaceOptionsPanels.lua:906",
+		["nameplateshowenemies"] = "...rface\\AddOns\\Blizzard_Tutorial\\Blizzard_Tutorial.lua:24",
+		["activecufprofile"] = "...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:262",
+		["sound_mastervolume"] = "Interface\\FrameXML\\OptionsPanelTemplates.lua:204",
+		["camerapitchmovespeed"] = "Interface\\FrameXML\\OptionsPanelTemplates.lua:468",
+		["sound_ambiencevolume"] = "Interface\\FrameXML\\OptionsPanelTemplates.lua:204",
+		["nameplateverticalscale"] = "Interface\\FrameXML\\InterfaceOptionsPanels.lua:1322",
+		["sound_enabledialog"] = "Interface\\FrameXML\\Sound.lua:29",
+		["raidgraphicsgroundclutter"] = "Interface\\SharedXML\\VideoOptionsPanels.lua:381",
+		["nameplatehorizontalscale"] = "Interface\\FrameXML\\InterfaceOptionsPanels.lua:1321",
+		["raidgraphicsviewdistance"] = "Interface\\SharedXML\\VideoOptionsPanels.lua:381",
+		["spellactivationoverlayopacity"] = "Interface\\FrameXML\\OptionsPanelTemplates.lua:468",
+		["raidgraphicsenvironmentdetail"] = "Interface\\SharedXML\\VideoOptionsPanels.lua:381",
+		["displayspellactivationoverlays"] = "Interface\\FrameXML\\OptionsPanelTemplates.lua:468",
+		["mousespeed"] = "Interface\\FrameXML\\OptionsPanelTemplates.lua:468",
+		["sound_enablesfx"] = "Interface\\FrameXML\\Sound.lua:27",
+		["camerayawsmoothspeed"] = "Interface\\FrameXML\\OptionsPanelTemplates.lua:468",
+		["graphicsgroundclutter"] = "Interface\\SharedXML\\VideoOptionsPanels.lua:381",
+		["minicommunitiesframe"] = "Interface\\SharedXML\\SharedUIPanelTemplates.lua:833",
+		["sound_enableambience"] = "Interface\\FrameXML\\Sound.lua:28",
+		["miniworldmap"] = "Interface\\FrameXML\\QuestLogOwnerMixin.lua:68",
+		["camerayawmovespeed"] = "Interface\\FrameXML\\OptionsPanelTemplates.lua:468",
+		["graphicsenvironmentdetail"] = "Interface\\SharedXML\\VideoOptionsPanels.lua:381",
+		["petjournaltab"] = "...AddOns\\Blizzard_Collections\\Blizzard_Collections.lua:5",
+		["showtutorials"] = "Interface\\FrameXML\\OptionsPanelTemplates.lua:204",
+		["sound_musicvolume"] = "Interface\\FrameXML\\OptionsPanelTemplates.lua:204",
+		["hideadventurejournalalerts"] = "Interface\\FrameXML\\OptionsPanelTemplates.lua:204",
+		["showarenaenemyframes"] = "Interface\\AddOns\\sArena\\sArena.lua:193",
+	},
+	["CharVars"] = {
+	},
+	["AccountVars"] = {
+	},
+	["EnforceSettings"] = false,
+}

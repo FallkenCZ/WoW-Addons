@@ -1,0 +1,29 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0322,
+	["LastPlayerFullName"] = "Aswdasdsad-Burning Blade",
+	["AutoSelectScales"] = true,
+	["ItemLevels"] = {
+		[5] = {
+			["ID"] = 23322,
+			["Level"] = 1,
+			["Link"] = "|cffffffff|Hitem:23322::::::::1:256::::::|h[Acolyte's Robe]|h|r",
+		},
+		[16] = {
+			["ID"] = 3661,
+			["Level"] = 1,
+			["Link"] = "|cffffffff|Hitem:3661::::::::1:256::::::|h[Handcrafted Staff]|h|r",
+		},
+		[7] = {
+			["ID"] = 1396,
+			["Level"] = 1,
+			["Link"] = "|cffffffff|Hitem:1396::::::::1:256::::::|h[Acolyte's Pants]|h|r",
+		},
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "PRIEST",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

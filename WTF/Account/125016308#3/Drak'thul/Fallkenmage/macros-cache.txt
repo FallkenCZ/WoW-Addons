@@ -1,0 +1,5 @@
+VER 3 0100000000000001 "veins" "INV_MISC_QUESTIONMARK"
+#showtooltip Icy Veins
+/cast Berserking
+/cast Icy Veins
+END

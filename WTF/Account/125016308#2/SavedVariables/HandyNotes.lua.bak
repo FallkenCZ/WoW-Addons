@@ -1,0 +1,19 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Xdmydude - Burning Blade"] = "Xdmydude - Burning Blade",
+	},
+	["profiles"] = {
+		["Xdmydude - Burning Blade"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Xdmydude - Burning Blade"] = "Xdmydude - Burning Blade",
+	},
+	["profiles"] = {
+		["Xdmydude - Burning Blade"] = {
+		},
+	},
+}

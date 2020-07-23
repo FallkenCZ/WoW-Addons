@@ -1,0 +1,13 @@
+
+HandyNotes_MechagonAndNazjatarDB = {
+	["profileKeys"] = {
+		["Fållken - Burning Blade"] = "Default",
+		["Fallkenez - Drak'thul"] = "Default",
+		["Fallken - Burning Blade"] = "Default",
+		["Fàllkén - Drak'thul"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

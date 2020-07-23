@@ -1,0 +1,9 @@
+
+biggerbuffsSaved = {
+	["Options"] = {
+		["scalefactor"] = 15,
+		["hidenames"] = 0,
+		["maxbuffs"] = 5,
+		["rowsize"] = 3,
+	},
+}

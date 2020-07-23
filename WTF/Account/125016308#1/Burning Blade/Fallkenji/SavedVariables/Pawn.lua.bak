@@ -1,0 +1,100 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0328,
+	["LastPlayerFullName"] = "Fallkenji-Burning Blade",
+	["AutoSelectScales"] = false,
+	["ItemLevels"] = {
+		{
+			["ID"] = 122246,
+			["Level"] = 80,
+			["Link"] = "|cff00ccff|Hitem:122246::::::::69:264:::1:3592:::|h[Tarnished Raging Berserker's Helm]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 153130,
+			["Level"] = 80,
+			["Link"] = "|cff00ccff|Hitem:153130::::::::69:264:::1:5805:::|h[Man'ari Training Amulet]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 51975,
+			["Level"] = 82,
+			["Link"] = "|cff0070dd|Hitem:51975::::::::69:264:512:18:2:1693:4243:69:::|h[Earthbound Shoulders of the Fireflash]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 122379,
+			["Level"] = 80,
+			["Link"] = "|cff00ccff|Hitem:122379::::::::69:264:::1:5805:::|h[Champion's Deathdealer Breastplate]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 143580,
+			["Level"] = 40,
+			["Link"] = "|cff0070dd|Hitem:143580::::::::34:264:512:17:2:1692:4244:34:::|h[Earthbound Girdle of the Fireflash]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 122253,
+			["Level"] = 80,
+			["Link"] = "|cff00ccff|Hitem:122253::::::::69:264:::1:3592:::|h[Mystical Kilt of Elements]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 132549,
+			["Level"] = 66,
+			["Link"] = "|cff0070dd|Hitem:132549::::::::69:264:512:1:1:4043:60:::|h[Deft Strike Treads]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 51981,
+			["Level"] = 56,
+			["Link"] = "|cff0070dd|Hitem:51981::::::::69:264:512:17:2:1677:4244:50:::|h[Earthbound Wristguards of the Quickblade]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 143581,
+			["Level"] = 66,
+			["Link"] = "|cff0070dd|Hitem:143581::::::::69:264:512:17:2:1695:4244:60:::|h[Earthbound Grips of the Fireflash]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 128169,
+			["Level"] = 80,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff00ccff|Hitem:128169::::::::69:264:::1:5805:::|h[Signet of the Third Fleet]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 122529,
+			["Level"] = 80,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cff00ccff|Hitem:122529::::::::69:264:::1:5805:::|h[Dread Pirate Ring]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 122361,
+			["Level"] = 80,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff00ccff|Hitem:122361::::::::69:264:::1:5805:::|h[Swift Hand of Justice]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 166756,
+			["Level"] = 80,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff00ccff|Hitem:166756::::::::69:264:::1:582:::|h[Loa-Touched Warscroll]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 122262,
+			["Level"] = 80,
+			["Link"] = "|cff00ccff|Hitem:122262::::::::69:264:::1:5805:::|h[Ancient Bloodmoon Cloak]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 122354,
+			["Level"] = 80,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff00ccff|Hitem:122354::::::::69:264:::1:3592:::|h[Devout Aurastone Hammer]|h|r",
+		}, -- [16]
+		{
+			["ID"] = 122392,
+			["Level"] = 80,
+			["Link"] = "|cff00ccff|Hitem:122392::::::::69:264:::1:3592:::|h[Weathered Observer's Shield]|h|r",
+		}, -- [17]
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "SHAMAN",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

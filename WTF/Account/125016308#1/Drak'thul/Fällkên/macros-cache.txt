@@ -1,0 +1,18 @@
+VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:5/2] Wraith Walk
+/cast [talent:5/3] Death Pact
+END
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:7/2] Unholy Frenzy
+/cast [talent:7/3] Summon Gargoyle
+END
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Gorefiend's Grasp
+END
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Death and Decay
+END

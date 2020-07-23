@@ -1,0 +1,9 @@
+﻿## Interface: 80300
+## Title: FriendListColors
+## Notes: Customize how your friends appear in your friends list!
+## Author: Vladinator
+## Version: 8.3.0.200202
+## SavedVariables: FriendListColorsDB
+## X-Curse-Project-ID: 43444
+## X-WoWI-ID: 18256
+core.lua

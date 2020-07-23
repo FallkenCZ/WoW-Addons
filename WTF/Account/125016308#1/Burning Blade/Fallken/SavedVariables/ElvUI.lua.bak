@@ -1,0 +1,75 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		"/s ahoj", -- [1]
+		"/simc minimap", -- [2]
+	},
+	["ChatHistoryLog"] = {
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13775:Player-1092-082EAF65:1:9:28:19:4294967295:4294967295:4294967295:4294967295|h[Essence Overload]|h|r!", -- [1]
+			"Dogtooth-Drak'thul", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dogtooth-Drak'thul", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1, -- [11]
+			"Player-1092-082EAF65", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Dogtooth-Drak'thul|r",
+			[51] = 1569667938,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [1]
+		{
+			"ahoj", -- [1]
+			"Fallken-BurningBlade", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Fallken-BurningBlade", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			11, -- [11]
+			"Player-1092-0844A0F9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Fallken|r",
+			[51] = 1569668396,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [2]
+		{
+			":)", -- [1]
+			"Inhuxo-Drak'thul", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			113, -- [11]
+			"Player-1092-0714BA36", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeInhuxo|r",
+			[51] = 1569675505,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [3]
+	},
+}

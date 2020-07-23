@@ -1,0 +1,139 @@
+
+Gladius2DB = {
+	["profileKeys"] = {
+		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
+		["Fallken - Burning Blade"] = "Fallken - Burning Blade",
+		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
+		["Fàllkèn - Drak'thul"] = "Fàllkèn - Drak'thul",
+		["Fàllkén - Drak'thul"] = "Fàllkén - Drak'thul",
+		["Fàllkên - Drak'thul"] = "Fàllkên - Drak'thul",
+		["Fällkèn - Drak'thul"] = "Fällkèn - Drak'thul",
+		["Fállkén - Drak'thul"] = "Fállkén - Drak'thul",
+		["Faallken - Drak'thul"] = "Faallken - Drak'thul",
+		["Fällkên - Drak'thul"] = "Fällkên - Drak'thul",
+		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
+		["Fállken - Burning Blade"] = "Fállken - Burning Blade",
+	},
+	["profiles"] = {
+		["Fållken - Burning Blade"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 902.2222905523959,
+			},
+			["y"] = {
+				["arena1"] = 568.1111421767564,
+			},
+		},
+		["Fallken - Burning Blade"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 930.4886838465609,
+			},
+			["y"] = {
+				["arena1"] = 489.2446342562398,
+			},
+		},
+		["Fållkên - Drak'thul"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["y"] = {
+				["arena1"] = 496.2890127317369,
+			},
+			["x"] = {
+				["arena1"] = 856.0000078413213,
+			},
+		},
+		["Fàllkèn - Drak'thul"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["y"] = {
+				["arena1"] = 515.4888840492858,
+			},
+			["x"] = {
+				["arena1"] = 902.9334904847274,
+			},
+		},
+		["Fàllkén - Drak'thul"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["y"] = {
+				["arena1"] = 502.6889881481329,
+			},
+			["x"] = {
+				["arena1"] = 904.3553410329987,
+			},
+		},
+		["Fàllkên - Drak'thul"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["y"] = {
+				["arena1"] = 526.1555097432793,
+			},
+			["x"] = {
+				["arena1"] = 895.1111152036683,
+			},
+		},
+		["Fällkèn - Drak'thul"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["y"] = {
+				["arena1"] = 473.533361479087,
+			},
+			["x"] = {
+				["arena1"] = 881.5999095069055,
+			},
+		},
+		["Fállkén - Drak'thul"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 849.6000324249253,
+			},
+			["y"] = {
+				["arena1"] = 564.5556368998514,
+			},
+		},
+		["Faallken - Drak'thul"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 925.6883177627897,
+			},
+			["y"] = {
+				["arena1"] = 532.555704886232,
+			},
+		},
+		["Fällkên - Drak'thul"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 861.6889481203034,
+			},
+			["y"] = {
+				["arena1"] = 509.7999437703038,
+			},
+		},
+		["Fallkenez - Drak'thul"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 971.9110948586167,
+			},
+			["y"] = {
+				["arena1"] = 484.200151967998,
+			},
+		},
+		["Fállken - Burning Blade"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["y"] = {
+				["arena1"] = 549.6223059966214,
+			},
+			["x"] = {
+				["arena1"] = 944.8890130549262,
+			},
+		},
+	},
+}

@@ -1,0 +1,8 @@
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+/cancelaura Netherwalk
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:1/3] Felblade
+/cast Demon's Bite
+END
