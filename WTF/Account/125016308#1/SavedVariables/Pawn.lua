@@ -8,16 +8,11 @@ PawnCommon = {
 	["ShowValuesForUpgradesOnly"] = true,
 	["ShowItemLevelUpgrades"] = true,
 	["ShownGettingStarted"] = true,
-	["Debug"] = false,
+	["IgnoreGemsWhileLeveling"] = true,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
 	["Digits"] = 1,
 	["ShowSocketingAdvisor"] = true,
-	["ShowSpecIcons"] = true,
-	["LastVersion"] = 2.0329,
-	["ButtonPosition"] = 2,
-	["ShowLootUpgradeAdvisor"] = true,
-	["ShowQuestUpgradeAdvisor"] = true,
 	["Scales"] = {
 		["\"MrRobot\":HUNTER3"] = {
 			["IconTexturePath"] = 461113,
@@ -382,20 +377,20 @@ PawnCommon = {
 			["UnenchantedColor"] = "937351",
 			["SpecID"] = 1,
 		},
-		["\"MrRobot\":SHAMAN3"] = {
-			["IconTexturePath"] = 136052,
+		["\"MrRobot\":MAGE1"] = {
+			["IconTexturePath"] = 135932,
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "006fdc",
-			["LocalizedName"] = "Shaman: Restoration",
-			["ClassID"] = 7,
+			["Color"] = "3ec5e9",
+			["LocalizedName"] = "Mage: Arcane",
+			["ClassID"] = 8,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "HEALER",
+			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "0053a5",
-			["SpecID"] = 3,
+			["UnenchantedColor"] = "2e93ae",
+			["SpecID"] = 1,
 		},
 		["\"MrRobot\":DEATHKNIGHT2"] = {
 			["IconTexturePath"] = 135773,
@@ -456,20 +451,23 @@ PawnCommon = {
 			},
 			["UpgradesFollowSpecialization"] = true,
 		},
-		["\"MrRobot\":MAGE1"] = {
-			["IconTexturePath"] = 135932,
+		["\"MrRobot\":DEMONHUNTER2"] = {
+			["IconTexturePath"] = 1247265,
 			["PerCharacterOptions"] = {
+				["Fállkên-Drak'thul"] = {
+					["Visible"] = true,
+				},
 			},
-			["Color"] = "3ec5e9",
-			["LocalizedName"] = "Mage: Arcane",
-			["ClassID"] = 8,
+			["Color"] = "a22fc8",
+			["LocalizedName"] = "Demon Hunter: Vengeance",
+			["ClassID"] = 12,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "2e93ae",
-			["SpecID"] = 1,
+			["UnenchantedColor"] = "792396",
+			["SpecID"] = 2,
 		},
 		["\"MrRobot\":DRUID2"] = {
 			["IconTexturePath"] = 132115,
@@ -596,8 +594,8 @@ PawnCommon = {
 				["IsStaff"] = -1000000,
 				["Agility"] = 4.48,
 				["HasteRating"] = 6.39,
-				["OffHandDps"] = 3.29,
-				["Versatility"] = 9.36,
+				["MasteryRating"] = 5.55,
+				["IsCrossbow"] = -1000000,
 				["IsPolearm"] = -1000000,
 				["IsGun"] = -1000000,
 				["IsFrill"] = -1000000,
@@ -605,30 +603,27 @@ PawnCommon = {
 				["IsBow"] = -1000000,
 				["IsMail"] = -1000000,
 				["IsPlate"] = -1000000,
-				["IsCrossbow"] = -1000000,
+				["Versatility"] = 9.36,
 				["Is2HSword"] = -1000000,
-				["MasteryRating"] = 5.55,
+				["OffHandDps"] = 3.29,
 				["IsShield"] = -1000000,
 				["Dps"] = 22.1,
 			},
 		},
-		["\"MrRobot\":DEMONHUNTER2"] = {
-			["IconTexturePath"] = 1247265,
+		["\"MrRobot\":SHAMAN3"] = {
+			["IconTexturePath"] = 136052,
 			["PerCharacterOptions"] = {
-				["Fállkên-Drak'thul"] = {
-					["Visible"] = true,
-				},
 			},
-			["Color"] = "a22fc8",
-			["LocalizedName"] = "Demon Hunter: Vengeance",
-			["ClassID"] = 12,
+			["Color"] = "006fdc",
+			["LocalizedName"] = "Shaman: Restoration",
+			["ClassID"] = 7,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
+			["Role"] = "HEALER",
+			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "792396",
-			["SpecID"] = 2,
+			["UnenchantedColor"] = "0053a5",
+			["SpecID"] = 3,
 		},
 		["ilvl agi"] = {
 			["Values"] = {
@@ -642,19 +637,19 @@ PawnCommon = {
 				["Fàllkèn-Drak'thul"] = {
 					["Visible"] = true,
 				},
-				["Fãllkên-Drak'thul"] = {
+				["Fállken-Burning Blade"] = {
 					["Visible"] = true,
 				},
 				["Fallkenez-Drak'thul"] = {
 					["Visible"] = true,
 				},
-				["Fàllkên-Drak'thul"] = {
+				["Fãllkên-Drak'thul"] = {
 					["Visible"] = true,
 				},
 				["Fallkenthicc-Burning Blade"] = {
 					["Visible"] = true,
 				},
-				["Fállken-Burning Blade"] = {
+				["Fàllkên-Drak'thul"] = {
 					["Visible"] = true,
 				},
 				["Fallkên-Drak'thul"] = {
@@ -742,5 +737,10 @@ PawnCommon = {
 			["SpecID"] = 3,
 		},
 	},
-	["IgnoreGemsWhileLeveling"] = true,
+	["LastVersion"] = 2.0329,
+	["ButtonPosition"] = 2,
+	["ShowLootUpgradeAdvisor"] = true,
+	["ShowQuestUpgradeAdvisor"] = true,
+	["ShowSpecIcons"] = true,
+	["Debug"] = false,
 }

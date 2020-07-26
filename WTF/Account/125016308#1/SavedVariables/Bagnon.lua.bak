@@ -61,11 +61,11 @@ Bagnon_Sets = {
 			["y"] = 82.1728286743164,
 			["x"] = -87.7091064453125,
 			["alpha"] = 1,
-			["borderColor"] = {
-			},
+			["showBags"] = true,
 			["scale"] = 1,
 			["itemScale"] = 1.01,
-			["showBags"] = true,
+			["borderColor"] = {
+			},
 			["point"] = "BOTTOMRIGHT",
 		},
 		["vault"] = {
@@ -180,12 +180,12 @@ Bagnon_Sets = {
 			["y"] = 80.81407165527344,
 			["x"] = 55.30871200561523,
 			["alpha"] = 1,
-			["borderColor"] = {
-			},
+			["showBags"] = true,
 			["scale"] = 1,
 			["itemScale"] = 1,
 			["columns"] = 24,
-			["showBags"] = true,
+			["borderColor"] = {
+			},
 		},
 	},
 	["keyColor"] = {

@@ -8,11 +8,11 @@ HandyNotesDB = {
 		["Fállkèn - Burning Blade"] = "Fállkèn - Burning Blade",
 		["Fàllkên - Drak'thul"] = "Fàllkên - Drak'thul",
 		["Faallken - Drak'thul"] = "Faallken - Drak'thul",
-		["Fallkên - Drak'thul"] = "Fallkên - Drak'thul",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
 		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
 		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
 		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
-		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkên - Drak'thul"] = "Fallkên - Drak'thul",
 		["Fállken - Burning Blade"] = "Fállken - Burning Blade",
 		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
 		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
@@ -43,7 +43,7 @@ HandyNotesDB = {
 		},
 		["Faallken - Drak'thul"] = {
 		},
-		["Fallkên - Drak'thul"] = {
+		["Fállkên - Drak'thul"] = {
 		},
 		["Fàllkèn - Burning Blade"] = {
 		},
@@ -51,7 +51,7 @@ HandyNotesDB = {
 		},
 		["Fållken - Burning Blade"] = {
 		},
-		["Fállkên - Drak'thul"] = {
+		["Fallkên - Drak'thul"] = {
 		},
 		["Fállken - Burning Blade"] = {
 		},
@@ -70,8 +70,8 @@ HandyNotesDB = {
 		["Fällkèn - Drak'thul"] = {
 		},
 		["Fallken - Burning Blade"] = {
-			["icon_alpha_minimap"] = 0,
 			["icon_scale"] = 1.06,
+			["icon_alpha_minimap"] = 0,
 			["icon_scale_minimap"] = 1.04,
 		},
 		["Fàllkèn - Drak'thul"] = {
@@ -95,11 +95,11 @@ HandyNotes_HandyNotesDB = {
 		["Fállkèn - Burning Blade"] = "Fállkèn - Burning Blade",
 		["Fàllkên - Drak'thul"] = "Fàllkên - Drak'thul",
 		["Faallken - Drak'thul"] = "Faallken - Drak'thul",
-		["Fallkên - Drak'thul"] = "Fallkên - Drak'thul",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
 		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
 		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
 		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
-		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkên - Drak'thul"] = "Fallkên - Drak'thul",
 		["Fállken - Burning Blade"] = "Fállken - Burning Blade",
 		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
 		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
@@ -130,7 +130,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Faallken - Drak'thul"] = {
 		},
-		["Fallkên - Drak'thul"] = {
+		["Fállkên - Drak'thul"] = {
 		},
 		["Fàllkèn - Burning Blade"] = {
 		},
@@ -138,7 +138,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Fållken - Burning Blade"] = {
 		},
-		["Fállkên - Drak'thul"] = {
+		["Fallkên - Drak'thul"] = {
 		},
 		["Fállken - Burning Blade"] = {
 		},

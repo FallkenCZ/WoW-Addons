@@ -29,10 +29,10 @@ Gladius2DB = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 			["y"] = {
-				["arena1"] = 489.2446342562398,
+				["arena1"] = 487.8223442548551,
 			},
 			["x"] = {
-				["arena1"] = 930.4886838465609,
+				["arena1"] = 891.3774666209356,
 			},
 		},
 		["Fållkên - Drak'thul"] = {
@@ -118,11 +118,11 @@ Gladius2DB = {
 		["Fallkenez - Drak'thul"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 484.200151967998,
-			},
 			["x"] = {
 				["arena1"] = 971.9110948586167,
+			},
+			["y"] = {
+				["arena1"] = 484.200151967998,
 			},
 		},
 		["Fállkén - Drak'thul"] = {

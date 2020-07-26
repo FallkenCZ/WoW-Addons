@@ -78,6 +78,9 @@ END
 VER 3 000000000000007C "cancelwall" "INV_MISC_QUESTIONMARK"
 /cancelaura Survival Instincts
 END
+VER 3 0000000000000084 "CONSOLE" "INV_MISC_QUESTIONMARK"
+/console scriptErrors 0
+END
 VER 3 000000000000005A "EXTRA " "INV_MISC_QUESTIONMARK"
 /click ExtraActionButton1
 END
@@ -92,22 +95,14 @@ END
 VER 3 0000000000000080 "fishwq2" "INV_MISC_QUESTIONMARK"
 /run o=0 j=1 for i=1,24 do n,_,c,_,_,_,_,q=GetAchievementCriteriaInfo(10598,i) if q==0 then for k=1,#w[j] do o=Q(n,w[j][k]+41596,c) or o end j=j+1 else o=Q(n,q,c) or o end end if o==0 then print('No WQ') end
 END
-VER 3 000000000000007D "focus" "INV_MISC_QUESTIONMARK"
-#showtooltip Solar Beam
-/cast [@focus] Solar Beam
-/cast [@focus] Mass Entanglement
-END
-VER 3 0000000000000076 "focus" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [@focus] Skull Bash
-END
 VER 3 0000000000000074 "focus" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@focus] Mighty Bash
 END
-VER 3 0000000000000078 "focus" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [@focus] Maim
+VER 3 000000000000007D "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip Solar Beam
+/cast [@focus] Solar Beam
+/cast [@focus] Mass Entanglement
 END
 VER 3 0000000000000075 "focus" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -116,6 +111,14 @@ END
 VER 3 0000000000000077 "focus" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@focus] Mighty Bash
+END
+VER 3 0000000000000078 "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Maim
+END
+VER 3 0000000000000076 "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Skull Bash
 END
 VER 3 0000000000000005 "HS" "INV_MISC_QUESTIONMARK"
 #showtooltip Healthstone

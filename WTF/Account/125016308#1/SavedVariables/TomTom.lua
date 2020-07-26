@@ -7,7 +7,7 @@ TomTomDB = {
 		["Fãllkên - Drak'thul"] = "Default",
 		["Fállkèn - Burning Blade"] = "Default",
 		["Fàllkên - Drak'thul"] = "Default",
-		["Fállkên - Drak'thul"] = "Default",
+		["Fallkenji - Burning Blade"] = "Default",
 		["Faallken - Drak'thul"] = "Default",
 		["Fallkenez - Drak'thul"] = "Default",
 		["Fallkenxd - Burning Blade"] = "Default",
@@ -15,7 +15,7 @@ TomTomDB = {
 		["Fàllkèn - Burning Blade"] = "Default",
 		["Gfgdhfdghfgh - Burning Blade"] = "Default",
 		["Fållken - Burning Blade"] = "Default",
-		["Fallkenji - Burning Blade"] = "Default",
+		["Fállkên - Drak'thul"] = "Default",
 		["Fallkenmekac - Burning Blade"] = "Default",
 		["Fallken - Burning Blade"] = "Default",
 		["Fållkên - Drak'thul"] = "Default",
@@ -38,8 +38,8 @@ TomTomDB = {
 					"CENTER", -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					-1.926095962524414, -- [4]
-					140.9747314453125, -- [5]
+					-7.456586837768555, -- [4]
+					137.0242919921875, -- [5]
 				},
 			},
 			["block"] = {
@@ -63,7 +63,7 @@ TomTomWaypointsM = {
 		["Fãllkên - Drak'thul"] = "Fãllkên - Drak'thul",
 		["Fállkèn - Burning Blade"] = "Fállkèn - Burning Blade",
 		["Fàllkên - Drak'thul"] = "Fàllkên - Drak'thul",
-		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
 		["Faallken - Drak'thul"] = "Faallken - Drak'thul",
 		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
 		["Fallkenxd - Burning Blade"] = "Fallkenxd - Burning Blade",
@@ -71,7 +71,7 @@ TomTomWaypointsM = {
 		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
 		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
 		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
-		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
 		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
 		["Fallken - Burning Blade"] = "Fallken - Burning Blade",
 		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
@@ -100,7 +100,7 @@ TomTomWaypointsM = {
 		},
 		["Fàllkên - Drak'thul"] = {
 		},
-		["Fállkên - Drak'thul"] = {
+		["Fallkenji - Burning Blade"] = {
 		},
 		["Faallken - Drak'thul"] = {
 		},
@@ -116,7 +116,7 @@ TomTomWaypointsM = {
 		},
 		["Fållken - Burning Blade"] = {
 		},
-		["Fallkenji - Burning Blade"] = {
+		["Fállkên - Drak'thul"] = {
 		},
 		["Fallkenmekac - Burning Blade"] = {
 		},

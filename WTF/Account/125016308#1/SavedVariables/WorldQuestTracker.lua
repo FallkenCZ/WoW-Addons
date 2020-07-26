@@ -7,7 +7,7 @@ WQTrackerDB = {
 		["Fãllkên - Drak'thul"] = "Default",
 		["Fállkèn - Burning Blade"] = "Default",
 		["Fàllkên - Drak'thul"] = "Default",
-		["Fállkên - Drak'thul"] = "Default",
+		["Fallkenji - Burning Blade"] = "Default",
 		["Faallken - Drak'thul"] = "Default",
 		["Fallkenez - Drak'thul"] = "Default",
 		["Fallkenxd - Burning Blade"] = "Default",
@@ -15,7 +15,7 @@ WQTrackerDB = {
 		["Fàllkèn - Burning Blade"] = "Default",
 		["Gfgdhfdghfgh - Burning Blade"] = "Default",
 		["Fållken - Burning Blade"] = "Default",
-		["Fallkenji - Burning Blade"] = "Default",
+		["Fállkên - Drak'thul"] = "Default",
 		["Fallkenmekac - Burning Blade"] = "Default",
 		["Fallken - Burning Blade"] = "Default",
 		["Fållkên - Drak'thul"] = "Default",
@@ -46,10 +46,10 @@ WQTrackerDB = {
 				[152555] = true,
 				[143536] = true,
 				[152567] = true,
-				[155838] = true,
+				[152397] = true,
 				[154342] = true,
 				[151308] = true,
-				[152397] = true,
+				[155838] = true,
 				[155811] = true,
 				[151719] = true,
 				[150394] = true,
@@ -217,7 +217,7 @@ WQTrackerDB = {
 						0.854, -- [4]
 					},
 				},
-				[1165] = {
+				[14] = {
 					["Enabled"] = true,
 					["YOffset"] = 0,
 					["Alpha"] = 1,
@@ -277,7 +277,7 @@ WQTrackerDB = {
 					["Alpha"] = 1,
 					["YOffset"] = 0,
 				},
-				[862] = {
+				[1165] = {
 					["Enabled"] = true,
 					["YOffset"] = 0,
 					["Alpha"] = 1,
@@ -289,7 +289,7 @@ WQTrackerDB = {
 						0.854, -- [4]
 					},
 				},
-				[14] = {
+				[862] = {
 					["Enabled"] = true,
 					["YOffset"] = 0,
 					["Alpha"] = 1,
@@ -365,7 +365,7 @@ WQTrackerDB = {
 				},
 				["Player-1092-085FF77A"] = {
 				},
-				["Player-1092-085FEC09"] = {
+				["Player-1092-08C83491"] = {
 				},
 				["Player-1092-083EBE40"] = {
 				},
@@ -373,9 +373,9 @@ WQTrackerDB = {
 				},
 				["Player-1092-0844A85F"] = {
 				},
-				["Player-1092-08435D19"] = {
+				["Player-1092-08519548"] = {
 				},
-				["Player-1092-08C83491"] = {
+				["Player-1092-09534788"] = {
 				},
 				["Player-1092-0853AAB6"] = {
 				},
@@ -405,9 +405,9 @@ WQTrackerDB = {
 				},
 				["Player-1092-09534762"] = {
 				},
-				["Player-1092-09534788"] = {
+				["Player-1092-085FEC09"] = {
 				},
-				["Player-1092-08519548"] = {
+				["Player-1092-08435D19"] = {
 				},
 			},
 			["quests_all_characters"] = {
@@ -674,70 +674,20 @@ WQTrackerDB = {
 					},
 				},
 				["Player-1092-09134FA5"] = {
-					[51119] = {
-						["expireAt"] = 1595055651,
-						["rewardAmount"] = 160,
+					[50636] = {
+						["expireAt"] = 1595775641,
+						["rewardAmount"] = 154,
 						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
 					},
-					[55342] = {
-						["expireAt"] = 1595055669,
-						["rewardAmount"] = 184,
+					[51497] = {
+						["expireAt"] = 1595746867,
+						["rewardAmount"] = 173,
 						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
 					},
-					[51180] = {
-						["expireAt"] = 1595084451,
-						["rewardAmount"] = "|cff2292FF415",
-						["rewardTexture"] = "Interface\\ICONS\\INV_Belt_15",
-					},
-					[51428] = {
-						["expireAt"] = 1595055651,
-						["rewardAmount"] = 240,
-						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
-					},
-					[50521] = {
-						["expireAt"] = 1595084469,
+					[50885] = {
+						["expireAt"] = 1595790041,
 						["rewardAmount"] = "|cff2292FF420",
 						["rewardTexture"] = "Interface\\ICONS\\INV_Gauntlets_17",
-					},
-					[52382] = {
-						["expireAt"] = 1595055669,
-						["rewardAmount"] = 179,
-						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
-					},
-					[52923] = {
-						["expireAt"] = 1595055669,
-						["rewardAmount"] = "6",
-						["rewardTexture"] = 1045111,
-					},
-					[50636] = {
-						["expireAt"] = 1595084469,
-						["rewardAmount"] = "|cff2292FF420",
-						["rewardTexture"] = "Interface\\ICONS\\INV_Boots_Cloth_03",
-					},
-					[50547] = {
-						["expireAt"] = 1595055669,
-						["rewardAmount"] = "|cff2292FF415",
-						["rewardTexture"] = "Interface\\ICONS\\INV_Belt_15",
-					},
-					[50568] = {
-						["expireAt"] = 1595055669,
-						["rewardAmount"] = 176,
-						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
-					},
-					[52858] = {
-						["expireAt"] = 1595055669,
-						["rewardAmount"] = "|cff2292FF415",
-						["rewardTexture"] = 2201832,
-					},
-					[51285] = {
-						["expireAt"] = 1595055651,
-						["rewardAmount"] = "|cff2292FF410",
-						["rewardTexture"] = "Interface\\ICONS\\INV_Pants_08",
-					},
-					[52892] = {
-						["expireAt"] = 1595098869,
-						["rewardAmount"] = "4",
-						["rewardTexture"] = 1045105,
 					},
 				},
 				["Player-1092-08435D19"] = {
@@ -778,9 +728,199 @@ WQTrackerDB = {
 					},
 				},
 				["Player-1092-0844A0F9"] = {
-					[50548] = {
-						["expireAt"] = 1595516448,
+					[54267] = {
+						["expireAt"] = 1595746828,
+						["rewardAmount"] = "",
+						["rewardTexture"] = 237368,
+					},
+					[51497] = {
+						["expireAt"] = 1595746822,
+						["rewardAmount"] = 173,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51627] = {
+						["expireAt"] = 1595746842,
+						["rewardAmount"] = "|cff2292FF410",
+						["rewardTexture"] = 2565093,
+					},
+					[52330] = {
+						["expireAt"] = 1595746842,
+						["rewardAmount"] = 353,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51198] = {
+						["expireAt"] = 1595804422,
+						["rewardAmount"] = 175,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[50885] = {
+						["expireAt"] = 1595790082,
+						["rewardAmount"] = "|cff2292FF420",
+						["rewardTexture"] = "Interface\\ICONS\\INV_Gauntlets_17",
+					},
+					[56057] = {
+						["expireAt"] = 1596006088,
+						["rewardAmount"] = 750,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51586] = {
+						["expireAt"] = 1595746852,
+						["rewardAmount"] = 244,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51659] = {
+						["expireAt"] = 1595746852,
+						["rewardAmount"] = "|cff2292FF410",
+						["rewardTexture"] = "Interface\\ICONS\\INV_Pants_08",
+					},
+					[50529] = {
+						["expireAt"] = 1595746888,
+						["rewardAmount"] = "|cff2292FF410",
+						["rewardTexture"] = "Interface\\ICONS\\INV_Jewelry_Ring_22",
+					},
+					[52864] = {
+						["expireAt"] = 1595746882,
+						["rewardAmount"] = "19",
+						["rewardTexture"] = 133675,
+					},
+					[47704] = {
+						["expireAt"] = 1595775622,
+						["rewardAmount"] = 179,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[52874] = {
+						["expireAt"] = 1595746852,
 						["rewardAmount"] = "|cff2292FF415",
+						["rewardTexture"] = 2201832,
+					},
+					[51433] = {
+						["expireAt"] = 1595790042,
+						["rewardAmount"] = 371,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[50496] = {
+						["expireAt"] = 1595790088,
+						["rewardAmount"] = "|cff2292FF415",
+						["rewardTexture"] = "Interface\\ICONS\\INV_Jewelry_Ring_22",
+					},
+					[52325] = {
+						["expireAt"] = 1595746902,
+						["rewardAmount"] = "1",
+						["rewardTexture"] = 667492,
+					},
+					[43192] = {
+						["expireAt"] = 1596006111,
+						["rewardAmount"] = "110",
+						["rewardTexture"] = 840008,
+					},
+					[44895] = {
+						["expireAt"] = 1595790111,
+						["rewardAmount"] = "|cffc557FF184",
+						["rewardTexture"] = "Interface\\ICONS\\INV_Helmet_29",
+					},
+					[52371] = {
+						["expireAt"] = 1595746822,
+						["rewardAmount"] = "5",
+						["rewardTexture"] = 2065568,
+					},
+					[50652] = {
+						["expireAt"] = 1595804422,
+						["rewardAmount"] = 189,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[50636] = {
+						["expireAt"] = 1595775622,
+						["rewardAmount"] = 154,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[52455] = {
+						["expireAt"] = 1595790112,
+						["rewardAmount"] = "4",
+						["rewardTexture"] = 1045113,
+					},
+					[55302] = {
+						["expireAt"] = 1595746888,
+						["rewardAmount"] = 198,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51893] = {
+						["expireAt"] = 1595790052,
+						["rewardAmount"] = 261,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51542] = {
+						["expireAt"] = 1595790042,
+						["rewardAmount"] = "|cff2292FF415",
+						["rewardTexture"] = "Interface\\ICONS\\INV_Jewelry_Ring_22",
+					},
+					[50515] = {
+						["expireAt"] = 1595746888,
+						["rewardAmount"] = 184,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[50648] = {
+						["expireAt"] = 1595804488,
+						["rewardAmount"] = 171,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[58746] = {
+						["expireAt"] = 1595746832,
+						["rewardAmount"] = "6",
+						["rewardTexture"] = 1045111,
+					},
+					[51156] = {
+						["expireAt"] = 1595746882,
+						["rewardAmount"] = 319,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[50717] = {
+						["expireAt"] = 1595775688,
+						["rewardAmount"] = 189,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[58705] = {
+						["expireAt"] = 1596006092,
+						["rewardAmount"] = 750,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[51792] = {
+						["expireAt"] = 1595746822,
+						["rewardAmount"] = "|cff2292FF410",
+						["rewardTexture"] = "Interface\\ICONS\\INV_Jewelry_Ring_22",
+					},
+					[50975] = {
+						["expireAt"] = 1595746882,
+						["rewardAmount"] = 227,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[54190] = {
+						["expireAt"] = 1595746842,
+						["rewardAmount"] = "|cff2292FF410",
+						["rewardTexture"] = "Interface\\ICONS\\INV_Jewelry_Talisman_07",
+					},
+					[52199] = {
+						["expireAt"] = 1595746842,
+						["rewardAmount"] = 230,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[52871] = {
+						["expireAt"] = 1595746842,
+						["rewardAmount"] = "|cff2292FF415",
+						["rewardTexture"] = 2201832,
+					},
+					[52117] = {
+						["expireAt"] = 1595746842,
+						["rewardAmount"] = "|cff2292FF415",
+						["rewardTexture"] = "Interface\\ICONS\\INV_Pants_08",
+					},
+					[52875] = {
+						["expireAt"] = 1595746882,
+						["rewardAmount"] = 249,
+						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+					},
+					[42240] = {
+						["expireAt"] = 1595833251,
+						["rewardAmount"] = "|cffc557FF182",
 						["rewardTexture"] = "Interface\\ICONS\\INV_Jewelry_Talisman_07",
 					},
 				},
@@ -795,15 +935,15 @@ WQTrackerDB = {
 						["rewardAmount"] = 240,
 						["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
 					},
-					[51285] = {
-						["expireAt"] = 1595055662,
-						["rewardAmount"] = "|cff2292FF325",
-						["rewardTexture"] = "Interface\\ICONS\\INV_Pants_08",
-					},
 					[51180] = {
 						["expireAt"] = 1595084462,
 						["rewardAmount"] = "|cff2292FF330",
 						["rewardTexture"] = "Interface\\ICONS\\INV_Belt_15",
+					},
+					[51285] = {
+						["expireAt"] = 1595055662,
+						["rewardAmount"] = "|cff2292FF325",
+						["rewardTexture"] = "Interface\\ICONS\\INV_Pants_08",
 					},
 				},
 				["Player-1092-08435D1F"] = {
@@ -1045,13 +1185,13 @@ WQTrackerDB = {
 						["rewardAmount"] = "18",
 						["rewardTexture"] = 413584,
 					},
-					[46948] = {
-						["expireAt"] = 1589958068,
+					[43513] = {
+						["expireAt"] = 1589958099,
 						["rewardAmount"] = "110",
 						["rewardTexture"] = 840008,
 					},
-					[43513] = {
-						["expireAt"] = 1589958099,
+					[46948] = {
+						["expireAt"] = 1589958068,
 						["rewardAmount"] = "110",
 						["rewardTexture"] = 840008,
 					},
@@ -1060,15 +1200,15 @@ WQTrackerDB = {
 						["rewardAmount"] = "|cffc557FF184",
 						["rewardTexture"] = "Interface\\ICONS\\INV_Boots_Cloth_03",
 					},
-					[44893] = {
-						["expireAt"] = 1589828468,
-						["rewardAmount"] = "|cffc557FF184",
-						["rewardTexture"] = "Interface\\ICONS\\INV_Jewelry_Ring_22",
-					},
 					[43963] = {
 						["expireAt"] = 1589785268,
 						["rewardAmount"] = "|cffc557FF182",
 						["rewardTexture"] = "Interface\\ICONS\\inv_misc_enchantedpearlE",
+					},
+					[44893] = {
+						["expireAt"] = 1589828468,
+						["rewardAmount"] = "|cffc557FF184",
+						["rewardTexture"] = "Interface\\ICONS\\INV_Jewelry_Ring_22",
 					},
 					[46113] = {
 						["expireAt"] = 1589785268,
@@ -1125,9 +1265,9 @@ WQTrackerDB = {
 					["name"] = "Fàllkèn",
 					["realm"] = "Burning Blade",
 				},
-				["Player-1092-085FEC09"] = {
-					["class"] = "DRUID",
-					["name"] = "Fâllken",
+				["Player-1092-08C83491"] = {
+					["class"] = "HUNTER",
+					["name"] = "Fãllkên",
 					["realm"] = "Drak'thul",
 				},
 				["Player-1092-083EBE40"] = {
@@ -1145,15 +1285,15 @@ WQTrackerDB = {
 					["name"] = "Fállken",
 					["realm"] = "Burning Blade",
 				},
-				["Player-1092-08435D19"] = {
-					["class"] = "HUNTER",
-					["name"] = "Fàllkên",
+				["Player-1092-08519548"] = {
+					["class"] = "DEMONHUNTER",
+					["name"] = "Fállkên",
 					["realm"] = "Drak'thul",
 				},
-				["Player-1092-08C83491"] = {
-					["class"] = "HUNTER",
-					["name"] = "Fãllkên",
-					["realm"] = "Drak'thul",
+				["Player-1092-09534788"] = {
+					["class"] = "MAGE",
+					["name"] = "Fallkenmekac",
+					["realm"] = "Burning Blade",
 				},
 				["Player-1092-0853AAB6"] = {
 					["class"] = "WARLOCK",
@@ -1225,18 +1365,72 @@ WQTrackerDB = {
 					["name"] = "Fallkenfurry",
 					["realm"] = "Drak'thul",
 				},
-				["Player-1092-09534788"] = {
-					["class"] = "MAGE",
-					["name"] = "Fallkenmekac",
-					["realm"] = "Burning Blade",
+				["Player-1092-085FEC09"] = {
+					["class"] = "DRUID",
+					["name"] = "Fâllken",
+					["realm"] = "Drak'thul",
 				},
-				["Player-1092-08519548"] = {
-					["class"] = "DEMONHUNTER",
-					["name"] = "Fállkên",
+				["Player-1092-08435D19"] = {
+					["class"] = "HUNTER",
+					["name"] = "Fàllkên",
 					["realm"] = "Drak'thul",
 				},
 			},
 			["rarescan"] = {
+				["recently_spotted"] = {
+					[141616] = {
+						1595719019, -- [1]
+						14, -- [2]
+						0.4873634576797485, -- [3]
+						0.422227144241333, -- [4]
+						"Creature-0-0000-0000-00000-141616-0000000000", -- [5]
+						"Donnernder Goliath", -- [6]
+						"Reggie", -- [7]
+						1595719018, -- [8]
+					},
+				},
+				["search_group"] = false,
+				["recently_killed"] = {
+					["Player-1092-083EBE44"] = {
+					},
+					["Player-1092-08FB7BF1"] = {
+					},
+					["Player-1092-085E9727"] = {
+					},
+					["Player-1092-08435D17"] = {
+					},
+					["Player-1092-08435D1F"] = {
+					},
+					["Player-1092-083EBE40"] = {
+					},
+					["Player-1092-0844A85F"] = {
+					},
+					["Player-1092-08519548"] = {
+					},
+					["Player-1092-09534788"] = {
+					},
+					["Player-1092-0853AAB6"] = {
+					},
+					["Player-1092-0852EA51"] = {
+					},
+					["Player-1092-0844A864"] = {
+					},
+					["Player-1092-09134FA5"] = {
+					},
+					["Player-1092-0844A0F9"] = {
+						[151933] = 1595746799,
+						[151934] = 1595746799,
+						[151202] = 1595746799,
+					},
+					["Player-1092-085FEC09"] = {
+					},
+					["Player-1092-08435D19"] = {
+					},
+					["Player-1092-0785C182"] = {
+					},
+					["Player-1092-085FF5F9"] = {
+					},
+				},
 				["name_cache"] = {
 					[""] = 125820,
 					["Mondpriesterin Liara"] = 152729,
@@ -1341,6 +1535,7 @@ WQTrackerDB = {
 					["Ältester Unu"] = 152414,
 					["Donnernder Goliath"] = 141616,
 					["Ishak von den Vier Winden"] = 157134,
+					["Quiebramundos Skuul"] = 127118,
 					["Herald of Chaos"] = 126896,
 					["Ombra'jin"] = 122004,
 					["Ataxon"] = 126887,
@@ -1408,136 +1603,137 @@ WQTrackerDB = {
 					["Дюнный пожиратель Краулок"] = 138794,
 					["Terreur de la grotte sombre"] = 152464,
 					["Wekemara"] = 152671,
+					["Inquisitore Vethroz"] = 126946,
 					["Goldenvein"] = 140769,
 					["Надзирательница И'Морна"] = 125498,
 					["Weltenspalter Skuul"] = 127118,
-					["Inquisitore Vethroz"] = 126946,
-					["Головокуска"] = 142437,
+					["Messager Vor'zzyx"] = 138569,
 					["Khazaduum"] = 125824,
-					["Shuk'shuguun the Subjugator"] = 138568,
+					["Головокуска"] = 142437,
 					["Skreeg le Dévoreur"] = 126912,
+					["Shuk'shuguun the Subjugator"] = 138568,
 					["Sandskitter the Relentless"] = 134768,
+					["Подчинительница Тьмы Атисса"] = 155841,
 					["Ta'kil the Resonator"] = 138842,
 					["Чемпион джед'хин Воруск"] = 126899,
 					["Siegemaster Voraan"] = 120393,
 					["Vincolaombre Athissa"] = 155841,
-					["Подчинительница Тьмы Атисса"] = 155841,
 					["Shoth the Darkened"] = 160532,
 					["Frostscale Broodmother"] = 132746,
 					["Атаксон"] = 126887,
 					["Onu"] = 147758,
+					["Grand Master Ulrich"] = 146850,
 					["Golrakahn"] = 124185,
 					["Rei Lun"] = 157162,
 					["Zillie Wunderwrench"] = 148862,
 					["Chief Alchemist Munculus"] = 127376,
-					["Варга"] = 126208,
-					["Seuchenfeder"] = 142435,
 					["Полководец Залзджар"] = 155840,
+					["Seuchenfeder"] = 142435,
+					["Шиз'нараж Поглотитель"] = 153658,
 					["Vigilant Kuro"] = 126866,
-					["Soultwisted Monstrosity"] = 126815,
-					["Swampgas"] = 135839,
-					["Incantatrix Vazina"] = 155838,
-					["Brennender Goliath"] = 141615,
+					["Stella Darkpaw"] = 146854,
 					["Señor de la cólera Yarez"] = 126338,
+					["Incantatrix Vazina"] = 155838,
+					["Shiz'narasz il Consumatore"] = 153658,
+					["Swampgas"] = 135839,
 					["Plaguefeather"] = 142435,
 					["Obsidian Annihilator"] = 162196,
-					["Shiz'narasz il Consumatore"] = 153658,
-					["Príncipe Typhonus"] = 152681,
+					["Brennender Goliath"] = 141615,
+					["Saulicorne"] = 152567,
 					["Wrangler Kravos"] = 126852,
 					["Ha-Li"] = 157153,
 					["Gardien Tannin"] = 152736,
 					["Stormhowl"] = 157279,
-					["Stella Darkpaw"] = 146854,
-					["Волшебница Нитара"] = 155836,
 					["Vrax'thul"] = 126199,
+					["Волшебница Нитара"] = 155836,
 					["Мертведица"] = 142440,
-					["Blutstrom"] = 136050,
 					["Wächter Tannin"] = 152736,
+					["Blutstrom"] = 136050,
+					["Tar Spitter"] = 125479,
 					["Wall-Breaker Ha'vik"] = 139538,
 					["Gar'zoth"] = 122999,
-					["Vilegaze Petrifier"] = 134821,
-					["Молок Сокрушитель"] = 141942,
-					["Kelpwillow"] = 152567,
-					["Skreeg the Devourer"] = 126912,
 					["Warbringer Yenajz"] = 140163,
 					["Caravan Commander Veronica"] = 148676,
-					["Осадный мастер Вораан"] = 120393,
+					["Kelpwillow"] = 152567,
+					["Skreeg the Devourer"] = 126912,
+					["Vilegaze Petrifier"] = 134821,
 					["Abyss Crawler"] = 134798,
-					["Zweigfürst Aldrus"] = 142508,
+					["Осадный мастер Вораан"] = 120393,
 					["Signore dell'Ira Yarez"] = 126338,
-					["Gigante Rocciaviva"] = 140760,
+					["Zweigfürst Aldrus"] = 142508,
 					["Ядомар"] = 142438,
+					["Gigante Rocciaviva"] = 140760,
 					["Worldsplitter Skuul"] = 127118,
+					["Mutineer Jalia"] = 139759,
 					["Крэггл Головодерг"] = 158284,
-					["Ragebeak"] = 142436,
-					["Earthliving Giant"] = 140760,
 					["All-Seer Xanarian"] = 127096,
-					["Sorolis the Ill-Fated"] = 126889,
+					["Ragebeak"] = 142436,
 					["Skycrack"] = 139486,
+					["Sorolis the Ill-Fated"] = 126889,
+					["Inquisitor Vethroz"] = 126946,
 					["High Warlord Volrath"] = 143536,
 					["Искатель Глубин"] = 139675,
 					["Echo of Myzrael"] = 141668,
-					["Goliath fulminant"] = 141616,
 					["Overseer Y'Beda"] = 124440,
-					["Arachnoid Harvester"] = 154342,
-					["Thunderhawk Devourer"] = 140359,
-					["Baron Blazehollow"] = 135929,
+					["Líder alado Srak'ik"] = 138843,
+					["Arachnoid Harvester"] = 151934,
 					["Moon Priestess Liara"] = 152729,
+					["Baron Blazehollow"] = 135929,
 					["Burning Goliath"] = 141615,
+					["Старейшина Уну"] = 152414,
 					["Язвоглот"] = 122958,
-					["Ancestro Unu"] = 152414,
-					["Turek the Lucid"] = 126868,
 					["Manifestation infâme"] = 151202,
+					["Turek the Lucid"] = 126868,
 					["Яроклюв"] = 142436,
-					["Grizzwald"] = 148860,
+					["Goliath ardent"] = 141615,
 					["Flamescale Wavebreaker"] = 132743,
+					["Venimarus"] = 142438,
 					["Кристальный великан"] = 132879,
 					["Zandalari Warbringer"] = 69841,
 					["Принц Тайфуний"] = 152681,
 					["Kaara the Pale"] = 126860,
-					["Venimarus"] = 142438,
 					["Island Ettin"] = 132913,
 					["Oronu"] = 152397,
 					["Venenomarus"] = 142438,
 					["Overseer Y'Sorna"] = 125497,
-					["General Drakkarion"] = 138504,
 					["The Many-Faced Devourer"] = 127581,
+					["General Drakkarion"] = 138504,
+					["Grizzwald"] = 148860,
 					["Theurgist Nitara"] = 155836,
-					["Goliath ardent"] = 141615,
 					["Неисправный гориллобот"] = 151933,
+					["Ancestro Unu"] = 152414,
 					["Островной эттин"] = 132913,
-					["Старейшина Уну"] = 152414,
-					["Armored Vaultbot"] = 154968,
+					["Armored Vaultbot"] = 150394,
+					["Thunderhawk Devourer"] = 140359,
 					["Sister Subversia"] = 123464,
 					["Warlord Zalzjar"] = 155840,
-					["Líder alado Srak'ik"] = 138843,
+					["Goliath fulminant"] = 141616,
 					["Matriarche Nas'naya"] = 146871,
 					["Goliath déferlant"] = 141618,
 					["Houndmaster Angvold"] = 146883,
-					["Inquisitor Vethroz"] = 126946,
+					["Earthliving Giant"] = 140760,
 					["Overseer Y'Morna"] = 125498,
 					["Mechagonian Nullifier"] = 151124,
 					["Ishak de los Cuatro Vientos"] = 157134,
-					["Mutineer Jalia"] = 139759,
 					["Танцующий с клинками Зорлак"] = 138848,
 					["Voice in the Deeps"] = 151719,
 					["Sabuul"] = 126898,
+					["Молок Сокрушитель"] = 141942,
 					["Zul'tan the Numerous"] = 126908,
 					["Rumbling Goliath"] = 141620,
 					["Gigante cristalino"] = 132879,
 					["Вестник войны Йенаж"] = 140163,
 					["Яд'орн"] = 126115,
-					["Tar Spitter"] = 125479,
 					["Varga"] = 126208,
 					["Skuul le Pourfendeur"] = 127118,
 					["Жрица луны Лиара"] = 152729,
+					["Príncipe Typhonus"] = 152681,
 					["Herold Razzaqi"] = 138570,
-					["Saulicorne"] = 152567,
+					["Soultwisted Monstrosity"] = 126815,
 					["Mistress Il'thendra"] = 122947,
-					["Шиз'нараж Поглотитель"] = 153658,
+					["Варга"] = 126208,
 					["Ядовитый небесный скат"] = 126867,
 					["Бронированный сейфобот"] = 150394,
-					["Grand Master Ulrich"] = 146850,
 					["Ji'arak"] = 132253,
 					["Tereck the Selector"] = 124804,
 					["Гар'зот"] = 122999,
@@ -1545,48 +1741,10 @@ WQTrackerDB = {
 					["Seigneur du courroux Yarez"] = 126338,
 					["Arrache-Crâne"] = 142437,
 					["Quakestomp the Rumbler"] = 135959,
-					["Гнусноструй"] = 151202,
 					["Surveillante Y'Beda"] = 124440,
+					["Гнусноструй"] = 151202,
+					["Omnividente Xanarian"] = 127096,
 					["Üble Manifestation"] = 151202,
-				},
-				["search_group"] = false,
-				["recently_killed"] = {
-					["Player-1092-083EBE44"] = {
-					},
-					["Player-1092-08FB7BF1"] = {
-					},
-					["Player-1092-085E9727"] = {
-					},
-					["Player-1092-08435D17"] = {
-					},
-					["Player-1092-08435D1F"] = {
-					},
-					["Player-1092-083EBE40"] = {
-					},
-					["Player-1092-0844A85F"] = {
-					},
-					["Player-1092-08519548"] = {
-					},
-					["Player-1092-09534788"] = {
-					},
-					["Player-1092-0853AAB6"] = {
-					},
-					["Player-1092-0852EA51"] = {
-					},
-					["Player-1092-0844A864"] = {
-					},
-					["Player-1092-09134FA5"] = {
-					},
-					["Player-1092-0844A0F9"] = {
-					},
-					["Player-1092-085FEC09"] = {
-					},
-					["Player-1092-08435D19"] = {
-					},
-					["Player-1092-0785C182"] = {
-					},
-					["Player-1092-085FF5F9"] = {
-					},
 				},
 			},
 			["history"] = {
@@ -1691,6 +1849,11 @@ WQTrackerDB = {
 							["profession"] = {
 								[152668] = 1,
 							},
+						},
+						["200724"] = {
+							["artifact"] = 3500,
+							["quest"] = 3,
+							["resource"] = 3500,
 						},
 						["200310"] = {
 							["quest"] = 13,
@@ -1929,6 +2092,16 @@ WQTrackerDB = {
 							["quest"] = 5,
 							["resource"] = 3750,
 						},
+						["200715"] = {
+							["resource"] = 114,
+							["quest"] = 10,
+							["gold"] = 1799700,
+						},
+						["200627"] = {
+							["resource"] = 241,
+							["quest"] = 19,
+							["gold"] = 1769800,
+						},
 						["200318"] = {
 							["artifact"] = 750,
 							["resource"] = 1003,
@@ -1940,15 +2113,16 @@ WQTrackerDB = {
 							["resource"] = 545,
 							["quest"] = 3,
 						},
-						["200715"] = {
-							["resource"] = 114,
-							["quest"] = 10,
-							["gold"] = 1799700,
+						["200531"] = {
+							["artifact"] = 1370,
+							["resource"] = 1778,
+							["quest"] = 33,
+							["gold"] = 1680800,
 						},
-						["200627"] = {
-							["resource"] = 241,
-							["quest"] = 19,
-							["gold"] = 1769800,
+						["200419"] = {
+							["quest"] = 27,
+							["resource"] = 305,
+							["gold"] = 3785200,
 						},
 						["200408"] = {
 							["quest"] = 24,
@@ -1961,11 +2135,10 @@ WQTrackerDB = {
 							["resource"] = 5146,
 							["gold"] = 7721800,
 						},
-						["200531"] = {
-							["artifact"] = 1370,
-							["resource"] = 1778,
-							["quest"] = 33,
-							["gold"] = 1680800,
+						["200620"] = {
+							["artifact"] = 224,
+							["quest"] = 14,
+							["resource"] = 224,
 						},
 						["200423"] = {
 							["resource"] = 487,
@@ -1998,25 +2171,15 @@ WQTrackerDB = {
 							["quest"] = 12,
 							["gold"] = 913400,
 						},
-						["200605"] = {
-							["quest"] = 14,
-							["resource"] = 1500,
-						},
 						["200119"] = {
 							["artifact"] = 4192,
 							["quest"] = 44,
 							["resource"] = 6075,
 							["gold"] = 7119400,
 						},
-						["200620"] = {
-							["artifact"] = 224,
+						["200605"] = {
 							["quest"] = 14,
-							["resource"] = 224,
-						},
-						["200216"] = {
-							["quest"] = 20,
-							["resource"] = 202,
-							["gold"] = 3461000,
+							["resource"] = 1500,
 						},
 						["200520"] = {
 							["resource"] = 356,
@@ -2034,11 +2197,10 @@ WQTrackerDB = {
 							["resource"] = 374,
 							["gold"] = 1343200,
 						},
-						["200701"] = {
-							["artifact"] = 623,
-							["resource"] = 698,
-							["quest"] = 7,
-							["gold"] = 1333500,
+						["200518"] = {
+							["quest"] = 24,
+							["resource"] = 2039,
+							["gold"] = 3375500,
 						},
 						["200521"] = {
 							["artifact"] = 372,
@@ -2046,10 +2208,24 @@ WQTrackerDB = {
 							["quest"] = 35,
 							["gold"] = 2138800,
 						},
-						["200518"] = {
-							["quest"] = 24,
-							["resource"] = 2039,
-							["gold"] = 3375500,
+						["200701"] = {
+							["artifact"] = 623,
+							["resource"] = 698,
+							["quest"] = 7,
+							["gold"] = 1333500,
+						},
+						["200106"] = {
+							["quest"] = 14,
+							["resource"] = 1291,
+							["gold"] = 26087200,
+						},
+						["200517"] = {
+							["artifact"] = 3996,
+							["quest"] = 27,
+							["resource"] = 5953,
+							["profession"] = {
+								[152668] = 1,
+							},
 						},
 						["200221"] = {
 							["artifact"] = 1876,
@@ -2057,10 +2233,11 @@ WQTrackerDB = {
 							["quest"] = 24,
 							["gold"] = 7524000,
 						},
-						["200106"] = {
-							["quest"] = 14,
-							["resource"] = 1291,
-							["gold"] = 26087200,
+						["200527"] = {
+							["artifact"] = 2713,
+							["quest"] = 63,
+							["resource"] = 3373,
+							["gold"] = 8202000,
 						},
 						["200327"] = {
 							["quest"] = 20,
@@ -2073,13 +2250,10 @@ WQTrackerDB = {
 							["resource"] = 745,
 							["gold"] = 6302100,
 						},
-						["200517"] = {
-							["artifact"] = 3996,
-							["quest"] = 27,
-							["resource"] = 5953,
-							["profession"] = {
-								[152668] = 1,
-							},
+						["200417"] = {
+							["resource"] = 58,
+							["quest"] = 7,
+							["gold"] = 1128800,
 						},
 						["200131"] = {
 							["artifact"] = 3473,
@@ -2112,36 +2286,39 @@ WQTrackerDB = {
 							["resource"] = 362,
 							["gold"] = 2594000,
 						},
-						["200527"] = {
-							["artifact"] = 2713,
-							["quest"] = 63,
-							["resource"] = 3373,
-							["gold"] = 8202000,
-						},
-						["200417"] = {
-							["resource"] = 58,
-							["quest"] = 7,
-							["gold"] = 1128800,
-						},
 						["200502"] = {
 							["quest"] = 18,
-						},
-						["200503"] = {
-							["quest"] = 3,
-							["profession"] = {
-								[152668] = 2,
-							},
-						},
-						["200420"] = {
-							["quest"] = 13,
-							["resource"] = 134,
-							["gold"] = 1066100,
 						},
 						["200320"] = {
 							["artifact"] = 175,
 							["resource"] = 320,
 							["quest"] = 14,
 							["gold"] = 1657900,
+						},
+						["200328"] = {
+							["artifact"] = 3500,
+							["resource"] = 4125,
+							["quest"] = 18,
+							["gold"] = 3681000,
+						},
+						["200208"] = {
+							["artifact"] = 1060,
+							["resource"] = 1655,
+							["profession"] = {
+								[152668] = 1,
+							},
+							["quest"] = 21,
+							["gold"] = 1848300,
+						},
+						["200420"] = {
+							["quest"] = 13,
+							["resource"] = 134,
+							["gold"] = 1066100,
+						},
+						["200309"] = {
+							["quest"] = 14,
+							["resource"] = 369,
+							["gold"] = 2745400,
 						},
 						["200307"] = {
 							["resource"] = 119,
@@ -2154,11 +2331,9 @@ WQTrackerDB = {
 							["resource"] = 402,
 							["gold"] = 2009100,
 						},
-						["200328"] = {
-							["artifact"] = 3500,
-							["resource"] = 4125,
-							["quest"] = 18,
-							["gold"] = 3681000,
+						["200504"] = {
+							["quest"] = 26,
+							["resource"] = 250,
 						},
 						["200525"] = {
 							["quest"] = 14,
@@ -2182,14 +2357,15 @@ WQTrackerDB = {
 							["quest"] = 14,
 							["resource"] = 199,
 						},
-						["200427"] = {
-							["resource"] = 242,
-							["quest"] = 25,
-							["gold"] = 4282900,
+						["200402"] = {
+							["resource"] = 1006,
+							["quest"] = 18,
+							["gold"] = 2245600,
 						},
-						["200504"] = {
-							["quest"] = 26,
-							["resource"] = 250,
+						["200416"] = {
+							["resource"] = 98,
+							["quest"] = 11,
+							["gold"] = 1343900,
 						},
 						["200522"] = {
 							["artifact"] = 3500,
@@ -2197,20 +2373,20 @@ WQTrackerDB = {
 							["quest"] = 24,
 							["gold"] = 1631200,
 						},
-						["200402"] = {
-							["resource"] = 1006,
-							["quest"] = 18,
-							["gold"] = 2245600,
+						["200601"] = {
+							["quest"] = 23,
+							["resource"] = 711,
+							["gold"] = 7153500,
 						},
 						["191029"] = {
 							["artifact"] = 4544,
 							["resource"] = 5669,
 							["quest"] = 23,
 						},
-						["200416"] = {
-							["resource"] = 98,
-							["quest"] = 11,
-							["gold"] = 1343900,
+						["200613"] = {
+							["resource"] = 217,
+							["quest"] = 18,
+							["gold"] = 1342500,
 						},
 						["200202"] = {
 							["artifact"] = 910,
@@ -2218,20 +2394,20 @@ WQTrackerDB = {
 							["resource"] = 1140,
 							["gold"] = 1584500,
 						},
-						["200601"] = {
-							["quest"] = 23,
-							["resource"] = 711,
-							["gold"] = 7153500,
+						["191011"] = {
+							["artifact"] = 4319,
+							["quest"] = 26,
+							["resource"] = 6664,
+							["gold"] = 2897800,
 						},
 						["200218"] = {
 							["quest"] = 14,
 							["resource"] = 119,
 							["gold"] = 1645500,
 						},
-						["200613"] = {
-							["resource"] = 217,
-							["quest"] = 18,
-							["gold"] = 1342500,
+						["200607"] = {
+							["quest"] = 14,
+							["resource"] = 215,
 						},
 						["191026"] = {
 							["artifact"] = 781,
@@ -2239,30 +2415,14 @@ WQTrackerDB = {
 							["resource"] = 921,
 							["gold"] = 3587300,
 						},
-						["191021"] = {
-							["quest"] = 5,
-							["resource"] = 1698,
-						},
-						["200607"] = {
-							["quest"] = 14,
-							["resource"] = 215,
-						},
-						["191011"] = {
-							["artifact"] = 4319,
-							["quest"] = 26,
-							["resource"] = 6664,
-							["gold"] = 2897800,
-						},
-						["200331"] = {
-							["artifact"] = 469,
-							["quest"] = 20,
-							["resource"] = 606,
-							["gold"] = 6296400,
-						},
 						["200407"] = {
 							["artifact"] = 3500,
 							["resource"] = 3592,
 							["quest"] = 14,
+						},
+						["191021"] = {
+							["quest"] = 5,
+							["resource"] = 1698,
 						},
 						["200329"] = {
 							["artifact"] = 3500,
@@ -2273,10 +2433,27 @@ WQTrackerDB = {
 							["quest"] = 16,
 							["gold"] = 1813000,
 						},
+						["200331"] = {
+							["artifact"] = 469,
+							["quest"] = 20,
+							["resource"] = 606,
+							["gold"] = 6296400,
+						},
 						["200702"] = {
 							["resource"] = 110,
 							["quest"] = 12,
 							["gold"] = 4791100,
+						},
+						["200315"] = {
+							["resource"] = 553,
+							["quest"] = 21,
+							["gold"] = 2423900,
+						},
+						["200201"] = {
+							["artifact"] = 8806,
+							["quest"] = 85,
+							["resource"] = 13349,
+							["gold"] = 12213700,
 						},
 						["200214"] = {
 							["resource"] = 153,
@@ -2294,22 +2471,18 @@ WQTrackerDB = {
 							["resource"] = 355,
 							["gold"] = 1297800,
 						},
-						["200201"] = {
-							["artifact"] = 8806,
-							["quest"] = 85,
-							["resource"] = 13349,
-							["gold"] = 12213700,
+						["200224"] = {
+							["artifact"] = 616,
+							["quest"] = 22,
+							["resource"] = 1378,
+							["gold"] = 4587000,
 						},
-						["200315"] = {
-							["resource"] = 553,
-							["quest"] = 21,
-							["gold"] = 2423900,
+						["200603"] = {
+							["quest"] = 38,
+							["resource"] = 750,
 						},
-						["200410"] = {
-							["artifact"] = 682,
-							["quest"] = 15,
-							["resource"] = 1059,
-							["gold"] = 1392900,
+						["200508"] = {
+							["quest"] = 14,
 						},
 						["200220"] = {
 							["quest"] = 14,
@@ -2332,9 +2505,16 @@ WQTrackerDB = {
 							["resource"] = 790,
 							["gold"] = 2980600,
 						},
-						["200603"] = {
-							["quest"] = 38,
-							["resource"] = 750,
+						["200410"] = {
+							["artifact"] = 682,
+							["quest"] = 15,
+							["resource"] = 1059,
+							["gold"] = 1392900,
+						},
+						["191210"] = {
+							["artifact"] = 4435,
+							["quest"] = 5,
+							["resource"] = 4685,
 						},
 						["200107"] = {
 							["artifact"] = 900,
@@ -2342,57 +2522,49 @@ WQTrackerDB = {
 							["resource"] = 1343,
 							["gold"] = 3274300,
 						},
-						["200508"] = {
-							["quest"] = 14,
-						},
-						["200703"] = {
-							["artifact"] = 174,
-							["quest"] = 1,
-							["resource"] = 174,
+						["200311"] = {
+							["artifact"] = 750,
+							["quest"] = 10,
+							["resource"] = 859,
+							["gold"] = 4442000,
 						},
 						["200330"] = {
 							["resource"] = 177,
 							["quest"] = 14,
 							["gold"] = 747000,
 						},
-						["191210"] = {
-							["artifact"] = 4435,
-							["quest"] = 5,
-							["resource"] = 4685,
+						["200703"] = {
+							["artifact"] = 174,
+							["quest"] = 1,
+							["resource"] = 174,
 						},
-						["200616"] = {
-							["artifact"] = 261,
-							["resource"] = 1911,
-							["quest"] = 16,
+						["200117"] = {
+							["artifact"] = 2704,
+							["resource"] = 4705,
+							["quest"] = 33,
+							["gold"] = 1569200,
 						},
-						["200606"] = {
-							["quest"] = 30,
-							["resource"] = 176,
+						["200215"] = {
+							["resource"] = 128,
+							["quest"] = 14,
+							["gold"] = 1452000,
 						},
 						["200303"] = {
 							["resource"] = 131,
 							["quest"] = 13,
 							["gold"] = 868900,
 						},
+						["200725"] = {
+							["quest"] = 2,
+							["resource"] = 20,
+						},
+						["200723"] = {
+							["quest"] = 2,
+						},
 						["200717"] = {
 							["artifact"] = 1500,
 							["resource"] = 3750,
 							["quest"] = 5,
-						},
-						["200304"] = {
-							["artifact"] = 178,
-							["resource"] = 2024,
-							["gold"] = 3221700,
-							["quest"] = 24,
-							["profession"] = {
-								[0] = 1,
-							},
-						},
-						["200311"] = {
-							["artifact"] = 750,
-							["quest"] = 10,
-							["resource"] = 859,
-							["gold"] = 4442000,
 						},
 						["200625"] = {
 							["artifact"] = 202,
@@ -2400,11 +2572,11 @@ WQTrackerDB = {
 							["resource"] = 744,
 							["gold"] = 4150000,
 						},
-						["200224"] = {
-							["artifact"] = 616,
-							["quest"] = 22,
-							["resource"] = 1378,
-							["gold"] = 4587000,
+						["200127"] = {
+							["artifact"] = 9642,
+							["resource"] = 10777,
+							["quest"] = 34,
+							["gold"] = 2138700,
 						},
 						["200210"] = {
 							["artifact"] = 163,
@@ -2417,22 +2589,19 @@ WQTrackerDB = {
 							["resource"] = 126,
 							["gold"] = 2618100,
 						},
-						["200127"] = {
-							["artifact"] = 9642,
-							["resource"] = 10777,
-							["quest"] = 34,
-							["gold"] = 2138700,
+						["200626"] = {
+							["artifact"] = 1099,
+							["resource"] = 1461,
+							["quest"] = 30,
+							["gold"] = 6333600,
 						},
 						["200324"] = {
 							["quest"] = 23,
 							["resource"] = 1583,
 							["gold"] = 1240200,
 						},
-						["191028"] = {
-							["artifact"] = 5947,
-							["resource"] = 7466,
-							["quest"] = 24,
-							["gold"] = 13740100,
+						["191225"] = {
+							["quest"] = 1,
 						},
 						["200716"] = {
 							["artifact"] = 750,
@@ -2444,21 +2613,23 @@ WQTrackerDB = {
 							["resource"] = 10,
 							["gold"] = 385100,
 						},
-						["191225"] = {
-							["quest"] = 1,
+						["191012"] = {
+							["artifact"] = 1392,
+							["quest"] = 10,
+							["resource"] = 1800,
+						},
+						["200609"] = {
+							["quest"] = 14,
 						},
 						["200323"] = {
 							["quest"] = 14,
 							["resource"] = 180,
 							["gold"] = 2198500,
 						},
-						["200609"] = {
+						["200413"] = {
+							["resource"] = 136,
 							["quest"] = 14,
-						},
-						["191012"] = {
-							["artifact"] = 1392,
-							["quest"] = 10,
-							["resource"] = 1800,
+							["gold"] = 1616000,
 						},
 						["200120"] = {
 							["artifact"] = 2181,
@@ -2466,11 +2637,10 @@ WQTrackerDB = {
 							["quest"] = 31,
 							["gold"] = 2926200,
 						},
-						["191102"] = {
-							["artifact"] = 2881,
-							["quest"] = 30,
-							["resource"] = 5174,
-							["gold"] = 12567800,
+						["191009"] = {
+							["artifact"] = 3620,
+							["quest"] = 16,
+							["resource"] = 4788,
 						},
 						["191221"] = {
 							["artifact"] = 3500,
@@ -2485,11 +2655,6 @@ WQTrackerDB = {
 								[152668] = 1,
 							},
 						},
-						["191009"] = {
-							["artifact"] = 3620,
-							["quest"] = 16,
-							["resource"] = 4788,
-						},
 						["200211"] = {
 							["quest"] = 11,
 							["resource"] = 109,
@@ -2500,17 +2665,18 @@ WQTrackerDB = {
 							["quest"] = 1,
 							["gold"] = 2096900,
 						},
+						["191102"] = {
+							["artifact"] = 2881,
+							["quest"] = 30,
+							["resource"] = 5174,
+							["gold"] = 12567800,
+						},
 						["200505"] = {
 							["resource"] = 195,
 							["quest"] = 15,
 							["profession"] = {
 								[152668] = 1,
 							},
-						},
-						["200413"] = {
-							["resource"] = 136,
-							["quest"] = 14,
-							["gold"] = 1616000,
 						},
 						["190919"] = {
 							["artifact"] = 167,
@@ -2526,32 +2692,39 @@ WQTrackerDB = {
 							["quest"] = 14,
 							["gold"] = 2108200,
 						},
+						["191028"] = {
+							["artifact"] = 5947,
+							["resource"] = 7466,
+							["quest"] = 24,
+							["gold"] = 13740100,
+						},
 						["200406"] = {
 							["resource"] = 314,
 							["quest"] = 13,
 							["gold"] = 1842900,
 						},
-						["200626"] = {
-							["artifact"] = 1099,
-							["resource"] = 1461,
+						["200304"] = {
+							["artifact"] = 178,
+							["resource"] = 2024,
+							["gold"] = 3221700,
+							["quest"] = 24,
+							["profession"] = {
+								[0] = 1,
+							},
+						},
+						["200606"] = {
 							["quest"] = 30,
-							["gold"] = 6333600,
+							["resource"] = 176,
+						},
+						["200616"] = {
+							["artifact"] = 261,
+							["resource"] = 1911,
+							["quest"] = 16,
 						},
 						["200306"] = {
 							["quest"] = 17,
 							["resource"] = 142,
 							["gold"] = 2562800,
-						},
-						["200215"] = {
-							["resource"] = 128,
-							["quest"] = 14,
-							["gold"] = 1452000,
-						},
-						["200117"] = {
-							["artifact"] = 2704,
-							["resource"] = 4705,
-							["quest"] = 33,
-							["gold"] = 1569200,
 						},
 						["190920"] = {
 							["artifact"] = 1128,
@@ -2638,19 +2811,16 @@ WQTrackerDB = {
 							["quest"] = 35,
 							["gold"] = 8221900,
 						},
-						["200208"] = {
-							["artifact"] = 1060,
-							["resource"] = 1655,
+						["200503"] = {
+							["quest"] = 3,
 							["profession"] = {
-								[152668] = 1,
+								[152668] = 2,
 							},
-							["quest"] = 21,
-							["gold"] = 1848300,
 						},
-						["200309"] = {
-							["quest"] = 14,
-							["resource"] = 369,
-							["gold"] = 2745400,
+						["200427"] = {
+							["resource"] = 242,
+							["quest"] = 25,
+							["gold"] = 4282900,
 						},
 						["200418"] = {
 							["resource"] = 259,
@@ -2705,10 +2875,10 @@ WQTrackerDB = {
 							["quest"] = 12,
 							["gold"] = 4048100,
 						},
-						["200419"] = {
-							["quest"] = 27,
-							["resource"] = 305,
-							["gold"] = 3785200,
+						["200216"] = {
+							["quest"] = 20,
+							["resource"] = 202,
+							["gold"] = 3461000,
 						},
 						["191219"] = {
 							["quest"] = 6,
@@ -2954,8 +3124,11 @@ WQTrackerDB = {
 								["resource"] = 56,
 								["gold"] = 845200,
 							},
-							["200523"] = {
-								["quest"] = 5,
+							["191102"] = {
+								["artifact"] = 2881,
+								["quest"] = 21,
+								["resource"] = 4869,
+								["gold"] = 3271800,
 							},
 							["200206"] = {
 								["artifact"] = 750,
@@ -2968,11 +3141,9 @@ WQTrackerDB = {
 								["quest"] = 1,
 								["resource"] = 3500,
 							},
-							["191102"] = {
-								["artifact"] = 2881,
-								["quest"] = 21,
-								["resource"] = 4869,
-								["gold"] = 3271800,
+							["200506"] = {
+								["quest"] = 11,
+								["resource"] = 250,
 							},
 							["200606"] = {
 								["quest"] = 5,
@@ -2982,10 +3153,8 @@ WQTrackerDB = {
 								["resource"] = 86,
 								["gold"] = 972600,
 							},
-							["200121"] = {
-								["artifact"] = 6986,
-								["resource"] = 11583,
-								["quest"] = 30,
+							["200513"] = {
+								["quest"] = 9,
 							},
 							["200122"] = {
 								["artifact"] = 907,
@@ -3011,19 +3180,18 @@ WQTrackerDB = {
 								["quest"] = 8,
 								["gold"] = 1348700,
 							},
-							["200202"] = {
-								["quest"] = 2,
-								["resource"] = 37,
-								["gold"] = 588100,
+							["200121"] = {
+								["artifact"] = 6986,
+								["resource"] = 11583,
+								["quest"] = 30,
 							},
 							["200604"] = {
 								["quest"] = 1,
 								["resource"] = 750,
 							},
-							["200315"] = {
-								["quest"] = 4,
-								["resource"] = 42,
-								["gold"] = 363800,
+							["200223"] = {
+								["quest"] = 5,
+								["resource"] = 59,
 							},
 							["200106"] = {
 								["quest"] = 8,
@@ -3034,8 +3202,10 @@ WQTrackerDB = {
 								["quest"] = 4,
 								["gold"] = 1013600,
 							},
-							["200513"] = {
-								["quest"] = 9,
+							["200315"] = {
+								["quest"] = 4,
+								["resource"] = 42,
+								["gold"] = 363800,
 							},
 							["200213"] = {
 								["quest"] = 7,
@@ -3047,9 +3217,9 @@ WQTrackerDB = {
 								["quest"] = 3,
 								["gold"] = 884000,
 							},
-							["200116"] = {
-								["quest"] = 3,
-								["resource"] = 30,
+							["191021"] = {
+								["quest"] = 1,
+								["resource"] = 237,
 							},
 							["191026"] = {
 								["artifact"] = 151,
@@ -3061,9 +3231,9 @@ WQTrackerDB = {
 								["resource"] = 1353,
 								["quest"] = 5,
 							},
-							["191021"] = {
-								["quest"] = 1,
-								["resource"] = 237,
+							["200116"] = {
+								["quest"] = 3,
+								["resource"] = 30,
 							},
 							["191231"] = {
 								["artifact"] = 345,
@@ -3152,9 +3322,10 @@ WQTrackerDB = {
 								["resource"] = 1343,
 								["gold"] = 3274300,
 							},
-							["200223"] = {
-								["quest"] = 5,
-								["resource"] = 59,
+							["200202"] = {
+								["quest"] = 2,
+								["resource"] = 37,
+								["gold"] = 588100,
 							},
 							["200708"] = {
 								["resource"] = 91,
@@ -3180,9 +3351,8 @@ WQTrackerDB = {
 								["quest"] = 1,
 								["resource"] = 100,
 							},
-							["200506"] = {
-								["quest"] = 11,
-								["resource"] = 250,
+							["200523"] = {
+								["quest"] = 5,
 							},
 							["200325"] = {
 								["resource"] = 118,
@@ -3360,6 +3530,11 @@ WQTrackerDB = {
 								["profession"] = {
 									[152668] = 1,
 								},
+							},
+							["200724"] = {
+								["artifact"] = 3500,
+								["quest"] = 3,
+								["resource"] = 3500,
 							},
 							["200310"] = {
 								["quest"] = 13,
@@ -3631,16 +3806,27 @@ WQTrackerDB = {
 								["quest"] = 7,
 								["gold"] = 1128800,
 							},
+							["200715"] = {
+								["resource"] = 114,
+								["quest"] = 10,
+								["gold"] = 1799700,
+							},
 							["200521"] = {
 								["artifact"] = 372,
 								["resource"] = 2104,
 								["quest"] = 33,
 								["gold"] = 2138800,
 							},
-							["200715"] = {
-								["resource"] = 114,
-								["quest"] = 10,
-								["gold"] = 1799700,
+							["200701"] = {
+								["artifact"] = 623,
+								["resource"] = 698,
+								["quest"] = 7,
+								["gold"] = 1333500,
+							},
+							["200619"] = {
+								["artifact"] = 469,
+								["resource"] = 1017,
+								["quest"] = 25,
 							},
 							["200221"] = {
 								["artifact"] = 1876,
@@ -3648,11 +3834,11 @@ WQTrackerDB = {
 								["quest"] = 24,
 								["gold"] = 7524000,
 							},
-							["200701"] = {
-								["artifact"] = 623,
-								["resource"] = 698,
-								["quest"] = 7,
-								["gold"] = 1333500,
+							["200528"] = {
+								["artifact"] = 419,
+								["resource"] = 1433,
+								["quest"] = 24,
+								["gold"] = 1658800,
 							},
 							["200327"] = {
 								["quest"] = 20,
@@ -3665,10 +3851,10 @@ WQTrackerDB = {
 								["resource"] = 745,
 								["gold"] = 6302100,
 							},
-							["200619"] = {
-								["artifact"] = 469,
-								["resource"] = 1017,
-								["quest"] = 25,
+							["200229"] = {
+								["quest"] = 20,
+								["resource"] = 426,
+								["gold"] = 3317600,
 							},
 							["200123"] = {
 								["artifact"] = 191,
@@ -3698,17 +3884,6 @@ WQTrackerDB = {
 								["quest"] = 11,
 								["gold"] = 1343900,
 							},
-							["200708"] = {
-								["resource"] = 580,
-								["quest"] = 11,
-								["gold"] = 1888200,
-							},
-							["200528"] = {
-								["artifact"] = 419,
-								["resource"] = 1433,
-								["quest"] = 24,
-								["gold"] = 1658800,
-							},
 							["200627"] = {
 								["resource"] = 241,
 								["quest"] = 19,
@@ -3718,6 +3893,16 @@ WQTrackerDB = {
 								["artifact"] = 1392,
 								["quest"] = 10,
 								["resource"] = 1800,
+							},
+							["200620"] = {
+								["artifact"] = 224,
+								["quest"] = 14,
+								["resource"] = 224,
+							},
+							["200520"] = {
+								["resource"] = 356,
+								["quest"] = 21,
+								["gold"] = 6611800,
 							},
 							["200420"] = {
 								["quest"] = 13,
@@ -3740,18 +3925,18 @@ WQTrackerDB = {
 								["resource"] = 402,
 								["gold"] = 2009100,
 							},
-							["200620"] = {
-								["artifact"] = 224,
-								["quest"] = 14,
-								["resource"] = 224,
+							["200518"] = {
+								["quest"] = 24,
+								["resource"] = 2039,
+								["gold"] = 3375500,
 							},
 							["200525"] = {
 								["quest"] = 14,
 							},
-							["200520"] = {
-								["resource"] = 356,
-								["quest"] = 21,
-								["gold"] = 6611800,
+							["200412"] = {
+								["quest"] = 20,
+								["resource"] = 374,
+								["gold"] = 1343200,
 							},
 							["191108"] = {
 								["quest"] = 1,
@@ -3768,15 +3953,14 @@ WQTrackerDB = {
 								["resource"] = 144,
 								["gold"] = 2142900,
 							},
-							["200518"] = {
-								["quest"] = 24,
-								["resource"] = 2039,
-								["gold"] = 3375500,
+							["200510"] = {
+								["quest"] = 14,
+								["resource"] = 199,
 							},
-							["200412"] = {
-								["quest"] = 20,
-								["resource"] = 374,
-								["gold"] = 1343200,
+							["200429"] = {
+								["quest"] = 12,
+								["resource"] = 126,
+								["gold"] = 5890500,
 							},
 							["200522"] = {
 								["artifact"] = 3500,
@@ -3784,19 +3968,20 @@ WQTrackerDB = {
 								["quest"] = 24,
 								["gold"] = 1631200,
 							},
-							["200510"] = {
-								["quest"] = 14,
-								["resource"] = 199,
+							["200601"] = {
+								["quest"] = 23,
+								["resource"] = 711,
+								["gold"] = 7153500,
 							},
 							["200211"] = {
 								["quest"] = 11,
 								["resource"] = 109,
 								["gold"] = 1811200,
 							},
-							["200601"] = {
-								["quest"] = 23,
-								["resource"] = 711,
-								["gold"] = 7153500,
+							["200517"] = {
+								["artifact"] = 3996,
+								["resource"] = 5953,
+								["quest"] = 26,
 							},
 							["200202"] = {
 								["artifact"] = 910,
@@ -3804,35 +3989,21 @@ WQTrackerDB = {
 								["quest"] = 13,
 								["gold"] = 996400,
 							},
-							["200429"] = {
-								["quest"] = 12,
-								["resource"] = 126,
-								["gold"] = 5890500,
-							},
-							["200218"] = {
-								["quest"] = 14,
-								["resource"] = 119,
-								["gold"] = 1645500,
-							},
-							["200517"] = {
-								["artifact"] = 3996,
-								["resource"] = 5953,
-								["quest"] = 26,
-							},
 							["200131"] = {
 								["artifact"] = 3473,
 								["resource"] = 8547,
 								["quest"] = 77,
 								["gold"] = 15732700,
 							},
+							["200218"] = {
+								["quest"] = 14,
+								["resource"] = 119,
+								["gold"] = 1645500,
+							},
 							["190920"] = {
 								["artifact"] = 1128,
 								["resource"] = 1293,
 								["quest"] = 8,
-							},
-							["191021"] = {
-								["quest"] = 2,
-								["resource"] = 987,
 							},
 							["200404"] = {
 								["profession"] = {
@@ -3842,23 +4013,39 @@ WQTrackerDB = {
 								["resource"] = 362,
 								["gold"] = 2594000,
 							},
-							["200331"] = {
-								["artifact"] = 469,
-								["quest"] = 20,
-								["resource"] = 606,
-								["gold"] = 6296400,
+							["200607"] = {
+								["quest"] = 14,
+								["resource"] = 215,
 							},
-							["191013"] = {
-								["quest"] = 1,
-								["resource"] = 60,
+							["191021"] = {
+								["quest"] = 2,
+								["resource"] = 987,
 							},
 							["200328"] = {
 								["quest"] = 17,
 								["resource"] = 625,
 								["gold"] = 3681000,
 							},
+							["200331"] = {
+								["artifact"] = 469,
+								["quest"] = 20,
+								["resource"] = 606,
+								["gold"] = 6296400,
+							},
 							["200205"] = {
 								["quest"] = 1,
+							},
+							["200320"] = {
+								["artifact"] = 175,
+								["resource"] = 320,
+								["quest"] = 14,
+								["gold"] = 1657900,
+							},
+							["200704"] = {
+								["artifact"] = 5051,
+								["quest"] = 21,
+								["resource"] = 6485,
+								["gold"] = 7262500,
 							},
 							["200214"] = {
 								["resource"] = 153,
@@ -3876,22 +4063,20 @@ WQTrackerDB = {
 								["resource"] = 355,
 								["gold"] = 1297800,
 							},
-							["200704"] = {
-								["artifact"] = 5051,
-								["quest"] = 21,
-								["resource"] = 6485,
-								["gold"] = 7262500,
+							["200115"] = {
+								["artifact"] = 4623,
+								["resource"] = 8377,
+								["quest"] = 45,
+								["gold"] = 1539600,
 							},
 							["191007"] = {
 								["resource"] = 1,
 								["quest"] = 1,
 								["gold"] = 2096900,
 							},
-							["200115"] = {
-								["artifact"] = 4623,
-								["resource"] = 8377,
-								["quest"] = 45,
-								["gold"] = 1539600,
+							["200603"] = {
+								["quest"] = 14,
+								["resource"] = 750,
 							},
 							["200220"] = {
 								["quest"] = 14,
@@ -3912,22 +4097,24 @@ WQTrackerDB = {
 								["resource"] = 790,
 								["gold"] = 2980600,
 							},
-							["200603"] = {
-								["quest"] = 14,
-								["resource"] = 750,
-							},
 							["200410"] = {
 								["artifact"] = 682,
 								["quest"] = 15,
 								["resource"] = 1059,
 								["gold"] = 1392900,
 							},
+							["200613"] = {
+								["resource"] = 217,
+								["quest"] = 18,
+								["gold"] = 1342500,
+							},
 							["200508"] = {
 								["quest"] = 14,
 							},
-							["200606"] = {
-								["quest"] = 20,
-								["resource"] = 176,
+							["200215"] = {
+								["resource"] = 128,
+								["quest"] = 14,
+								["gold"] = 1452000,
 							},
 							["200330"] = {
 								["resource"] = 177,
@@ -3939,35 +4126,24 @@ WQTrackerDB = {
 								["quest"] = 1,
 								["resource"] = 174,
 							},
-							["200117"] = {
-								["artifact"] = 2704,
-								["resource"] = 4705,
-								["quest"] = 33,
-								["gold"] = 1569200,
+							["200616"] = {
+								["quest"] = 5,
 							},
-							["200215"] = {
-								["resource"] = 128,
-								["quest"] = 14,
-								["gold"] = 1452000,
+							["200606"] = {
+								["quest"] = 20,
+								["resource"] = 176,
 							},
 							["200303"] = {
 								["resource"] = 131,
 								["quest"] = 13,
 								["gold"] = 868900,
 							},
-							["200613"] = {
-								["resource"] = 217,
-								["quest"] = 18,
-								["gold"] = 1342500,
+							["200725"] = {
+								["quest"] = 2,
+								["resource"] = 20,
 							},
-							["200304"] = {
-								["artifact"] = 178,
-								["resource"] = 1225,
-								["gold"] = 2247900,
-								["quest"] = 16,
-								["profession"] = {
-									[0] = 1,
-								},
+							["200723"] = {
+								["quest"] = 2,
 							},
 							["200311"] = {
 								["artifact"] = 750,
@@ -3980,11 +4156,11 @@ WQTrackerDB = {
 								["resource"] = 744,
 								["gold"] = 4150000,
 							},
-							["200320"] = {
-								["artifact"] = 175,
-								["resource"] = 320,
-								["quest"] = 14,
-								["gold"] = 1657900,
+							["200224"] = {
+								["artifact"] = 616,
+								["quest"] = 22,
+								["resource"] = 1378,
+								["gold"] = 4587000,
 							},
 							["190919"] = {
 								["artifact"] = 167,
@@ -4010,11 +4186,10 @@ WQTrackerDB = {
 								["resource"] = 1583,
 								["gold"] = 1240200,
 							},
-							["200224"] = {
-								["artifact"] = 616,
-								["quest"] = 22,
-								["resource"] = 1378,
-								["gold"] = 4587000,
+							["200407"] = {
+								["artifact"] = 3500,
+								["resource"] = 3592,
+								["quest"] = 14,
 							},
 							["200716"] = {
 								["artifact"] = 750,
@@ -4026,26 +4201,27 @@ WQTrackerDB = {
 								["resource"] = 10,
 								["gold"] = 385100,
 							},
-							["200407"] = {
-								["artifact"] = 3500,
-								["resource"] = 3592,
-								["quest"] = 14,
-							},
 							["200203"] = {
 								["artifact"] = 4200,
 								["quest"] = 60,
 								["resource"] = 6575,
 								["gold"] = 9276100,
 							},
+							["200702"] = {
+								["resource"] = 110,
+								["quest"] = 12,
+								["gold"] = 4791100,
+							},
 							["200323"] = {
 								["quest"] = 14,
 								["resource"] = 180,
 								["gold"] = 2198500,
 							},
-							["200702"] = {
-								["resource"] = 110,
-								["quest"] = 12,
-								["gold"] = 4791100,
+							["200127"] = {
+								["artifact"] = 6142,
+								["resource"] = 7277,
+								["quest"] = 33,
+								["gold"] = 2138700,
 							},
 							["200120"] = {
 								["artifact"] = 2181,
@@ -4062,18 +4238,15 @@ WQTrackerDB = {
 								["quest"] = 21,
 								["gold"] = 1848300,
 							},
-							["200609"] = {
-								["quest"] = 14,
+							["200315"] = {
+								["resource"] = 511,
+								["quest"] = 17,
+								["gold"] = 2060100,
 							},
 							["200523"] = {
 								["artifact"] = 774,
 								["quest"] = 30,
 								["resource"] = 1316,
-							},
-							["200315"] = {
-								["resource"] = 511,
-								["quest"] = 17,
-								["gold"] = 2060100,
 							},
 							["200114"] = {
 								["profession"] = {
@@ -4088,20 +4261,25 @@ WQTrackerDB = {
 								["quest"] = 10,
 								["gold"] = 1278400,
 							},
-							["200505"] = {
-								["quest"] = 14,
-								["resource"] = 195,
-							},
 							["200216"] = {
 								["quest"] = 20,
 								["resource"] = 202,
 								["gold"] = 3461000,
+							},
+							["200505"] = {
+								["quest"] = 14,
+								["resource"] = 195,
 							},
 							["191028"] = {
 								["artifact"] = 5947,
 								["resource"] = 7466,
 								["quest"] = 24,
 								["gold"] = 13740100,
+							},
+							["200314"] = {
+								["quest"] = 19,
+								["resource"] = 174,
+								["gold"] = 2020100,
 							},
 							["191029"] = {
 								["artifact"] = 4544,
@@ -4112,11 +4290,6 @@ WQTrackerDB = {
 								["resource"] = 314,
 								["quest"] = 13,
 								["gold"] = 1842900,
-							},
-							["200314"] = {
-								["quest"] = 19,
-								["resource"] = 174,
-								["gold"] = 2020100,
 							},
 							["200210"] = {
 								["artifact"] = 163,
@@ -4139,6 +4312,9 @@ WQTrackerDB = {
 								["quest"] = 9,
 								["resource"] = 305,
 								["gold"] = 9296000,
+							},
+							["200609"] = {
+								["quest"] = 14,
 							},
 							["200513"] = {
 								["quest"] = 15,
@@ -4167,22 +4343,28 @@ WQTrackerDB = {
 								["quest"] = 16,
 								["gold"] = 3472100,
 							},
-							["200127"] = {
-								["artifact"] = 6142,
-								["resource"] = 7277,
-								["quest"] = 33,
-								["gold"] = 2138700,
-							},
 							["200502"] = {
 								["quest"] = 14,
+							},
+							["200304"] = {
+								["artifact"] = 178,
+								["resource"] = 1225,
+								["gold"] = 2247900,
+								["quest"] = 16,
+								["profession"] = {
+									[0] = 1,
+								},
 							},
 							["200225"] = {
 								["quest"] = 15,
 								["resource"] = 140,
 								["gold"] = 2630100,
 							},
-							["200616"] = {
-								["quest"] = 5,
+							["200117"] = {
+								["artifact"] = 2704,
+								["resource"] = 4705,
+								["quest"] = 33,
+								["gold"] = 1569200,
 							},
 							["200129"] = {
 								["quest"] = 15,
@@ -4221,14 +4403,14 @@ WQTrackerDB = {
 								["quest"] = 26,
 								["gold"] = 6428400,
 							},
+							["191013"] = {
+								["quest"] = 1,
+								["resource"] = 60,
+							},
 							["200430"] = {
 								["resource"] = 107,
 								["quest"] = 14,
 								["gold"] = 367800,
-							},
-							["200607"] = {
-								["quest"] = 14,
-								["resource"] = 215,
 							},
 							["200512"] = {
 								["artifact"] = 192,
@@ -4291,10 +4473,10 @@ WQTrackerDB = {
 							["200529"] = {
 								["quest"] = 11,
 							},
-							["200229"] = {
-								["quest"] = 20,
-								["resource"] = 426,
-								["gold"] = 3317600,
+							["200708"] = {
+								["resource"] = 580,
+								["quest"] = 11,
+								["gold"] = 1888200,
 							},
 							["200709"] = {
 								["artifact"] = 3500,
@@ -4346,12 +4528,12 @@ WQTrackerDB = {
 						[51887] = 1,
 						[56011] = 2,
 						[51983] = 1,
-						[56139] = 7,
+						[56139] = 8,
 						[51120] = 2,
 						[54253] = 2,
 						[57354] = 2,
 						[55340] = 1,
-						[56395] = 1,
+						[56395] = 2,
 						[54509] = 1,
 						[50545] = 3,
 						[50577] = 2,
@@ -4374,11 +4556,11 @@ WQTrackerDB = {
 						[52848] = 4,
 						[50866] = 2,
 						[51921] = 1,
-						[56141] = 5,
+						[56141] = 6,
 						[51122] = 1,
 						[54287] = 2,
 						[55342] = 7,
-						[56397] = 1,
+						[56397] = 2,
 						[57484] = 16,
 						[57580] = 18,
 						[58667] = 26,
@@ -4576,7 +4758,7 @@ WQTrackerDB = {
 						[54170] = 1,
 						[57335] = 5,
 						[52348] = 1,
-						[53435] = 24,
+						[53435] = 25,
 						[52476] = 1,
 						[58742] = 41,
 						[51613] = 2,
@@ -4709,8 +4891,8 @@ WQTrackerDB = {
 						[51045] = 1,
 						[57215] = 16,
 						[44190] = 1,
-						[58334] = 20,
 						[52196] = 20,
+						[58334] = 20,
 						[41420] = 1,
 						[57375] = 40,
 						[56384] = 3,
@@ -4729,9 +4911,9 @@ WQTrackerDB = {
 						[56800] = 3,
 						[50592] = 1,
 						[57589] = 15,
-						[55901] = 4,
+						[55901] = 5,
 						[58974] = 25,
-						[56396] = 2,
+						[56396] = 3,
 						[50854] = 3,
 						[57621] = 7,
 						[57590] = 15,
@@ -4774,16 +4956,16 @@ WQTrackerDB = {
 						[57217] = 15,
 						[50519] = 4,
 						[54806] = 1,
-						[42991] = 1,
+						[51175] = 2,
 						[56386] = 3,
 						[51239] = 2,
 						[42064] = 1,
 						[57582] = 30,
 						[53716] = 1,
 						[56078] = 4,
-						[54532] = 1,
-						[43247] = 2,
 						[51463] = 1,
+						[51431] = 5,
+						[54532] = 1,
 						[57404] = 17,
 						[50717] = 1,
 						[51559] = 2,
@@ -4809,7 +4991,7 @@ WQTrackerDB = {
 						[57023] = 21,
 						[55300] = 5,
 						[51105] = 3,
-						["total"] = 4027,
+						[56387] = 4,
 						[50483] = 3,
 						[50496] = 3,
 						[51581] = 1,
@@ -4834,8 +5016,8 @@ WQTrackerDB = {
 						[55359] = 16,
 						[57445] = 18,
 						[55892] = 4,
-						[57219] = 19,
 						[51081] = 1,
+						[57219] = 19,
 						[51113] = 2,
 						[51097] = 2,
 						[54246] = 3,
@@ -4921,7 +5103,7 @@ WQTrackerDB = {
 						[55344] = 13,
 						[53769] = 1,
 						[57171] = 22,
-						[56387] = 4,
+						["total"] = 4034,
 						[51584] = 1,
 						[52874] = 2,
 						[52369] = 2,
@@ -4933,12 +5115,12 @@ WQTrackerDB = {
 						[54707] = 3,
 						[51084] = 3,
 						[51116] = 3,
-						[51431] = 5,
+						[43247] = 2,
 						[51180] = 1,
 						[55304] = 6,
 						[54522] = 1,
 						[52299] = 1,
-						[51175] = 2,
+						[42991] = 1,
 						[50872] = 6,
 						[42165] = 1,
 						[57542] = 15,
@@ -5039,11 +5221,11 @@ WQTrackerDB = {
 							[51014] = 4,
 							[58257] = 1,
 							[50861] = 1,
+							[58662] = 1,
 							[55360] = 3,
-							[57519] = 1,
 							[57580] = 1,
 							[55356] = 3,
-							[58662] = 1,
+							[57519] = 1,
 							[50665] = 1,
 							[57146] = 1,
 							[51988] = 1,
@@ -5182,22 +5364,22 @@ WQTrackerDB = {
 							[50492] = 1,
 							[55359] = 2,
 							[52858] = 3,
-							[57146] = 4,
+							[51791] = 1,
 							[52760] = 1,
 							[55887] = 2,
 							[51050] = 1,
 							[55302] = 1,
 							[58442] = 3,
 							[57449] = 3,
-							[58748] = 2,
 							[59003] = 2,
+							[58748] = 2,
 							[57218] = 1,
 							[51106] = 1,
 							[57234] = 3,
 							[51232] = 1,
 							[51895] = 1,
-							[57521] = 2,
 							[50636] = 1,
+							[57521] = 2,
 							[53979] = 1,
 							[50975] = 2,
 							[57023] = 1,
@@ -5208,18 +5390,18 @@ WQTrackerDB = {
 							[57585] = 1,
 							[57338] = 1,
 							[50461] = 1,
-							[51529] = 1,
+							[55354] = 2,
 							[54812] = 1,
 							[54613] = 2,
 							[51051] = 2,
 							[58661] = 2,
-							[55354] = 2,
-							[54154] = 1,
+							[51529] = 1,
+							[58744] = 1,
 							[51609] = 1,
-							[55888] = 2,
+							[58438] = 2,
 							[57171] = 3,
-							[52369] = 1,
-							[58271] = 4,
+							[54154] = 1,
+							[55466] = 6,
 							[52350] = 1,
 							[56178] = 3,
 							[57522] = 3,
@@ -5227,33 +5409,33 @@ WQTrackerDB = {
 							[52892] = 2,
 							[57235] = 3,
 							[57243] = 1,
-							[55466] = 6,
-							[56024] = 1,
-							[51657] = 1,
+							[51641] = 1,
 							[57299] = 3,
+							[51657] = 1,
+							[56024] = 1,
 							[57323] = 3,
 							[57331] = 3,
 							[51434] = 1,
 							[56032] = 1,
-							[57339] = 3,
-							[56048] = 1,
-							[56056] = 3,
 							[54534] = 1,
-							[58367] = 3,
+							[56048] = 1,
+							[57586] = 1,
+							[57339] = 3,
+							[54542] = 1,
 							[52884] = 1,
 							[53963] = 1,
-							[55355] = 4,
+							[52805] = 1,
 							[57379] = 2,
 							[58662] = 2,
-							[52805] = 1,
+							[55355] = 4,
 							[50568] = 1,
 							[58216] = 3,
 							[58439] = 4,
-							[52351] = 1,
+							[58981] = 2,
 							[56074] = 4,
 							[54686] = 1,
-							[58981] = 2,
-							[50574] = 1,
+							[52351] = 1,
+							[51084] = 1,
 							[58742] = 3,
 							[57588] = 1,
 							[50853] = 1,
@@ -5264,21 +5446,21 @@ WQTrackerDB = {
 							[58747] = 3,
 							[51156] = 1,
 							[54502] = 1,
-							[52471] = 1,
+							[56041] = 4,
 							[56025] = 3,
 							[54503] = 1,
-							[56041] = 4,
-							[57085] = 1,
-							[56057] = 2,
+							[52471] = 1,
 							[55300] = 2,
+							[54527] = 1,
+							[57085] = 1,
 							[51112] = 1,
 							[57101] = 2,
+							[58679] = 5,
 							[50519] = 1,
-							[57404] = 3,
 							[52280] = 1,
 							[54583] = 1,
 							[55356] = 3,
-							[58679] = 5,
+							[57404] = 3,
 							[51906] = 1,
 							[56400] = 1,
 							[49013] = 1,
@@ -5296,7 +5478,7 @@ WQTrackerDB = {
 							[52169] = 1,
 							[54472] = 1,
 							[57540] = 1,
-							[54527] = 1,
+							[56057] = 2,
 							[54547] = 1,
 							[51444] = 1,
 							[52181] = 1,
@@ -5304,26 +5486,26 @@ WQTrackerDB = {
 							[54273] = 1,
 							[52751] = 1,
 							[54544] = 2,
-							[51084] = 1,
+							[50574] = 1,
 							[56090] = 1,
 							[54568] = 1,
 							[54701] = 1,
 							[56180] = 6,
 							[55357] = 1,
-							[54542] = 1,
+							[58367] = 3,
 							[57158] = 4,
 							[52321] = 1,
 							[57429] = 4,
-							[57586] = 1,
+							[56056] = 3,
 							[57445] = 1,
 							[57453] = 3,
-							[51641] = 1,
-							[58744] = 1,
+							[58271] = 4,
+							[52369] = 1,
 							[50847] = 1,
 							[54170] = 1,
 							[51628] = 1,
 							[50871] = 1,
-							[58438] = 2,
+							[55888] = 2,
 							[57517] = 2,
 							[55973] = 1,
 							[56003] = 1,
@@ -5336,7 +5518,7 @@ WQTrackerDB = {
 							[54697] = 1,
 							[57087] = 3,
 							[58370] = 4,
-							[51791] = 1,
+							[57146] = 4,
 							[57621] = 1,
 							[56099] = 1,
 							[57272] = 3,
@@ -5451,11 +5633,11 @@ WQTrackerDB = {
 							[51887] = 1,
 							[56011] = 2,
 							[51983] = 1,
-							[56139] = 6,
+							[56139] = 7,
 							[51120] = 2,
 							[54253] = 2,
 							[57354] = 2,
-							[56395] = 1,
+							[56395] = 2,
 							[54509] = 1,
 							[50545] = 2,
 							[50577] = 2,
@@ -5476,11 +5658,11 @@ WQTrackerDB = {
 							[52848] = 3,
 							[50866] = 2,
 							[51921] = 1,
-							[56141] = 4,
+							[56141] = 5,
 							[51122] = 1,
 							[54287] = 2,
 							[55342] = 7,
-							[56397] = 1,
+							[56397] = 2,
 							[54415] = 3,
 							[57580] = 14,
 							[58667] = 22,
@@ -5674,7 +5856,7 @@ WQTrackerDB = {
 							[51037] = 1,
 							[57335] = 5,
 							[52348] = 1,
-							[53435] = 16,
+							[53435] = 17,
 							[54522] = 1,
 							[58742] = 36,
 							[51613] = 1,
@@ -5813,7 +5995,7 @@ WQTrackerDB = {
 							[42190] = 1,
 							[58438] = 32,
 							[58974] = 23,
-							[55901] = 4,
+							[55901] = 5,
 							[50854] = 2,
 							[50592] = 1,
 							[54701] = 1,
@@ -5821,16 +6003,16 @@ WQTrackerDB = {
 							[43101] = 1,
 							[54154] = 1,
 							[51046] = 1,
-							[41935] = 1,
-							[58271] = 20,
 							[52165] = 1,
+							[58271] = 20,
+							[41935] = 1,
 							[51174] = 1,
 							[52229] = 1,
 							[51238] = 1,
 							[56385] = 5,
 							[52325] = 1,
 							[54403] = 1,
-							[56396] = 2,
+							[56396] = 3,
 							[52421] = 1,
 							[54499] = 2,
 							[57588] = 17,
@@ -5842,8 +6024,8 @@ WQTrackerDB = {
 							[51654] = 2,
 							[56801] = 1,
 							[50695] = 2,
-							[51782] = 1,
 							[52805] = 3,
+							[51782] = 1,
 							[50524] = 1,
 							[50864] = 2,
 							[55970] = 4,
@@ -5856,15 +6038,15 @@ WQTrackerDB = {
 							[57217] = 13,
 							[57589] = 15,
 							[57591] = 16,
-							[51175] = 1,
+							[42991] = 1,
 							[56386] = 3,
 							[51239] = 2,
 							[42064] = 1,
 							[57023] = 20,
 							[51315] = 2,
-							[51431] = 5,
-							[51463] = 1,
 							[43247] = 2,
+							[51463] = 1,
+							[51431] = 5,
 							[54532] = 1,
 							[57621] = 6,
 							[50498] = 1,
@@ -5891,7 +6073,7 @@ WQTrackerDB = {
 							[51737] = 1,
 							[55300] = 3,
 							[56387] = 3,
-							["total"] = 3399,
+							["total"] = 3406,
 							[52754] = 2,
 							[56099] = 32,
 							[54613] = 2,
@@ -5927,8 +6109,8 @@ WQTrackerDB = {
 							[52328] = 1,
 							[54568] = 1,
 							[50975] = 2,
-							[51433] = 6,
 							[54502] = 1,
+							[51433] = 6,
 							[54534] = 1,
 							[50474] = 1,
 							[51529] = 3,
@@ -5947,13 +6129,13 @@ WQTrackerDB = {
 							[58257] = 20,
 							[51444] = 3,
 							[52009] = 2,
-							[54119] = 2,
 							[51050] = 7,
+							[54119] = 2,
 							[58275] = 23,
 							[51114] = 2,
 							[52169] = 1,
-							[55302] = 7,
 							[51210] = 1,
+							[55302] = 7,
 							[52297] = 1,
 							[56389] = 2,
 							[57484] = 12,
@@ -6032,7 +6214,7 @@ WQTrackerDB = {
 							[54551] = 1,
 							[51628] = 4,
 							[51660] = 1,
-							[42991] = 1,
+							[51175] = 1,
 							[54793] = 1,
 							[52779] = 3,
 							[51893] = 1,
@@ -6071,9 +6253,9 @@ WQTrackerDB = {
 				},
 				["reward"] = {
 					["global"] = {
-						["artifact"] = 214470,
+						["artifact"] = 217970,
 						["gold"] = 592629800,
-						["resource"] = 356244,
+						["resource"] = 359764,
 						["profession"] = {
 							[0] = 5,
 							[137721] = 1,
@@ -6136,9 +6318,9 @@ WQTrackerDB = {
 							["resource"] = 750,
 						},
 						["Player-1092-0844A0F9"] = {
-							["artifact"] = 155208,
+							["artifact"] = 158708,
 							["gold"] = 511758000,
-							["resource"] = 265865,
+							["resource"] = 269385,
 							["profession"] = {
 								[0] = 5,
 								[137721] = 1,

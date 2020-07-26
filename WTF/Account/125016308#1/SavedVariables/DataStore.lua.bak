@@ -14,7 +14,7 @@ DataStoreDB = {
 		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
 		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
 		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
-		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
 		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
 		["Fállkén - Outland"] = "Fállkén - Outland",
 		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
@@ -28,7 +28,7 @@ DataStoreDB = {
 		["Fallken - Burning Blade"] = "Fallken - Burning Blade",
 		["Fällkên - Drak'thul"] = "Fällkên - Drak'thul",
 		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
-		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
 	},
 	["global"] = {
 		["Guilds"] = {
@@ -76,18 +76,17 @@ DataStoreDB = {
 			["Default.Burning Blade.Fallkenmekac"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Burning Blade.Fállken"] = {
-				["guildName"] = "Exposed",
-				["faction"] = "Horde",
+			["Default.Burning Blade.Fàllkèn"] = {
+				["faction"] = "Alliance",
 			},
 			["Default.Drak'thul.Fállkên"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Burning Blade.Fàllkèn"] = {
-				["faction"] = "Alliance",
-			},
-			["Default.Burning Blade.Fallken"] = {
+			["Default.Burning Blade.Fállken"] = {
 				["guildName"] = "Exposed",
+				["faction"] = "Horde",
+			},
+			["Default.Drak'thul.Fãllkên"] = {
 				["faction"] = "Horde",
 			},
 			["Default.Burning Blade.Gfgdhfdghfgh"] = {
@@ -110,9 +109,9 @@ DataStoreDB = {
 			["Default.Burning Blade.Fallkentiny"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Drak'thul.Fàllkên"] = {
-				["guildName"] = "Exposed",
+			["Default.Drak'thul.Fållkên"] = {
 				["faction"] = "Horde",
+				["guildName"] = "Exposed",
 			},
 			["Default.Burning Blade.Fallkenji"] = {
 				["faction"] = "Horde",
@@ -131,14 +130,15 @@ DataStoreDB = {
 				["faction"] = "Horde",
 				["guildName"] = "Exposed",
 			},
-			["Default.Drak'thul.Fållkên"] = {
-				["faction"] = "Horde",
+			["Default.Drak'thul.Fàllkên"] = {
 				["guildName"] = "Exposed",
+				["faction"] = "Horde",
 			},
 			["Default.Drak'thul.Fållkèn"] = {
 				["faction"] = "Horde",
 			},
-			["Default.Drak'thul.Fãllkên"] = {
+			["Default.Burning Blade.Fallken"] = {
+				["guildName"] = "Exposed",
 				["faction"] = "Horde",
 			},
 			["Default.Drak'thul.Fallkenez"] = {

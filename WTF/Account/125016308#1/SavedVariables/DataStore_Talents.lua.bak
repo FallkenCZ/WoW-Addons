@@ -14,7 +14,7 @@ DataStore_TalentsDB = {
 		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
 		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
 		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
-		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
 		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
 		["Fállkén - Outland"] = "Fállkén - Outland",
 		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
@@ -28,7 +28,7 @@ DataStore_TalentsDB = {
 		["Fallken - Burning Blade"] = "Fallken - Burning Blade",
 		["Fällkên - Drak'thul"] = "Fällkên - Drak'thul",
 		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
-		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -41,7 +41,7 @@ DataStore_TalentsDB = {
 			},
 			["Default.Drak'thul.Fàllkén"] = {
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1595503025,
+				["lastUpdate"] = 1595710291,
 				["Specializations"] = {
 					6586, -- [1]
 					14715, -- [2]
@@ -105,23 +105,6 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "MAGE",
 			},
-			["Default.Burning Blade.Fállken"] = {
-				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1595026740,
-				["Specializations"] = {
-					5726, -- [1]
-					6489, -- [2]
-				},
-				["Class"] = "DEMONHUNTER",
-			},
-			["Default.Drak'thul.Fállkên"] = {
-				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1589755503,
-				["Specializations"] = {
-					[2] = 5465,
-				},
-				["Class"] = "DEMONHUNTER",
-			},
 			["Default.Burning Blade.Fàllkèn"] = {
 				["ActiveTalents"] = 1,
 				["lastUpdate"] = 1593554188,
@@ -132,16 +115,31 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "PALADIN",
 			},
-			["Default.Burning Blade.Fallken"] = {
+			["Default.Drak'thul.Fállkên"] = {
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1595502855,
+				["lastUpdate"] = 1589755503,
 				["Specializations"] = {
-					7101, -- [1]
-					11741, -- [2]
-					5854, -- [3]
-					14237, -- [4]
+					[2] = 5465,
 				},
-				["Class"] = "DRUID",
+				["Class"] = "DEMONHUNTER",
+			},
+			["Default.Burning Blade.Fállken"] = {
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1595026740,
+				["Specializations"] = {
+					5726, -- [1]
+					6489, -- [2]
+				},
+				["Class"] = "DEMONHUNTER",
+			},
+			["Default.Drak'thul.Fãllkên"] = {
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1591052827,
+				["Specializations"] = {
+					2, -- [1]
+					[3] = 3,
+				},
+				["Class"] = "HUNTER",
 			},
 			["Default.Burning Blade.Gfgdhfdghfgh"] = {
 				["lastUpdate"] = 1593648371,
@@ -198,14 +196,15 @@ DataStore_TalentsDB = {
 					[3] = 121,
 				},
 			},
-			["Default.Drak'thul.Fàllkên"] = {
+			["Default.Drak'thul.Fållkên"] = {
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1595026040,
+				["lastUpdate"] = 1595021985,
 				["Specializations"] = {
-					5818, -- [1]
-					[3] = 11111,
+					16299, -- [1]
+					11671, -- [2]
+					15061, -- [3]
 				},
-				["Class"] = "HUNTER",
+				["Class"] = "WARLOCK",
 			},
 			["Default.Burning Blade.Fallkenji"] = {
 				["ActiveTalents"] = 1,
@@ -252,15 +251,14 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "PRIEST",
 			},
-			["Default.Drak'thul.Fållkên"] = {
+			["Default.Drak'thul.Fàllkên"] = {
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1595021985,
+				["lastUpdate"] = 1595026040,
 				["Specializations"] = {
-					16299, -- [1]
-					11671, -- [2]
-					15061, -- [3]
+					5818, -- [1]
+					[3] = 11111,
 				},
-				["Class"] = "WARLOCK",
+				["Class"] = "HUNTER",
 			},
 			["Default.Drak'thul.Fållkèn"] = {
 				["ActiveTalents"] = 1,
@@ -271,18 +269,20 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "MAGE",
 			},
-			["Default.Drak'thul.Fãllkên"] = {
+			["Default.Burning Blade.Fallken"] = {
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1591052827,
+				["lastUpdate"] = 1595713671,
 				["Specializations"] = {
-					2, -- [1]
-					[3] = 3,
+					7101, -- [1]
+					14782, -- [2]
+					5853, -- [3]
+					10734, -- [4]
 				},
-				["Class"] = "HUNTER",
+				["Class"] = "DRUID",
 			},
 			["Default.Drak'thul.Fallkenez"] = {
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1595021354,
+				["lastUpdate"] = 1595710079,
 				["Specializations"] = {
 					6649, -- [1]
 					7078, -- [2]
@@ -308,7 +308,7 @@ DataStore_TalentsRefDB = {
 		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
 		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
 		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
-		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
 		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
 		["Fállkén - Outland"] = "Fállkén - Outland",
 		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
@@ -322,7 +322,7 @@ DataStore_TalentsRefDB = {
 		["Fallken - Burning Blade"] = "Fallken - Burning Blade",
 		["Fällkên - Drak'thul"] = "Fällkên - Drak'thul",
 		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
-		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
 	},
 	["global"] = {
 		["DEATHKNIGHT"] = {
@@ -575,7 +575,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 34963,
+			["Version"] = 35284,
 		},
 		["MAGE"] = {
 			["Locale"] = "enUS",
@@ -635,7 +635,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 35249,
+			["Version"] = 35284,
 		},
 		["PRIEST"] = {
 			["Locale"] = "enUS",
@@ -1098,7 +1098,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [4]
 			},
-			["Version"] = 35249,
+			["Version"] = 35284,
 		},
 		["MONK"] = {
 			["Locale"] = "enUS",

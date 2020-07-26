@@ -55,7 +55,7 @@ Details_Streamer: enabled
 Details_TinyThreat: enabled
 Details_Vanguard: enabled
 ExRT: enabled
-flyPlateBuffs: enabled
+flyPlateBuffs: disabled
 HandyNotes: enabled
 HandyNotes_VisionsOfNZoth: enabled
 LittleWigs: enabled

@@ -8,13 +8,13 @@ DataStore_AgendaDB = {
 		["Fállkèn - Burning Blade"] = "Fállkèn - Burning Blade",
 		["Fàllkên - Drak'thul"] = "Fàllkên - Drak'thul",
 		["Faallken - Drak'thul"] = "Faallken - Drak'thul",
-		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
 		["Fallkenxd - Burning Blade"] = "Fallkenxd - Burning Blade",
 		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
 		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
 		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
 		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
-		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
 		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
 		["Fällkên - Drak'thul"] = "Fällkên - Drak'thul",
 		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
@@ -41,7 +41,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1571472978,
 			},
 			["Default.Drak'thul.Fàllkén"] = {
-				["lastUpdate"] = 1595504024,
+				["lastUpdate"] = 1595710297,
 			},
 			["Default.Burning Blade.Fallkenthicc"] = {
 				["lastUpdate"] = 1593737994,
@@ -61,23 +61,23 @@ DataStore_AgendaDB = {
 			["Default.Burning Blade.Fallkenmekac"] = {
 				["lastUpdate"] = 1593892284,
 			},
-			["Default.Drak'thul.Fãllkên"] = {
-				["lastUpdate"] = 1591052827,
+			["Default.Burning Blade.Fallken"] = {
+				["DungeonIDs"] = {
+					["Return to Karazhan Mythic|1344937264"] = "283927|1595722073|0|0",
+					["Karazhan 10 Player|1344917352"] = "283927|1595722073|0|1",
+					["Onyxia's Lair 10 Player|1344937538"] = "283927|1595722073|0|1",
+					["Ny'alotha, the Waking City Mythic|1344520927"] = "283927|1595722073|0|1",
+				},
+				["lastUpdate"] = 1595722072,
 			},
 			["Default.Drak'thul.Fállkên"] = {
 				["lastUpdate"] = 1589755506,
 			},
-			["Default.Burning Blade.Fállken"] = {
-				["lastUpdate"] = 1595026739,
+			["Default.Burning Blade.Fàllkèn"] = {
+				["lastUpdate"] = 1593554188,
 			},
-			["Default.Burning Blade.Fallken"] = {
-				["DungeonIDs"] = {
-					["Return to Karazhan Mythic|1344937264"] = "503156|1595502857|0|0",
-					["Karazhan 10 Player|1344917352"] = "503156|1595502857|0|1",
-					["Onyxia's Lair 10 Player|1344937538"] = "503156|1595502857|0|1",
-					["Ny'alotha, the Waking City Mythic|1344520927"] = "503156|1595502857|0|1",
-				},
-				["lastUpdate"] = 1595502855,
+			["Default.Drak'thul.Fãllkên"] = {
+				["lastUpdate"] = 1591052827,
 			},
 			["Default.Burning Blade.Gfgdhfdghfgh"] = {
 				["lastUpdate"] = 1593647971,
@@ -91,14 +91,14 @@ DataStore_AgendaDB = {
 			["Default.Drak'thul.Fållkèn"] = {
 				["lastUpdate"] = 1593555972,
 			},
-			["Default.Drak'thul.Fållkên"] = {
-				["lastUpdate"] = 1595021984,
+			["Default.Drak'thul.Fàllkên"] = {
+				["lastUpdate"] = 1595026040,
 			},
 			["Default.Burning Blade.Fållken"] = {
 				["lastUpdate"] = 1595026412,
 			},
-			["Default.Drak'thul.Fàllkên"] = {
-				["lastUpdate"] = 1595026040,
+			["Default.Drak'thul.Fållkên"] = {
+				["lastUpdate"] = 1595021984,
 			},
 			["Default.Burning Blade.Fallkenji"] = {
 				["lastUpdate"] = 1593552285,
@@ -121,11 +121,11 @@ DataStore_AgendaDB = {
 			["Default.Drak'thul.Faallken"] = {
 				["lastUpdate"] = 1595024641,
 			},
-			["Default.Burning Blade.Fàllkèn"] = {
-				["lastUpdate"] = 1593554188,
+			["Default.Burning Blade.Fállken"] = {
+				["lastUpdate"] = 1595026739,
 			},
 			["Default.Drak'thul.Fallkenez"] = {
-				["lastUpdate"] = 1595021274,
+				["lastUpdate"] = 1595710079,
 			},
 		},
 	},

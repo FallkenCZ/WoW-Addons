@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2020-07-23T11:46:25Z
+-- RaiderIO Client Data. Generated on 2020-07-26T09:20:32Z
 --
 local _, ns = ...
 ns.CLIENT_CHARACTERS = {
@@ -415,7 +415,7 @@ ns.CLIENT_CHARACTERS = {
     },
     ["mythic_keystone"] = {
       ["all"] = {
-        ["score"] = 3061,
+        ["score"] = 3082.9,
         ["best"] = {
           ["zone_id"] = 9391,
           ["level"] = 21,
@@ -491,11 +491,11 @@ ns.CLIENT_CHARACTERS = {
           },
           [9] = {
             ["zone_id"] = 9526,
-            ["level"] = 19,
+            ["level"] = 20,
             ["upgrades"] = 1,
-            ["fraction"] = 0.869,
-            ["score"] = 238.3766147251499,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-bfa-4/20842663-19-kings-rest?utm_source=client"
+            ["fraction"] = 0.959,
+            ["score"] = 260.2621826908876,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-bfa-4/23610289-20-kings-rest?utm_source=client"
           },
           [10] = {
             ["zone_id"] = 9527,

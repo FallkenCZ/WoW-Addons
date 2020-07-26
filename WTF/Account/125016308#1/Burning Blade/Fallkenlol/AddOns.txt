@@ -87,8 +87,8 @@ WeakAurasOptions: enabled
 WeakAurasTemplates: enabled
 WorldQuestTracker: enabled
 DejaCharacterStats: enabled
-TradeSkillMaster: disabled
-TradeSkillMaster_AppHelper: disabled
+TradeSkillMaster: enabled
+TradeSkillMaster_AppHelper: enabled
 ElvUI_SLE: disabled
 ElvUI_OptionsUI: disabled
 ElvUI: disabled
@@ -183,3 +183,4 @@ MythicDungeonTools: enabled
 Plater: enabled
 Gladius: enabled
 Lorti-UI: enabled
+MyBiggerBuffs: enabled

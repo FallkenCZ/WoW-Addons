@@ -273,8 +273,8 @@ DCS_ClassSpecDB = {
 		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -495,8 +495,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = false,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -730,8 +730,8 @@ DCS_ClassSpecDB = {
 		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -927,8 +927,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -1191,8 +1191,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [53]
 		{
 			["statKey"] = "RATING_2V2",
@@ -1415,8 +1415,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -1613,8 +1613,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -1771,8 +1771,8 @@ DCS_ClassSpecDB = {
 		}, -- [41]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = false,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -2099,8 +2099,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = false,
+			["hideAt"] = 0,
 		}, -- [53]
 		{
 			["statKey"] = "RATING_2V2",
@@ -2336,8 +2336,8 @@ DCS_ClassSpecDB = {
 		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -2536,8 +2536,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		{
 			["statKey"] = "DCS_MOVESPEED",
@@ -2787,8 +2787,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [61]
 		["uniqueKey"] = "Fällkèn:Drak'thul:2",
 	},
@@ -3025,8 +3025,8 @@ DCS_ClassSpecDB = {
 		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = false,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -3242,8 +3242,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [53]
 		["uniqueKey"] = "Fãllkên:Drak'thul:3",
 	},
@@ -3437,8 +3437,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [49]
 		{
 			["statKey"] = "CR_CORRUPTION_RESISTANCE",
@@ -3676,8 +3676,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		{
 			["statKey"] = "CR_CORRUPTION_RESISTANCE",
@@ -3918,8 +3918,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		{
 			["statKey"] = "DCS_MOVESPEED",
@@ -4131,8 +4131,8 @@ DCS_ClassSpecDB = {
 		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -4353,8 +4353,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = false,
 			["hideAt"] = 0,
+			["hidden"] = false,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -4602,8 +4602,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		{
 			["statKey"] = "CR_CORRUPTION_RESISTANCE",
@@ -4781,8 +4781,8 @@ DCS_ClassSpecDB = {
 		}, -- [37]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = false,
 			["hideAt"] = 0,
+			["hidden"] = false,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -5021,8 +5021,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = false,
+			["hideAt"] = 0,
 		}, -- [38]
 		{
 			["statKey"] = "RatingCategory",
@@ -5318,8 +5318,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [49]
 		{
 			["statKey"] = "DCS_MOVESPEED",
@@ -5518,8 +5518,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [49]
 		{
 			["statKey"] = "RATING_2V2",
@@ -5776,8 +5776,8 @@ DCS_ClassSpecDB = {
 		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -5942,8 +5942,8 @@ DCS_ClassSpecDB = {
 		}, -- [37]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = false,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -6235,8 +6235,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -6475,8 +6475,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -6703,8 +6703,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = false,
+			["hideAt"] = 0,
 		}, -- [49]
 		{
 			["statKey"] = "CR_CORRUPTION_RESISTANCE",
@@ -6968,8 +6968,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [53]
 		{
 			["statKey"] = "RATING_2V2",
@@ -7208,8 +7208,8 @@ DCS_ClassSpecDB = {
 		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -7454,8 +7454,8 @@ DCS_ClassSpecDB = {
 		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -7670,8 +7670,8 @@ DCS_ClassSpecDB = {
 		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -7889,8 +7889,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [53]
 		["uniqueKey"] = "Fallkengold:Sylvanas:3",
 	},
@@ -8081,8 +8081,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -8321,8 +8321,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = false,
+			["hideAt"] = 0,
 		}, -- [49]
 		{
 			["statKey"] = "CR_CORRUPTION_RESISTANCE",
@@ -8503,8 +8503,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = false,
 			["hideAt"] = 0,
+			["hidden"] = false,
 		}, -- [38]
 		{
 			["statKey"] = "RatingCategory",
@@ -8785,8 +8785,8 @@ DCS_ClassSpecDB = {
 		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -9033,8 +9033,8 @@ DCS_ClassSpecDB = {
 		}, -- [60]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -9249,8 +9249,8 @@ DCS_ClassSpecDB = {
 		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -9530,8 +9530,8 @@ DCS_ClassSpecDB = {
 		}, -- [60]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -9755,8 +9755,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = false,
+			["hideAt"] = 0,
 		}, -- [49]
 		{
 			["statKey"] = "CR_CORRUPTION_RESISTANCE",
@@ -10055,8 +10055,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [61]
 		["uniqueKey"] = "Fållkên:Drak'thul:2",
 	},
@@ -10252,8 +10252,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [49]
 		{
 			["statKey"] = "DCS_MOVESPEED",
@@ -10468,8 +10468,8 @@ DCS_ClassSpecDB = {
 		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -10665,8 +10665,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [49]
 		{
 			["statKey"] = "CR_CORRUPTION_RESISTANCE",
@@ -10863,8 +10863,8 @@ DCS_ClassSpecDB = {
 		}, -- [41]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = false,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -11163,8 +11163,8 @@ DCS_ClassSpecDB = {
 		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -11329,8 +11329,8 @@ DCS_ClassSpecDB = {
 		}, -- [37]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = false,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -11436,245 +11436,219 @@ DCS_ClassSpecDB = {
 		}, -- [61]
 		["uniqueKey"] = "Faallken:Drak'thul:2",
 	},
-	["Fállken:Burning Blade:1"] = {
+	["Fallkenji:Burning Blade:2"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
 		{
-			["statKey"] = "GeneralCategory",
+			["statKey"] = "CorruptionCategory",
+			["hidden"] = true,
 		}, -- [2]
 		{
-			["statKey"] = "HEALTH",
+			["statKey"] = "CR_CORRUPTION",
+			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [3]
 		{
-			["statKey"] = "DCS_POWER",
+			["statKey"] = "CR_CORRUPTION_RESISTANCE",
+			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [4]
 		{
-			["statKey"] = "DCS_ALTERNATEMANA",
+			["statKey"] = "CR_TOTAL_CORRUPTION",
+			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [5]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [6]
+		{
+			["statKey"] = "HEALTH",
+		}, -- [7]
+		{
+			["statKey"] = "DCS_POWER",
+		}, -- [8]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [9]
 		{
 			["statKey"] = "ITEMLEVEL",
 			["hidden"] = true,
-		}, -- [6]
+		}, -- [10]
 		{
 			["statKey"] = "MOVESPEED",
-		}, -- [7]
+		}, -- [11]
 		{
 			["statKey"] = "DURABILITY_STAT",
-		}, -- [8]
+		}, -- [12]
 		{
 			["statKey"] = "REPAIR_COST",
-		}, -- [9]
+		}, -- [13]
 		{
 			["statKey"] = "AttributesCategory",
-		}, -- [10]
+		}, -- [14]
 		{
 			["statKey"] = "STRENGTH",
 			["hidden"] = true,
-		}, -- [11]
+		}, -- [15]
 		{
 			["statKey"] = "AGILITY",
-		}, -- [12]
+		}, -- [16]
 		{
 			["statKey"] = "INTELLECT",
 			["hidden"] = true,
-		}, -- [13]
-		{
-			["statKey"] = "STAMINA",
-		}, -- [14]
-		{
-			["statKey"] = "ARMOR",
-		}, -- [15]
-		{
-			["statKey"] = "OffenseCategory",
-		}, -- [16]
-		{
-			["statKey"] = "ATTACK_DAMAGE",
 		}, -- [17]
 		{
-			["statKey"] = "ATTACK_AP",
+			["statKey"] = "STAMINA",
 		}, -- [18]
 		{
-			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+			["statKey"] = "ARMOR",
 		}, -- [19]
 		{
-			["statKey"] = "WEAPON_DPS",
+			["statKey"] = "OffenseCategory",
 		}, -- [20]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+		}, -- [21]
+		{
+			["statKey"] = "ATTACK_AP",
+		}, -- [22]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+		}, -- [23]
+		{
+			["statKey"] = "WEAPON_DPS",
+		}, -- [24]
 		{
 			["statKey"] = "SPELLPOWER",
 			["hidden"] = true,
-		}, -- [21]
+		}, -- [25]
 		{
 			["statKey"] = "MANAREGEN",
 			["hidden"] = true,
-		}, -- [22]
+		}, -- [26]
 		{
 			["statKey"] = "ENERGY_REGEN",
-		}, -- [23]
+		}, -- [27]
 		{
 			["statKey"] = "DCS_RUNEREGEN",
 			["hidden"] = true,
-		}, -- [24]
+		}, -- [28]
 		{
 			["statKey"] = "FOCUS_REGEN",
-		}, -- [25]
+		}, -- [29]
 		{
 			["statKey"] = "GCD",
-		}, -- [26]
+		}, -- [30]
 		{
 			["statKey"] = "EnhancementsCategory",
-		}, -- [27]
+		}, -- [31]
 		{
 			["statKey"] = "CRITCHANCE",
 			["hideAt"] = 0,
-		}, -- [28]
+		}, -- [32]
 		{
 			["statKey"] = "HASTE",
 			["hideAt"] = 0,
-		}, -- [29]
+		}, -- [33]
 		{
 			["statKey"] = "VERSATILITY",
 			["hideAt"] = 0,
-		}, -- [30]
+		}, -- [34]
 		{
 			["statKey"] = "MASTERY",
 			["hideAt"] = 0,
-		}, -- [31]
+		}, -- [35]
 		{
 			["statKey"] = "LIFESTEAL",
 			["hideAt"] = 0,
-		}, -- [32]
+		}, -- [36]
 		{
 			["statKey"] = "AVOIDANCE",
 			["hideAt"] = 0,
-		}, -- [33]
+		}, -- [37]
 		{
 			["statKey"] = "DefenseCategory",
 			["hidden"] = true,
-		}, -- [34]
+		}, -- [38]
 		{
 			["statKey"] = "DODGE",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [35]
+		}, -- [39]
 		{
 			["statKey"] = "PARRY",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [36]
+		}, -- [40]
 		{
 			["statKey"] = "BLOCK",
-			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [37]
+			["hideAt"] = 0,
+		}, -- [41]
 		{
 			["statKey"] = "RatingCategory",
 			["hidden"] = true,
-		}, -- [38]
+		}, -- [42]
 		{
 			["statKey"] = "CRITCHANCE_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [39]
+		}, -- [43]
 		{
 			["statKey"] = "HASTE_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [40]
+		}, -- [44]
 		{
 			["statKey"] = "VERSATILITY_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [41]
+		}, -- [45]
 		{
 			["statKey"] = "MASTERY_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [42]
+		}, -- [46]
 		{
 			["statKey"] = "LIFESTEAL_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [43]
+		}, -- [47]
 		{
 			["statKey"] = "AVOIDANCE_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [44]
+		}, -- [48]
 		{
 			["statKey"] = "DODGE_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [45]
+		}, -- [49]
 		{
 			["statKey"] = "PARRY_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [46]
+		}, -- [50]
 		{
 			["statKey"] = "SPEED_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [47]
+		}, -- [51]
 		{
 			["statKey"] = "SPEED",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [48]
+		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
+			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [49]
-		{
-			["statKey"] = "CR_CORRUPTION_RESISTANCE",
-			["hideAt"] = 0,
-		}, -- [50]
-		{
-			["statKey"] = "CR_CORRUPTION",
-			["hideAt"] = 0,
-		}, -- [51]
-		{
-			["statKey"] = "CorruptionCategory",
-		}, -- [52]
-		{
-			["statKey"] = "CR_TOTAL_CORRUPTION",
-			["hideAt"] = 0,
 		}, -- [53]
-		{
-			["statKey"] = "RATING_2V2",
-			["hideAt"] = 0,
-		}, -- [54]
-		{
-			["statKey"] = "HONOR_PROGRESS",
-			["hideAt"] = 0,
-		}, -- [55]
-		{
-			["statKey"] = "CONQUEST_PROGRESS",
-			["hideAt"] = 0,
-		}, -- [56]
-		{
-			["statKey"] = "RATING_RBG",
-			["hideAt"] = 0,
-		}, -- [57]
-		{
-			["statKey"] = "RATING_3V3",
-			["hideAt"] = 0,
-		}, -- [58]
-		{
-			["statKey"] = "HONOR_LEVEL",
-			["hideAt"] = 0,
-		}, -- [59]
-		{
-			["statKey"] = "HonorCategory",
-		}, -- [60]
-		{
-			["statKey"] = "ConquestCategory",
-		}, -- [61]
-		["uniqueKey"] = "Fállken:Burning Blade:1",
+		["uniqueKey"] = "Fallkenji:Burning Blade:2",
 	},
 	["Fallkenchoco:Burning Blade:3"] = {
 		{
@@ -11826,8 +11800,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = false,
 			["hideAt"] = 0,
+			["hidden"] = false,
 		}, -- [42]
 		{
 			["statKey"] = "RatingCategory",
@@ -12093,8 +12067,8 @@ DCS_ClassSpecDB = {
 		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -12260,8 +12234,8 @@ DCS_ClassSpecDB = {
 		}, -- [37]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = false,
 			["hideAt"] = 0,
+			["hidden"] = false,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -12559,8 +12533,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [49]
 		{
 			["statKey"] = "CR_CORRUPTION_RESISTANCE",
@@ -12798,8 +12772,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -13062,8 +13036,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [53]
 		["uniqueKey"] = "Fallkenthicc:Burning Blade:1",
 	},
@@ -13281,8 +13255,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = false,
 			["hideAt"] = 0,
+			["hidden"] = false,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -13524,8 +13498,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -13705,8 +13679,8 @@ DCS_ClassSpecDB = {
 		}, -- [37]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = false,
 			["hideAt"] = 0,
+			["hidden"] = false,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -13960,8 +13934,8 @@ DCS_ClassSpecDB = {
 		}, -- [41]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = false,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -14239,8 +14213,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -14500,8 +14474,8 @@ DCS_ClassSpecDB = {
 		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -14700,8 +14674,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [49]
 		{
 			["statKey"] = "CR_CORRUPTION_RESISTANCE",
@@ -14940,8 +14914,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		{
 			["statKey"] = "CR_CORRUPTION_RESISTANCE",
@@ -15152,8 +15126,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		{
 			["statKey"] = "CR_CORRUPTION_RESISTANCE",
@@ -15408,227 +15382,253 @@ DCS_ClassSpecDB = {
 		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
 		}, -- [53]
 		["uniqueKey"] = "Fãllkên:Drak'thul:1",
 	},
-	["Fallkenji:Burning Blade:2"] = {
+	["Fállken:Burning Blade:1"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
 		{
-			["statKey"] = "CorruptionCategory",
-			["hidden"] = true,
+			["statKey"] = "GeneralCategory",
 		}, -- [2]
 		{
-			["statKey"] = "CR_CORRUPTION",
-			["hideAt"] = 0,
-			["hidden"] = true,
+			["statKey"] = "HEALTH",
 		}, -- [3]
 		{
-			["statKey"] = "CR_CORRUPTION_RESISTANCE",
-			["hideAt"] = 0,
-			["hidden"] = true,
+			["statKey"] = "DCS_POWER",
 		}, -- [4]
 		{
-			["statKey"] = "CR_TOTAL_CORRUPTION",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [5]
-		{
-			["statKey"] = "GeneralCategory",
-		}, -- [6]
-		{
-			["statKey"] = "HEALTH",
-		}, -- [7]
-		{
-			["statKey"] = "DCS_POWER",
-		}, -- [8]
-		{
 			["statKey"] = "DCS_ALTERNATEMANA",
-		}, -- [9]
+		}, -- [5]
 		{
 			["statKey"] = "ITEMLEVEL",
 			["hidden"] = true,
-		}, -- [10]
+		}, -- [6]
 		{
 			["statKey"] = "MOVESPEED",
-		}, -- [11]
+		}, -- [7]
 		{
 			["statKey"] = "DURABILITY_STAT",
-		}, -- [12]
+		}, -- [8]
 		{
 			["statKey"] = "REPAIR_COST",
-		}, -- [13]
+		}, -- [9]
 		{
 			["statKey"] = "AttributesCategory",
-		}, -- [14]
+		}, -- [10]
 		{
 			["statKey"] = "STRENGTH",
 			["hidden"] = true,
-		}, -- [15]
+		}, -- [11]
 		{
 			["statKey"] = "AGILITY",
-		}, -- [16]
+		}, -- [12]
 		{
 			["statKey"] = "INTELLECT",
 			["hidden"] = true,
-		}, -- [17]
+		}, -- [13]
 		{
 			["statKey"] = "STAMINA",
-		}, -- [18]
+		}, -- [14]
 		{
 			["statKey"] = "ARMOR",
-		}, -- [19]
+		}, -- [15]
 		{
 			["statKey"] = "OffenseCategory",
-		}, -- [20]
+		}, -- [16]
 		{
 			["statKey"] = "ATTACK_DAMAGE",
-		}, -- [21]
+		}, -- [17]
 		{
 			["statKey"] = "ATTACK_AP",
-		}, -- [22]
+		}, -- [18]
 		{
 			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
-		}, -- [23]
+		}, -- [19]
 		{
 			["statKey"] = "WEAPON_DPS",
-		}, -- [24]
+		}, -- [20]
 		{
 			["statKey"] = "SPELLPOWER",
 			["hidden"] = true,
-		}, -- [25]
+		}, -- [21]
 		{
 			["statKey"] = "MANAREGEN",
 			["hidden"] = true,
-		}, -- [26]
+		}, -- [22]
 		{
 			["statKey"] = "ENERGY_REGEN",
-		}, -- [27]
+		}, -- [23]
 		{
 			["statKey"] = "DCS_RUNEREGEN",
 			["hidden"] = true,
-		}, -- [28]
+		}, -- [24]
 		{
 			["statKey"] = "FOCUS_REGEN",
-		}, -- [29]
+		}, -- [25]
 		{
 			["statKey"] = "GCD",
-		}, -- [30]
+		}, -- [26]
 		{
 			["statKey"] = "EnhancementsCategory",
-		}, -- [31]
+		}, -- [27]
 		{
 			["statKey"] = "CRITCHANCE",
 			["hideAt"] = 0,
-		}, -- [32]
+		}, -- [28]
 		{
 			["statKey"] = "HASTE",
 			["hideAt"] = 0,
-		}, -- [33]
+		}, -- [29]
 		{
 			["statKey"] = "VERSATILITY",
 			["hideAt"] = 0,
-		}, -- [34]
+		}, -- [30]
 		{
 			["statKey"] = "MASTERY",
 			["hideAt"] = 0,
-		}, -- [35]
+		}, -- [31]
 		{
 			["statKey"] = "LIFESTEAL",
 			["hideAt"] = 0,
-		}, -- [36]
+		}, -- [32]
 		{
 			["statKey"] = "AVOIDANCE",
 			["hideAt"] = 0,
-		}, -- [37]
+		}, -- [33]
 		{
 			["statKey"] = "DefenseCategory",
 			["hidden"] = true,
-		}, -- [38]
+		}, -- [34]
 		{
 			["statKey"] = "DODGE",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [39]
+		}, -- [35]
 		{
 			["statKey"] = "PARRY",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [40]
+		}, -- [36]
 		{
 			["statKey"] = "BLOCK",
-			["hidden"] = true,
 			["hideAt"] = 0,
-		}, -- [41]
+			["hidden"] = true,
+		}, -- [37]
 		{
 			["statKey"] = "RatingCategory",
 			["hidden"] = true,
-		}, -- [42]
+		}, -- [38]
 		{
 			["statKey"] = "CRITCHANCE_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [43]
+		}, -- [39]
 		{
 			["statKey"] = "HASTE_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [44]
+		}, -- [40]
 		{
 			["statKey"] = "VERSATILITY_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [45]
+		}, -- [41]
 		{
 			["statKey"] = "MASTERY_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [46]
+		}, -- [42]
 		{
 			["statKey"] = "LIFESTEAL_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [47]
+		}, -- [43]
 		{
 			["statKey"] = "AVOIDANCE_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [48]
+		}, -- [44]
 		{
 			["statKey"] = "DODGE_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [49]
+		}, -- [45]
 		{
 			["statKey"] = "PARRY_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [50]
+		}, -- [46]
 		{
 			["statKey"] = "SPEED_RATING",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [51]
+		}, -- [47]
 		{
 			["statKey"] = "SPEED",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [52]
+		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
-			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
+			["hidden"] = true,
+			["hideAt"] = 0,
+		}, -- [49]
+		{
+			["statKey"] = "CR_CORRUPTION_RESISTANCE",
+			["hideAt"] = 0,
+		}, -- [50]
+		{
+			["statKey"] = "CR_CORRUPTION",
+			["hideAt"] = 0,
+		}, -- [51]
+		{
+			["statKey"] = "CorruptionCategory",
+		}, -- [52]
+		{
+			["statKey"] = "CR_TOTAL_CORRUPTION",
+			["hideAt"] = 0,
 		}, -- [53]
-		["uniqueKey"] = "Fallkenji:Burning Blade:2",
+		{
+			["statKey"] = "RATING_2V2",
+			["hideAt"] = 0,
+		}, -- [54]
+		{
+			["statKey"] = "HONOR_PROGRESS",
+			["hideAt"] = 0,
+		}, -- [55]
+		{
+			["statKey"] = "CONQUEST_PROGRESS",
+			["hideAt"] = 0,
+		}, -- [56]
+		{
+			["statKey"] = "RATING_RBG",
+			["hideAt"] = 0,
+		}, -- [57]
+		{
+			["statKey"] = "RATING_3V3",
+			["hideAt"] = 0,
+		}, -- [58]
+		{
+			["statKey"] = "HONOR_LEVEL",
+			["hideAt"] = 0,
+		}, -- [59]
+		{
+			["statKey"] = "HonorCategory",
+		}, -- [60]
+		{
+			["statKey"] = "ConquestCategory",
+		}, -- [61]
+		["uniqueKey"] = "Fállken:Burning Blade:1",
 	},
 	["Fàllkén:Drak'thul:1"] = {
 		{
@@ -15867,8 +15867,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [61]
 		["uniqueKey"] = "Fàllkén:Drak'thul:1",
 	},
@@ -16001,8 +16001,8 @@ DCS_ClassSpecDB = {
 		}, -- [37]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = false,
 			["hideAt"] = 0,
+			["hidden"] = false,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -16319,8 +16319,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [61]
 		["uniqueKey"] = "Fållken:Burning Blade:2",
 	},
@@ -16570,8 +16570,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [61]
 		["uniqueKey"] = "Fallkenthicc:Burning Blade:4",
 	},

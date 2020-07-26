@@ -29,7 +29,7 @@ CorruptionTooltipsDB = {
 		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
 		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
 		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
-		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
 		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
 		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
 		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
@@ -43,7 +43,7 @@ CorruptionTooltipsDB = {
 		["Fallkên - Drak'thul"] = "Fallkên - Drak'thul",
 		["Fällkên - Drak'thul"] = "Fällkên - Drak'thul",
 		["Fallkenchoco - Burning Blade"] = "Fallkenchoco - Burning Blade",
-		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
 	},
 	["profiles"] = {
 		["Fallken - Burning Blade"] = {

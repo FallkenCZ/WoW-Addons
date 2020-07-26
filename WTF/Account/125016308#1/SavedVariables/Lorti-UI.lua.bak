@@ -2,6 +2,7 @@
 LortiUIDB = {
 	["profileKeys"] = {
 		["Fallken - Burning Blade"] = "Default",
+		["Fallkenez - Drak'thul"] = "Default",
 		["Fàllkén - Drak'thul"] = "Default",
 	},
 	["profiles"] = {

@@ -7,7 +7,7 @@ PasteDB = {
 		["Fãllkên - Drak'thul"] = "Fãllkên - Drak'thul",
 		["Fállkèn - Burning Blade"] = "Fállkèn - Burning Blade",
 		["Fàllkên - Drak'thul"] = "Fàllkên - Drak'thul",
-		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
 		["Faallken - Drak'thul"] = "Faallken - Drak'thul",
 		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
 		["Fallkenxd - Burning Blade"] = "Fallkenxd - Burning Blade",
@@ -15,7 +15,7 @@ PasteDB = {
 		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
 		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
 		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
-		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
 		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
 		["Fállken - Burning Blade"] = "Fállken - Burning Blade",
 		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
@@ -64,11 +64,8 @@ PasteDB = {
 				["hide"] = true,
 			},
 		},
-		["Fállkên - Drak'thul"] = {
+		["Fallkenji - Burning Blade"] = {
 			["loaded"] = true,
-			["minimap"] = {
-				["hide"] = true,
-			},
 		},
 		["Faallken - Drak'thul"] = {
 			["loaded"] = true,
@@ -81,11 +78,11 @@ PasteDB = {
 			["whispertarget"] = "",
 			["where"] = "Default",
 			["loaded"] = true,
+			["pos"] = {
+			},
 			["minimap"] = {
 				["minimapPos"] = 343.5810834464992,
 				["hide"] = true,
-			},
-			["pos"] = {
 			},
 		},
 		["Fallkenxd - Burning Blade"] = {
@@ -114,8 +111,11 @@ PasteDB = {
 				["hide"] = true,
 			},
 		},
-		["Fallkenji - Burning Blade"] = {
+		["Fállkên - Drak'thul"] = {
 			["loaded"] = true,
+			["minimap"] = {
+				["hide"] = true,
+			},
 		},
 		["Fallkenmekac - Burning Blade"] = {
 			["loaded"] = true,
@@ -152,13 +152,13 @@ PasteDB = {
 			},
 		},
 		["Fàllkén - Drak'thul"] = {
+			["whispertarget"] = "",
+			["where"] = "Default",
 			["loaded"] = true,
 			["minimap"] = {
 				["minimapPos"] = 347.480157565795,
 				["hide"] = true,
 			},
-			["where"] = "Default",
-			["whispertarget"] = "",
 			["pos"] = {
 			},
 		},
@@ -169,13 +169,13 @@ PasteDB = {
 			},
 		},
 		["Fallken - Burning Blade"] = {
-			["whispertarget"] = "",
-			["where"] = "Default",
 			["loaded"] = true,
 			["minimap"] = {
 				["minimapPos"] = 197.6601764358254,
 				["hide"] = true,
 			},
+			["where"] = "Default",
+			["whispertarget"] = "",
 			["pos"] = {
 				["height"] = 320,
 				["top"] = 576.39501953125,

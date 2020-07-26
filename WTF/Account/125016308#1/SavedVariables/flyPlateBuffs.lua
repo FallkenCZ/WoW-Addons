@@ -11,7 +11,7 @@ flyPlateBuffsDB = {
 		["Fàllkèn - Burning Blade"] = "Default",
 		["Fallkengold - Sylvanas"] = "Default",
 		["Fållken - Burning Blade"] = "Default",
-		["Fállkên - Drak'thul"] = "Default",
+		["Fallkên - Drak'thul"] = "Default",
 		["Fallken - Burning Blade"] = "Default",
 		["Fallkenchoco - Burning Blade"] = "Default",
 		["Fållkên - Drak'thul"] = "Default",
@@ -25,7 +25,7 @@ flyPlateBuffsDB = {
 		["Fallkenji - Burning Blade"] = "Default",
 		["Fällkên - Drak'thul"] = "Default",
 		["Fallkenez - Drak'thul"] = "Default",
-		["Fallkên - Drak'thul"] = "Default",
+		["Fállkên - Drak'thul"] = "Default",
 	},
 	["version"] = 2,
 	["profiles"] = {

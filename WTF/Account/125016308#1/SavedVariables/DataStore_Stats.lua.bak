@@ -14,7 +14,7 @@ DataStore_StatsDB = {
 		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
 		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
 		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
-		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
 		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
 		["Fállkén - Outland"] = "Fállkén - Outland",
 		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
@@ -28,7 +28,7 @@ DataStore_StatsDB = {
 		["Fallken - Burning Blade"] = "Fallken - Burning Blade",
 		["Fällkên - Drak'thul"] = "Fällkên - Drak'thul",
 		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
-		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -46,7 +46,7 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Drak'thul.Fàllkén"] = {
-				["lastUpdate"] = 1595503117,
+				["lastUpdate"] = 1595710933,
 				["Stats"] = {
 					["Ranged"] = "354-594|1.6900000572205|0|0|23.15277671814",
 					["HealthMax"] = 543860,
@@ -54,8 +54,8 @@ DataStore_StatsDB = {
 					["MaxPower"] = "0|100000",
 					["Defense"] = "0|0|3|0|0|0",
 					["PVP"] = "271|0",
-					["Base"] = "647|1000|27193|15683|0",
-					["Spell"] = "15683|15683|0|38.152778625488|1249|10000",
+					["Base"] = "647|1000|27193|15267|0",
+					["Spell"] = "15267|15267|0|38.152778625488|1249|10000",
 				},
 			},
 			["Default.Burning Blade.Fallkenthicc"] = {
@@ -136,26 +136,6 @@ DataStore_StatsDB = {
 					["Defense"] = "0|0|3|0|0|0",
 				},
 			},
-			["Default.Burning Blade.Fállken"] = {
-				["lastUpdate"] = 1595026740,
-				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|20.472221374512",
-					["HealthMax"] = 63340,
-					["Melee"] = "1463-1538|2.3430001735687|3004|0|20.472221374512|0",
-					["MaxPower"] = "17|120",
-					["Spell"] = "1000|1000|0|20.472221374512|747|0",
-					["PVP"] = "326|0",
-					["Base"] = "1215|3004|3167|1000|0",
-					["Defense"] = "0|0|9.2431421279907|3|0|0",
-				},
-			},
-			["Default.Drak'thul.Fállkên"] = {
-				["lastUpdate"] = 1572525411,
-				["Stats"] = {
-					["MaxPower"] = "18|100",
-					["HealthMax"] = 46040,
-				},
-			},
 			["Default.Burning Blade.Fàllkèn"] = {
 				["lastUpdate"] = 1593554209,
 				["Stats"] = {
@@ -169,17 +149,31 @@ DataStore_StatsDB = {
 					["Defense"] = "0|0|3|6.2422113418579|10|0",
 				},
 			},
-			["Default.Burning Blade.Fallken"] = {
-				["lastUpdate"] = 1595502934,
+			["Default.Drak'thul.Fállkên"] = {
+				["lastUpdate"] = 1572525411,
 				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|22.611110687256",
-					["HealthMax"] = 542840,
-					["Melee"] = "14281-15182|2.9290001392365|13441|0|22.611110687256|0",
-					["MaxPower"] = "0|20000",
-					["Spell"] = "16197|16197|0|22.611110687256|1557|3200",
-					["PVP"] = "45088|0",
-					["Base"] = "633|13441|27142|1465|0",
-					["Defense"] = "0|0|26.664083480835|0|0|0",
+					["MaxPower"] = "18|100",
+					["HealthMax"] = 46040,
+				},
+			},
+			["Default.Burning Blade.Fállken"] = {
+				["lastUpdate"] = 1595026740,
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|20.472221374512",
+					["HealthMax"] = 63340,
+					["Melee"] = "1463-1538|2.3430001735687|3004|0|20.472221374512|0",
+					["MaxPower"] = "17|120",
+					["Spell"] = "1000|1000|0|20.472221374512|747|0",
+					["PVP"] = "326|0",
+					["Base"] = "1215|3004|3167|1000|0",
+					["Defense"] = "0|0|9.2431421279907|3|0|0",
+				},
+			},
+			["Default.Drak'thul.Fãllkên"] = {
+				["lastUpdate"] = 1587502178,
+				["Stats"] = {
+					["HealthMax"] = 2816,
+					["MaxPower"] = "2|100",
 				},
 			},
 			["Default.Burning Blade.Gfgdhfdghfgh"] = {
@@ -254,17 +248,17 @@ DataStore_StatsDB = {
 					["Defense"] = "0|0|3|9.5062494277954|0|0",
 				},
 			},
-			["Default.Drak'thul.Fàllkên"] = {
-				["lastUpdate"] = 1595026040,
+			["Default.Drak'thul.Fållkên"] = {
+				["lastUpdate"] = 1595021985,
 				["Stats"] = {
-					["Ranged"] = "1734-1735|0|2852|0|21.847221374512",
-					["HealthMax"] = 61140,
-					["Melee"] = "1851-1953|3.2710001468658|2852|0|21.847221374512|0",
-					["MaxPower"] = "2|100",
-					["Defense"] = "0|0|9.0374641418457|0|0|0",
-					["PVP"] = "261|0",
-					["Base"] = "898|2852|3057|1202|0",
-					["Spell"] = "1202|1202|0|21.847221374512|685|0",
+					["Ranged"] = "1-2|0|0|0|17.708332061768",
+					["HealthMax"] = 342380,
+					["Melee"] = "230-385|1.4880000352859|0|0|17.708332061768|0",
+					["MaxPower"] = "0|100000",
+					["Defense"] = "0|0|3|0|0|0",
+					["PVP"] = "759|0",
+					["Base"] = "560|1127|17119|10538|0",
+					["Spell"] = "10538|10538|0|29.708332061768|1424|5000",
 				},
 			},
 			["Default.Burning Blade.Fallkenji"] = {
@@ -326,17 +320,17 @@ DataStore_StatsDB = {
 					["Spell"] = "10157|10157|0|18.611110687256|1241|4000",
 				},
 			},
-			["Default.Drak'thul.Fållkên"] = {
-				["lastUpdate"] = 1595021985,
+			["Default.Drak'thul.Fàllkên"] = {
+				["lastUpdate"] = 1595026040,
 				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|17.708332061768",
-					["HealthMax"] = 342380,
-					["Melee"] = "230-385|1.4880000352859|0|0|17.708332061768|0",
-					["MaxPower"] = "0|100000",
-					["Defense"] = "0|0|3|0|0|0",
-					["PVP"] = "759|0",
-					["Base"] = "560|1127|17119|10538|0",
-					["Spell"] = "10538|10538|0|29.708332061768|1424|5000",
+					["Ranged"] = "1734-1735|0|2852|0|21.847221374512",
+					["HealthMax"] = 61140,
+					["Melee"] = "1851-1953|3.2710001468658|2852|0|21.847221374512|0",
+					["MaxPower"] = "2|100",
+					["Defense"] = "0|0|9.0374641418457|0|0|0",
+					["PVP"] = "261|0",
+					["Base"] = "898|2852|3057|1202|0",
+					["Spell"] = "1202|1202|0|21.847221374512|685|0",
 				},
 			},
 			["Default.Drak'thul.Fållkèn"] = {
@@ -352,21 +346,27 @@ DataStore_StatsDB = {
 					["Spell"] = "523|523|0|20.023067474365|147|837",
 				},
 			},
-			["Default.Drak'thul.Fãllkên"] = {
-				["lastUpdate"] = 1587502178,
+			["Default.Burning Blade.Fallken"] = {
+				["lastUpdate"] = 1595713769,
 				["Stats"] = {
-					["HealthMax"] = 2816,
-					["MaxPower"] = "2|100",
+					["Ranged"] = "1-2|0|0|0|41.888889312744",
+					["HealthMax"] = 542000,
+					["Melee"] = "5990-6529|0.83300006389618|12555|0|41.888889312744|30",
+					["MaxPower"] = "3|100",
+					["Spell"] = "15345|15345|0|41.888889312744|1362|2080",
+					["PVP"] = "45118|0",
+					["Base"] = "633|12555|27100|1465|0",
+					["Defense"] = "0|0|25.443124771118|0|0|0",
 				},
 			},
 			["Default.Drak'thul.Fallkenez"] = {
-				["lastUpdate"] = 1595021137,
+				["lastUpdate"] = 1595710079,
 				["Stats"] = {
-					["Ranged"] = "4510-4511|0|12517|0|22.694444656372",
+					["Ranged"] = "4466-4467|0|12517|0|21.486108779907",
 					["HealthMax"] = 542300,
-					["Melee"] = "5278-5792|1.5260000228882|12517|0|22.694444656372|0",
+					["Melee"] = "5226-5735|1.5420000553131|12517|0|21.486108779907|0",
 					["MaxPower"] = "3|120",
-					["Spell"] = "997|997|0|22.694444656372|1223|0",
+					["Spell"] = "997|997|0|21.486108779907|1136|0",
 					["PVP"] = "4345|0",
 					["Base"] = "1221|12517|27115|997|0",
 					["Defense"] = "0|0|24.907331466675|3|0|0",

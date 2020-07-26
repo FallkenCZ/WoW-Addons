@@ -56,7 +56,7 @@ Details_Streamer: enabled
 Details_TinyThreat: enabled
 Details_Vanguard: enabled
 ExRT: enabled
-flyPlateBuffs: enabled
+flyPlateBuffs: disabled
 Grail: enabled
 Grail-NPCs-_retail_: enabled
 Grail-NPCs-_retail_-deDE: enabled

@@ -7,7 +7,7 @@ OmniBarDB = {
 		["Fãllkên - Drak'thul"] = "Default",
 		["Fállkèn - Burning Blade"] = "Default",
 		["Fàllkên - Drak'thul"] = "Default",
-		["Fállkên - Drak'thul"] = "Default",
+		["Fallkenji - Burning Blade"] = "Default",
 		["Faallken - Drak'thul"] = "Default",
 		["Fallkenez - Drak'thul"] = "Default",
 		["Fallkenxd - Burning Blade"] = "Default",
@@ -15,7 +15,7 @@ OmniBarDB = {
 		["Fàllkèn - Burning Blade"] = "Default",
 		["Gfgdhfdghfgh - Burning Blade"] = "Default",
 		["Fållken - Burning Blade"] = "Default",
-		["Fallkenji - Burning Blade"] = "Default",
+		["Fállkên - Drak'thul"] = "Default",
 		["Fallkenmekac - Burning Blade"] = "Default",
 		["Fallken - Burning Blade"] = "Default",
 		["Fållkên - Drak'thul"] = "Default",
@@ -35,10 +35,10 @@ OmniBarDB = {
 		["cooldowns"] = {
 			[305498] = {
 				["custom"] = true,
-				["class"] = "PRIEST",
 				["duration"] = {
 					["default"] = 12,
 				},
+				["class"] = "PRIEST",
 				["specID"] = {
 					256, -- [1]
 					257, -- [2]

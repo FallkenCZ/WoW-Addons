@@ -1,7 +1,3 @@
-VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [@] Tricks of the Trade
-END
 VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [talent:3/3] Marked for Death
@@ -27,6 +23,10 @@ VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
 /cast [talent:6/2] Toxic Blade
 /cast [talent:6/3] Exsanguinate
 END
+VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@] Tricks of the Trade
+END
 VER 3 010000000000000C " focus" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@focus] Sap
@@ -42,13 +42,17 @@ VER 3 010000000000000A "combo" "INV_MISC_QUESTIONMARK"
 /cast [@focus] Shadowstep
 /cast [@focus] Kick
 END
-VER 3 010000000000000B "focus" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [@focus] kick
-END
 VER 3 0100000000000009 "focus" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@focus] Blind
+END
+VER 3 010000000000000D "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Garrote
+END
+VER 3 010000000000000B "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] kick
 END
 VER 3 0100000000000008 "swifty" "INV_MISC_QUESTIONMARK"
 #showtooltip Adrenaline Rush

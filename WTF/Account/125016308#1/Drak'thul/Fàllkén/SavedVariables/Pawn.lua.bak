@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0329,
-	["LastPlayerFullName"] = "Fàllkén-Drak'thul",
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 174118,
@@ -91,6 +88,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:159669::::::::120:63::16:5:6536:6516:6515:1637:4786:::|h[Solena's Watchful Collection]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Fàllkén-Drak'thul",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

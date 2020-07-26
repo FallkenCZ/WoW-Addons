@@ -162,8 +162,8 @@ Wholly: enabled
 WorldQuestTracker: enabled
 ParagonReputation: enabled
 DejaCharacterStats: enabled
-TradeSkillMaster: disabled
-TradeSkillMaster_AppHelper: disabled
+TradeSkillMaster: enabled
+TradeSkillMaster_AppHelper: enabled
 REFlex: enabled
 TomCats-Mechagon: enabled
 TomCats-Nazjatar: enabled
@@ -179,3 +179,4 @@ MythicDungeonTools: enabled
 Plater: enabled
 Gladius: enabled
 Lorti-UI: enabled
+MyBiggerBuffs: enabled

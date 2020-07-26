@@ -7,7 +7,7 @@ Postal3DB = {
 		["Fãllkên - Drak'thul"] = "Fãllkên - Drak'thul",
 		["Fállkèn - Burning Blade"] = "Fállkèn - Burning Blade",
 		["Fàllkên - Drak'thul"] = "Fàllkên - Drak'thul",
-		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
 		["Faallken - Drak'thul"] = "Faallken - Drak'thul",
 		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
 		["Fallkenxd - Burning Blade"] = "Fallkenxd - Burning Blade",
@@ -15,7 +15,7 @@ Postal3DB = {
 		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
 		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
 		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
-		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
 		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
 		["Fallken - Burning Blade"] = "Fallken - Burning Blade",
 		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
@@ -107,12 +107,7 @@ Postal3DB = {
 				},
 			},
 		},
-		["Fállkên - Drak'thul"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Fallkên|Drak'thul|Alliance", -- [1]
-				},
-			},
+		["Fallkenji - Burning Blade"] = {
 		},
 		["Faallken - Drak'thul"] = {
 			["BlackBook"] = {
@@ -125,8 +120,8 @@ Postal3DB = {
 		["Fallkenez - Drak'thul"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Fallken-Burning Blade|Drak'thul|Horde", -- [1]
-					"Fàllkén-Drak'thul|Drak'thul|Horde", -- [2]
+					"Fàllkén-Drak'thul|Drak'thul|Horde", -- [1]
+					"Fallken-Burning Blade|Drak'thul|Horde", -- [2]
 					"Fàllkén|Drak'thul|Horde", -- [3]
 				},
 			},
@@ -159,7 +154,12 @@ Postal3DB = {
 				},
 			},
 		},
-		["Fallkenji - Burning Blade"] = {
+		["Fállkên - Drak'thul"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fallkên|Drak'thul|Alliance", -- [1]
+				},
+			},
 		},
 		["Fallkenmekac - Burning Blade"] = {
 		},

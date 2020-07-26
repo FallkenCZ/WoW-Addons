@@ -14,14 +14,14 @@ VExRT = {
 		["Fâllken-Drak'thul"] = "default",
 		["Fàllkèn-Drak'thul"] = "default",
 		["Fållkèn-Drak'thul"] = "default",
-		["Fallkengold-Sylvanas"] = "default",
+		["Fållken-BurningBlade"] = "default",
 		["Fållkên-Drak'thul"] = "default",
 		["Fállkén-Drak'thul"] = "default",
 		["Fallken-BurningBlade"] = "default",
-		["Fállkên-Drak'thul"] = "default",
+		["Fallkengold-Sylvanas"] = "default",
 		["Fàllkén-Drak'thul"] = "default",
 		["Fallkenxd-BurningBlade"] = "default",
-		["Fållken-BurningBlade"] = "default",
+		["Fállkên-Drak'thul"] = "default",
 		["Fállken-BurningBlade"] = "default",
 		["Fallkenfurry-Drak'thul"] = "default",
 		["Fällkên-Drak'thul"] = "default",
@@ -453,7 +453,7 @@ VExRT = {
 			[649] = "High King Maulgar",
 			[2345] = "Il'gynoth, Corruption Reborn",
 			[1836] = "Archdruid Glaidalis",
-			[230] = "Ring of Law",
+			[1837] = "Oakheart",
 			[1838] = "Dresaron",
 			[1839] = "Shade of Xavius",
 			[2280] = "Stormwall Blockade",
@@ -498,7 +498,7 @@ VExRT = {
 			[1053] = "High Prophet Barim",
 			[1565] = "Tortos",
 			[1881] = "Echo of Baine",
-			[1890] = "Shirrak the Dead Watcher",
+			[473] = "Hearthsinger Forresten",
 			[1883] = "Echo of Jaina",
 			[1884] = "Echo of Tyrande",
 			[236] = "General Angerforge",
@@ -506,10 +506,10 @@ VExRT = {
 			[1887] = "Obsidian Sentinel",
 			[1894] = "Kael'thas Sunstrider",
 			[1889] = "Exarch Maladaar",
-			[473] = "Hearthsinger Forresten",
+			[1890] = "Shirrak the Dead Watcher",
 			[1891] = "Omor the Unscarred",
 			[1892] = "Vazruden the Herald",
-			[237] = "Golem Lord Argelmach",
+			[1893] = "Watchkeeper Gargolmar",
 			[474] = "Timmy the Cruel",
 			[1895] = "Priestess Delrissa",
 			[475] = "Willey Hopebreaker",
@@ -528,36 +528,36 @@ VExRT = {
 			[239] = "Phalanx",
 			[478] = "Balnazzar",
 			[1055] = "Siamat",
-			[1914] = "Harbinger Skyriss",
-			[1913] = "Dalliah the Doomsayer",
 			[479] = "Baroness Anastari",
+			[1913] = "Dalliah the Doomsayer",
+			[1914] = "Harbinger Skyriss",
 			[1915] = "Wrath-Scryer Soccothrates",
 			[1916] = "Zereketh the Unbound",
-			[1930] = "Nethermancer Sepethrea",
+			[483] = "Ramstein the Gorger",
 			[480] = "Nerub'enkan",
 			[1919] = "Aeonus",
 			[1920] = "Chrono Lord Deja",
 			[1921] = "Temporus",
-			[1922] = "The Maker",
+			[481] = "Maleki the Pallid",
 			[1923] = "Keli'dan the Breaker",
 			[1924] = "Broggok",
 			[241] = "Plugger Spazzring",
 			[482] = "Magistrate Barthilas",
-			[1933] = "Gatewatcher Gyro-Kill",
-			[1934] = "Gatewatcher Iron-Hand",
-			[1941] = "Rokmar the Crackler",
-			[483] = "Ramstein the Gorger",
-			[1931] = "Pathaleon the Calculator",
-			[1932] = "Mechano-Lord Capacitus",
 			[242] = "Ambassador Flamelash",
 			[484] = "Lord Aurius Rivendare",
+			[243] = "The Seven",
+			[1930] = "Nethermancer Sepethrea",
+			[1931] = "Pathaleon the Calculator",
+			[1932] = "Mechano-Lord Capacitus",
+			[1933] = "Gatewatcher Gyro-Kill",
+			[1934] = "Gatewatcher Iron-Hand",
 			[1935] = "Blood Guard Porung",
 			[1936] = "Grand Warlock Nethekurse",
 			[1937] = "Warbringer O'mrogg",
 			[1938] = "Warchief Kargath Bladefist",
 			[1939] = "Mennu the Betrayer",
 			[1940] = "Quagmirran",
-			[243] = "The Seven",
+			[1941] = "Rokmar the Crackler",
 			[486] = "Dreamscythe",
 			[273] = "Gizrul the Slavener",
 			[487] = "Weaver",
@@ -590,7 +590,7 @@ VExRT = {
 			[1578] = "Megaera",
 			[2133] = "Vol'zith the Whisperer",
 			[2258] = "K.U.-J.0.",
-			[481] = "Maleki the Pallid",
+			[1922] = "The Maker",
 			[2268] = "Conclave of the Chosen",
 			[272] = "Quartermaster Zigris",
 			[275] = "Overlord Wyrmthalak",
@@ -598,7 +598,7 @@ VExRT = {
 			[1049] = "Erudax",
 			[1980] = "Moorabi",
 			[1981] = "Gal'darah",
-			[1893] = "Watchkeeper Gargolmar",
+			[237] = "Golem Lord Argelmach",
 			[1983] = "Drakkari Colossus",
 			[1984] = "Ionar",
 			[1985] = "Volkhan",
@@ -624,7 +624,7 @@ VExRT = {
 			[1054] = "Lockmaw",
 			[2006] = "Bronjahm",
 			[2007] = "Devourer of Souls",
-			[1837] = "Oakheart",
+			[230] = "Ring of Law",
 			[2009] = "Anomalus",
 			[2010] = "Grand Magus Telestra",
 			[2011] = "Keristrasza",
@@ -5688,6 +5688,12 @@ VExRT = {
 				"^2335^16^1595444966^196^1^20^479.65^Naridas-Drak'thul", -- [3954]
 				"^2343^16^1595445563^411^1^20^479.53^Saswa-Draenor", -- [3955]
 				"^2345^16^1595446324^473^1^20^479.80^Saswa-Draenor", -- [3956]
+				"^2139^8^1595612263^130^1^5^475.96^Mojoshot-Aman'thul", -- [3957]
+				"^2142^8^1595612829^16^0^5^475.96^Алшеди-Гордунни", -- [3958]
+				"^2142^8^1595612894^8^0^5^475.96^", -- [3959]
+				"^2142^8^1595612977^301^1^5^475.96^Алшеди-Гордунни", -- [3960]
+				"^2140^8^1595613596^196^1^5^475.96^", -- [3961]
+				"^2143^8^1595614076^161^1^5^475.96^Пусихантр-СвежевательДуш", -- [3962]
 			},
 			["Fallkenez"] = {
 				"^1900^2^1571853695^0^0^5^381.56^Fallkenez", -- [1]
@@ -7973,13 +7979,16 @@ VExRT = {
 			["Ghostkillss-BurningSteppes"] = 581,
 			["Попкопатель-СвежевательДуш"] = 269,
 			["Laxima-Durotan"] = 262,
+			["Meradana-TwistingNether"] = 65,
 			["Skaru-Ysondre"] = 270,
+			["Mägu-Sanguino"] = 65,
 			["Azulri-Drak'thul"] = 256,
 			["Ariura-Malygos"] = 70,
 			["Zebohunter-TarrenMill"] = 253,
 			["Saneraren-Sylvanas"] = 102,
 			["Rohidin-C'Thun"] = 254,
 			["Джосалион-Ревущийфьорд"] = 66,
+			["Vygor-Frostwolf"] = 253,
 			["Mistedme-Draenor"] = 270,
 			["Йосся-Ревущийфьорд"] = 65,
 			["Badclown-Theradras"] = 65,
@@ -7991,6 +8000,8 @@ VExRT = {
 			["Naridas-Drak'thul"] = 65,
 			["Kaano-ConseildesOmbres"] = 102,
 			["Missfortune-Stormreaver"] = 65,
+			["Pyro-Stormscale"] = 63,
+			["Parîs-Kazzak"] = 577,
 			["Milkycroc-TwistingNether"] = 253,
 			["Pigaçü-TwistingNether"] = 253,
 			["Цветочег-СтражСмерти"] = 267,
@@ -7999,17 +8010,21 @@ VExRT = {
 			["Iärendil-Exodar"] = 253,
 			["Ludo-Lothar"] = 262,
 			["Idkka"] = 105,
+			["Nêbrôk-Thrall"] = 102,
 			["Splatterpunk-Kazzak"] = 259,
 			["Alexxu-TwistingNether"] = 102,
 			["Дарммаму-ТкачСмерти"] = 102,
 			["Calim-Drak'thul"] = 102,
 			["Spiritzu-Ragnaros"] = 104,
+			["Ламфада-СвежевательДуш"] = 102,
 			["Erinqa-BurningLegion"] = 257,
 			["Aslexandru-ChamberofAspects"] = 577,
 			["Ten-Anachronos"] = 251,
 			["Ðàenerýs-Thrall"] = 71,
 			["Hiawata-Blackrock"] = 262,
 			["Shocktar-DunMorogh"] = 72,
+			["Пушец-Ревущийфьорд"] = 73,
+			["Jasienko-BurningLegion"] = 263,
 			["Бараборка-ТкачСмерти"] = 70,
 			["Yönt-Drak'thul"] = 73,
 			["Oivb-TwistingNether"] = 63,
@@ -8027,6 +8042,7 @@ VExRT = {
 			["Сэнзу-Ревущийфьорд"] = 260,
 			["Fällkên"] = 251,
 			["Hazzeli-Stormscale"] = 71,
+			["Toobyy-Deathwing"] = 252,
 			["Mênêgroth-Blackhand"] = 251,
 			["Tordrei-Azshara"] = 71,
 			["Fiomiamasia-Crushridge"] = 63,
@@ -8045,14 +8061,19 @@ VExRT = {
 			["Thyras-Stormscale"] = 251,
 			["Nuscah-EmeraldDream"] = 262,
 			["Ostinato-Outland"] = 261,
+			["Onagre-Draenor"] = 270,
 			["Rothna-TarrenMill"] = 258,
 			["Labant-Drak'thul"] = 258,
 			["Kenley-AeriePeak"] = 577,
 			["Mëmenntos-Drak'thul"] = 63,
 			["Slyziwr-Kazzak"] = 267,
+			["Kherzhadul-TheSha'tar"] = 105,
 			["Zerbersteras-Blackmoore"] = 255,
 			["Тормагеддон-СвежевательДуш"] = 73,
 			["Kikapoo-Ragnaros"] = 251,
+			["Bovoh-Ragnaros"] = 103,
+			["Vadosnica-Drak'thul"] = 577,
+			["Fuggo-Draenor"] = 258,
 			["Felgulh-TwistingNether"] = 577,
 			["Klayde-Alonsus"] = 72,
 			["Mladbogat-Kazzak"] = 63,
@@ -8062,10 +8083,12 @@ VExRT = {
 			["Laossong-Blackrock"] = 65,
 			["Ramthas-TwistingNether"] = 267,
 			["Mokra-LaCroisadeécarlate"] = 251,
+			["Hulkogân-Hyjal"] = 263,
 			["Тмсагино-Ревущийфьорд"] = 253,
 			["Blixi-Crushridge"] = 577,
 			["Râijîn-Hyjal"] = 260,
 			["Garamesdots-Chantséternels"] = 265,
+			["Icedkul-DieAldor"] = 65,
 			["Саммония-Ясеневыйлес"] = 267,
 			["Fàllkèn"] = 270,
 			["Fellboy-Malygos"] = 71,
@@ -8075,195 +8098,265 @@ VExRT = {
 			["Dirtydh-Blackhand"] = 577,
 			["Puppabear-Draenor"] = 102,
 			["Bugne-Blackrock"] = 260,
+			["Блумспамер-СвежевательДуш"] = 102,
 			["Wakku-Blackmoore"] = 267,
+			["Japapeur-Ysondre"] = 577,
 			["Bluen-TarrenMill"] = 102,
 			["Redtp-TwistingNether"] = 259,
 			["Fállkén"] = 264,
+			["Haroyih-Hyjal"] = 581,
+			["Apostéln-Kazzak"] = 256,
 			["Тетёха-СвежевательДуш"] = 63,
 			["Blacknezz-Blackhand"] = 65,
 			["Pluf-Draenor"] = 103,
 			["Напроломчег-СвежевательДуш"] = 104,
 			["Mystìk-Frostwolf"] = 70,
 			["Mannikull-Blackmoore"] = 105,
+			["Холифлеймх-СвежевательДуш"] = 70,
 			["Joefitty-TarrenMill"] = 71,
 			["Bramble-DefiasBrotherhood"] = 104,
 			["Luia-Blackhand"] = 262,
 			["Psysickz-Blackrock"] = 581,
+			["Eléssár-Deathwing"] = 70,
 			["Begnon-Ragnaros"] = 70,
 			["Samtschnute-Blackhand"] = 257,
 			["Ройспринг-Ревущийфьорд"] = 105,
+			["Ardelia-Frostwolf"] = 267,
+			["Swarve-TarrenMill"] = 63,
 			["Fàllkén"] = 63,
 			["Idilos-Archimonde"] = 63,
+			["Суусик-Голдринн"] = 102,
+			["Nytim-Aggra(Português)"] = 103,
+			["Machtnixx-ZirkeldesCenarius"] = 264,
 			["Piruntatti-Stormreaver"] = 252,
+			["Matafaka-Norgannon"] = 70,
+			["Nullába-Ragnaros"] = 256,
 			["Prerramos-TarrenMill"] = 267,
+			["Зурдиэль-Ревущийфьорд"] = 63,
+			["Магторс-Галакронд"] = 577,
+			["Wassabî-Drak'thul"] = 577,
+			["Agammald"] = 253,
+			["Sântali-Drak'thul"] = 577,
+			["Darqness-Illidan"] = 72,
 			["Isodem-Stormrage"] = 577,
+			["Reøn-Garrosh"] = 65,
 			["Hansolmom-Stormscale"] = 62,
+			["Milljaris-Blackhand"] = 254,
+			["Fallken"] = 103,
+			["Ratataki-Naxxramas"] = 259,
+			["Dantalas-Gul'dan"] = 258,
+			["Roznetka-Drak'thul"] = 63,
 			["Bulladin-Drak'thul"] = 65,
+			["Gudú-C'Thun"] = 269,
 			["Domidana-Drak'thul"] = 253,
 			["Neferathus-Blackmoore"] = 105,
+			["Jacawitz-Perenolde"] = 64,
 			["Brindacus-Kazzak"] = 255,
 			["Rizzy-Wildhammer"] = 260,
+			["Shirach-Alexstrasza"] = 266,
+			["Shindlerr-Aggra(Português)"] = 72,
 			["Sparklen-Drak'thul"] = 253,
+			["Cll-Naxxramas"] = 66,
+			["Darys-C'Thun"] = 253,
+			["Erebir"] = 70,
 			["Kaotu-TwistingNether"] = 577,
 			["Fàllkên"] = 255,
+			["Snuxi-Ragnaros"] = 72,
 			["Zulmaran-Dalaran"] = 253,
-			["Бэдасс-Ревущийфьорд"] = 73,
+			["Splasht-Frostwolf"] = 63,
+			["Krumelur-Balnazzar"] = 577,
+			["Fun-Draenor"] = 259,
+			["Deathsmash-GrimBatol"] = 72,
+			["Fállken"] = 577,
 			["Xtrip-Draenor"] = 62,
+			["Enrique-BurningLegion"] = 70,
+			["Imsogucci-Draenor"] = 63,
+			["Fallkenez"] = 259,
+			["Fizzguard-Drak'thul"] = 72,
 			["Velravyn-ArgentDawn"] = 270,
+			["Флаулесс-СвежевательДуш"] = 65,
 			["Контанго-Ясеневыйлес"] = 269,
+			["Эмберлейн-Ревущийфьорд"] = 581,
+			["Maylong-Wildhammer"] = 270,
+			["Бьюлицо-Ясеневыйлес"] = 577,
+			["Хрунь-ВечнаяПесня"] = 258,
+			["Dogtooth-Drak'thul"] = 105,
+			["Reaper-Ahn'Qiraj"] = 252,
+			["Nönämë-Ysondre"] = 267,
+			["Annuna-TwistingNether"] = 577,
 			["Барантра-Ревущийфьорд"] = 577,
+			["Zailar-ArgentDawn"] = 105,
 			["Tifu-Draenor"] = 72,
 			["Bloodcross-Silvermoon"] = 253,
 			["Riskakan-Sylvanas"] = 102,
 			["Yamale-Kazzak"] = 264,
+			["Riffraff-Dalaran"] = 259,
+			["Holybo-TwistingNether"] = 70,
 			["Oldmankane-Turalyon"] = 251,
+			["Vaelviøza-Nathrezim"] = 259,
+			["Solipsism-Zul'jin"] = 260,
+			["Varedhel-ColinasPardas"] = 103,
 			["Жукан-СвежевательДуш"] = 255,
 			["Felitha-ChamberofAspects"] = 105,
-			["Rakot-Azshara"] = 105,
+			["Sulubrom-Blackmoore"] = 256,
+			["Néxilla-Cho'gall"] = 581,
+			["Ihotu-Blackmoore"] = 104,
+			["Loryi-Drak'thul"] = 262,
 			["Milt-Drak'thul"] = 267,
+			["Лимфор-СвежевательДуш"] = 269,
+			["Lilidana-Vek'nilash"] = 577,
 			["Мальвада-Галакронд"] = 577,
 			["Spoonless-Stormscale"] = 63,
 			["Shoreks-Arygos"] = 577,
+			["Lureenen-KirinTor"] = 258,
+			["Dijkie-Boulderfist"] = 70,
+			["Katharon-Thrall"] = 252,
+			["Saboterris-Drak'thul"] = 259,
+			["Ghâsha-Sanguino"] = 264,
+			["Yaewu-C'Thun"] = 261,
+			["Thunderfloof-Kazzak"] = 263,
+			["Olikéâ-KhazModan"] = 253,
+			["Erinyes-Nagrand"] = 65,
 			["Stëvë-Drak'thul"] = 260,
 			["Tégstrom-Kazzak"] = 267,
-			["Doomgiver-Drak'thul"] = 258,
+			["Siafeanaro-TwistingNether"] = 577,
 			["Sayanæl-Hyjal"] = 260,
 			["Darkvandal-KhazModan"] = 250,
-			["Зурдиэль-Ревущийфьорд"] = 63,
+			["Flittêr-LosErrantes"] = 253,
 			["Nawepriest-Drak'thul"] = 258,
-			["Wassabî-Drak'thul"] = 577,
-			["Agammald"] = 253,
+			["Bonbon-Kilrogg"] = 66,
+			["Bunnyrose-Drak'thul"] = 65,
 			["Overall-Stormscale"] = 72,
-			["Sântali-Drak'thul"] = 577,
+			["Darksiege-Turalyon"] = 252,
 			["Vexatiouss-Draenor"] = 577,
-			["Darqness-Illidan"] = 72,
-			["Reøn-Garrosh"] = 65,
-			["Milljaris-Blackhand"] = 254,
+			["Wizixd-Drak'thul"] = 250,
+			["Haylia-TwistingNether"] = 65,
+			["Quistine-Aegwynn"] = 250,
 			["Enriquillo-ArgentDawn"] = 262,
-			["Echø-Uldum"] = 262,
+			["Trollagami-Deathwing"] = 258,
 			["Hellhanter-C'Thun"] = 253,
-			["Fallken"] = 103,
+			["Quialla-Thrall"] = 253,
 			["Viscdk-Eredar"] = 252,
-			["Matafaka-Norgannon"] = 70,
+			["Алшеди-Гордунни"] = 63,
 			["Asril-LosErrantes"] = 577,
-			["Krumelur-Balnazzar"] = 577,
-			["Deeimos-Drak'thul"] = 253,
-			["Gudú-C'Thun"] = 269,
-			["Saleen-BurningLegion"] = 256,
-			["Бьюлицо-Ясеневыйлес"] = 577,
-			["Boomdiva-Twilight'sHammer"] = 105,
-			["Gebertt-Kazzak"] = 253,
-			["Saswa-Draenor"] = 72,
-			["Annalamy-Sunstrider"] = 65,
-			["Cll-Naxxramas"] = 66,
-			["Razòx-Eredar"] = 260,
-			["Fulstryk-Dentarg"] = 102,
-			["Erebir"] = 70,
-			["Minuetta-Draenor"] = 63,
-			["Splasht-Frostwolf"] = 63,
-			["Bjöfur-Uldum"] = 70,
-			["Âtreus-Blackmoore"] = 252,
-			["Albedøo-Ragnaros"] = 264,
-			["Okaz-Templenoir"] = 256,
-			["Golabek-Kazzak"] = 70,
+			["Typhoon-Krag'jin"] = 264,
 			["Самбоженька-Дракономор"] = 102,
-			["Enrique-BurningLegion"] = 70,
-			["Ihotu-Blackmoore"] = 104,
+			["Dreaddreamer-SteamwheedleCartel"] = 250,
+			["Saleen-BurningLegion"] = 256,
+			["Чармин-СвежевательДуш"] = 64,
+			["Boomdiva-Twilight'sHammer"] = 105,
+			["Tourbilool-Archimonde"] = 71,
+			["Golabek-Kazzak"] = 70,
+			["Annalamy-Sunstrider"] = 65,
+			["Füre-Drak'thul"] = 259,
+			["Sellexz-DunModr"] = 255,
+			["Fulstryk-Dentarg"] = 102,
+			["Imahottie-Drak'thul"] = 63,
+			["Doomgiver-Drak'thul"] = 258,
+			["Бэдасс-Ревущийфьорд"] = 73,
+			["Bjöfur-Uldum"] = 70,
+			["Mojoshot-Aman'thul"] = 253,
+			["Virgo-Frostwolf"] = 265,
+			["Okaz-Templenoir"] = 256,
+			["Pyrenn-Draenor"] = 63,
+			["Berserkss-Kazzak"] = 577,
+			["Wolfar-Ahn'Qiraj"] = 259,
+			["Polskii-Blackrock"] = 263,
 			["Aärch-Hyjal"] = 255,
-			["Fizzguard-Drak'thul"] = 72,
+			["Razòx-Eredar"] = 260,
 			["Muffins-Kael'thas"] = 267,
 			["Paperbroom-Ragnaros"] = 73,
-			["Berserkss-Kazzak"] = 577,
-			["Proita-Outland"] = 256,
-			["Nullába-Ragnaros"] = 256,
-			["Эмберлейн-Ревущийфьорд"] = 581,
-			["Maylong-Wildhammer"] = 270,
+			["Birbona-Un'Goro"] = 254,
+			["Amorlaeara-Draenor"] = 577,
+			["Unbroken-Blackhand"] = 102,
+			["Saispe-Skullcrusher"] = 259,
+			["Hakaishin-Malorne"] = 267,
 			["Axizor-LaughingSkull"] = 71,
 			["Fidbz-Kazzak"] = 266,
-			["Сувала-СвежевательДуш"] = 265,
-			["Хрунь-ВечнаяПесня"] = 258,
-			["Reaper-Ahn'Qiraj"] = 252,
-			["Dogtooth-Drak'thul"] = 105,
+			["Súnshîne-Gul'dan"] = 265,
+			["Piratkata-TwistingNether"] = 259,
+			["Edesapa-TwistingNether"] = 267,
+			["Proteinz-Kazzak"] = 268,
 			["Ericsa-Thrall"] = 70,
-			["Nönämë-Ysondre"] = 267,
-			["Blackeyé-Mal'Ganis"] = 270,
+			["Citoxe-TwistingNether"] = 253,
+			["Сувала-СвежевательДуш"] = 265,
 			["Рюмкаспирта-Ревущийфьорд"] = 264,
-			["Trollop-Magtheridon"] = 102,
-			["Zailar-ArgentDawn"] = 105,
+			["Kanpaldi-Blutkessel"] = 270,
+			["Proita-Outland"] = 256,
 			["Darthino"] = 70,
 			["Fållken"] = 256,
-			["Riffraff-Dalaran"] = 259,
+			["Groums-Zul'jin"] = 71,
 			["Durus-Blackhand"] = 269,
-			["Lureenen-KirinTor"] = 258,
-			["Füre-Drak'thul"] = 259,
-			["Saboterris-Drak'thul"] = 259,
+			["Albedøo-Ragnaros"] = 264,
+			["Manwen-Frostmane"] = 63,
+			["Blackeyé-Mal'Ganis"] = 270,
 			["Gemera-Stormreaver"] = 102,
-			["Vaelviøza-Nathrezim"] = 259,
+			["Stornó-Blackmoore"] = 259,
 			["Memenntos-Drak'thul"] = 577,
-			["Solipsism-Zul'jin"] = 260,
-			["Typhoon-Krag'jin"] = 264,
-			["Proteinz-Kazzak"] = 268,
-			["Quialla-Thrall"] = 253,
-			["Quistine-Aegwynn"] = 250,
+			["Trollop-Magtheridon"] = 102,
+			["Скайшэдоу-Ревущийфьорд"] = 256,
+			["Omali-Uldum"] = 63,
+			["Soullshadow-Draenor"] = 258,
+			["Beul-Terenas"] = 265,
 			["Thissi-Blackrock"] = 105,
-			["Katharon-Thrall"] = 252,
-			["Wolfar-Ahn'Qiraj"] = 259,
+			["Deeimos-Drak'thul"] = 253,
+			["Âtreus-Blackmoore"] = 252,
 			["Strongarrów-Kazzak"] = 253,
 			["Fìnwé-Rexxar"] = 70,
-			["Flittêr-LosErrantes"] = 253,
-			["Lilidana-Vek'nilash"] = 577,
-			["Darksiege-Turalyon"] = 252,
-			["Yaewu-C'Thun"] = 261,
+			["Felgar-Zul'jin"] = 267,
+			["Ligh-Arthas"] = 64,
+			["Gebertt-Kazzak"] = 253,
+			["Овли-Ревущийфьорд"] = 255,
 			["Mèdzul-Hyjal"] = 102,
-			["Thunderfloof-Kazzak"] = 263,
-			["Bonbon-Kilrogg"] = 66,
+			["Saswa-Draenor"] = 72,
+			["Minuetta-Draenor"] = 63,
 			["Bloodlustbch-Turalyon"] = 265,
-			["Dreaddreamer-SteamwheedleCartel"] = 250,
-			["Olikéâ-KhazModan"] = 253,
+			["Nîala-Blackrock"] = 259,
+			["Echø-Uldum"] = 262,
 			["Коррак-Ясеневыйлес"] = 263,
 			["Indomita-Pozzodell'Eternità"] = 70,
-			["Fallkenez"] = 259,
-			["Sulubrom-Blackmoore"] = 256,
-			["Varedhel-ColinasPardas"] = 103,
-			["Imahottie-Drak'thul"] = 63,
+			["Starie-Drak'thul"] = 252,
+			["Côdy-Aegwynn"] = 63,
+			["Пусихантр-СвежевательДуш"] = 253,
+			["Cryl-Bloodscalp"] = 267,
 			["Metauropheus-Frostwolf"] = 105,
-			["Tourbilool-Archimonde"] = 71,
+			["Uddér-Draenor"] = 250,
 			["Recess-Kazzak"] = 259,
 			["Leté-Sanguino"] = 63,
 			["Woffa-Draenor"] = 71,
 			["Mullikka-ArgentDawn"] = 71,
-			["Celithiel-Archimonde"] = 577,
+			["Stëvän-Drak'thul"] = 253,
 			["Reddust-Kazzak"] = 70,
-			["Kanpaldi-Blutkessel"] = 270,
-			["Saispe-Skullcrusher"] = 259,
-			["Virgo-Frostwolf"] = 265,
-			["Hakaishin-Malorne"] = 267,
-			["Ruuar-Garrosh"] = 270,
-			["Edesapa-TwistingNether"] = 267,
+			["Rakot-Azshara"] = 105,
+			["Negure-Exodar"] = 253,
+			["Nanöböost-Drak'thul"] = 268,
+			["Epilekti-ChamberofAspects"] = 255,
+			["Felfer-Draenor"] = 577,
+			["Hektor-ArgentDawn"] = 265,
 			["Starkaz-Silvermoon"] = 105,
 			["Sterlìng-Kazzak"] = 72,
-			["Fállken"] = 577,
+			["Chillbob-Deathwing"] = 269,
 			["Griffin-TarrenMill"] = 261,
-			["Faallken"] = 65,
-			["Haylia-TwistingNether"] = 65,
+			["Timewarp-TheMaelstrom"] = 71,
+			["Ruuar-Garrosh"] = 270,
 			["Nakhl-BurningLegion"] = 253,
-			["Bunnyrose-Drak'thul"] = 65,
+			["Мортумериан-Ясеневыйлес"] = 252,
 			["Dábur-Blackrock"] = 252,
-			["Ligh-Arthas"] = 64,
+			["Sérco-Frostwolf"] = 73,
 			["Imekr-Eredar"] = 260,
 			["Vennya-Blackhand"] = 253,
-			["Stornó-Blackmoore"] = 259,
+			["Zeevah-BronzeDragonflight"] = 254,
 			["Moonblast-Kazzak"] = 102,
 			["Hevva-KhazModan"] = 64,
 			["Artan-Kel'Thuzad"] = 72,
-			["Roznetka-Drak'thul"] = 63,
-			["Wizixd-Drak'thul"] = 250,
-			["Nîala-Blackrock"] = 259,
-			["Loryi-Drak'thul"] = 262,
-			["Starie-Drak'thul"] = 252,
-			["Dijkie-Boulderfist"] = 70,
-			["Stëvän-Drak'thul"] = 253,
-			["Cryl-Bloodscalp"] = 267,
+			["Fogelekk-BurningLegion"] = 255,
+			["Krindo-Gorgonnash"] = 71,
+			["Видзи-Ревущийфьорд"] = 262,
+			["Binweg-DieAldor"] = 259,
+			["Celithiel-Archimonde"] = 577,
+			["Abôminatîon-Ravencrest"] = 260,
+			["Eglimatias-Draenor"] = 259,
+			["Faallken"] = 65,
 			["Ywî-Blackhand"] = 577,
 		},
 		["NoRaid"] = true,
@@ -8450,22 +8543,22 @@ VExRT = {
 		["Priority"] = {
 		},
 		["CDE"] = {
-			[271466] = true,
-			[98008] = true,
-			[15286] = true,
-			[62618] = true,
 			[204150] = true,
+			[207399] = true,
+			[115310] = true,
+			[62618] = true,
+			[271466] = true,
 			[265202] = true,
 			[740] = true,
 			[31884] = true,
-			[115310] = true,
+			[15286] = true,
 			[31821] = true,
 			[97462] = true,
 			[196718] = true,
 			[216331] = true,
-			[64843] = true,
 			[108280] = true,
-			[207399] = true,
+			[64843] = true,
+			[98008] = true,
 		},
 		["userDB"] = {
 		},
@@ -8502,13 +8595,13 @@ VExRT = {
 				"DSheilyn-Draenor", -- [25]
 				"ARainclap-Drak'thul", -- [26]
 				"HOnholdx-Drak'thul", -- [27]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 15,
-				["eI"] = 2298,
+				["eN"] = "Abyssal Commander Sivara",
 				["t"] = 1567275158,
 				["g"] = 25,
-				["eN"] = "Abyssal Commander Sivara",
+				["eI"] = 2298,
 			}, -- [1]
 			{
 				"HImahottie-Drak'thul", -- [1]
@@ -8533,14 +8626,14 @@ VExRT = {
 				"FÐoomed-Blackhand", -- [20]
 				"IMadbruhh-Draenor", -- [21]
 				"CVitironi-Draenor", -- [22]
-				["d"] = 15,
-				["eI"] = 2298,
-				["k"] = true,
 				["t"] = 1568484519,
+				["eI"] = 2298,
+				["c"] = "Fallken-BurningBlade",
+				["d"] = 15,
 				["eN"] = "Abyssal Commander Sivara",
 				[26] = "LWraìth-Kazzak",
 				["g"] = 22,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [2]
 			{
 				"HImahottie-Drak'thul", -- [1]
@@ -8569,13 +8662,13 @@ VExRT = {
 				"CHuntzee-Ravencrest", -- [24]
 				"IShåmssl-DunModr", -- [25]
 				"DKynazuki-Hyjal", -- [26]
-				["eI"] = 2298,
-				["k"] = true,
-				["t"] = 1569089513,
 				["eN"] = "Abyssal Commander Sivara",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1569089513,
+				["eI"] = 2298,
 				["d"] = 15,
 				["g"] = 26,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [3]
 			{
 				"FYônt", -- [1]
@@ -8598,13 +8691,13 @@ VExRT = {
 				"GKaern", -- [18]
 				"BBulladin", -- [19]
 				"ELabant", -- [20]
-				["c"] = "Fållkên-Drak'thul",
 				["k"] = true,
+				["c"] = "Fållkên-Drak'thul",
 				["d"] = 16,
-				["eI"] = 2298,
+				["eN"] = "Abyssal Commander Sivara",
 				["t"] = 1569172003,
 				["g"] = 20,
-				["eN"] = "Abyssal Commander Sivara",
+				["eI"] = 2298,
 			}, -- [4]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -8629,13 +8722,13 @@ VExRT = {
 				"EDoomgiver-Drak'thul", -- [20]
 				"IMilt-Drak'thul", -- [21]
 				"AXsao-Drak'thul", -- [22]
-				["eI"] = 2298,
-				["k"] = true,
-				["t"] = 1569174942,
 				["eN"] = "Abyssal Commander Sivara",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1569174942,
+				["eI"] = 2298,
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [5]
 			{
 				"HImahottie-Drak'thul", -- [1]
@@ -8659,13 +8752,13 @@ VExRT = {
 				"KNavve-Drak'thul", -- [19]
 				"LPeacedopice-Drak'thul", -- [20]
 				"EMcloving-Nagrand", -- [21]
-				["eI"] = 2298,
-				["k"] = true,
-				["t"] = 1569693991,
 				["eN"] = "Abyssal Commander Sivara",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1569693991,
+				["eI"] = 2298,
 				["d"] = 15,
 				["g"] = 20,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [6]
 			{
 				"BYonteau", -- [1]
@@ -8689,13 +8782,13 @@ VExRT = {
 				"BBulladin", -- [19]
 				"BKasia", -- [20]
 				"IFållkên", -- [21]
-				["k"] = true,
 				["c"] = "Fållkên-Drak'thul",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Abyssal Commander Sivara",
+				["eI"] = 2298,
 				["t"] = 1569776633,
 				["g"] = 20,
-				["eI"] = 2298,
+				["eN"] = "Abyssal Commander Sivara",
 			}, -- [7]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -8723,13 +8816,13 @@ VExRT = {
 				"HDlembor-Drak'thul", -- [23]
 				"DKîkø-Drak'thul", -- [24]
 				"HFandah-Drak'thul", -- [25]
-				["eN"] = "Abyssal Commander Sivara",
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1569779178,
 				["eI"] = 2298,
+				["k"] = true,
+				["t"] = 1569779178,
+				["eN"] = "Abyssal Commander Sivara",
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [8]
 			{
 				"AYönt-Drak'thul", -- [1]
@@ -8753,13 +8846,13 @@ VExRT = {
 				"KDogtooth-Drak'thul", -- [19]
 				"EKatheria-Drak'thul", -- [20]
 				"HDlembor-Drak'thul", -- [21]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 16,
-				["eI"] = 2298,
+				["eN"] = "Abyssal Commander Sivara",
 				["t"] = 1570388489,
 				["g"] = 20,
-				["eN"] = "Abyssal Commander Sivara",
+				["eI"] = 2298,
 			}, -- [9]
 			{
 				"FValsha-Stormreaver", -- [1]
@@ -8783,13 +8876,13 @@ VExRT = {
 				"DVegemíte-Blackmoore", -- [19]
 				"GDaztotem-Draenor", -- [20]
 				"AТолямортал-Ревущийфьорд", -- [21]
-				["eI"] = 2298,
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1570888017,
 				["eN"] = "Abyssal Commander Sivara",
+				["k"] = true,
+				["t"] = 1570888017,
+				["eI"] = 2298,
 				["d"] = 14,
 				["g"] = 21,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [10]
 			{
 				"HImahottie-Drak'thul", -- [1]
@@ -8821,13 +8914,13 @@ VExRT = {
 				"JKungfo-Magtheridon", -- [27]
 				"DBack-Kazzak", -- [28]
 				"FLuthenia-Blackhand", -- [29]
-				["eN"] = "Abyssal Commander Sivara",
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1570904156,
 				["eI"] = 2298,
+				["k"] = true,
+				["t"] = 1570904156,
+				["eN"] = "Abyssal Commander Sivara",
 				["d"] = 15,
 				["g"] = 28,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [11]
 			{
 				"AYönt-Drak'thul", -- [1]
@@ -8850,14 +8943,14 @@ VExRT = {
 				"KAiratka-Drak'thul", -- [18]
 				"KDogtooth-Drak'thul", -- [19]
 				"EKatheria-Drak'thul", -- [20]
-				["d"] = 16,
-				["eI"] = 2298,
-				["k"] = true,
 				["t"] = 1570992687,
+				["eI"] = 2298,
+				["c"] = "Fallken-BurningBlade",
+				["d"] = 16,
 				["eN"] = "Abyssal Commander Sivara",
 				[26] = "GTereshia-Drak'thul",
 				["g"] = 20,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [12]
 			{
 				"FYônt-Drak'thul", -- [1]
@@ -8882,14 +8975,14 @@ VExRT = {
 				"BNaridas-Drak'thul", -- [20]
 				"AXsao-Drak'thul", -- [21]
 				"KCejda-Drak'thul", -- [22]
-				["c"] = "Fallken-BurningBlade",
-				[31] = "GTereshia-Drak'thul",
 				["k"] = true,
+				[31] = "GTereshia-Drak'thul",
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 16,
-				["eI"] = 2298,
+				["eN"] = "Abyssal Commander Sivara",
 				["t"] = 1571595721,
 				["g"] = 20,
-				["eN"] = "Abyssal Commander Sivara",
+				["eI"] = 2298,
 			}, -- [13]
 			{
 				"HImahottie-Drak'thul", -- [1]
@@ -8912,13 +9005,13 @@ VExRT = {
 				"DRogmonster-TarrenMill", -- [18]
 				"GJavos-Drak'thul", -- [19]
 				"IKíko-Drak'thul", -- [20]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 15,
-				["eI"] = 2298,
+				["eN"] = "Abyssal Commander Sivara",
 				["t"] = 1572721917,
 				["g"] = 20,
-				["eN"] = "Abyssal Commander Sivara",
+				["eI"] = 2298,
 			}, -- [14]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -8947,13 +9040,13 @@ VExRT = {
 				"LErébir", -- [24]
 				"KCejda-Drak'thul", -- [25]
 				"FStarie-Drak'thul", -- [26]
-				["eN"] = "Abyssal Commander Sivara",
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1572804680,
 				["eI"] = 2298,
+				["k"] = true,
+				["t"] = 1572804680,
+				["eN"] = "Abyssal Commander Sivara",
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [15]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -9015,13 +9108,13 @@ VExRT = {
 				"KStevan-Drak'thul", -- [22]
 				"HHrdzavéhovno-Drak'thul", -- [23]
 				"DKîkø-Drak'thul", -- [24]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Abyssal Commander Sivara",
+				["eI"] = 2298,
 				["t"] = 1573495287,
 				["g"] = 20,
-				["eI"] = 2298,
+				["eN"] = "Abyssal Commander Sivara",
 			}, -- [17]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -9050,13 +9143,13 @@ VExRT = {
 				"ELfrepresents-Drak'thul", -- [24]
 				"KStevan-Drak'thul", -- [25]
 				"IMilt-Drak'thul", -- [26]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 16,
-				["eI"] = 2298,
+				["eN"] = "Abyssal Commander Sivara",
 				["t"] = 1574618790,
 				["g"] = 20,
-				["eN"] = "Abyssal Commander Sivara",
+				["eI"] = 2298,
 			}, -- [18]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -9082,14 +9175,14 @@ VExRT = {
 				"CSparklen-Drak'thul", -- [21]
 				"KStevan-Drak'thul", -- [22]
 				"BErebir", -- [23]
-				["d"] = 16,
-				["eI"] = 2293,
-				["k"] = true,
 				["t"] = 1574625525,
+				["eI"] = 2293,
+				["c"] = "Fallken-BurningBlade",
+				["d"] = 16,
 				["eN"] = "Za'qul",
 				[26] = "IDarixd-Drak'thul",
 				["g"] = 20,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [19]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -9117,13 +9210,13 @@ VExRT = {
 				"BErebir", -- [23]
 				"KNavve-Drak'thul", -- [24]
 				"IXsycht-Drak'thul", -- [25]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 16,
-				["eI"] = 2298,
+				["eN"] = "Abyssal Commander Sivara",
 				["t"] = 1575223472,
 				["g"] = 20,
-				["eN"] = "Abyssal Commander Sivara",
+				["eI"] = 2298,
 			}, -- [20]
 			{
 				"BYonteau-Drak'thul", -- [1]
@@ -9154,13 +9247,13 @@ VExRT = {
 				"LKikø-Drak'thul", -- [26]
 				"KNavve-Drak'thul", -- [27]
 				"LPeacedopice-Drak'thul", -- [28]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 16,
-				["eI"] = 2298,
+				["eN"] = "Abyssal Commander Sivara",
 				["t"] = 1575828230,
 				["g"] = 20,
-				["eN"] = "Abyssal Commander Sivara",
+				["eI"] = 2298,
 			}, -- [21]
 			{
 				"KYoont", -- [1]
@@ -9185,14 +9278,14 @@ VExRT = {
 				"KWaresa", -- [20]
 				"LAgämmand", -- [21]
 				"GFéó", -- [22]
-				["d"] = 16,
-				["eI"] = 2298,
-				["k"] = true,
 				["t"] = 1575837984,
+				["eI"] = 2298,
+				["c"] = "Fållkên-Drak'thul",
+				["d"] = 16,
 				["eN"] = "Abyssal Commander Sivara",
 				[26] = "ELabant",
 				["g"] = 20,
-				["c"] = "Fållkên-Drak'thul",
+				["k"] = true,
 			}, -- [22]
 			{
 				"HImahottie-Drak'thul", -- [1]
@@ -9218,13 +9311,13 @@ VExRT = {
 				"BErebir", -- [21]
 				"ETerimacicka-Drak'thul", -- [22]
 				"EDoomgiver-Drak'thul", -- [23]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Champion of the Light",
+				["eI"] = 2265,
 				["t"] = 1575842092,
 				["g"] = 20,
-				["eI"] = 2265,
+				["eN"] = "Champion of the Light",
 			}, -- [23]
 			{
 				"FYônt-Drak'thul", -- [1]
@@ -9253,13 +9346,13 @@ VExRT = {
 				"BErebir", -- [24]
 				"ELfrepresents-Drak'thul", -- [25]
 				"KNavve-Drak'thul", -- [26]
-				["eI"] = 2298,
-				["k"] = true,
-				["t"] = 1576433114,
 				["eN"] = "Abyssal Commander Sivara",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1576433114,
+				["eI"] = 2298,
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [24]
 			{
 				"FYônt-Drak'thul", -- [1]
@@ -9288,13 +9381,13 @@ VExRT = {
 				"BErebir", -- [24]
 				"ELfrepresents-Drak'thul", -- [25]
 				"KNavve-Drak'thul", -- [26]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Blackwater Behemoth",
+				["eI"] = 2289,
 				["t"] = 1576433848,
 				["g"] = 20,
-				["eI"] = 2289,
+				["eN"] = "Blackwater Behemoth",
 			}, -- [25]
 			{
 				"FYônt-Drak'thul", -- [1]
@@ -9322,13 +9415,13 @@ VExRT = {
 				"DVodaq-Drak'thul", -- [23]
 				"BErebir", -- [24]
 				"IDarixd-Drak'thul", -- [25]
-				["eN"] = "Za'qul",
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1576438369,
 				["eI"] = 2293,
+				["k"] = true,
+				["t"] = 1576438369,
+				["eN"] = "Za'qul",
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [26]
 			{
 				"KYoont", -- [1]
@@ -9353,13 +9446,13 @@ VExRT = {
 				"KStevan", -- [20]
 				"KKïko", -- [21]
 				"HFlorián", -- [22]
-				["c"] = "Fallkenez-Drak'thul",
 				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 				["d"] = 16,
-				["eI"] = 2298,
+				["eN"] = "Abyssal Commander Sivara",
 				["t"] = 1576440845,
 				["g"] = 20,
-				["eN"] = "Abyssal Commander Sivara",
+				["eI"] = 2298,
 			}, -- [27]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -9383,13 +9476,13 @@ VExRT = {
 				"HHrdzavéhovno-Drak'thul", -- [19]
 				"LÍllìðåñgøðx-Outland", -- [20]
 				"EDoomgiver-Drak'thul", -- [21]
-				["eI"] = 2269,
-				["k"] = true,
-				["t"] = 1576444788,
 				["eN"] = "The Restless Cabal",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1576444788,
+				["eI"] = 2269,
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [28]
 			{
 				"BHolytimpus-Stormscale", -- [1]
@@ -9417,13 +9510,13 @@ VExRT = {
 				"LМонтеро-Ревущийфьорд", -- [23]
 				"FВозарг-ПиратскаяБухта", -- [24]
 				"DYou-Nagrand", -- [25]
-				["eN"] = "Abyssal Commander Sivara",
-				["c"] = "Fallkenez-Drak'thul",
-				["t"] = 1576683496,
 				["eI"] = 2298,
+				["k"] = true,
+				["t"] = 1576683496,
+				["eN"] = "Abyssal Commander Sivara",
 				["d"] = 15,
 				["g"] = 25,
-				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 			}, -- [29]
 			{
 				"KYoont-Drak'thul", -- [1]
@@ -9449,13 +9542,13 @@ VExRT = {
 				"IDarixd-Drak'thul", -- [21]
 				"CSparklen-Drak'thul", -- [22]
 				"GStormgød-Drak'thul", -- [23]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 16,
-				["eI"] = 2293,
+				["eN"] = "Za'qul",
 				["t"] = 1576786181,
 				["g"] = 20,
-				["eN"] = "Za'qul",
+				["eI"] = 2293,
 			}, -- [30]
 			{
 				"LJustamemer", -- [1]
@@ -9480,13 +9573,13 @@ VExRT = {
 				"JFeoqt-BurningBlade", -- [20]
 				"LErébir-BurningBlade", -- [21]
 				"LAgämmand", -- [22]
-				["eI"] = 2298,
-				["k"] = true,
-				["t"] = 1576787729,
 				["eN"] = "Abyssal Commander Sivara",
+				["c"] = "Fallkenez-Drak'thul",
+				["t"] = 1576787729,
+				["eI"] = 2298,
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 			}, -- [31]
 			{
 				"HImahottie-Drak'thul", -- [1]
@@ -9509,13 +9602,13 @@ VExRT = {
 				"LErébir", -- [18]
 				"KAiratka-Drak'thul", -- [19]
 				"IImahonti-Drak'thul", -- [20]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 16,
-				["eI"] = 2269,
+				["eN"] = "The Restless Cabal",
 				["t"] = 1576792021,
 				["g"] = 20,
-				["eN"] = "The Restless Cabal",
+				["eI"] = 2269,
 			}, -- [32]
 			{
 				"KHelløïmeasy-TarrenMill", -- [1]
@@ -9526,13 +9619,13 @@ VExRT = {
 				"LExexexi-Aegwynn", -- [6]
 				"DQvêgetto-Aegwynn", -- [7]
 				"GSharrkul-Magtheridon", -- [8]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 15,
-				["eI"] = 1853,
+				["eN"] = "Nythendra",
 				["t"] = 1577316072,
 				["g"] = 10,
-				["eN"] = "Nythendra",
+				["eI"] = 1853,
 			}, -- [33]
 			{
 				"KAsterism-Kazzak", -- [1]
@@ -9557,13 +9650,13 @@ VExRT = {
 				"BЛегуха-Ревущийфьорд", -- [20]
 				"LNóvu-Blackmoore", -- [21]
 				"ILoalol-Ragnaros", -- [22]
-				["k"] = true,
 				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 				["d"] = 15,
-				["eI"] = 2298,
+				["eN"] = "Abyssal Commander Sivara",
 				["t"] = 1577538700,
 				["g"] = 22,
-				["eN"] = "Abyssal Commander Sivara",
+				["eI"] = 2298,
 			}, -- [34]
 			{
 				"BNaridas-Drak'thul", -- [1]
@@ -9586,13 +9679,13 @@ VExRT = {
 				"ERoyalbâcøn-Archimonde", -- [18]
 				"HDranela-Drak'thul", -- [19]
 				"GMadcûsbad-Stormscale", -- [20]
-				["eN"] = "Taloc",
-				["k"] = true,
-				["t"] = 1577825493,
 				["eI"] = 2144,
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1577825493,
+				["eN"] = "Taloc",
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [35]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -9660,13 +9753,13 @@ VExRT = {
 				"LKikø-Drak'thul", -- [26]
 				"GStormgød-Drak'thul", -- [27]
 				"DVodaq-Drak'thul", -- [28]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 16,
-				["eI"] = 2299,
+				["eN"] = "Queen Azshara",
 				["t"] = 1578253536,
 				["g"] = 20,
-				["eN"] = "Queen Azshara",
+				["eI"] = 2299,
 			}, -- [37]
 			{
 				"JWizisabers-Drak'thul", -- [1]
@@ -9697,13 +9790,13 @@ VExRT = {
 				"LKikø-Drak'thul", -- [26]
 				"GStormgød-Drak'thul", -- [27]
 				"KDrtnsx-Drak'thul", -- [28]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 16,
-				["eI"] = 2271,
+				["eN"] = "Opulence",
 				["t"] = 1578254850,
 				["g"] = 20,
-				["eN"] = "Opulence",
+				["eI"] = 2271,
 			}, -- [38]
 			{
 				"FYônt", -- [1]
@@ -9727,13 +9820,13 @@ VExRT = {
 				"BBunnyrose", -- [19]
 				"EPvezerofps", -- [20]
 				"HFlorián", -- [21]
-				["eI"] = 2298,
-				["c"] = "Fallkenez-Drak'thul",
-				["t"] = 1578257993,
 				["eN"] = "Abyssal Commander Sivara",
+				["k"] = true,
+				["t"] = 1578257993,
+				["eI"] = 2298,
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 			}, -- [39]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -9766,13 +9859,13 @@ VExRT = {
 				"GSellena-Drak'thul", -- [28]
 				"KDarynek-Drak'thul", -- [29]
 				"DVodaq-Drak'thul", -- [30]
-				["eI"] = 2298,
-				["k"] = true,
-				["t"] = 1578852310,
 				["eN"] = "Abyssal Commander Sivara",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1578852310,
+				["eI"] = 2298,
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [40]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -9795,13 +9888,13 @@ VExRT = {
 				"BNaridas-Drak'thul", -- [18]
 				"DStëvë-Drak'thul", -- [19]
 				"LPeacedopice-Drak'thul", -- [20]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Queen Azshara",
+				["eI"] = 2299,
 				["t"] = 1578862699,
 				["g"] = 20,
-				["eI"] = 2299,
+				["eN"] = "Queen Azshara",
 			}, -- [41]
 			{
 				"HImahottie-Drak'thul", -- [1]
@@ -9832,13 +9925,13 @@ VExRT = {
 				"HHrdzavéhovno-Drak'thul", -- [26]
 				"IMilt-Drak'thul", -- [27]
 				"CSparklen-Drak'thul", -- [28]
-				["eI"] = 2298,
-				["k"] = true,
-				["t"] = 1579457108,
 				["eN"] = "Abyssal Commander Sivara",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1579457108,
+				["eI"] = 2298,
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [42]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -9862,13 +9955,13 @@ VExRT = {
 				"DStëvë-Drak'thul", -- [19]
 				"ETerimacicka-Drak'thul", -- [20]
 				"KWaresa-Drak'thul", -- [21]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Queen Azshara",
+				["eI"] = 2299,
 				["t"] = 1579467084,
 				["g"] = 20,
-				["eI"] = 2299,
+				["eN"] = "Queen Azshara",
 			}, -- [43]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -9899,13 +9992,13 @@ VExRT = {
 				"DStëvë-Drak'thul", -- [26]
 				"GSellena-Drak'thul", -- [27]
 				"KFallken", -- [28]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 15,
-				["eN"] = "Prophet Skitra",
+				["eI"] = 2334,
 				["t"] = 1579802736,
 				["g"] = 28,
-				["eI"] = 2334,
+				["eN"] = "Prophet Skitra",
 			}, -- [44]
 			{
 				"FYônt", -- [1]
@@ -9938,13 +10031,13 @@ VExRT = {
 				"BBulladin", -- [28]
 				"JSailâ", -- [29]
 				"KKajushe", -- [30]
-				["eN"] = "Wrathion",
-				["c"] = "Fallkenez-Drak'thul",
-				["t"] = 1579803559,
 				["eI"] = 2329,
+				["k"] = true,
+				["t"] = 1579803559,
+				["eN"] = "Wrathion",
 				["d"] = 15,
 				["g"] = 30,
-				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 			}, -- [45]
 			{
 				"KYoont-Drak'thul", -- [1]
@@ -9974,13 +10067,13 @@ VExRT = {
 				"KDogtooth-Drak'thul", -- [25]
 				"GLoryi-Drak'thul", -- [26]
 				[36] = "JSailâ-Drak'thul",
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 15,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 				["t"] = 1579804955,
 				["g"] = 25,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 			}, -- [46]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -10012,13 +10105,13 @@ VExRT = {
 				"IDarixd-Drak'thul", -- [27]
 				"AEvzenhummels-Drak'thul", -- [28]
 				"FStarie-Drak'thul", -- [29]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 15,
-				["eI"] = 2327,
+				["eN"] = "Maut",
 				["t"] = 1579808194,
 				["g"] = 29,
-				["eN"] = "Maut",
+				["eI"] = 2327,
 			}, -- [47]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -10050,13 +10143,13 @@ VExRT = {
 				"IDarixd-Drak'thul", -- [27]
 				"AEvzenhummels-Drak'thul", -- [28]
 				"FStarie-Drak'thul", -- [29]
-				["eI"] = 2343,
-				["k"] = true,
-				["t"] = 1579814450,
 				["eN"] = "Drest'agath",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1579814450,
+				["eI"] = 2343,
 				["d"] = 15,
 				["g"] = 29,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [48]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -10088,13 +10181,13 @@ VExRT = {
 				"IDarixd-Drak'thul", -- [27]
 				"AEvzenhummels-Drak'thul", -- [28]
 				"FStarie-Drak'thul", -- [29]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 15,
-				["eN"] = "Carapace of N'Zoth",
+				["eI"] = 2337,
 				["t"] = 1579819111,
 				["g"] = 28,
-				["eI"] = 2337,
+				["eN"] = "Carapace of N'Zoth",
 			}, -- [49]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -10127,13 +10220,13 @@ VExRT = {
 				"LPíké-Draenor", -- [28]
 				"IImahonti-Drak'thul", -- [29]
 				"FRuxxchamp-Drak'thul", -- [30]
-				["eN"] = "Wrathion",
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1579979873,
 				["eI"] = 2329,
+				["k"] = true,
+				["t"] = 1579979873,
+				["eN"] = "Wrathion",
 				["d"] = 14,
 				["g"] = 30,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [50]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -10165,13 +10258,13 @@ VExRT = {
 				"FStarie-Drak'thul", -- [27]
 				"KWaresa-Drak'thul", -- [28]
 				"HImahottie-Drak'thul", -- [29]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 15,
-				["eI"] = 2344,
+				["eN"] = "N'Zoth the Corruptor",
 				["t"] = 1580062751,
 				["g"] = 28,
-				["eN"] = "N'Zoth the Corruptor",
+				["eI"] = 2344,
 			}, -- [51]
 			{
 				"FYônt", -- [1]
@@ -10203,13 +10296,13 @@ VExRT = {
 				"IImahonti", -- [27]
 				"KLilmoozi", -- [28]
 				"KCowmotion", -- [29]
-				["eI"] = 2327,
-				["k"] = true,
-				["t"] = 1580064092,
 				["eN"] = "Maut",
+				["c"] = "Fallkenez-Drak'thul",
+				["t"] = 1580064092,
+				["eI"] = 2327,
 				["d"] = 15,
 				["g"] = 29,
-				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 			}, -- [52]
 			{
 				"FYônt", -- [1]
@@ -10241,13 +10334,13 @@ VExRT = {
 				"IImahonti", -- [27]
 				"KLilmoozi", -- [28]
 				"KWaresa", -- [29]
-				["k"] = true,
 				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 				["d"] = 15,
-				["eN"] = "Carapace of N'Zoth",
+				["eI"] = 2337,
 				["t"] = 1580075839,
 				["g"] = 29,
-				["eI"] = 2337,
+				["eN"] = "Carapace of N'Zoth",
 			}, -- [53]
 			{
 				"JYønt", -- [1]
@@ -10279,13 +10372,13 @@ VExRT = {
 				"CSparklen", -- [27]
 				"IMilt", -- [28]
 				"HImahottie", -- [29]
-				["eI"] = 2337,
-				["k"] = true,
-				["t"] = 1580148873,
 				["eN"] = "Carapace of N'Zoth",
+				["c"] = "Fallkenez-Drak'thul",
+				["t"] = 1580148873,
+				["eI"] = 2337,
 				["d"] = 15,
 				["g"] = 29,
-				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 			}, -- [54]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -10316,13 +10409,13 @@ VExRT = {
 				"KDrtnsx-Drak'thul", -- [26]
 				"KWaresa-Drak'thul", -- [27]
 				"IDarixd-Drak'thul", -- [28]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 15,
-				["eN"] = "N'Zoth the Corruptor",
+				["eI"] = 2344,
 				["t"] = 1580154010,
 				["g"] = 27,
-				["eI"] = 2344,
+				["eN"] = "N'Zoth the Corruptor",
 			}, -- [55]
 			{
 				"FYônt-Drak'thul", -- [1]
@@ -10347,13 +10440,13 @@ VExRT = {
 				"GKaern-Drak'thul", -- [20]
 				"DVodaq-Drak'thul", -- [21]
 				"IDarixd-Drak'thul", -- [22]
-				["eI"] = 2329,
-				["k"] = true,
-				["t"] = 1580321443,
 				["eN"] = "Wrathion",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1580321443,
+				["eI"] = 2329,
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [56]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -10379,13 +10472,13 @@ VExRT = {
 				"EDoomgiver-Drak'thul", -- [21]
 				"FStarie-Drak'thul", -- [22]
 				"IDarixd-Drak'thul", -- [23]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 16,
-				["eI"] = 2335,
+				["eN"] = "Shad'har the Insatiable",
 				["t"] = 1580418695,
 				["g"] = 20,
-				["eN"] = "Shad'har the Insatiable",
+				["eI"] = 2335,
 			}, -- [57]
 			{
 				"BYonteau-Drak'thul", -- [1]
@@ -10409,13 +10502,13 @@ VExRT = {
 				"KKavvasaki-Drak'thul", -- [19]
 				"GKaern-Drak'thul", -- [20]
 				"IDarixd-Drak'thul", -- [21]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 16,
-				["eI"] = 2328,
+				["eN"] = "Dark Inquisitor Xanesh",
 				["t"] = 1580580838,
 				["g"] = 20,
-				["eN"] = "Dark Inquisitor Xanesh",
+				["eI"] = 2328,
 			}, -- [58]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -10445,13 +10538,13 @@ VExRT = {
 				"GKaern-Drak'thul", -- [25]
 				"KFallken", -- [26]
 				"EDoomgiver-Drak'thul", -- [27]
-				["eI"] = 2329,
-				["k"] = true,
-				["t"] = 1580582072,
 				["eN"] = "Wrathion",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1580582072,
+				["eI"] = 2329,
 				["d"] = 15,
 				["g"] = 27,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [59]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -10482,13 +10575,13 @@ VExRT = {
 				"KFallken", -- [26]
 				"EDoomgiver-Drak'thul", -- [27]
 				"GSellena-Drak'thul", -- [28]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 15,
-				["eN"] = "Dark Inquisitor Xanesh",
+				["eI"] = 2328,
 				["t"] = 1580584426,
 				["g"] = 28,
-				["eI"] = 2328,
+				["eN"] = "Dark Inquisitor Xanesh",
 			}, -- [60]
 			{
 				"FYônt", -- [1]
@@ -10520,13 +10613,13 @@ VExRT = {
 				"ELfrepresents", -- [27]
 				"BPankenny", -- [28]
 				"BBunnyrose", -- [29]
-				["eN"] = "Wrathion",
-				["c"] = "Fallkenez-Drak'thul",
-				["t"] = 1580589413,
 				["eI"] = 2329,
+				["k"] = true,
+				["t"] = 1580589413,
+				["eN"] = "Wrathion",
 				["d"] = 15,
 				["g"] = 29,
-				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 			}, -- [61]
 			{
 				"JSailâ", -- [1]
@@ -10551,13 +10644,13 @@ VExRT = {
 				"JFeoqt-BurningBlade", -- [20]
 				"IMilt", -- [21]
 				"LPeacedopice", -- [22]
-				["k"] = true,
 				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 				["d"] = 15,
-				["eI"] = 2337,
+				["eN"] = "Carapace of N'Zoth",
 				["t"] = 1580855710,
 				["g"] = 22,
-				["eN"] = "Carapace of N'Zoth",
+				["eI"] = 2337,
 			}, -- [62]
 			{
 				"GShyre-Kazzak", -- [1]
@@ -10585,13 +10678,13 @@ VExRT = {
 				"LÆmylie-Blackhand", -- [23]
 				"JFlorrette-Silvermoon", -- [24]
 				"GSkviser-Kazzak", -- [25]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 14,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 				["t"] = 1580906132,
 				["g"] = 25,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 			}, -- [63]
 			{
 				"FYônt-Drak'thul", -- [1]
@@ -10616,13 +10709,13 @@ VExRT = {
 				"BNaridas-Drak'thul", -- [20]
 				"FStarie-Drak'thul", -- [21]
 				"EAnyrose-Drak'thul", -- [22]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1580927244,
 				["g"] = 20,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [64]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -10653,13 +10746,13 @@ VExRT = {
 				"KJirboom-Drak'thul", -- [26]
 				"KFallken", -- [27]
 				"KDrtnsx-Drak'thul", -- [28]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 15,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1580936226,
 				["g"] = 27,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [65]
 			{
 				"FYônt", -- [1]
@@ -10689,13 +10782,13 @@ VExRT = {
 				"KKavvasaki", -- [25]
 				"EAnyrose", -- [26]
 				"FSantali", -- [27]
-				["k"] = true,
 				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 				["d"] = 15,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1581012080,
 				["g"] = 27,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [66]
 			{
 				"EDoomgiver-Drak'thul", -- [1]
@@ -10718,13 +10811,13 @@ VExRT = {
 				"GKaern-Drak'thul", -- [18]
 				"CSparklen-Drak'thul", -- [19]
 				"HImahottie-Drak'thul", -- [20]
-				["eI"] = 2343,
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1581027960,
 				["eN"] = "Drest'agath",
+				["k"] = true,
+				["t"] = 1581027960,
+				["eI"] = 2343,
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [67]
 			{
 				"FYônt-Drak'thul", -- [1]
@@ -10747,13 +10840,13 @@ VExRT = {
 				"HImahottie-Drak'thul", -- [18]
 				"EDoomgiver-Drak'thul", -- [19]
 				"BNaridas-Drak'thul", -- [20]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 16,
-				["eI"] = 2331,
+				["eN"] = "Ra-den the Despoiled",
 				["t"] = 1581111458,
 				["g"] = 20,
-				["eN"] = "Ra-den the Despoiled",
+				["eI"] = 2331,
 			}, -- [68]
 			{
 				"LAgämmand", -- [1]
@@ -10774,13 +10867,13 @@ VExRT = {
 				"FStarie", -- [16]
 				"DFallkenez", -- [17]
 				"LGlanz", -- [18]
-				["eN"] = "Ra-den the Despoiled",
-				["k"] = true,
-				["t"] = 1581114252,
 				["eI"] = 2331,
+				["c"] = "Fallkenez-Drak'thul",
+				["t"] = 1581114252,
+				["eN"] = "Ra-den the Despoiled",
 				["d"] = 14,
 				["g"] = 18,
-				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 			}, -- [69]
 			{
 				"FYônt-Drak'thul", -- [1]
@@ -10803,13 +10896,13 @@ VExRT = {
 				"HImahottie-Drak'thul", -- [18]
 				"KDrtnsx-Drak'thul", -- [19]
 				"CSparklen-Drak'thul", -- [20]
-				["eI"] = 2345,
-				["k"] = true,
-				["t"] = 1581280490,
 				["eN"] = "Il'gynoth, Corruption Reborn",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1581280490,
+				["eI"] = 2345,
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [70]
 			{
 				"FYônt-Drak'thul", -- [1]
@@ -10832,13 +10925,13 @@ VExRT = {
 				"KNavve-Drak'thul", -- [18]
 				"HImahottie-Drak'thul", -- [19]
 				"LPeacedopice-Drak'thul", -- [20]
-				["eI"] = 2337,
-				["k"] = true,
-				["t"] = 1581460439,
 				["eN"] = "Carapace of N'Zoth",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1581460439,
+				["eI"] = 2337,
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [71]
 			{
 				"BYonteau-Drak'thul", -- [1]
@@ -10865,13 +10958,13 @@ VExRT = {
 				"KDrtnsx-Drak'thul", -- [22]
 				"FStarie-Drak'thul", -- [23]
 				"EAnyrose-Drak'thul", -- [24]
-				["eN"] = "Wrathion",
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1581531113,
 				["eI"] = 2329,
+				["k"] = true,
+				["t"] = 1581531113,
+				["eN"] = "Wrathion",
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [72]
 			{
 				"KLazyhawk-Ragnaros", -- [1]
@@ -10899,13 +10992,13 @@ VExRT = {
 				"LSeejko-BurningLegion", -- [23]
 				"CGladres-Archimonde", -- [24]
 				"LSargerassux-Ragnaros", -- [25]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 14,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1581597250,
 				["g"] = 25,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [73]
 			{
 				"FYônt-Drak'thul", -- [1]
@@ -10928,13 +11021,13 @@ VExRT = {
 				"HImahottie-Drak'thul", -- [18]
 				"KDrtnsx-Drak'thul", -- [19]
 				"CSparklen-Drak'thul", -- [20]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 16,
-				["eI"] = 2345,
+				["eN"] = "Il'gynoth, Corruption Reborn",
 				["t"] = 1581631607,
 				["g"] = 20,
-				["eN"] = "Il'gynoth, Corruption Reborn",
+				["eI"] = 2345,
 			}, -- [74]
 			{
 				"HImahottie-Drak'thul", -- [1]
@@ -10950,13 +11043,13 @@ VExRT = {
 				"KDlouhouch-Drak'thul", -- [11]
 				"FAeneas-Eredar", -- [12]
 				"HTheyonor-Drak'thul", -- [13]
-				["eI"] = 2329,
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1581707060,
 				["eN"] = "Wrathion",
+				["k"] = true,
+				["t"] = 1581707060,
+				["eI"] = 2329,
 				["d"] = 14,
 				["g"] = 12,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [75]
 			{
 				"FYônt-Drak'thul", -- [1]
@@ -10985,13 +11078,13 @@ VExRT = {
 				"GSellena-Drak'thul", -- [24]
 				"JFeoqt", -- [25]
 				"JSailâ-Drak'thul", -- [26]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 15,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1581789905,
 				["g"] = 25,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [76]
 			{
 				"FYônt", -- [1]
@@ -11024,13 +11117,13 @@ VExRT = {
 				"JEasyhodevka", -- [28]
 				"DFallkenez", -- [29]
 				"DIhamonti", -- [30]
-				["eN"] = "Ra-den the Despoiled",
-				["c"] = "Fallkenez-Drak'thul",
-				["t"] = 1581793552,
 				["eI"] = 2331,
+				["k"] = true,
+				["t"] = 1581793552,
+				["eN"] = "Ra-den the Despoiled",
 				["d"] = 15,
 				["g"] = 29,
-				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 			}, -- [77]
 			{
 				"FYônt-Drak'thul", -- [1]
@@ -11061,13 +11154,13 @@ VExRT = {
 				"JSailâ-Drak'thul", -- [26]
 				"ELabant-Drak'thul", -- [27]
 				"KFallken", -- [28]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 15,
-				["eI"] = 2335,
+				["eN"] = "Shad'har the Insatiable",
 				["t"] = 1581794147,
 				["g"] = 27,
-				["eN"] = "Shad'har the Insatiable",
+				["eI"] = 2335,
 			}, -- [78]
 			{
 				"FYônt", -- [1]
@@ -11099,13 +11192,13 @@ VExRT = {
 				"DFallkenez", -- [27]
 				"DStëvë", -- [28]
 				"DVodaq", -- [29]
-				["eI"] = 2337,
-				["k"] = true,
-				["t"] = 1581796255,
 				["eN"] = "Carapace of N'Zoth",
+				["c"] = "Fallkenez-Drak'thul",
+				["t"] = 1581796255,
+				["eI"] = 2337,
 				["d"] = 15,
 				["g"] = 27,
-				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 			}, -- [79]
 			{
 				"FYônt-Drak'thul", -- [1]
@@ -11136,13 +11229,13 @@ VExRT = {
 				"GStormgød-Drak'thul", -- [26]
 				"DStëvë-Drak'thul", -- [27]
 				"DVodaq-Drak'thul", -- [28]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 15,
-				["eN"] = "N'Zoth the Corruptor",
+				["eI"] = 2344,
 				["t"] = 1581797123,
 				["g"] = 27,
-				["eI"] = 2344,
+				["eN"] = "N'Zoth the Corruptor",
 			}, -- [80]
 			{
 				"BYonteau", -- [1]
@@ -11170,13 +11263,13 @@ VExRT = {
 				"EKatheria", -- [23]
 				"DFallkenez", -- [24]
 				"FSantali", -- [25]
-				["c"] = "Fallkenez-Drak'thul",
 				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 				["d"] = 15,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 				["t"] = 1581798891,
 				["g"] = 25,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 			}, -- [81]
 			{
 				"BYonteau-Drak'thul", -- [1]
@@ -11264,13 +11357,13 @@ VExRT = {
 				"IАркханн-Ревущийфьорд", -- [17]
 				"HViciimge-Eredar", -- [18]
 				"KFallken", -- [19]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 15,
-				["eI"] = 2333,
+				["eN"] = "The Hivemind",
 				["t"] = 1582043758,
 				["g"] = 18,
-				["eN"] = "The Hivemind",
+				["eI"] = 2333,
 			}, -- [84]
 			{
 				"AMargatha-TwistingNether", -- [1]
@@ -11291,13 +11384,13 @@ VExRT = {
 				"KFallken", -- [16]
 				"LDesmaak-Archimonde", -- [17]
 				"CVickivale-Draenor", -- [18]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 14,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1582108968,
 				["g"] = 18,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [85]
 			{
 				"AMargatha-TwistingNether", -- [1]
@@ -11319,13 +11412,13 @@ VExRT = {
 				"LDesmaak-Archimonde", -- [17]
 				"CVickivale-Draenor", -- [18]
 				"BJokedy-TwistingNether", -- [19]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 14,
-				["eI"] = 2335,
+				["eN"] = "Shad'har the Insatiable",
 				["t"] = 1582112876,
 				["g"] = 19,
-				["eN"] = "Shad'har the Insatiable",
+				["eI"] = 2335,
 			}, -- [86]
 			{
 				"BYonteau-Drak'thul", -- [1]
@@ -11390,13 +11483,13 @@ VExRT = {
 				"JFeoqt-BurningBlade", -- [27]
 				"GKaern", -- [28]
 				"JYønt", -- [29]
-				["eI"] = 2333,
-				["k"] = true,
-				["t"] = 1582151964,
 				["eN"] = "The Hivemind",
+				["c"] = "Fallkenez-Drak'thul",
+				["t"] = 1582151964,
+				["eI"] = 2333,
 				["d"] = 15,
 				["g"] = 26,
-				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 			}, -- [88]
 			{
 				"BYonteau", -- [1]
@@ -11421,13 +11514,13 @@ VExRT = {
 				"GKaern", -- [20]
 				"KNavve", -- [21]
 				"JApesinpartyx", -- [22]
-				["c"] = "Fallkenez-Drak'thul",
 				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 				["d"] = 15,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 				["t"] = 1582394935,
 				["g"] = 21,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 			}, -- [89]
 			{
 				"JYønt", -- [1]
@@ -11451,13 +11544,13 @@ VExRT = {
 				"GSnovii", -- [19]
 				"KCowmotion", -- [20]
 				"DVodaq", -- [21]
-				["eI"] = 2344,
-				["k"] = true,
-				["t"] = 1582403081,
 				["eN"] = "N'Zoth the Corruptor",
+				["c"] = "Fallkenez-Drak'thul",
+				["t"] = 1582403081,
+				["eI"] = 2344,
 				["d"] = 15,
 				["g"] = 21,
-				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 			}, -- [90]
 			{
 				"AYönt-Drak'thul", -- [1]
@@ -11479,13 +11572,13 @@ VExRT = {
 				"EKatheria-Drak'thul", -- [17]
 				"BNaridas-Drak'thul", -- [18]
 				"EAnyrose-Drak'thul", -- [19]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 15,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1582403948,
 				["g"] = 19,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [91]
 			{
 				"JJaquiline-Thrall", -- [1]
@@ -11504,13 +11597,13 @@ VExRT = {
 				"LGuthh-TarrenMill", -- [14]
 				"KBoommuppet-TarrenMill", -- [15]
 				"COrcimusprime-Kazzak", -- [16]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 14,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 				["t"] = 1582719475,
 				["g"] = 16,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 			}, -- [92]
 			{
 				"BYonteau-Drak'thul", -- [1]
@@ -11537,13 +11630,13 @@ VExRT = {
 				"EAnyrose-Drak'thul", -- [22]
 				"FStarie-Drak'thul", -- [23]
 				"DStëvë-Drak'thul", -- [24]
-				["eN"] = "Wrathion",
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1582740145,
 				["eI"] = 2329,
+				["k"] = true,
+				["t"] = 1582740145,
+				["eN"] = "Wrathion",
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [93]
 			{
 				"BYonteau-Drak'thul", -- [1]
@@ -11568,13 +11661,13 @@ VExRT = {
 				"GTereshia-Drak'thul", -- [20]
 				"EAnyrose-Drak'thul", -- [21]
 				"KDarynek-Drak'thul", -- [22]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 16,
-				["eI"] = 2331,
+				["eN"] = "Ra-den the Despoiled",
 				["t"] = 1582747757,
 				["g"] = 20,
-				["eN"] = "Ra-den the Despoiled",
+				["eI"] = 2331,
 			}, -- [94]
 			{
 				"JSailâ-Drak'thul", -- [1]
@@ -11597,13 +11690,13 @@ VExRT = {
 				"HMilunatore-Drak'thul", -- [18]
 				"BErebir", -- [19]
 				"DMossu-Drak'thul", -- [20]
-				["eN"] = "Wrathion",
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1583003087,
 				["eI"] = 2329,
+				["k"] = true,
+				["t"] = 1583003087,
+				["eN"] = "Wrathion",
 				["d"] = 15,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [95]
 			{
 				"BYonteau-Drak'thul", -- [1]
@@ -11626,13 +11719,13 @@ VExRT = {
 				"EDoomgiver-Drak'thul", -- [18]
 				"CSparklen-Drak'thul", -- [19]
 				"GKaern-Drak'thul", -- [20]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "N'Zoth the Corruptor",
+				["eI"] = 2344,
 				["t"] = 1583262187,
 				["g"] = 20,
-				["eI"] = 2344,
+				["eN"] = "N'Zoth the Corruptor",
 			}, -- [96]
 			{
 				"AYönt", -- [1]
@@ -11659,13 +11752,13 @@ VExRT = {
 				"KFallken-BurningBlade", -- [22]
 				"DStëvë", -- [23]
 				"DVodaq", -- [24]
-				["eN"] = "Wrathion",
-				["c"] = "Fallkenez-Drak'thul",
-				["t"] = 1583431876,
 				["eI"] = 2329,
+				["k"] = true,
+				["t"] = 1583431876,
+				["eN"] = "Wrathion",
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 			}, -- [97]
 			{
 				"AYönt-Drak'thul", -- [1]
@@ -11691,13 +11784,13 @@ VExRT = {
 				"LSântali-Drak'thul", -- [21]
 				"DStëvë-Drak'thul", -- [22]
 				"EAnyrose-Drak'thul", -- [23]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 16,
-				["eI"] = 2333,
+				["eN"] = "The Hivemind",
 				["t"] = 1583435726,
 				["g"] = 20,
-				["eN"] = "The Hivemind",
+				["eI"] = 2333,
 			}, -- [98]
 			{
 				"BYonteau-Drak'thul", -- [1]
@@ -11720,13 +11813,13 @@ VExRT = {
 				"GKaern-Drak'thul", -- [18]
 				"HImahottie-Drak'thul", -- [19]
 				"DStëvë-Drak'thul", -- [20]
-				["eI"] = 2344,
-				["k"] = true,
-				["t"] = 1583691105,
 				["eN"] = "N'Zoth the Corruptor",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1583691105,
+				["eI"] = 2344,
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [99]
 			{
 				"HImahottie-Drak'thul", -- [1]
@@ -11757,13 +11850,13 @@ VExRT = {
 				"CXivemaster-TarrenMill", -- [26]
 				"GSadafsadaf-Kazzak", -- [27]
 				"LTrankschrank-Blackhand", -- [28]
-				["eI"] = 2329,
-				["k"] = true,
-				["t"] = 1583777379,
 				["eN"] = "Wrathion",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1583777379,
+				["eI"] = 2329,
 				["d"] = 15,
 				["g"] = 28,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [100]
 			{
 				"AYönt-Drak'thul", -- [1]
@@ -11790,13 +11883,13 @@ VExRT = {
 				"LÄzmïr-Drak'thul", -- [22]
 				"BNaridas-Drak'thul", -- [23]
 				"DVodaq-Drak'thul", -- [24]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1583950405,
 				["g"] = 20,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [101]
 			{
 				"JYønt", -- [1]
@@ -11820,13 +11913,13 @@ VExRT = {
 				"EKatheria", -- [19]
 				"ENawepriest", -- [20]
 				"KEtymera", -- [21]
-				["eN"] = "Wrathion",
-				["c"] = "Fallkenez-Drak'thul",
-				["t"] = 1584295681,
 				["eI"] = 2329,
+				["k"] = true,
+				["t"] = 1584295681,
+				["eN"] = "Wrathion",
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 			}, -- [102]
 			{
 				"JWizisabers-Drak'thul", -- [1]
@@ -11859,13 +11952,13 @@ VExRT = {
 				"KCoopah-Kazzak", -- [28]
 				"ELightorch-Kazzak", -- [29]
 				"JGrimtastic-Blackhand", -- [30]
-				["eN"] = "Wrathion",
-				["k"] = true,
-				["t"] = 1584382119,
 				["eI"] = 2329,
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1584382119,
+				["eN"] = "Wrathion",
 				["d"] = 15,
 				["g"] = 30,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [103]
 			{
 				"AYönt-Drak'thul", -- [1]
@@ -11893,13 +11986,13 @@ VExRT = {
 				"DVodaq-Drak'thul", -- [23]
 				"IMilt-Drak'thul", -- [24]
 				"DStëvë-Drak'thul", -- [25]
-				["eI"] = 2329,
-				["k"] = true,
-				["t"] = 1584555112,
 				["eN"] = "Wrathion",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1584555112,
+				["eI"] = 2329,
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [104]
 			{
 				"FSantali", -- [1]
@@ -11920,13 +12013,13 @@ VExRT = {
 				"LRhaenyz", -- [16]
 				"HTetuska", -- [17]
 				"BCmoldazz", -- [18]
-				["c"] = "Fallkenez-Drak'thul",
 				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 				["d"] = 15,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 				["t"] = 1584817377,
 				["g"] = 18,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 			}, -- [105]
 			{
 				"JYønt", -- [1]
@@ -11950,13 +12043,13 @@ VExRT = {
 				"KCowmotion", -- [19]
 				"BNawepala", -- [20]
 				"GFalwick", -- [21]
-				["eN"] = "Wrathion",
-				["c"] = "Fallkenez-Drak'thul",
-				["t"] = 1584900878,
 				["eI"] = 2329,
+				["k"] = true,
+				["t"] = 1584900878,
+				["eN"] = "Wrathion",
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 			}, -- [106]
 			{
 				"HImahottie-Drak'thul", -- [1]
@@ -11989,13 +12082,13 @@ VExRT = {
 				"IFarunir-Eredar", -- [28]
 				"KSkullzæ-Ysondre", -- [29]
 				"ARageprince-Draenor", -- [30]
-				["eN"] = "Wrathion",
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1584983940,
 				["eI"] = 2329,
+				["k"] = true,
+				["t"] = 1584983940,
+				["eN"] = "Wrathion",
 				["d"] = 15,
 				["g"] = 30,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [107]
 			{
 				"AYönt-Drak'thul", -- [1]
@@ -12020,13 +12113,13 @@ VExRT = {
 				"GKaern-Drak'thul", -- [20]
 				"KDogtooth-Drak'thul", -- [21]
 				"BErebir", -- [22]
-				["eN"] = "Wrathion",
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1585159595,
 				["eI"] = 2329,
+				["k"] = true,
+				["t"] = 1585159595,
+				["eN"] = "Wrathion",
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [108]
 			{
 				"JYønt", -- [1]
@@ -12051,13 +12144,13 @@ VExRT = {
 				"EKatheria", -- [20]
 				"ELabant", -- [21]
 				"KCowmotion", -- [22]
-				["k"] = true,
 				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1585501636,
 				["g"] = 20,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [109]
 			{
 				"AYönt-Drak'thul", -- [1]
@@ -12084,13 +12177,13 @@ VExRT = {
 				"CSparklen-Drak'thul", -- [22]
 				"GTereshia-Drak'thul", -- [23]
 				"KNavve-Drak'thul", -- [24]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1585760757,
 				["g"] = 20,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [110]
 			{
 				"AYönt-Drak'thul", -- [1]
@@ -12116,14 +12209,14 @@ VExRT = {
 				"EAnyrose-Drak'thul", -- [21]
 				"FStarie-Drak'thul", -- [22]
 				"AEvzenhummels-Drak'thul", -- [23]
-				["t"] = 1585773007,
-				["eI"] = 2337,
-				["c"] = "Fallken-BurningBlade",
 				["d"] = 16,
+				["eI"] = 2337,
+				["k"] = true,
+				["t"] = 1585773007,
 				["eN"] = "Carapace of N'Zoth",
 				[26] = "KNavve-Drak'thul",
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [111]
 			{
 				"JYønt", -- [1]
@@ -12147,13 +12240,13 @@ VExRT = {
 				"CMazeltov", -- [19]
 				"BBulladin", -- [20]
 				"KEtymera", -- [21]
-				["k"] = true,
 				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1586106669,
 				["g"] = 20,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [112]
 			{
 				"LSântali-Drak'thul", -- [1]
@@ -12185,13 +12278,13 @@ VExRT = {
 				"IWichtelwirt-Nordrassil", -- [27]
 				"JSmiskanna-TarrenMill", -- [28]
 				"JVenori-Thrall", -- [29]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 15,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 				["t"] = 1586185648,
 				["g"] = 28,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 			}, -- [113]
 			{
 				"AYönt-Drak'thul", -- [1]
@@ -12219,13 +12312,13 @@ VExRT = {
 				"IXsycht-Drak'thul", -- [23]
 				"DVodaq-Drak'thul", -- [24]
 				"BErebir", -- [25]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1586365261,
 				["g"] = 20,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [114]
 			{
 				"KDogtooth-Drak'thul", -- [1]
@@ -12242,13 +12335,13 @@ VExRT = {
 				"KJirboom-Drak'thul", -- [12]
 				"LWassabî-Drak'thul", -- [13]
 				"DVodaq-Drak'thul", -- [14]
-				["eN"] = "Wrathion",
-				["k"] = true,
-				["t"] = 1586626014,
 				["eI"] = 2329,
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1586626014,
+				["eN"] = "Wrathion",
 				["d"] = 14,
 				["g"] = 14,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [115]
 			{
 				"LJustamemer", -- [1]
@@ -12275,13 +12368,13 @@ VExRT = {
 				"KStevan", -- [22]
 				"KWaresa", -- [23]
 				"ENawepriest", -- [24]
-				["eI"] = 2329,
-				["k"] = true,
-				["t"] = 1586711119,
 				["eN"] = "Wrathion",
+				["c"] = "Fallkenez-Drak'thul",
+				["t"] = 1586711119,
+				["eI"] = 2329,
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 			}, -- [116]
 			{
 				"FHottíe", -- [1]
@@ -12309,13 +12402,13 @@ VExRT = {
 				"LMclövìn-TarrenMill", -- [23]
 				"ADreamwarr-Frostwhisper", -- [24]
 				"ILockgurpan-TarrenMill", -- [25]
-				["k"] = true,
 				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 				["d"] = 15,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1586809180,
 				["g"] = 25,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [117]
 			{
 				"FHottíe", -- [1]
@@ -12343,13 +12436,13 @@ VExRT = {
 				"LMclövìn-TarrenMill", -- [23]
 				"ADreamwarr-Frostwhisper", -- [24]
 				"ILockgurpan-TarrenMill", -- [25]
-				["eN"] = "Dark Inquisitor Xanesh",
-				["c"] = "Fallkenez-Drak'thul",
-				["t"] = 1586811324,
 				["eI"] = 2328,
+				["k"] = true,
+				["t"] = 1586811324,
+				["eN"] = "Dark Inquisitor Xanesh",
 				["d"] = 15,
 				["g"] = 25,
-				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 			}, -- [118]
 			{
 				"FYônt-Drak'thul", -- [1]
@@ -12375,13 +12468,13 @@ VExRT = {
 				"CSparklen-Drak'thul", -- [21]
 				"DVodaq-Drak'thul", -- [22]
 				"LÄzmïr-Drak'thul", -- [23]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 16,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 				["t"] = 1587575411,
 				["g"] = 20,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 			}, -- [119]
 			{
 				"HImahottie", -- [1]
@@ -12414,13 +12507,13 @@ VExRT = {
 				"AWisetusk-Kazzak", -- [28]
 				"GYeha-Draenor", -- [29]
 				"JNamiswan-Draenor", -- [30]
-				["c"] = "Fallkenez-Drak'thul",
 				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 				["d"] = 15,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 				["t"] = 1587665922,
 				["g"] = 27,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 			}, -- [120]
 			{
 				"JYønt", -- [1]
@@ -12448,13 +12541,13 @@ VExRT = {
 				"EAnyrose", -- [23]
 				"LAgämmand", -- [24]
 				"FStarie", -- [25]
-				["c"] = "Fallkenez-Drak'thul",
 				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 				["d"] = 16,
-				["eI"] = 2328,
+				["eN"] = "Dark Inquisitor Xanesh",
 				["t"] = 1587923183,
 				["g"] = 20,
-				["eN"] = "Dark Inquisitor Xanesh",
+				["eI"] = 2328,
 			}, -- [121]
 			{
 				"LSântali-Drak'thul", -- [1]
@@ -12481,13 +12574,13 @@ VExRT = {
 				"JDèbz-TwistingNether", -- [22]
 				"DFasik-Drak'thul", -- [23]
 				"GDwosha-Ysondre", -- [24]
-				["eI"] = 2329,
-				["k"] = true,
-				["t"] = 1588007843,
 				["eN"] = "Wrathion",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1588007843,
+				["eI"] = 2329,
 				["d"] = 15,
 				["g"] = 24,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [122]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -12513,13 +12606,13 @@ VExRT = {
 				"BErebir", -- [21]
 				"KWaresa-Drak'thul", -- [22]
 				"HVodak-Drak'thul", -- [23]
-				["eI"] = 2329,
-				["k"] = true,
-				["t"] = 1588179781,
 				["eN"] = "Wrathion",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1588179781,
+				["eI"] = 2329,
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [123]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -12546,13 +12639,13 @@ VExRT = {
 				"KWaresa-Drak'thul", -- [22]
 				"CDomidana-Drak'thul", -- [23]
 				"IMilt-Drak'thul", -- [24]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Vexiona",
+				["eI"] = 2336,
 				["t"] = 1588182872,
 				["g"] = 20,
-				["eI"] = 2336,
+				["eN"] = "Vexiona",
 			}, -- [124]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -12578,13 +12671,13 @@ VExRT = {
 				"BErebir", -- [21]
 				"KWaresa-Drak'thul", -- [22]
 				"IMilt-Drak'thul", -- [23]
-				["eN"] = "Shad'har the Insatiable",
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1588184697,
 				["eI"] = 2335,
+				["k"] = true,
+				["t"] = 1588184697,
+				["eN"] = "Shad'har the Insatiable",
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [125]
 			{
 				"HImahottie", -- [1]
@@ -12614,13 +12707,13 @@ VExRT = {
 				"CSwiftbows-TwistingNether", -- [25]
 				"FMcôvìn-Frostwhisper", -- [26]
 				"GSymph", -- [27]
-				["c"] = "Fallkenez-Drak'thul",
 				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 				["d"] = 15,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 				["t"] = 1588270073,
 				["g"] = 27,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 			}, -- [126]
 			{
 				"LJustamemer", -- [1]
@@ -12650,13 +12743,13 @@ VExRT = {
 				"LCejdodh", -- [25]
 				"GFalwick", -- [26]
 				"DStëvë", -- [27]
-				["k"] = true,
 				["c"] = "Fàllkén-Drak'thul",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1588525776,
 				["g"] = 20,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [127]
 			{
 				"LJustamemer", -- [1]
@@ -12685,14 +12778,14 @@ VExRT = {
 				"GFalwick", -- [24]
 				"FFura", -- [25]
 				"CWassabec", -- [26]
-				["eN"] = "Ra-den the Despoiled",
-				[31] = "IXsycht",
-				["c"] = "Fallkenez-Drak'thul",
-				["t"] = 1588530951,
 				["eI"] = 2331,
+				[31] = "IXsycht",
+				["k"] = true,
+				["t"] = 1588530951,
+				["eN"] = "Ra-den the Despoiled",
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 			}, -- [128]
 			{
 				"CTarrenius-TarrenMill", -- [1]
@@ -12717,8 +12810,8 @@ VExRT = {
 				["d"] = 15,
 				["g"] = 20,
 				["k"] = true,
-				[21] = "LTirnoch-ArgentDawn",
 				["eI"] = 2329,
+				[21] = "LTirnoch-ArgentDawn",
 				[22] = "LPexez-Hyjal",
 				[23] = "LSattupiko-Frostwhisper",
 				["t"] = 1588620485,
@@ -12748,13 +12841,13 @@ VExRT = {
 				"LStvn", -- [22]
 				"LErébir-BurningBlade", -- [23]
 				"DShtabnetka", -- [24]
-				["eN"] = "Wrathion",
-				["c"] = "Fàllkén-Drak'thul",
-				["t"] = 1588784571,
 				["eI"] = 2329,
+				["k"] = true,
+				["t"] = 1588784571,
+				["eN"] = "Wrathion",
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fàllkén-Drak'thul",
 			}, -- [130]
 			{
 				"AYönt", -- [1]
@@ -12782,13 +12875,13 @@ VExRT = {
 				"JAzula", -- [23]
 				"KDogtooth", -- [24]
 				"LStvn", -- [25]
-				["c"] = "Fallkenez-Drak'thul",
 				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 				["d"] = 16,
-				["eI"] = 2331,
+				["eN"] = "Ra-den the Despoiled",
 				["t"] = 1588790106,
 				["g"] = 20,
-				["eN"] = "Ra-den the Despoiled",
+				["eI"] = 2331,
 			}, -- [131]
 			{
 				"AYönt", -- [1]
@@ -12815,13 +12908,13 @@ VExRT = {
 				"LErébir-BurningBlade", -- [22]
 				"JAzula", -- [23]
 				"LStvn", -- [24]
-				["eI"] = 2345,
-				["k"] = true,
-				["t"] = 1588792904,
 				["eN"] = "Il'gynoth, Corruption Reborn",
+				["c"] = "Fàllkén-Drak'thul",
+				["t"] = 1588792904,
+				["eI"] = 2345,
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fàllkén-Drak'thul",
+				["k"] = true,
 			}, -- [132]
 			{
 				"AYönt", -- [1]
@@ -12850,13 +12943,13 @@ VExRT = {
 				"KEtymera", -- [24]
 				"LStvn", -- [25]
 				"DFallkenez", -- [26]
-				["k"] = true,
 				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Carapace of N'Zoth",
+				["eI"] = 2337,
 				["t"] = 1588794298,
 				["g"] = 20,
-				["eI"] = 2337,
+				["eN"] = "Carapace of N'Zoth",
 			}, -- [133]
 			{
 				"CDeeimos", -- [1]
@@ -12889,13 +12982,13 @@ VExRT = {
 				"JMuharb-TwistingNether", -- [28]
 				"AFoornakss-TwistingNether", -- [29]
 				"AQuôte-Eredar", -- [30]
-				["eI"] = 2329,
-				["c"] = "Fallkenez-Drak'thul",
-				["t"] = 1588875810,
 				["eN"] = "Wrathion",
+				["k"] = true,
+				["t"] = 1588875810,
+				["eI"] = 2329,
 				["d"] = 15,
 				["g"] = 28,
-				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 			}, -- [134]
 			{
 				"AYönt-Drak'thul", -- [1]
@@ -12923,13 +13016,13 @@ VExRT = {
 				"LErébir", -- [23]
 				"KWaresa-Drak'thul", -- [24]
 				"DStëvë-Drak'thul", -- [25]
-				["eI"] = 2329,
-				["k"] = true,
-				["t"] = 1589389661,
 				["eN"] = "Wrathion",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1589389661,
+				["eI"] = 2329,
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [135]
 			{
 				"LJustamemer", -- [1]
@@ -12962,13 +13055,13 @@ VExRT = {
 				"DIhamonti", -- [28]
 				"LSicklikememe", -- [29]
 				"FStarie", -- [30]
-				["k"] = true,
 				["c"] = "Fàllkén-Drak'thul",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1589736513,
 				["g"] = 20,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [136]
 			{
 				"ICejdo-Drak'thul", -- [1]
@@ -12997,13 +13090,13 @@ VExRT = {
 				"FThehëll-Kazzak", -- [24]
 				"HMëmenntos-Drak'thul", -- [25]
 				"FBênky-Drak'thul", -- [26]
-				["eI"] = 2329,
-				["k"] = true,
-				["t"] = 1589826402,
 				["eN"] = "Wrathion",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1589826402,
+				["eI"] = 2329,
 				["d"] = 15,
 				["g"] = 26,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [137]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -13032,13 +13125,13 @@ VExRT = {
 				"LErébir", -- [24]
 				"LWassabî-Drak'thul", -- [25]
 				"CDomidana-Drak'thul", -- [26]
-				["eN"] = "Wrathion",
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1589994412,
 				["eI"] = 2329,
+				["k"] = true,
+				["t"] = 1589994412,
+				["eN"] = "Wrathion",
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [138]
 			{
 				"AYönt", -- [1]
@@ -13070,13 +13163,13 @@ VExRT = {
 				"AXsao", -- [27]
 				"DShtabnetka", -- [28]
 				"JShevaun", -- [29]
-				["k"] = true,
 				["c"] = "Fàllkén-Drak'thul",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1590340295,
 				["g"] = 20,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [139]
 			{
 				"ERutilus-Blackhand", -- [1]
@@ -13100,13 +13193,13 @@ VExRT = {
 				"CEnýu-Haomarush", -- [19]
 				"LJadunka-Stormscale", -- [20]
 				"KZilean-Nemesis", -- [21]
-				["eI"] = 2335,
-				["c"] = "Fàllkén-Drak'thul",
-				["t"] = 1590528172,
 				["eN"] = "Shad'har the Insatiable",
+				["k"] = true,
+				["t"] = 1590528172,
+				["eI"] = 2335,
 				["d"] = 14,
 				["g"] = 21,
-				["k"] = true,
+				["c"] = "Fàllkén-Drak'thul",
 			}, -- [140]
 			{
 				"AYönt-Drak'thul", -- [1]
@@ -13135,13 +13228,13 @@ VExRT = {
 				"BÆndy-Drak'thul", -- [24]
 				"DIhamonti-Drak'thul", -- [25]
 				"DVodaq-Drak'thul", -- [26]
-				["eN"] = "Wrathion",
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1590944730,
 				["eI"] = 2329,
+				["k"] = true,
+				["t"] = 1590944730,
+				["eN"] = "Wrathion",
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [141]
 			{
 				"LJonaszdh-Kazzak", -- [1]
@@ -13169,13 +13262,13 @@ VExRT = {
 				"HButzmeister-TarrenMill", -- [23]
 				"BTrigon-Aegwynn", -- [24]
 				"KWinghz-Ysondre", -- [25]
-				["eN"] = "Wrathion",
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1591118266,
 				["eI"] = 2329,
+				["k"] = true,
+				["t"] = 1591118266,
+				["eN"] = "Wrathion",
 				["d"] = 15,
 				["g"] = 24,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [142]
 			{
 				"LJonaszdh-Kazzak", -- [1]
@@ -13203,13 +13296,13 @@ VExRT = {
 				"HButzmeister-TarrenMill", -- [23]
 				"BTrigon-Aegwynn", -- [24]
 				"KWinghz-Ysondre", -- [25]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 15,
-				["eI"] = 2327,
+				["eN"] = "Maut",
 				["t"] = 1591119099,
 				["g"] = 24,
-				["eN"] = "Maut",
+				["eI"] = 2327,
 			}, -- [143]
 			{
 				"LAsatira-Blackhand", -- [1]
@@ -13230,13 +13323,13 @@ VExRT = {
 				"CFunkboy-Kazzak", -- [16]
 				"LIlmell-TarrenMill", -- [17]
 				"LKholidan-TwistingNether", -- [18]
-				["eI"] = 2329,
-				["k"] = true,
-				["t"] = 1591193345,
 				["eN"] = "Wrathion",
+				["c"] = "Fallkenez-Drak'thul",
+				["t"] = 1591193345,
+				["eI"] = 2329,
 				["d"] = 15,
 				["g"] = 17,
-				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 			}, -- [144]
 			{
 				"AYönt-Drak'thul", -- [1]
@@ -13266,13 +13359,13 @@ VExRT = {
 				nil, -- [25]
 				"CNiccz-TarrenMill", -- [26]
 				"BTallim-TwistingNether", -- [27]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 16,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 				["t"] = 1591204176,
 				["g"] = 20,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 			}, -- [145]
 			{
 				"AYönt-Drak'thul", -- [1]
@@ -13335,8 +13428,8 @@ VExRT = {
 				["d"] = 15,
 				[26] = "IAsluag-TarrenMill",
 				["k"] = true,
-				[21] = "KFlucloxx-Kazzak",
 				["eI"] = 2329,
+				[21] = "KFlucloxx-Kazzak",
 				[28] = "GMexz-Kazzak",
 				[29] = "LOmaewa-Destromath",
 				[30] = "LShega-Ragnaros",
@@ -13372,13 +13465,13 @@ VExRT = {
 				"KFaris-TwistingNether", -- [28]
 				"BGsxpal-TarrenMill", -- [29]
 				"APrimalw-TarrenMill", -- [30]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 15,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1591464312,
 				["g"] = 30,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [148]
 			{
 				"JYønt", -- [1]
@@ -13408,13 +13501,13 @@ VExRT = {
 				"IMilt", -- [25]
 				"LAgämmand", -- [26]
 				"LSântali", -- [27]
-				["c"] = "Fàllkén-Drak'thul",
 				["k"] = true,
+				["c"] = "Fàllkén-Drak'thul",
 				["d"] = 16,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 				["t"] = 1591549477,
 				["g"] = 20,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 			}, -- [149]
 			{
 				"BKedrix-Stormscale", -- [1]
@@ -13482,13 +13575,13 @@ VExRT = {
 				"HRoznetka-Drak'thul", -- [27]
 				"LSântali-Drak'thul", -- [28]
 				"IMilt-Drak'thul", -- [29]
-				["eN"] = "Wrathion",
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1592154694,
 				["eI"] = 2329,
+				["k"] = true,
+				["t"] = 1592154694,
+				["eN"] = "Wrathion",
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [151]
 			{
 				"AYönt", -- [1]
@@ -13548,13 +13641,13 @@ VExRT = {
 				"ICejdo", -- [22]
 				"FStarie", -- [23]
 				"HRoznetka", -- [24]
-				["k"] = true,
 				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1592413955,
 				["g"] = 20,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [153]
 			{
 				"LFelblonde", -- [1]
@@ -13587,13 +13680,13 @@ VExRT = {
 				"DCathapuce-Hyjal", -- [28]
 				"HAlphasheep-Blackrock", -- [29]
 				"EDoubleheal-Thrall", -- [30]
-				["k"] = true,
 				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 				["d"] = 15,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1592661939,
 				["g"] = 30,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [154]
 			{
 				"AYönt-Drak'thul", -- [1]
@@ -13621,13 +13714,13 @@ VExRT = {
 				"FStarie-Drak'thul", -- [23]
 				"LErébir", -- [24]
 				"HFlorián-Drak'thul", -- [25]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 16,
-				["eI"] = 2344,
+				["eN"] = "N'Zoth the Corruptor",
 				["t"] = 1592759696,
 				["g"] = 20,
-				["eN"] = "N'Zoth the Corruptor",
+				["eI"] = 2344,
 			}, -- [155]
 			{
 				"HStrikemage-Blackhand", -- [1]
@@ -13650,13 +13743,13 @@ VExRT = {
 				"GQnup-TarrenMill", -- [18]
 				"IDreadheel-Draenor", -- [19]
 				"DNezrö-Blackhand", -- [20]
-				["eI"] = 2281,
-				["k"] = true,
-				["t"] = 1592831194,
 				["eN"] = "Lady Jaina Proudmoore",
+				["c"] = "Fallkenez-Drak'thul",
+				["t"] = 1592831194,
+				["eI"] = 2281,
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fallkenez-Drak'thul",
+				["k"] = true,
 			}, -- [156]
 			{
 				"LWestí", -- [1]
@@ -13679,13 +13772,13 @@ VExRT = {
 				"LChibydh-Blackrock", -- [18]
 				"ASkaptikwarri-Frostwolf", -- [19]
 				"CEllerra", -- [20]
-				["eN"] = "Lady Jaina Proudmoore",
-				["c"] = "Fàllkén-Drak'thul",
-				["t"] = 1592845080,
 				["eI"] = 2281,
+				["k"] = true,
+				["t"] = 1592845080,
+				["eN"] = "Lady Jaina Proudmoore",
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fàllkén-Drak'thul",
 			}, -- [157]
 			{
 				"FFura-Drak'thul", -- [1]
@@ -13703,13 +13796,13 @@ VExRT = {
 				"HImahottie-Drak'thul", -- [13]
 				"FAffarion-Drak'thul", -- [14]
 				"CBubotronix-Drak'thul", -- [15]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 16,
-				["eI"] = 2281,
+				["eN"] = "Lady Jaina Proudmoore",
 				["t"] = 1592849212,
 				["g"] = 20,
-				["eN"] = "Lady Jaina Proudmoore",
+				["eI"] = 2281,
 			}, -- [158]
 			{
 				"AYönt", -- [1]
@@ -13735,13 +13828,13 @@ VExRT = {
 				"DStëvë", -- [21]
 				"BErebir-BurningBlade", -- [22]
 				"HMëmenntos", -- [23]
-				["k"] = true,
 				["c"] = "Fàllkén-Drak'thul",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "Wrathion",
+				["eI"] = 2329,
 				["t"] = 1593018462,
 				["g"] = 20,
-				["eI"] = 2329,
+				["eN"] = "Wrathion",
 			}, -- [159]
 			{
 				"JYønt-Drak'thul", -- [1]
@@ -13769,13 +13862,13 @@ VExRT = {
 				"LStvn-Drak'thul", -- [23]
 				"CWassabec-Drak'thul", -- [24]
 				"IMilt-Drak'thul", -- [25]
-				["eI"] = 2329,
-				["k"] = true,
-				["t"] = 1593364001,
 				["eN"] = "Wrathion",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1593364001,
+				["eI"] = 2329,
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [160]
 			{
 				"DIhamonti-Drak'thul", -- [1]
@@ -13801,13 +13894,13 @@ VExRT = {
 				"DShtabnetka-Drak'thul", -- [21]
 				"LStvn-Drak'thul", -- [22]
 				"JNawemonk-Drak'thul", -- [23]
-				["eI"] = 2329,
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1593968570,
 				["eN"] = "Wrathion",
+				["k"] = true,
+				["t"] = 1593968570,
+				["eI"] = 2329,
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [161]
 			{
 				"DIhamonti-Drak'thul", -- [1]
@@ -13834,13 +13927,13 @@ VExRT = {
 				"LAgämmand-Drak'thul", -- [22]
 				"BBunnyrose-Drak'thul", -- [23]
 				"HIhamonti-Kazzak", -- [24]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 16,
-				["eN"] = "Ra-den the Despoiled",
+				["eI"] = 2331,
 				["t"] = 1593972111,
 				["g"] = 20,
-				["eI"] = 2331,
+				["eN"] = "Ra-den the Despoiled",
 			}, -- [162]
 			{
 				"AYönt", -- [1]
@@ -13901,13 +13994,13 @@ VExRT = {
 				"CDomidana", -- [24]
 				"EAnyrose", -- [25]
 				"BNawepala", -- [26]
-				["c"] = "Fallkenez-Drak'thul",
 				["k"] = true,
+				["c"] = "Fallkenez-Drak'thul",
 				["d"] = 16,
-				["eI"] = 2343,
+				["eN"] = "Drest'agath",
 				["t"] = 1594234011,
 				["g"] = 20,
-				["eN"] = "Drest'agath",
+				["eI"] = 2343,
 			}, -- [164]
 			{
 				"AYönt-Drak'thul", -- [1]
@@ -13936,13 +14029,13 @@ VExRT = {
 				"HFandah-Drak'thul", -- [24]
 				"EAnyrose-Drak'thul", -- [25]
 				"DFallkenez-Drak'thul", -- [26]
-				["eI"] = 2344,
-				["k"] = true,
-				["t"] = 1594238815,
 				["eN"] = "N'Zoth the Corruptor",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1594238815,
+				["eI"] = 2344,
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [165]
 			{
 				"FYônt", -- [1]
@@ -13968,13 +14061,13 @@ VExRT = {
 				"ENawepriest", -- [21]
 				"DShtabnetka", -- [22]
 				"FSantali", -- [23]
-				["eN"] = "Wrathion",
-				["c"] = "Fàllkén-Drak'thul",
-				["t"] = 1594573935,
 				["eI"] = 2329,
+				["k"] = true,
+				["t"] = 1594573935,
+				["eN"] = "Wrathion",
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fàllkén-Drak'thul",
 			}, -- [166]
 			{
 				"FYônt", -- [1]
@@ -14038,13 +14131,13 @@ VExRT = {
 				"BBunnyrose-Drak'thul", -- [25]
 				"IMilt-Drak'thul", -- [26]
 				"HRoznetka-Drak'thul", -- [27]
-				["c"] = "Fallken-BurningBlade",
 				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 				["d"] = 16,
-				["eI"] = 2328,
+				["eN"] = "Dark Inquisitor Xanesh",
 				["t"] = 1595439792,
 				["g"] = 20,
-				["eN"] = "Dark Inquisitor Xanesh",
+				["eI"] = 2328,
 			}, -- [168]
 			{
 				"AYönt-Drak'thul", -- [1]
@@ -14074,13 +14167,13 @@ VExRT = {
 				nil, -- [25]
 				"IMilt-Drak'thul", -- [26]
 				"HRoznetka-Drak'thul", -- [27]
-				["eI"] = 2336,
-				["k"] = true,
-				["t"] = 1595440377,
 				["eN"] = "Vexiona",
+				["c"] = "Fallken-BurningBlade",
+				["t"] = 1595440377,
+				["eI"] = 2336,
 				["d"] = 16,
 				["g"] = 20,
-				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 			}, -- [169]
 			{
 				"AYönt-Drak'thul", -- [1]
@@ -14108,13 +14201,13 @@ VExRT = {
 				"KNavve-Drak'thul", -- [23]
 				"CDomidana-Drak'thul", -- [24]
 				"KDogtooth-Drak'thul", -- [25]
-				["k"] = true,
 				["c"] = "Fallken-BurningBlade",
+				["k"] = true,
 				["d"] = 16,
-				["eN"] = "The Hivemind",
+				["eI"] = 2333,
 				["t"] = 1595440799,
 				["g"] = 20,
-				["eI"] = 2333,
+				["eN"] = "The Hivemind",
 			}, -- [170]
 			{
 				"AYönt-Drak'thul", -- [1]
@@ -14144,13 +14237,13 @@ VExRT = {
 				"KDogtooth-Drak'thul", -- [25]
 				"HFandah-Drak'thul", -- [26]
 				"HBlackdaggers-Blackrock", -- [27]
-				["eN"] = "Ra-den the Despoiled",
-				["c"] = "Fallken-BurningBlade",
-				["t"] = 1595441763,
 				["eI"] = 2331,
+				["k"] = true,
+				["t"] = 1595441763,
+				["eN"] = "Ra-den the Despoiled",
 				["d"] = 16,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Fallken-BurningBlade",
 			}, -- [171]
 		},
 		["alts"] = {
@@ -14167,13 +14260,13 @@ VExRT = {
 	["WhoPulled"] = {
 	},
 	["Addon"] = {
-		["PreVersion"] = 4170,
-		["Version"] = 4170,
-		["IconMiniMapLeft"] = -80,
 		["IconMiniMapHide"] = true,
-		["Timer"] = 0.1,
-		["Scale"] = 1,
+		["Version"] = 4170,
 		["IconMiniMapTop"] = -16.39286408931796,
+		["Scale"] = 1,
+		["Timer"] = 0.1,
+		["IconMiniMapLeft"] = -80,
+		["PreVersion"] = 4170,
 	},
 	["InviteTool"] = {
 		["Words"] = "инв inv byd штм 123",
@@ -14232,13 +14325,13 @@ VExRT = {
 	},
 	["RaidCheck"] = {
 		["FlaskExp"] = 1,
-		["BuffsCheck"] = true,
 		["RCW_Mini"] = true,
+		["BuffsCheck"] = true,
 		["ReadyCheckFrame"] = true,
-		["ReadyCheckTop"] = 468.7715148925781,
+		["ReadyCheckFrameTimerFade"] = 4,
 		["ReadyCheckFrameOnlyRL"] = true,
 		["ReadyCheckLeft"] = 925.938232421875,
-		["ReadyCheckFrameTimerFade"] = 4,
+		["ReadyCheckTop"] = 468.7715148925781,
 	},
 	["Logging"] = {
 	},

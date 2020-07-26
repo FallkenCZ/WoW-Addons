@@ -90,6 +90,13 @@ X: 97
 Y: -27
 W: 800
 H: 525
+Frame: RematchDialog
+FrameLevel: 1
+Anchor: CENTER
+X: 9
+Y: -17
+W: 420
+H: 200
 Frame: SimcCopyFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -97,10 +104,3 @@ X: -55
 Y: 24
 W: 700
 H: 450
-Frame: RematchDialog
-FrameLevel: 1
-Anchor: CENTER
-X: 9
-Y: -17
-W: 300
-H: 140

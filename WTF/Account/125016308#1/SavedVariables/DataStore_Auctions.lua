@@ -8,13 +8,13 @@ DataStore_AuctionsDB = {
 		["Fállkèn - Burning Blade"] = "Fállkèn - Burning Blade",
 		["Fàllkên - Drak'thul"] = "Fàllkên - Drak'thul",
 		["Faallken - Drak'thul"] = "Faallken - Drak'thul",
-		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
 		["Fallkenxd - Burning Blade"] = "Fallkenxd - Burning Blade",
 		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
 		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
 		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
 		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
-		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
 		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
 		["Fällkên - Drak'thul"] = "Fällkên - Drak'thul",
 		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
@@ -33,7 +33,7 @@ DataStore_AuctionsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Drak'thul.Fàllkén"] = {
-				["lastUpdate"] = 1595504053,
+				["lastUpdate"] = 1595710993,
 				["lastVisitDate"] = "2020/01/14 23:49",
 			},
 			["Default.Drak'thul.Fällkên"] = {
@@ -52,7 +52,7 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2019/12/20 16:17",
 			},
 			["Default.Burning Blade.Fallken"] = {
-				["lastUpdate"] = 1595501920,
+				["lastUpdate"] = 1595715725,
 				["lastVisitDate"] = "2020/07/23 12:58",
 			},
 			["Default.Drak'thul.Fállkén"] = {
@@ -83,7 +83,7 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1593178344,
 			},
 			["Default.Drak'thul.Fallkenez"] = {
-				["lastUpdate"] = 1593343161,
+				["lastUpdate"] = 1595706535,
 				["lastVisitDate"] = "2020/02/12 00:39",
 			},
 		},

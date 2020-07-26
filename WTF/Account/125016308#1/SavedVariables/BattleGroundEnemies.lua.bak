@@ -15,7 +15,7 @@ BattleGroundEnemiesDB = {
 		["Fàllkèn - Burning Blade"] = "Default",
 		["Gfgdhfdghfgh - Burning Blade"] = "Default",
 		["Fållken - Burning Blade"] = "Default",
-		["Fallkenji - Burning Blade"] = "Default",
+		["Fállkên - Drak'thul"] = "Default",
 		["Fallkenmekac - Burning Blade"] = "Default",
 		["Fallkenthicc - Burning Blade"] = "Default",
 		["Fållkên - Drak'thul"] = "Default",
@@ -29,7 +29,7 @@ BattleGroundEnemiesDB = {
 		["Fállken - Burning Blade"] = "Default",
 		["Fállkén - Outland"] = "Default",
 		["Fallkenez - Drak'thul"] = "Default",
-		["Fállkên - Drak'thul"] = "Default",
+		["Fallkenji - Burning Blade"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -47,8 +47,8 @@ BattleGroundEnemiesDB = {
 					["Enabled"] = false,
 				},
 				["15"] = {
-					["Position_Y"] = 512.699785002078,
-					["Position_X"] = 1043.043612505499,
+					["Position_Y"] = 494.921983959357,
+					["Position_X"] = 941.3547113907407,
 				},
 			},
 		},
