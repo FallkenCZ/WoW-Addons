@@ -8,13 +8,13 @@ DataStore_MailsDB = {
 		["Fállkèn - Burning Blade"] = "Fállkèn - Burning Blade",
 		["Fàllkên - Drak'thul"] = "Fàllkên - Drak'thul",
 		["Faallken - Drak'thul"] = "Faallken - Drak'thul",
-		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
 		["Fallkenxd - Burning Blade"] = "Fallkenxd - Burning Blade",
 		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
 		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
 		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
 		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
-		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
 		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
 		["Fällkên - Drak'thul"] = "Fällkên - Drak'thul",
 		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
@@ -37,55 +37,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2019/10/19 10:17",
 			},
 			["Default.Drak'thul.Fàllkén"] = {
-				["lastUpdate"] = 1595710948,
-				["Mails"] = {
-					{
-						["sender"] = "Fallken",
-						["itemID"] = 168487,
-						["link"] = "|cffffffff|Hitem:168487::::::::120:103::::::|h[Zin'anthid]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1595715907,
-						["icon"] = 2563958,
-						["daysLeft"] = 30,
-					}, -- [1]
-					{
-						["sender"] = "Fallken",
-						["itemID"] = 152509,
-						["link"] = "|cffffffff|Hitem:152509::::::::120:103::::::|h[Siren's Pollen]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1595715921,
-						["icon"] = 1956510,
-						["daysLeft"] = 30,
-					}, -- [2]
-					{
-						["sender"] = "Fallken",
-						["itemID"] = 152506,
-						["link"] = "|cffffffff|Hitem:152506::::::::120:103::::::|h[Star Moss]|h|r",
-						["count"] = 5,
-						["lastCheck"] = 1595715921,
-						["icon"] = 1794517,
-						["daysLeft"] = 30,
-					}, -- [3]
-					{
-						["sender"] = "Fallken",
-						["itemID"] = 152508,
-						["link"] = "|cffffffff|Hitem:152508::::::::120:103::::::|h[Winter's Kiss]|h|r",
-						["count"] = 3,
-						["lastCheck"] = 1595715907,
-						["icon"] = 1784025,
-						["daysLeft"] = 30,
-					}, -- [4]
-					{
-						["sender"] = "Fallken",
-						["itemID"] = 152505,
-						["link"] = "|cffffffff|Hitem:152505::::::::120:103::::::|h[Riverbud]|h|r",
-						["count"] = 4,
-						["lastCheck"] = 1595715921,
-						["icon"] = 1785788,
-						["daysLeft"] = 30,
-					}, -- [5]
-				},
-				["lastVisitDate"] = "2020/07/25 23:02",
+				["lastUpdate"] = 1596670390,
+				["lastVisitDate"] = "2020/08/06 01:33",
 			},
 			["Default.Burning Blade.Fallkenthicc"] = {
 				["lastUpdate"] = 1593736283,
@@ -139,13 +92,13 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1593195288,
 				["lastVisitDate"] = "2020/06/26 20:14",
 			},
-			["Default.Drak'thul.Fållkên"] = {
-				["lastUpdate"] = 1593905999,
-				["lastVisitDate"] = "2020/07/05 01:39",
-			},
 			["Default.Drak'thul.Fàllkên"] = {
 				["lastUpdate"] = 1593907876,
 				["lastVisitDate"] = "2020/07/05 02:11",
+			},
+			["Default.Drak'thul.Fållkên"] = {
+				["lastUpdate"] = 1593905999,
+				["lastVisitDate"] = "2020/07/05 01:39",
 			},
 			["Default.Burning Blade.Fallkenji"] = {
 				["lastUpdate"] = 1591571085,
@@ -176,12 +129,12 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2020/07/05 01:57",
 			},
 			["Default.Burning Blade.Fallken"] = {
-				["lastUpdate"] = 1595718032,
-				["lastVisitDate"] = "2020/07/26 01:00",
+				["lastUpdate"] = 1596660231,
+				["lastVisitDate"] = "2020/08/05 22:43",
 			},
 			["Default.Drak'thul.Fallkenez"] = {
-				["lastUpdate"] = 1595706581,
-				["lastVisitDate"] = "2020/07/25 21:49",
+				["lastUpdate"] = 1596661792,
+				["lastVisitDate"] = "2020/08/05 23:09",
 			},
 		},
 	},

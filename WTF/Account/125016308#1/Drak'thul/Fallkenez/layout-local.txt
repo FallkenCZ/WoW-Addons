@@ -6,6 +6,13 @@ X: 265
 Y: 156
 W: 232
 H: 100
+Frame: FocusFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -148
+Y: 25
+W: 232
+H: 100
 Frame: ItemRefTooltip
 FrameLevel: 1
 Anchor: LEFT
@@ -88,12 +95,5 @@ FrameLevel: 1
 Anchor: CENTER
 X: -148
 Y: 156
-W: 232
-H: 100
-Frame: FocusFrame
-FrameLevel: 1
-Anchor: CENTER
-X: -148
-Y: 25
 W: 232
 H: 100

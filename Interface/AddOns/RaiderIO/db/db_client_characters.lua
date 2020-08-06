@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2020-07-26T09:20:32Z
+-- RaiderIO Client Data. Generated on 2020-08-06T10:41:50Z
 --
 local _, ns = ...
 ns.CLIENT_CHARACTERS = {
@@ -67,7 +67,7 @@ ns.CLIENT_CHARACTERS = {
     },
     ["mythic_keystone"] = {
       ["all"] = {
-        ["score"] = 2201,
+        ["score"] = 2269.5,
         ["best"] = {
           ["zone_id"] = 800001,
           ["level"] = 19,
@@ -87,11 +87,11 @@ ns.CLIENT_CHARACTERS = {
           },
           [2] = {
             ["zone_id"] = 9028,
-            ["level"] = 15,
-            ["upgrades"] = 2,
-            ["fraction"] = 0.792,
-            ["score"] = 166.22447965251504,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-bfa-4/15043640-15-ataldazar?utm_source=client"
+            ["level"] = 17,
+            ["upgrades"] = 1,
+            ["fraction"] = 0.904,
+            ["score"] = 196.44508527060498,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-bfa-4/23849151-17-ataldazar?utm_source=client"
           },
           [3] = {
             ["zone_id"] = 9164,
@@ -151,11 +151,11 @@ ns.CLIENT_CHARACTERS = {
           },
           [10] = {
             ["zone_id"] = 9527,
-            ["level"] = 15,
-            ["upgrades"] = 1,
-            ["fraction"] = 0.844,
-            ["score"] = 163.15686465350652,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-bfa-4/10931454-15-temple-of-sethraliss?utm_source=client"
+            ["level"] = 17,
+            ["upgrades"] = 2,
+            ["fraction"] = 0.77,
+            ["score"] = 201.49861181983954,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-bfa-4/24968779-17-temple-of-sethraliss?utm_source=client"
           },
           [11] = {
             ["zone_id"] = 800001,
@@ -415,23 +415,23 @@ ns.CLIENT_CHARACTERS = {
     },
     ["mythic_keystone"] = {
       ["all"] = {
-        ["score"] = 3082.9,
+        ["score"] = 3177.2,
         ["best"] = {
-          ["zone_id"] = 9391,
+          ["zone_id"] = 8064,
           ["level"] = 21,
-          ["upgrades"] = 1,
-          ["fraction"] = 0.998,
-          ["score"] = 285.352883656184,
-          ["url"] = "https://raider.io/mythic-plus-runs/season-bfa-4/21095549-21-the-underrot?utm_source=client"
+          ["upgrades"] = 2,
+          ["fraction"] = 0.75,
+          ["score"] = 295.5283734846744,
+          ["url"] = "https://raider.io/mythic-plus-runs/season-bfa-4/24961683-21-the-motherlode?utm_source=client"
         },
         ["runs"] = {
           [1] = {
             ["zone_id"] = 8064,
-            ["level"] = 20,
-            ["upgrades"] = 0,
-            ["fraction"] = 1.084,
-            ["score"] = 227.91489703941315,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-bfa-4/17510492-20-the-motherlode?utm_source=client"
+            ["level"] = 21,
+            ["upgrades"] = 2,
+            ["fraction"] = 0.75,
+            ["score"] = 295.5283734846744,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-bfa-4/24961683-21-the-motherlode?utm_source=client"
           },
           [2] = {
             ["zone_id"] = 9028,
@@ -475,11 +475,11 @@ ns.CLIENT_CHARACTERS = {
           },
           [7] = {
             ["zone_id"] = 9424,
-            ["level"] = 20,
+            ["level"] = 21,
             ["upgrades"] = 1,
-            ["fraction"] = 0.946,
-            ["score"] = 260.5534503399157,
-            ["url"] = "https://raider.io/mythic-plus-runs/season-bfa-4/15054899-20-waycrest-manor?utm_source=client"
+            ["fraction"] = 0.921,
+            ["score"] = 287.1972732436319,
+            ["url"] = "https://raider.io/mythic-plus-runs/season-bfa-4/24742498-21-waycrest-manor?utm_source=client"
           },
           [8] = {
             ["zone_id"] = 9525,

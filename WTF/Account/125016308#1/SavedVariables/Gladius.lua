@@ -28,11 +28,11 @@ Gladius2DB = {
 		["Fallken - Burning Blade"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 487.8223442548551,
-			},
 			["x"] = {
 				["arena1"] = 891.3774666209356,
+			},
+			["y"] = {
+				["arena1"] = 487.8223442548551,
 			},
 		},
 		["Fållkên - Drak'thul"] = {
@@ -118,11 +118,11 @@ Gladius2DB = {
 		["Fallkenez - Drak'thul"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 971.9110948586167,
-			},
 			["y"] = {
 				["arena1"] = 484.200151967998,
+			},
+			["x"] = {
+				["arena1"] = 971.9110948586167,
 			},
 		},
 		["Fállkén - Drak'thul"] = {

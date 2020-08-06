@@ -7,7 +7,7 @@ TomTomDB = {
 		["Fãllkên - Drak'thul"] = "Default",
 		["Fállkèn - Burning Blade"] = "Default",
 		["Fàllkên - Drak'thul"] = "Default",
-		["Fallkenji - Burning Blade"] = "Default",
+		["Fállkên - Drak'thul"] = "Default",
 		["Faallken - Drak'thul"] = "Default",
 		["Fallkenez - Drak'thul"] = "Default",
 		["Fallkenxd - Burning Blade"] = "Default",
@@ -15,7 +15,7 @@ TomTomDB = {
 		["Fàllkèn - Burning Blade"] = "Default",
 		["Gfgdhfdghfgh - Burning Blade"] = "Default",
 		["Fållken - Burning Blade"] = "Default",
-		["Fállkên - Drak'thul"] = "Default",
+		["Fallkenji - Burning Blade"] = "Default",
 		["Fallkenmekac - Burning Blade"] = "Default",
 		["Fallken - Burning Blade"] = "Default",
 		["Fållkên - Drak'thul"] = "Default",
@@ -63,7 +63,7 @@ TomTomWaypointsM = {
 		["Fãllkên - Drak'thul"] = "Fãllkên - Drak'thul",
 		["Fállkèn - Burning Blade"] = "Fállkèn - Burning Blade",
 		["Fàllkên - Drak'thul"] = "Fàllkên - Drak'thul",
-		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
 		["Faallken - Drak'thul"] = "Faallken - Drak'thul",
 		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
 		["Fallkenxd - Burning Blade"] = "Fallkenxd - Burning Blade",
@@ -71,7 +71,7 @@ TomTomWaypointsM = {
 		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
 		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
 		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
-		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
 		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
 		["Fallken - Burning Blade"] = "Fallken - Burning Blade",
 		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
@@ -100,7 +100,7 @@ TomTomWaypointsM = {
 		},
 		["Fàllkên - Drak'thul"] = {
 		},
-		["Fallkenji - Burning Blade"] = {
+		["Fállkên - Drak'thul"] = {
 		},
 		["Faallken - Drak'thul"] = {
 		},
@@ -116,11 +116,36 @@ TomTomWaypointsM = {
 		},
 		["Fållken - Burning Blade"] = {
 		},
-		["Fállkên - Drak'thul"] = {
+		["Fallkenji - Burning Blade"] = {
 		},
 		["Fallkenmekac - Burning Blade"] = {
 		},
 		["Fallken - Burning Blade"] = {
+			[107] = {
+				["107:620000000:350000000:TomTom waypoint"] = {
+					107, -- [1]
+					0.62, -- [2]
+					0.35, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "TomTom waypoint",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "TomTom waypoint",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
 		},
 		["Fållkên - Drak'thul"] = {
 		},

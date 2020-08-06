@@ -8,6 +8,10 @@ REFlexSettings = {
 	["CurrentTab"] = 6,
 	["LDBMode"] = 3,
 	["Toasts"] = true,
+	["LDBSide"] = "A",
+	["ArenaStatsLimit"] = 3,
+	["ConfigVersion"] = 273,
+	["FirstTime"] = false,
 	["Filters"] = {
 		["Map"] = 1,
 		["Bracket"] = 1,
@@ -19,10 +23,6 @@ REFlexSettings = {
 		["Season"] = 0,
 		["DateMode"] = 1,
 	},
-	["ArenaStatsLimit"] = 3,
-	["FirstTime"] = false,
-	["ConfigVersion"] = 273,
-	["LDBSide"] = "A",
 }
 REFlexDatabase = {
 	{
@@ -148,9 +148,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 84,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1575992132,
@@ -296,9 +296,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 84,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1575992343,
@@ -323,6 +323,661 @@ REFlexDatabase = {
 	}, -- [2]
 	{
 		["Map"] = 628,
+		["Hidden"] = false,
+		["StatsNum"] = 2,
+		["Season"] = 28,
+		["PlayersNum"] = 80,
+		["Duration"] = 1576021312,
+		["PlayerNum"] = 55,
+		["isArena"] = false,
+		["Version"] = 274,
+		["isBrawl"] = false,
+		["PlayersStats"] = {
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [1]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [2]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [3]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [4]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [5]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [6]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [7]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [8]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [9]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [10]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [11]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [12]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [13]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [14]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [15]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [16]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [17]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [18]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [19]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [20]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [21]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [22]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [23]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [24]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [25]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [26]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [27]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [28]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [29]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [30]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [31]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [32]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [33]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [34]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [35]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [36]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [37]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [38]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [39]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [40]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [41]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [42]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [43]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [44]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [45]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [46]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [47]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [48]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [49]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [50]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [51]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [52]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [53]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [54]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [55]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [56]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [57]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [58]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [59]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [60]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [61]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [62]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [63]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [64]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [65]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [66]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [67]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [68]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [69]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [70]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [71]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [72]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [73]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [74]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [75]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [76]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [77]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [78]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [79]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [80]
+		},
+		["isRated"] = false,
+		["Time"] = 1576017714,
+		["Winner"] = 1,
+		["PlayerSide"] = 0,
 		["Players"] = {
 			{
 				"Mercator-KhazModan", -- [1]
@@ -1845,661 +2500,6 @@ REFlexDatabase = {
 				234, -- [17]
 			}, -- [80]
 		},
-		["StatsNum"] = 2,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 80,
-		["Duration"] = 1576021312,
-		["Season"] = 28,
-		["isBrawl"] = false,
-		["Time"] = 1576017714,
-		["isArena"] = false,
-		["Version"] = 274,
-		["isRated"] = false,
-		["PlayersStats"] = {
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [1]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [2]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [3]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [4]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [5]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [6]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [7]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [8]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [9]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [10]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [11]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [12]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [13]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [14]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [15]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [16]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [17]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [18]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [19]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [20]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [21]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [22]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [23]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [24]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [25]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [26]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [27]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [28]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [29]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [30]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [31]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [32]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [33]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [34]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [35]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [36]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [37]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [38]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [39]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [40]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [41]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [42]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [43]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [44]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [45]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [46]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [47]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [48]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [49]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [50]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [51]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [52]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [53]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [54]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [55]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [56]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [57]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [58]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [59]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [60]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [61]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [62]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [63]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [64]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [65]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [66]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [67]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [68]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [69]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [70]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [71]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [72]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [73]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [74]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [75]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [76]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [77]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [78]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [79]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [80]
-		},
-		["Winner"] = 1,
-		["Hidden"] = false,
-		["PlayerNum"] = 55,
 	}, -- [3]
 	{
 		["Map"] = 1504,
@@ -2586,9 +2586,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 66,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576181444,
@@ -2696,9 +2696,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 141,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576181694,
@@ -2806,9 +2806,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 81,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576181874,
@@ -2916,9 +2916,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 115,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576182120,
@@ -3026,9 +3026,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 71,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576182272,
@@ -3136,9 +3136,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 69,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576182423,
@@ -3246,9 +3246,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 55,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576182559,
@@ -3356,9 +3356,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 57,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576182697,
@@ -3466,9 +3466,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 85,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576182908,
@@ -3576,9 +3576,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 167,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576183190,
@@ -3604,6 +3604,18 @@ REFlexDatabase = {
 	{
 		["Map"] = 980,
 		["StatsNum"] = 0,
+		["Season"] = 28,
+		["PlayersNum"] = 4,
+		["Duration"] = 70,
+		["Hidden"] = false,
+		["PlayerNum"] = 2,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
+		["Time"] = 1576183355,
+		["isRated"] = false,
+		["Version"] = 274,
+		["Winner"] = 1,
+		["isArena"] = false,
 		["Players"] = {
 			{
 				"Shaalia-Blackrock", -- [1]
@@ -3682,18 +3694,6 @@ REFlexDatabase = {
 				226, -- [17]
 			}, -- [4]
 		},
-		["PlayersNum"] = 4,
-		["Duration"] = 70,
-		["Season"] = 28,
-		["isArena"] = false,
-		["Time"] = 1576183355,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isRated"] = false,
-		["Version"] = 274,
-		["Winner"] = 1,
-		["PlayerNum"] = 2,
-		["Hidden"] = false,
 	}, -- [14]
 	{
 		["Map"] = 980,
@@ -3780,9 +3780,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 86,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576183539,
@@ -3890,9 +3890,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 72,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576183719,
@@ -4000,9 +4000,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 68,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576183876,
@@ -4110,9 +4110,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 62,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576184075,
@@ -4220,9 +4220,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 101,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576184274,
@@ -4330,9 +4330,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 42,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576184406,
@@ -4440,9 +4440,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 76,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576184590,
@@ -4550,9 +4550,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 108,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576184852,
@@ -4660,9 +4660,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 126,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576185120,
@@ -4770,9 +4770,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 131,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576185362,
@@ -4880,9 +4880,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 58,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576185543,
@@ -4990,9 +4990,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 34,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576185661,
@@ -5100,9 +5100,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 51,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576185811,
@@ -5210,9 +5210,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 44,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576185963,
@@ -5320,9 +5320,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 62,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576186160,
@@ -5430,9 +5430,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 51,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576186368,
@@ -5540,9 +5540,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 53,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576186579,
@@ -5688,9 +5688,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 72,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576948403,
@@ -5836,9 +5836,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 88,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576948633,
@@ -5984,9 +5984,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 50,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576948792,
@@ -6132,9 +6132,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 168,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1576949180,
@@ -6159,121 +6159,6 @@ REFlexDatabase = {
 	}, -- [35]
 	{
 		["Map"] = 727,
-		["Season"] = 28,
-		["StatsNum"] = 1,
-		["PlayerNum"] = 6,
-		["PlayersNum"] = 20,
-		["Duration"] = 508,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
-		["isBrawl"] = false,
-		["Time"] = 1576953299,
-		["isRated"] = false,
-		["PlayersStats"] = {
-			{
-				{
-					3, -- [1]
-				}, -- [1]
-			}, -- [1]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-			}, -- [2]
-			{
-				{
-					7, -- [1]
-				}, -- [1]
-			}, -- [3]
-			{
-				{
-					4, -- [1]
-				}, -- [1]
-			}, -- [4]
-			{
-				{
-					6, -- [1]
-				}, -- [1]
-			}, -- [5]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-			}, -- [6]
-			{
-				{
-					4, -- [1]
-				}, -- [1]
-			}, -- [7]
-			{
-				{
-					6, -- [1]
-				}, -- [1]
-			}, -- [8]
-			{
-				{
-					5, -- [1]
-				}, -- [1]
-			}, -- [9]
-			{
-				{
-					4, -- [1]
-				}, -- [1]
-			}, -- [10]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-			}, -- [11]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-			}, -- [12]
-			{
-				{
-					4, -- [1]
-				}, -- [1]
-			}, -- [13]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-			}, -- [14]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-			}, -- [15]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [16]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-			}, -- [17]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [18]
-			{
-				{
-					3, -- [1]
-				}, -- [1]
-			}, -- [19]
-			{
-				{
-					5, -- [1]
-				}, -- [1]
-			}, -- [20]
-		},
-		["Winner"] = 0,
-		["Version"] = 274,
 		["Players"] = {
 			{
 				"Nobrainnodps-Kazzak", -- [1]
@@ -6656,22 +6541,125 @@ REFlexDatabase = {
 				44, -- [17]
 			}, -- [20]
 		},
+		["StatsNum"] = 1,
+		["Time"] = 1576953299,
+		["PlayersNum"] = 20,
+		["Duration"] = 508,
+		["PlayerNum"] = 6,
+		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = false,
+		["PlayersStats"] = {
+			{
+				{
+					3, -- [1]
+				}, -- [1]
+			}, -- [1]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+			}, -- [2]
+			{
+				{
+					7, -- [1]
+				}, -- [1]
+			}, -- [3]
+			{
+				{
+					4, -- [1]
+				}, -- [1]
+			}, -- [4]
+			{
+				{
+					6, -- [1]
+				}, -- [1]
+			}, -- [5]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+			}, -- [6]
+			{
+				{
+					4, -- [1]
+				}, -- [1]
+			}, -- [7]
+			{
+				{
+					6, -- [1]
+				}, -- [1]
+			}, -- [8]
+			{
+				{
+					5, -- [1]
+				}, -- [1]
+			}, -- [9]
+			{
+				{
+					4, -- [1]
+				}, -- [1]
+			}, -- [10]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+			}, -- [11]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+			}, -- [12]
+			{
+				{
+					4, -- [1]
+				}, -- [1]
+			}, -- [13]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+			}, -- [14]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+			}, -- [15]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [16]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+			}, -- [17]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [18]
+			{
+				{
+					3, -- [1]
+				}, -- [1]
+			}, -- [19]
+			{
+				{
+					5, -- [1]
+				}, -- [1]
+			}, -- [20]
+		},
+		["isRated"] = false,
+		["PlayerSide"] = 0,
+		["Winner"] = 0,
+		["Season"] = 28,
+		["Hidden"] = false,
 	}, -- [36]
 	{
 		["Map"] = 2118,
 		["StatsNum"] = 0,
-		["Season"] = 28,
-		["PlayersNum"] = 80,
-		["Duration"] = 1875,
-		["Hidden"] = false,
-		["PlayerNum"] = 25,
-		["PlayerSide"] = 0,
-		["isBrawl"] = false,
-		["Time"] = 1576955385,
-		["isRated"] = false,
-		["Version"] = 274,
-		["Winner"] = 1,
-		["isArena"] = false,
 		["Players"] = {
 			{
 				"Анжелик-ПиратскаяБухта", -- [1]
@@ -8194,22 +8182,22 @@ REFlexDatabase = {
 				68, -- [17]
 			}, -- [80]
 		},
+		["PlayersNum"] = 80,
+		["Duration"] = 1875,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["Time"] = 1576955385,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["Version"] = 274,
+		["Winner"] = 1,
+		["PlayerNum"] = 25,
+		["Season"] = 28,
 	}, -- [37]
 	{
 		["Map"] = 2118,
 		["StatsNum"] = 0,
-		["Season"] = 28,
-		["PlayersNum"] = 80,
-		["Duration"] = 1809,
-		["Hidden"] = false,
-		["PlayerNum"] = 18,
-		["PlayerSide"] = 0,
-		["isBrawl"] = false,
-		["Time"] = 1576957904,
-		["isRated"] = false,
-		["Version"] = 274,
-		["Winner"] = 0,
-		["isArena"] = false,
 		["Players"] = {
 			{
 				"Анжелик-ПиратскаяБухта", -- [1]
@@ -9732,6 +9720,18 @@ REFlexDatabase = {
 				97, -- [17]
 			}, -- [80]
 		},
+		["PlayersNum"] = 80,
+		["Duration"] = 1809,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["Time"] = 1576957904,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["Version"] = 274,
+		["Winner"] = 0,
+		["PlayerNum"] = 18,
+		["Season"] = 28,
 	}, -- [38]
 	{
 		["Map"] = 1911,
@@ -9818,9 +9818,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 157,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577117273,
@@ -9928,9 +9928,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 103,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577117550,
@@ -10038,9 +10038,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 173,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577117861,
@@ -10148,9 +10148,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 105,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577118109,
@@ -10296,9 +10296,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 99,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577119115,
@@ -10444,9 +10444,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 96,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577119323,
@@ -10592,9 +10592,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 59,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577119762,
@@ -10740,9 +10740,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 85,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577119979,
@@ -10850,9 +10850,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 93,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577120303,
@@ -10960,9 +10960,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 80,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577120462,
@@ -11070,9 +11070,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 153,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577120744,
@@ -11180,9 +11180,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 55,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577120902,
@@ -11290,9 +11290,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 89,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577121093,
@@ -11400,9 +11400,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 79,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577121293,
@@ -11510,9 +11510,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 79,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577121488,
@@ -11620,9 +11620,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 57,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577121632,
@@ -11730,9 +11730,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 31,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577121783,
@@ -11840,9 +11840,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 73,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577121959,
@@ -11950,9 +11950,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 110,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577122157,
@@ -12060,9 +12060,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 71,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577122306,
@@ -12170,9 +12170,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 53,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577122444,
@@ -12280,9 +12280,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 47,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577122605,
@@ -12390,9 +12390,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 85,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577122796,
@@ -12500,9 +12500,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 79,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577122959,
@@ -12610,9 +12610,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 79,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577123159,
@@ -12720,9 +12720,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 65,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577123398,
@@ -12830,9 +12830,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 99,
 		["Season"] = 28,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1577123636,
@@ -12940,9 +12940,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 103,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577285011,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -13050,9 +13050,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 84,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577285187,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -13160,9 +13160,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 129,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577285444,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -13270,9 +13270,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 99,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577285647,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -13380,9 +13380,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 43,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577285848,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -13490,9 +13490,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 75,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577286036,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -13600,9 +13600,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 79,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577286286,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -13710,9 +13710,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 104,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577286505,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -13820,9 +13820,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 40,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577286635,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -13930,9 +13930,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 78,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577286813,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -14040,9 +14040,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 49,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577286941,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -14150,9 +14150,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 74,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577287161,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -14260,9 +14260,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 71,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577287314,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -14370,9 +14370,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 61,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577287489,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -14480,9 +14480,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 103,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577287718,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -14590,9 +14590,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 178,
 		["PlayerNum"] = 4,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577287999,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -14700,9 +14700,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 48,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577288146,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -14810,9 +14810,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 59,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577288294,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -14920,9 +14920,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 220,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577288595,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -15030,9 +15030,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 67,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 274,
 		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = true,
 		["Time"] = 1577288746,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -15057,181 +15057,6 @@ REFlexDatabase = {
 	}, -- [85]
 	{
 		["Map"] = 2106,
-		["Hidden"] = false,
-		["StatsNum"] = 2,
-		["Season"] = 28,
-		["PlayersNum"] = 20,
-		["Duration"] = 606,
-		["PlayerNum"] = 2,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
-		["isBrawl"] = false,
-		["Time"] = 1577705095,
-		["isRated"] = false,
-		["PlayersStats"] = {
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [1]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [2]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [3]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [4]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [5]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [6]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [7]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [8]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [9]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [10]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [11]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [12]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [13]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [14]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [15]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [16]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [17]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [18]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [19]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [20]
-		},
-		["Winner"] = 0,
-		["Version"] = 274,
 		["Players"] = {
 			{
 				"Tumnus-Ragnaros", -- [1]
@@ -15614,24 +15439,18 @@ REFlexDatabase = {
 				104, -- [17]
 			}, -- [20]
 		},
-	}, -- [86]
-	{
-		["Map"] = 2107,
-		["Hidden"] = false,
 		["StatsNum"] = 2,
+		["Time"] = 1577705095,
+		["PlayersNum"] = 20,
+		["Duration"] = 606,
 		["Season"] = 28,
-		["PlayersNum"] = 30,
-		["Duration"] = 757,
-		["PlayerNum"] = 2,
+		["isBrawl"] = false,
+		["Version"] = 274,
 		["isArena"] = false,
-		["PlayerSide"] = 0,
-		["isBrawl"] = true,
-		["Time"] = 1577706108,
-		["isRated"] = false,
 		["PlayersStats"] = {
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -15639,7 +15458,7 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				{
-					1, -- [1]
+					2, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -15647,10 +15466,10 @@ REFlexDatabase = {
 			}, -- [2]
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [2]
 			}, -- [3]
 			{
@@ -15666,15 +15485,15 @@ REFlexDatabase = {
 					0, -- [1]
 				}, -- [1]
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [2]
 			}, -- [5]
 			{
 				{
-					2, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [2]
 			}, -- [6]
 			{
@@ -15690,7 +15509,7 @@ REFlexDatabase = {
 					0, -- [1]
 				}, -- [1]
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [2]
 			}, -- [8]
 			{
@@ -15706,7 +15525,7 @@ REFlexDatabase = {
 					0, -- [1]
 				}, -- [1]
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [2]
 			}, -- [10]
 			{
@@ -15727,7 +15546,7 @@ REFlexDatabase = {
 			}, -- [12]
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -15735,10 +15554,10 @@ REFlexDatabase = {
 			}, -- [13]
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [2]
 			}, -- [14]
 			{
@@ -15767,7 +15586,7 @@ REFlexDatabase = {
 			}, -- [17]
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -15775,7 +15594,7 @@ REFlexDatabase = {
 			}, -- [18]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -15783,95 +15602,21 @@ REFlexDatabase = {
 			}, -- [19]
 			{
 				{
-					2, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [2]
 			}, -- [20]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [21]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [22]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [23]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [24]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [25]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [26]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [27]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [28]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [29]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [30]
 		},
+		["isRated"] = false,
+		["PlayerSide"] = 0,
 		["Winner"] = 0,
-		["Version"] = 274,
+		["Hidden"] = false,
+		["PlayerNum"] = 2,
+	}, -- [86]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"Bonyboi-Kazzak", -- [1]
@@ -16444,20 +16189,14 @@ REFlexDatabase = {
 				57, -- [17]
 			}, -- [30]
 		},
-	}, -- [87]
-	{
-		["Map"] = 30,
-		["Hidden"] = false,
-		["StatsNum"] = 5,
+		["StatsNum"] = 2,
+		["Time"] = 1577706108,
+		["PlayersNum"] = 30,
+		["Duration"] = 757,
 		["Season"] = 28,
-		["PlayersNum"] = 80,
-		["Duration"] = 820,
-		["PlayerNum"] = 13,
+		["isBrawl"] = true,
+		["Version"] = 274,
 		["isArena"] = false,
-		["PlayerSide"] = 0,
-		["isBrawl"] = false,
-		["Time"] = 1577707264,
-		["isRated"] = false,
 		["PlayersStats"] = {
 			{
 				{
@@ -16466,49 +16205,22 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [1]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [2]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					1, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [3]
 			{
 				{
@@ -16517,33 +16229,7 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [4]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [5]
 			{
 				{
 					0, -- [1]
@@ -16551,15 +16237,14 @@ REFlexDatabase = {
 				{
 					1, -- [1]
 				}, -- [2]
+			}, -- [5]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
 				{
 					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
+				}, -- [2]
 			}, -- [6]
 			{
 				{
@@ -16568,32 +16253,14 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [7]
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [8]
 			{
 				{
@@ -16602,15 +16269,6 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [9]
 			{
 				{
@@ -16619,83 +16277,38 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					2, -- [1]
-				}, -- [3]
-				{
-					1, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [10]
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [11]
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [12]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [13]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [14]
 			{
 				{
@@ -16704,32 +16317,14 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [15]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [16]
 			{
 				{
@@ -16738,33 +16333,7 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [17]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [18]
 			{
 				{
 					1, -- [1]
@@ -16772,16 +16341,7 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [19]
+			}, -- [18]
 			{
 				{
 					0, -- [1]
@@ -16789,15 +16349,14 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
+			}, -- [19]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
 				{
 					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
+				}, -- [2]
 			}, -- [20]
 			{
 				{
@@ -16806,15 +16365,6 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [21]
 			{
 				{
@@ -16823,15 +16373,6 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [22]
 			{
 				{
@@ -16840,15 +16381,6 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [23]
 			{
 				{
@@ -16857,49 +16389,22 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [24]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [25]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [26]
 			{
 				{
@@ -16908,15 +16413,6 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [27]
 			{
 				{
@@ -16925,15 +16421,6 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [28]
 			{
 				{
@@ -16942,15 +16429,6 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [29]
 			{
 				{
@@ -16959,869 +16437,16 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [30]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [31]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [32]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [33]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [34]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [35]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [36]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [37]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [38]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [39]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					2, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [40]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [41]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [42]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [43]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [44]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [45]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					1, -- [1]
-				}, -- [5]
-			}, -- [46]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [47]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [48]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [49]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [50]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [51]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					2, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [52]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [53]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					1, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [54]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [55]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					1, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [56]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [57]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					1, -- [1]
-				}, -- [5]
-			}, -- [58]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [59]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [60]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [61]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [62]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [63]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [64]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [65]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [66]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [67]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [68]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [69]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [70]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [71]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [72]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [73]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [74]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [75]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [76]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [77]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [78]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [79]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [80]
 		},
+		["isRated"] = false,
+		["PlayerSide"] = 0,
 		["Winner"] = 0,
-		["Version"] = 274,
+		["Hidden"] = false,
+		["PlayerNum"] = 2,
+	}, -- [87]
+	{
+		["Map"] = 30,
 		["Players"] = {
 			{
 				"Konfuz-Ravencrest", -- [1]
@@ -19344,9 +17969,1499 @@ REFlexDatabase = {
 				39, -- [17]
 			}, -- [80]
 		},
+		["StatsNum"] = 5,
+		["Time"] = 1577707264,
+		["PlayersNum"] = 80,
+		["Duration"] = 820,
+		["Season"] = 28,
+		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = false,
+		["PlayersStats"] = {
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [1]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [2]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [3]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [4]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [5]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [6]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [7]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [8]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [9]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					2, -- [1]
+				}, -- [3]
+				{
+					1, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [10]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [11]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [12]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [13]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [14]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [15]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [16]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [17]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [18]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [19]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [20]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [21]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [22]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [23]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [24]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [25]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [26]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [27]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [28]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [29]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [30]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [31]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [32]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [33]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [34]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [35]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [36]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [37]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [38]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [39]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					2, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [40]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [41]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [42]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [43]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [44]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [45]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					1, -- [1]
+				}, -- [5]
+			}, -- [46]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [47]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [48]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [49]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [50]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [51]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					2, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [52]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [53]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					1, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [54]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [55]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					1, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [56]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [57]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					1, -- [1]
+				}, -- [5]
+			}, -- [58]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [59]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [60]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [61]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [62]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [63]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [64]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [65]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [66]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [67]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [68]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [69]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [70]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [71]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [72]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [73]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [74]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [75]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [76]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [77]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [78]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [79]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [80]
+		},
+		["isRated"] = false,
+		["PlayerSide"] = 0,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["PlayerNum"] = 13,
 	}, -- [88]
 	{
 		["Map"] = 727,
+		["Season"] = 28,
+		["StatsNum"] = 1,
+		["PlayerNum"] = 4,
+		["PlayersNum"] = 20,
+		["Duration"] = 511,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["PlayersStats"] = {
+			{
+				{
+					5, -- [1]
+				}, -- [1]
+			}, -- [1]
+			{
+				{
+					3, -- [1]
+				}, -- [1]
+			}, -- [2]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+			}, -- [3]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+			}, -- [4]
+			{
+				{
+					5, -- [1]
+				}, -- [1]
+			}, -- [5]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+			}, -- [6]
+			{
+				{
+					3, -- [1]
+				}, -- [1]
+			}, -- [7]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+			}, -- [8]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [9]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+			}, -- [10]
+			{
+				{
+					3, -- [1]
+				}, -- [1]
+			}, -- [11]
+			{
+				{
+					3, -- [1]
+				}, -- [1]
+			}, -- [12]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+			}, -- [13]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [14]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [15]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+			}, -- [16]
+			{
+				{
+					3, -- [1]
+				}, -- [1]
+			}, -- [17]
+			{
+				{
+					5, -- [1]
+				}, -- [1]
+			}, -- [18]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [19]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [20]
+		},
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["Version"] = 274,
+		["Winner"] = 0,
+		["Time"] = 1577795461,
 		["Players"] = {
 			{
 				"Shindug-Khaz'goroth", -- [1]
@@ -19729,124 +19844,656 @@ REFlexDatabase = {
 				85, -- [17]
 			}, -- [20]
 		},
-		["StatsNum"] = 1,
-		["Time"] = 1577795461,
-		["PlayersNum"] = 20,
-		["Duration"] = 511,
-		["PlayerNum"] = 4,
-		["isBrawl"] = false,
-		["Version"] = 274,
+	}, -- [89]
+	{
+		["Map"] = 628,
+		["Season"] = 28,
+		["StatsNum"] = 2,
+		["PlayerNum"] = 8,
+		["PlayersNum"] = 79,
+		["Duration"] = 1441,
+		["Hidden"] = false,
 		["isArena"] = false,
 		["PlayersStats"] = {
 			{
 				{
-					5, -- [1]
+					1, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [1]
 			{
 				{
-					3, -- [1]
+					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [2]
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [3]
 			{
 				{
-					2, -- [1]
+					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [4]
 			{
 				{
-					5, -- [1]
+					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [5]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [6]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [7]
 			{
 				{
 					2, -- [1]
 				}, -- [1]
-			}, -- [6]
-			{
 				{
-					3, -- [1]
-				}, -- [1]
-			}, -- [7]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
+					0, -- [1]
+				}, -- [2]
 			}, -- [8]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [9]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-			}, -- [10]
-			{
-				{
-					3, -- [1]
-				}, -- [1]
-			}, -- [11]
-			{
-				{
-					3, -- [1]
-				}, -- [1]
-			}, -- [12]
 			{
 				{
 					2, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [10]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [11]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [12]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [13]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [14]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [15]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-			}, -- [16]
-			{
-				{
-					3, -- [1]
-				}, -- [1]
-			}, -- [17]
-			{
-				{
-					5, -- [1]
-				}, -- [1]
-			}, -- [18]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [16]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [17]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [18]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [19]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [20]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [21]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [22]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [23]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [24]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [25]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [26]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [27]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [28]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [29]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [30]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [31]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [32]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [33]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [34]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [35]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [36]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [37]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [38]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [39]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [40]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [41]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [42]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [43]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [44]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [45]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [46]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [47]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [48]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [49]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [50]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [51]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [52]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [53]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [54]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [55]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [56]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [57]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [58]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [59]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [60]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [61]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [62]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [63]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [64]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [65]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [66]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [67]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [68]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [69]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [70]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [71]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [72]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [73]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [74]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [75]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [76]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [77]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [78]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [79]
 		},
-		["isRated"] = false,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["Version"] = 274,
 		["Winner"] = 0,
-		["Season"] = 28,
-		["Hidden"] = false,
-	}, -- [89]
-	{
-		["Map"] = 628,
+		["Time"] = 1577797096,
 		["Players"] = {
 			{
 				"Hollidey-TwistingNether", -- [1]
@@ -21350,21 +21997,23 @@ REFlexDatabase = {
 				103, -- [17]
 			}, -- [79]
 		},
+	}, -- [90]
+	{
+		["Map"] = 2107,
+		["Season"] = 28,
 		["StatsNum"] = 2,
-		["Time"] = 1577797096,
-		["PlayersNum"] = 79,
-		["Duration"] = 1441,
-		["PlayerNum"] = 8,
-		["isBrawl"] = false,
-		["Version"] = 274,
+		["PlayerNum"] = 2,
+		["PlayersNum"] = 30,
+		["Duration"] = 551,
+		["Hidden"] = false,
 		["isArena"] = false,
 		["PlayersStats"] = {
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [2]
 			}, -- [1]
 			{
@@ -21377,7 +22026,7 @@ REFlexDatabase = {
 			}, -- [2]
 			{
 				{
-					0, -- [1]
+					2, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -21385,7 +22034,7 @@ REFlexDatabase = {
 			}, -- [3]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -21393,7 +22042,7 @@ REFlexDatabase = {
 			}, -- [4]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -21409,7 +22058,7 @@ REFlexDatabase = {
 			}, -- [6]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -21417,7 +22066,7 @@ REFlexDatabase = {
 			}, -- [7]
 			{
 				{
-					2, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -21433,7 +22082,7 @@ REFlexDatabase = {
 			}, -- [9]
 			{
 				{
-					2, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -21473,7 +22122,7 @@ REFlexDatabase = {
 			}, -- [14]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -21489,7 +22138,7 @@ REFlexDatabase = {
 			}, -- [16]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -21553,7 +22202,7 @@ REFlexDatabase = {
 			}, -- [24]
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -21593,413 +22242,19 @@ REFlexDatabase = {
 			}, -- [29]
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
 			}, -- [30]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [31]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [32]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [33]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [34]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [35]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [36]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [37]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [38]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [39]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [40]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [41]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [42]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [43]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [44]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [45]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [46]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [47]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [48]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [49]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [50]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [51]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [52]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [53]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [54]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [55]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [56]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [57]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [58]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [59]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [60]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [61]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [62]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [63]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [64]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [65]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [66]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [67]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [68]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [69]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [70]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [71]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [72]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [73]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [74]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [75]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [76]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [77]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [78]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [79]
 		},
-		["isRated"] = false,
+		["isBrawl"] = true,
 		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["Version"] = 274,
 		["Winner"] = 0,
-		["Season"] = 28,
-		["Hidden"] = false,
-	}, -- [90]
-	{
-		["Map"] = 2107,
+		["Time"] = 1577797840,
 		["Players"] = {
 			{
 				"Perceive-Stormscale", -- [1]
@@ -22572,261 +22827,6 @@ REFlexDatabase = {
 				58, -- [17]
 			}, -- [30]
 		},
-		["StatsNum"] = 2,
-		["Time"] = 1577797840,
-		["PlayersNum"] = 30,
-		["Duration"] = 551,
-		["PlayerNum"] = 2,
-		["isBrawl"] = true,
-		["Version"] = 274,
-		["isArena"] = false,
-		["PlayersStats"] = {
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [1]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [2]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [3]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [4]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [5]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [6]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [7]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [8]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [9]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [10]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [11]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [12]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [13]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [14]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [15]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [16]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [17]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [18]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [19]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [20]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [21]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [22]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [23]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [24]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [25]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [26]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [27]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [28]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [29]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [30]
-		},
-		["isRated"] = false,
-		["PlayerSide"] = 0,
-		["Winner"] = 0,
-		["Season"] = 28,
-		["Hidden"] = false,
 	}, -- [91]
 	{
 		["Map"] = 1505,
@@ -22913,9 +22913,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 320,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578257711,
@@ -23023,9 +23023,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 163,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578257981,
@@ -23133,9 +23133,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 196,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578258350,
@@ -23243,9 +23243,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 201,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578258648,
@@ -23353,9 +23353,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 151,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578258878,
@@ -23463,9 +23463,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 71,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578259030,
@@ -23573,9 +23573,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 210,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578259328,
@@ -23683,9 +23683,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 109,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578259553,
@@ -23793,9 +23793,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 108,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578259792,
@@ -23903,9 +23903,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 153,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578260031,
@@ -24013,9 +24013,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 79,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578260199,
@@ -24123,9 +24123,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 299,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578260583,
@@ -24233,9 +24233,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 172,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578260856,
@@ -24343,9 +24343,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 192,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578261217,
@@ -24453,9 +24453,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 130,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578261553,
@@ -24563,9 +24563,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 96,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578261828,
@@ -24673,9 +24673,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 55,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578261973,
@@ -24783,9 +24783,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 104,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578262153,
@@ -24893,9 +24893,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 40,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578262280,
@@ -25003,9 +25003,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 51,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578262442,
@@ -25113,9 +25113,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 130,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578262651,
@@ -25223,9 +25223,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 53,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578262820,
@@ -25333,9 +25333,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 91,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578262990,
@@ -25443,9 +25443,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 224,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578263288,
@@ -25553,9 +25553,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 38,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578263405,
@@ -25663,9 +25663,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 119,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578263616,
@@ -25773,9 +25773,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 126,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578263844,
@@ -25883,9 +25883,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 77,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578264027,
@@ -25993,9 +25993,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 63,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578264187,
@@ -26103,9 +26103,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 136,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578264404,
@@ -26213,9 +26213,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 92,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578264630,
@@ -26323,9 +26323,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 72,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578264790,
@@ -26433,9 +26433,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 86,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578264991,
@@ -26543,9 +26543,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 170,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578265272,
@@ -26653,9 +26653,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 74,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578265469,
@@ -26680,181 +26680,6 @@ REFlexDatabase = {
 	}, -- [126]
 	{
 		["Map"] = 2106,
-		["Hidden"] = false,
-		["StatsNum"] = 2,
-		["Season"] = 28,
-		["PlayersNum"] = 20,
-		["Duration"] = 907,
-		["PlayerNum"] = 9,
-		["isArena"] = false,
-		["Time"] = 1578333698,
-		["isBrawl"] = false,
-		["Version"] = 274,
-		["isRated"] = false,
-		["PlayerSide"] = 0,
-		["Winner"] = 0,
-		["PlayersStats"] = {
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [1]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [2]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [3]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [4]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [5]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [6]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [7]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [8]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [9]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [10]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [11]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [12]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [13]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [14]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [15]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [16]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					2, -- [1]
-				}, -- [2]
-			}, -- [17]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [18]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [19]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					2, -- [1]
-				}, -- [2]
-			}, -- [20]
-		},
 		["Players"] = {
 			{
 				"Rybergs-Ragnaros", -- [1]
@@ -27237,20 +27062,12 @@ REFlexDatabase = {
 				93, -- [17]
 			}, -- [20]
 		},
-	}, -- [127]
-	{
-		["Map"] = 628,
-		["PlayerNum"] = 71,
 		["StatsNum"] = 2,
-		["Hidden"] = false,
-		["PlayersNum"] = 78,
-		["Duration"] = 817,
+		["Version"] = 274,
+		["PlayersNum"] = 20,
+		["Duration"] = 907,
 		["Season"] = 28,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1578405180,
-		["isRated"] = false,
 		["PlayersStats"] = {
 			{
 				{
@@ -27278,7 +27095,7 @@ REFlexDatabase = {
 			}, -- [3]
 			{
 				{
-					0, -- [1]
+					2, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -27286,7 +27103,7 @@ REFlexDatabase = {
 			}, -- [4]
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -27294,7 +27111,7 @@ REFlexDatabase = {
 			}, -- [5]
 			{
 				{
-					0, -- [1]
+					2, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -27310,7 +27127,7 @@ REFlexDatabase = {
 			}, -- [7]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -27318,7 +27135,7 @@ REFlexDatabase = {
 			}, -- [8]
 			{
 				{
-					0, -- [1]
+					2, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -27358,7 +27175,7 @@ REFlexDatabase = {
 			}, -- [13]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
@@ -27385,7 +27202,7 @@ REFlexDatabase = {
 					1, -- [1]
 				}, -- [1]
 				{
-					0, -- [1]
+					2, -- [1]
 				}, -- [2]
 			}, -- [17]
 			{
@@ -27409,476 +27226,20 @@ REFlexDatabase = {
 					0, -- [1]
 				}, -- [1]
 				{
-					0, -- [1]
+					2, -- [1]
 				}, -- [2]
 			}, -- [20]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [21]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [22]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [23]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [24]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [25]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [26]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [27]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [28]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [29]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [30]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [31]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [32]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [33]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [34]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [35]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [36]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [37]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [38]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [39]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [40]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [41]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [42]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [43]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [44]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [45]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [46]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [47]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [48]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [49]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [50]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [51]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [52]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [53]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [54]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [55]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [56]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [57]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [58]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [59]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [60]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [61]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [62]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [63]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [64]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [65]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [66]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [67]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [68]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [69]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [70]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [71]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [72]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [73]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [74]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [75]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [76]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [77]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [78]
 		},
-		["Winner"] = 1,
-		["Version"] = 274,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["Time"] = 1578333698,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["PlayerNum"] = 9,
+	}, -- [127]
+	{
+		["Map"] = 628,
 		["Players"] = {
 			{
 				"Браниган-Галакронд", -- [1]
@@ -29363,9 +28724,813 @@ REFlexDatabase = {
 				64, -- [17]
 			}, -- [78]
 		},
+		["StatsNum"] = 2,
+		["Time"] = 1578405180,
+		["PlayersNum"] = 78,
+		["Duration"] = 817,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = false,
+		["PlayersStats"] = {
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [1]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [2]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [3]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [4]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [5]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [6]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [7]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [8]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [9]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [10]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [11]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [12]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [13]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [14]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [15]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [16]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [17]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [18]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [19]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [20]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [21]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [22]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [23]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [24]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [25]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [26]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [27]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [28]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [29]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [30]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [31]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [32]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [33]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [34]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [35]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [36]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [37]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [38]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [39]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [40]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [41]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [42]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [43]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [44]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [45]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [46]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [47]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [48]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [49]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [50]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [51]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [52]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [53]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [54]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [55]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [56]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [57]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [58]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [59]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [60]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [61]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [62]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [63]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [64]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [65]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [66]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [67]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [68]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [69]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [70]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [71]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [72]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [73]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [74]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [75]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [76]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [77]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [78]
+		},
+		["isRated"] = false,
+		["PlayerSide"] = 0,
+		["Winner"] = 1,
+		["PlayerNum"] = 71,
+		["Season"] = 28,
 	}, -- [128]
 	{
 		["Map"] = 566,
+		["PlayerNum"] = 4,
+		["StatsNum"] = 1,
+		["Hidden"] = false,
+		["PlayersNum"] = 30,
+		["Duration"] = 647,
+		["Season"] = 28,
+		["isArena"] = false,
+		["Version"] = 274,
+		["isBrawl"] = true,
+		["PlayersStats"] = {
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [1]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [2]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [3]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [4]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [5]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [6]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [7]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [8]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [9]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [10]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [11]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [12]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [13]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [14]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [15]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [16]
+			{
+				{
+					4, -- [1]
+				}, -- [1]
+			}, -- [17]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [18]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [19]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [20]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [21]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [22]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+			}, -- [23]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [24]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+			}, -- [25]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [26]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [27]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [28]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [29]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [30]
+		},
+		["isRated"] = false,
+		["Time"] = 1578580492,
+		["Winner"] = 1,
+		["PlayerSide"] = 0,
 		["Players"] = {
 			{
 				"Ssevenn-Ravencrest", -- [1]
@@ -29938,349 +30103,9 @@ REFlexDatabase = {
 				168, -- [17]
 			}, -- [30]
 		},
-		["StatsNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 30,
-		["Duration"] = 647,
-		["Hidden"] = false,
-		["isBrawl"] = true,
-		["Time"] = 1578580492,
-		["isArena"] = false,
-		["Version"] = 274,
-		["isRated"] = false,
-		["PlayersStats"] = {
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [1]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [2]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [3]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [4]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [5]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [6]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [7]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [8]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [9]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [10]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [11]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [12]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [13]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [14]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [15]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [16]
-			{
-				{
-					4, -- [1]
-				}, -- [1]
-			}, -- [17]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [18]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [19]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [20]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [21]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [22]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-			}, -- [23]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [24]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-			}, -- [25]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [26]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [27]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [28]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [29]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [30]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 4,
-		["Season"] = 28,
 	}, -- [129]
 	{
 		["Map"] = 726,
-		["Hidden"] = false,
-		["StatsNum"] = 2,
-		["Season"] = 28,
-		["PlayersNum"] = 20,
-		["Duration"] = 907,
-		["PlayerNum"] = 11,
-		["isArena"] = false,
-		["PlayersStats"] = {
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [1]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [2]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [3]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					2, -- [1]
-				}, -- [2]
-			}, -- [4]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [5]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [6]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [7]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [8]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [9]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [10]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					2, -- [1]
-				}, -- [2]
-			}, -- [11]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [12]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [13]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [14]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [15]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [16]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [17]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [18]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [19]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [20]
-		},
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isRated"] = false,
-		["Version"] = 274,
-		["Winner"] = 0,
-		["Time"] = 1578824380,
 		["Players"] = {
 			{
 				"Dhaeva-DunModr", -- [1]
@@ -30663,9 +30488,439 @@ REFlexDatabase = {
 				299, -- [17]
 			}, -- [20]
 		},
+		["StatsNum"] = 2,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
+		["Duration"] = 907,
+		["Season"] = 28,
+		["isBrawl"] = false,
+		["Time"] = 1578824380,
+		["isArena"] = false,
+		["Version"] = 274,
+		["isRated"] = false,
+		["PlayersStats"] = {
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [1]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [2]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [3]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					2, -- [1]
+				}, -- [2]
+			}, -- [4]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [5]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [6]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [7]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+			}, -- [8]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+			}, -- [9]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [10]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					2, -- [1]
+				}, -- [2]
+			}, -- [11]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [12]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [13]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+			}, -- [14]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [15]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+			}, -- [16]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [17]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [18]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [19]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [20]
+		},
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["PlayerNum"] = 11,
 	}, -- [130]
 	{
 		["Map"] = 2107,
+		["Season"] = 28,
+		["StatsNum"] = 2,
+		["PlayerNum"] = 3,
+		["PlayersNum"] = 30,
+		["Duration"] = 985,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Version"] = 274,
+		["isBrawl"] = false,
+		["PlayersStats"] = {
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [1]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [2]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [3]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [4]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [5]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [6]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [7]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [8]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [9]
+			{
+				{
+					3, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+			}, -- [10]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [11]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [12]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+			}, -- [13]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [14]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [15]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [16]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [17]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [18]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [19]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [20]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [21]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [22]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [23]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [24]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [25]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [26]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [27]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [28]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [29]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [30]
+		},
+		["isRated"] = false,
+		["Time"] = 1578902088,
+		["Winner"] = 1,
+		["PlayerSide"] = 0,
 		["Players"] = {
 			{
 				"Bonsai", -- [1]
@@ -31238,24 +31493,35 @@ REFlexDatabase = {
 				181, -- [17]
 			}, -- [30]
 		},
-		["StatsNum"] = 2,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 30,
-		["Duration"] = 985,
-		["PlayerNum"] = 3,
-		["isBrawl"] = false,
-		["Time"] = 1578902088,
+	}, -- [131]
+	{
+		["Map"] = 30,
+		["Season"] = 28,
+		["StatsNum"] = 5,
+		["PlayerNum"] = 12,
+		["PlayersNum"] = 80,
+		["Duration"] = 1488,
+		["Hidden"] = false,
 		["isArena"] = false,
 		["Version"] = 274,
-		["isRated"] = false,
+		["isBrawl"] = false,
 		["PlayersStats"] = {
 			{
 				{
 					0, -- [1]
 				}, -- [1]
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [1]
 			{
 				{
@@ -31264,14 +31530,32 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [2]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [3]
 			{
 				{
@@ -31280,14 +31564,32 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [4]
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [5]
 			{
 				{
@@ -31296,6 +31598,15 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [6]
 			{
 				{
@@ -31304,6 +31615,15 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [7]
 			{
 				{
@@ -31312,6 +31632,15 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [8]
 			{
 				{
@@ -31320,14 +31649,32 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [9]
 			{
 				{
-					3, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
 					1, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [10]
 			{
 				{
@@ -31336,22 +31683,49 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [11]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [12]
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [13]
 			{
 				{
@@ -31360,22 +31734,49 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					1, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [14]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [15]
 			{
 				{
-					2, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [16]
 			{
 				{
@@ -31384,6 +31785,15 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [17]
 			{
 				{
@@ -31392,22 +31802,49 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [18]
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [19]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [20]
 			{
 				{
@@ -31416,30 +31853,66 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					1, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [21]
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [22]
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					1, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [23]
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					1, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [24]
 			{
 				{
@@ -31448,6 +31921,15 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [25]
 			{
 				{
@@ -31456,14 +31938,32 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					2, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [26]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [27]
 			{
 				{
@@ -31472,6 +31972,15 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [28]
 			{
 				{
@@ -31480,7 +31989,118 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
 			}, -- [29]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [30]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [31]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [32]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [33]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [34]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [35]
 			{
 				{
 					1, -- [1]
@@ -31488,14 +32108,769 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-			}, -- [30]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [36]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [37]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [38]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [39]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [40]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					1, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [41]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [42]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [43]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [44]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [45]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					1, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [46]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [47]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					1, -- [1]
+				}, -- [5]
+			}, -- [48]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [49]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [50]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [51]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [52]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [53]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [54]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [55]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [56]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [57]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [58]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [59]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [60]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [61]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [62]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [63]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [64]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [65]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [66]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [67]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					1, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [68]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [69]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [70]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					1, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [71]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [72]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [73]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [74]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [75]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [76]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [77]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					1, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [78]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [79]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [80]
 		},
-		["Winner"] = 1,
-		["Season"] = 28,
-		["Hidden"] = false,
-	}, -- [131]
-	{
-		["Map"] = 30,
+		["isRated"] = false,
+		["Time"] = 1578903877,
+		["Winner"] = 0,
+		["PlayerSide"] = 0,
 		["Players"] = {
 			{
 				"Ansieda-Minahonda", -- [1]
@@ -33018,1499 +34393,9 @@ REFlexDatabase = {
 				10, -- [17]
 			}, -- [80]
 		},
-		["StatsNum"] = 5,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 80,
-		["Duration"] = 1488,
-		["PlayerNum"] = 12,
-		["isBrawl"] = false,
-		["Time"] = 1578903877,
-		["isArena"] = false,
-		["Version"] = 274,
-		["isRated"] = false,
-		["PlayersStats"] = {
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [1]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [2]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [3]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [4]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [5]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [6]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [7]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [8]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [9]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [10]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [11]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [12]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [13]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					1, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [14]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [15]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [16]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [17]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [18]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [19]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [20]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					1, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [21]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [22]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					1, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [23]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					1, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [24]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [25]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					2, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [26]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [27]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [28]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [29]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [30]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [31]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [32]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [33]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [34]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [35]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [36]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [37]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [38]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [39]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [40]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					1, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [41]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [42]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [43]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [44]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [45]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					1, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [46]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [47]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					1, -- [1]
-				}, -- [5]
-			}, -- [48]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [49]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [50]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [51]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [52]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [53]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [54]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [55]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [56]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [57]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [58]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [59]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [60]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [61]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [62]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [63]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [64]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [65]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [66]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [67]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					1, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [68]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [69]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [70]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					1, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [71]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [72]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [73]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [74]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [75]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [76]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [77]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					1, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [78]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [79]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [80]
-		},
-		["Winner"] = 0,
-		["Season"] = 28,
-		["Hidden"] = false,
 	}, -- [132]
 	{
 		["Map"] = 727,
-		["PlayerNum"] = 17,
-		["StatsNum"] = 1,
-		["Hidden"] = false,
-		["PlayersNum"] = 20,
-		["Duration"] = 610,
-		["Season"] = 28,
-		["isArena"] = false,
-		["Version"] = 274,
-		["isBrawl"] = false,
-		["PlayersStats"] = {
-			{
-				{
-					6, -- [1]
-				}, -- [1]
-			}, -- [1]
-			{
-				{
-					3, -- [1]
-				}, -- [1]
-			}, -- [2]
-			{
-				{
-					4, -- [1]
-				}, -- [1]
-			}, -- [3]
-			{
-				{
-					3, -- [1]
-				}, -- [1]
-			}, -- [4]
-			{
-				{
-					4, -- [1]
-				}, -- [1]
-			}, -- [5]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-			}, -- [6]
-			{
-				{
-					3, -- [1]
-				}, -- [1]
-			}, -- [7]
-			{
-				{
-					5, -- [1]
-				}, -- [1]
-			}, -- [8]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-			}, -- [9]
-			{
-				{
-					4, -- [1]
-				}, -- [1]
-			}, -- [10]
-			{
-				{
-					5, -- [1]
-				}, -- [1]
-			}, -- [11]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-			}, -- [12]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-			}, -- [13]
-			{
-				{
-					3, -- [1]
-				}, -- [1]
-			}, -- [14]
-			{
-				{
-					3, -- [1]
-				}, -- [1]
-			}, -- [15]
-			{
-				{
-					4, -- [1]
-				}, -- [1]
-			}, -- [16]
-			{
-				{
-					3, -- [1]
-				}, -- [1]
-			}, -- [17]
-			{
-				{
-					5, -- [1]
-				}, -- [1]
-			}, -- [18]
-			{
-				{
-					3, -- [1]
-				}, -- [1]
-			}, -- [19]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-			}, -- [20]
-		},
-		["isRated"] = false,
-		["Time"] = 1578905525,
-		["Winner"] = 0,
-		["PlayerSide"] = 0,
 		["Players"] = {
 			{
 				"Wingsman-Draenor", -- [1]
@@ -34893,424 +34778,124 @@ REFlexDatabase = {
 				60, -- [17]
 			}, -- [20]
 		},
-	}, -- [133]
-	{
-		["Map"] = 1191,
-		["PlayerNum"] = 57,
 		["StatsNum"] = 1,
-		["Hidden"] = false,
-		["PlayersNum"] = 80,
-		["Duration"] = 792,
-		["Season"] = 28,
-		["isArena"] = false,
-		["Version"] = 274,
-		["isBrawl"] = false,
 		["PlayersStats"] = {
 			{
 				{
-					0, -- [1]
+					6, -- [1]
 				}, -- [1]
 			}, -- [1]
 			{
 				{
-					0, -- [1]
+					3, -- [1]
 				}, -- [1]
 			}, -- [2]
 			{
 				{
-					0, -- [1]
+					4, -- [1]
 				}, -- [1]
 			}, -- [3]
 			{
 				{
-					0, -- [1]
+					3, -- [1]
 				}, -- [1]
 			}, -- [4]
 			{
 				{
-					0, -- [1]
+					4, -- [1]
 				}, -- [1]
 			}, -- [5]
 			{
 				{
-					0, -- [1]
+					2, -- [1]
 				}, -- [1]
 			}, -- [6]
 			{
 				{
-					0, -- [1]
+					3, -- [1]
 				}, -- [1]
 			}, -- [7]
 			{
 				{
-					0, -- [1]
+					5, -- [1]
 				}, -- [1]
 			}, -- [8]
 			{
 				{
-					0, -- [1]
+					2, -- [1]
 				}, -- [1]
 			}, -- [9]
 			{
 				{
-					0, -- [1]
+					4, -- [1]
 				}, -- [1]
 			}, -- [10]
 			{
 				{
-					0, -- [1]
+					5, -- [1]
 				}, -- [1]
 			}, -- [11]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 			}, -- [12]
 			{
 				{
-					0, -- [1]
+					2, -- [1]
 				}, -- [1]
 			}, -- [13]
 			{
 				{
-					0, -- [1]
+					3, -- [1]
 				}, -- [1]
 			}, -- [14]
 			{
 				{
-					0, -- [1]
+					3, -- [1]
 				}, -- [1]
 			}, -- [15]
 			{
 				{
-					0, -- [1]
+					4, -- [1]
 				}, -- [1]
 			}, -- [16]
 			{
 				{
-					0, -- [1]
+					3, -- [1]
 				}, -- [1]
 			}, -- [17]
 			{
 				{
-					0, -- [1]
+					5, -- [1]
 				}, -- [1]
 			}, -- [18]
 			{
 				{
-					0, -- [1]
+					3, -- [1]
 				}, -- [1]
 			}, -- [19]
 			{
 				{
-					1, -- [1]
+					2, -- [1]
 				}, -- [1]
 			}, -- [20]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [21]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [22]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [23]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [24]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [25]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [26]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [27]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [28]
-			{
-				{
-					39, -- [1]
-				}, -- [1]
-			}, -- [29]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [30]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [31]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [32]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [33]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [34]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [35]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [36]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [37]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [38]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [39]
-			{
-				{
-					40, -- [1]
-				}, -- [1]
-			}, -- [40]
-			{
-				{
-					31, -- [1]
-				}, -- [1]
-			}, -- [41]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [42]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [43]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [44]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [45]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [46]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [47]
-			{
-				{
-					15, -- [1]
-				}, -- [1]
-			}, -- [48]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [49]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [50]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [51]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [52]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [53]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [54]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [55]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [56]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [57]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [58]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [59]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [60]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [61]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [62]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [63]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [64]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [65]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [66]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [67]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [68]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [69]
-			{
-				{
-					11, -- [1]
-				}, -- [1]
-			}, -- [70]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [71]
-			{
-				{
-					28, -- [1]
-				}, -- [1]
-			}, -- [72]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [73]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [74]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [75]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [76]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [77]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [78]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [79]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [80]
 		},
-		["isRated"] = false,
-		["Time"] = 1578906740,
-		["Winner"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 610,
+		["Hidden"] = false,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
+		["isArena"] = false,
+		["Time"] = 1578905525,
+		["isRated"] = false,
+		["Version"] = 274,
+		["Winner"] = 0,
+		["PlayerNum"] = 17,
+		["Season"] = 28,
+	}, -- [133]
+	{
+		["Map"] = 1191,
 		["Players"] = {
 			{
 				"Рыксар-Гордунни", -- [1]
@@ -36833,9 +36418,589 @@ REFlexDatabase = {
 				46, -- [17]
 			}, -- [80]
 		},
+		["StatsNum"] = 1,
+		["PlayersStats"] = {
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [1]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [2]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [3]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [4]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [5]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [6]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [7]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [8]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [9]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [10]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [11]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [12]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [13]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [14]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [15]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [16]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [17]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [18]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [19]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+			}, -- [20]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [21]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [22]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [23]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [24]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [25]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [26]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [27]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [28]
+			{
+				{
+					39, -- [1]
+				}, -- [1]
+			}, -- [29]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [30]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [31]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [32]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [33]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [34]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [35]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [36]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [37]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [38]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [39]
+			{
+				{
+					40, -- [1]
+				}, -- [1]
+			}, -- [40]
+			{
+				{
+					31, -- [1]
+				}, -- [1]
+			}, -- [41]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [42]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [43]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [44]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [45]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [46]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [47]
+			{
+				{
+					15, -- [1]
+				}, -- [1]
+			}, -- [48]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [49]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [50]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [51]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [52]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [53]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [54]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [55]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [56]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [57]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [58]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [59]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [60]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [61]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [62]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [63]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [64]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [65]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [66]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [67]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [68]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [69]
+			{
+				{
+					11, -- [1]
+				}, -- [1]
+			}, -- [70]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [71]
+			{
+				{
+					28, -- [1]
+				}, -- [1]
+			}, -- [72]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [73]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [74]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [75]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [76]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [77]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [78]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [79]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [80]
+		},
+		["PlayersNum"] = 80,
+		["Duration"] = 792,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = false,
+		["Time"] = 1578906740,
+		["isRated"] = false,
+		["Version"] = 274,
+		["Winner"] = 1,
+		["PlayerNum"] = 57,
+		["Season"] = 28,
 	}, -- [134]
 	{
 		["Map"] = 566,
+		["Hidden"] = false,
+		["StatsNum"] = 1,
+		["Season"] = 28,
+		["PlayersNum"] = 30,
+		["Duration"] = 889,
+		["PlayerNum"] = 12,
+		["isArena"] = false,
+		["Time"] = 1578908708,
+		["isBrawl"] = true,
+		["Version"] = 274,
+		["isRated"] = false,
+		["PlayerSide"] = 0,
+		["Winner"] = 0,
+		["PlayersStats"] = {
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [1]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [2]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [3]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [4]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+			}, -- [5]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [6]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [7]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [8]
+			{
+				{
+					3, -- [1]
+				}, -- [1]
+			}, -- [9]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [10]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [11]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [12]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [13]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [14]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [15]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [16]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [17]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [18]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [19]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [20]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [21]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+			}, -- [22]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [23]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [24]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [25]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [26]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+			}, -- [27]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [28]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [29]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [30]
+		},
 		["Players"] = {
 			{
 				"Ribspreader-ArgentDawn", -- [1]
@@ -37408,171 +37573,6 @@ REFlexDatabase = {
 				60, -- [17]
 			}, -- [30]
 		},
-		["StatsNum"] = 1,
-		["PlayersStats"] = {
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [1]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [2]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [3]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [4]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-			}, -- [5]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [6]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [7]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [8]
-			{
-				{
-					3, -- [1]
-				}, -- [1]
-			}, -- [9]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [10]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [11]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [12]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [13]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [14]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [15]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [16]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [17]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [18]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [19]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [20]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [21]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-			}, -- [22]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [23]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [24]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [25]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [26]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-			}, -- [27]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [28]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [29]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [30]
-		},
-		["PlayersNum"] = 30,
-		["Duration"] = 889,
-		["Season"] = 28,
-		["isBrawl"] = true,
-		["PlayerSide"] = 0,
-		["isArena"] = false,
-		["Time"] = 1578908708,
-		["isRated"] = false,
-		["Version"] = 274,
-		["Winner"] = 0,
-		["Hidden"] = false,
-		["PlayerNum"] = 12,
 	}, -- [135]
 	{
 		["Map"] = 572,
@@ -37659,9 +37659,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 75,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578910823,
@@ -37769,9 +37769,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 103,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578911012,
@@ -37879,9 +37879,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 58,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578911154,
@@ -37989,9 +37989,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 45,
 		["Season"] = 28,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 274,
 		["isRated"] = true,
 		["Time"] = 1578911294,
@@ -38016,181 +38016,6 @@ REFlexDatabase = {
 	}, -- [139]
 	{
 		["Map"] = 726,
-		["Hidden"] = false,
-		["StatsNum"] = 2,
-		["Season"] = 28,
-		["PlayersNum"] = 20,
-		["Duration"] = 754,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
-		["isBrawl"] = false,
-		["Time"] = 1579038046,
-		["isRated"] = false,
-		["PlayersStats"] = {
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [1]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [2]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [3]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [4]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [5]
-			{
-				{
-					3, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [6]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [7]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [8]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [9]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [10]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [11]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [12]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [13]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [14]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [15]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [16]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [17]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [18]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [19]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [20]
-		},
-		["Winner"] = 1,
-		["Version"] = 274,
 		["Players"] = {
 			{
 				"Fallkenez", -- [1]
@@ -38573,6 +38398,181 @@ REFlexDatabase = {
 				23, -- [17]
 			}, -- [20]
 		},
+		["StatsNum"] = 2,
+		["Time"] = 1579038046,
+		["PlayersNum"] = 20,
+		["Duration"] = 754,
+		["Season"] = 28,
+		["isBrawl"] = false,
+		["Version"] = 274,
+		["isArena"] = false,
+		["PlayersStats"] = {
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [1]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [2]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [3]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+			}, -- [4]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [5]
+			{
+				{
+					3, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [6]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [7]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [8]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [9]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+			}, -- [10]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+			}, -- [11]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [12]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [13]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+			}, -- [14]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [15]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [16]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [17]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [18]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [19]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [20]
+		},
+		["isRated"] = false,
+		["PlayerSide"] = 0,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["PlayerNum"] = 1,
 	}, -- [140]
 	{
 		["Map"] = 1134,
@@ -38659,9 +38659,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 52,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1579522348,
 		["isBrawl"] = false,
+		["Time"] = 1579522348,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -38769,9 +38769,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 82,
 		["Season"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1579524096,
@@ -38879,9 +38879,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 93,
 		["Season"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1579524291,
@@ -38989,9 +38989,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 39,
 		["Season"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1579524496,
@@ -39099,9 +39099,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 90,
 		["Season"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1579524688,
@@ -39209,9 +39209,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 86,
 		["Season"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1579524874,
@@ -39319,9 +39319,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 112,
 		["Season"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1579525189,
@@ -39429,9 +39429,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 51,
 		["Season"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1579525336,
@@ -39539,9 +39539,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 108,
 		["Season"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1579525526,
@@ -39649,9 +39649,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 157,
 		["Season"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1579525823,
@@ -39759,9 +39759,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 95,
 		["Season"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1579526021,
@@ -39869,9 +39869,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 94,
 		["Season"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1579526195,
@@ -39979,9 +39979,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 87,
 		["Season"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1579526448,
@@ -40089,9 +40089,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 76,
 		["Season"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1579526637,
@@ -40199,9 +40199,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 118,
 		["Season"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1579526918,
@@ -40309,9 +40309,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 92,
 		["Season"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1579527100,
@@ -40419,9 +40419,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 133,
 		["Season"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1579527454,
@@ -40529,9 +40529,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 48,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579781980,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -40639,9 +40639,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 47,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579782144,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -40749,9 +40749,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 46,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579782273,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -40859,9 +40859,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 35,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579782397,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -40969,9 +40969,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 32,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579782517,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -41079,9 +41079,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 45,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579782648,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -41189,9 +41189,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 46,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579782817,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -41299,9 +41299,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 128,
 		["PlayerNum"] = 4,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579783035,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -41409,9 +41409,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 98,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579783217,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -41519,9 +41519,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 36,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579783359,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -41629,9 +41629,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 181,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579783647,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -41739,9 +41739,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 32,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579783780,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -41849,9 +41849,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 78,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579783974,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -41959,9 +41959,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 86,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579784162,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -42069,9 +42069,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 63,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579784311,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -42179,9 +42179,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 59,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579784473,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -42289,9 +42289,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 47,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579784638,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -42399,9 +42399,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 72,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579784810,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -42509,9 +42509,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 94,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579785008,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -42619,9 +42619,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 63,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579785277,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -42729,9 +42729,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 119,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579785492,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -42820,9 +42820,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 3,
 		["Duration"] = 22,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579785618,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -42930,9 +42930,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 148,
 		["PlayerNum"] = 4,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579785867,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -43040,9 +43040,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 58,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579786073,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -43150,9 +43150,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 144,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579786295,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -43260,9 +43260,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 70,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579786456,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -43370,9 +43370,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 67,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579786625,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -43480,9 +43480,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 50,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579786757,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -43590,9 +43590,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 107,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579787016,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -43700,9 +43700,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 86,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579787383,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -43810,9 +43810,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 79,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579787577,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -43920,9 +43920,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 105,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579787792,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -44030,9 +44030,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 64,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579787984,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -44140,9 +44140,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 125,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579788341,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -44250,9 +44250,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 58,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579788533,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -44360,9 +44360,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 38,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579788700,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -44470,9 +44470,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 51,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579788851,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -44580,9 +44580,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 63,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579790257,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -44690,9 +44690,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 79,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579790465,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -44800,9 +44800,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 87,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579790704,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -44910,9 +44910,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 106,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579790889,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -45020,9 +45020,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 81,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579791067,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -45130,9 +45130,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 73,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579791243,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -45240,9 +45240,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 99,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579791460,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -45350,9 +45350,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 67,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579791661,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -45460,9 +45460,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 45,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579791820,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -45570,9 +45570,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 82,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579792015,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -45680,9 +45680,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 93,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579792199,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -45790,9 +45790,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 106,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579792450,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -45900,9 +45900,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 68,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579792733,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -46010,9 +46010,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 69,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579792903,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -46120,9 +46120,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 107,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579793089,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -46230,9 +46230,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 165,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579793355,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -46340,9 +46340,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 32,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579793517,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -46450,9 +46450,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 88,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579793688,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -46560,9 +46560,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 34,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579793875,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -46670,9 +46670,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 105,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579794083,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -46780,9 +46780,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 81,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579794250,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -46890,9 +46890,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 61,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579794452,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -47000,9 +47000,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 91,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579794643,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -47110,9 +47110,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 105,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579794857,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -47220,9 +47220,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 87,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579795032,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -47330,9 +47330,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 139,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1579795293,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -47440,9 +47440,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 96,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1580139498,
@@ -47550,9 +47550,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 69,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1580139655,
@@ -47660,9 +47660,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 67,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1580139807,
@@ -47770,9 +47770,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 56,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1580139960,
@@ -47880,9 +47880,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 38,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1580140080,
@@ -47990,9 +47990,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 34,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1580140198,
@@ -48100,9 +48100,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 58,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1580140340,
@@ -48210,9 +48210,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 58,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1580140520,
@@ -48320,9 +48320,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 83,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1580140697,
@@ -48430,9 +48430,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 64,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1580140848,
@@ -48540,9 +48540,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 56,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1580141011,
@@ -48650,9 +48650,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 91,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1580141210,
@@ -48760,9 +48760,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 73,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1580141455,
@@ -48870,9 +48870,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 59,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1580141603,
@@ -48980,9 +48980,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 86,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1580141784,
@@ -49090,9 +49090,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 90,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1580142027,
@@ -49200,9 +49200,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 109,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1580142249,
@@ -49310,9 +49310,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 68,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1580142416,
@@ -49420,9 +49420,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 738,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1580595485,
 		["isBrawl"] = false,
+		["Time"] = 1580595485,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -49530,9 +49530,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 145,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1580595720,
 		["isBrawl"] = false,
+		["Time"] = 1580595720,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -49640,9 +49640,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 214,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580813694,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -49750,9 +49750,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 200,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580814042,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -49860,9 +49860,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 47,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580814480,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -49970,9 +49970,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 68,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580814652,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -50080,9 +50080,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 141,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580814889,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -50190,9 +50190,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 240,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580815224,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -50300,9 +50300,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 116,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580815457,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -50410,9 +50410,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 238,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580815775,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -50520,9 +50520,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 178,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580816061,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -50630,9 +50630,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 251,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580816415,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -50740,9 +50740,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 434,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580816952,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -50850,9 +50850,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 66,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580817143,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -50960,9 +50960,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 255,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580817482,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -51108,9 +51108,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 69,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580817947,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -51256,9 +51256,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 69,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580818119,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -51404,9 +51404,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 75,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580818370,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -51552,9 +51552,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 63,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580818551,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -51700,9 +51700,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 91,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580818741,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -51848,9 +51848,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 81,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580818987,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -51996,9 +51996,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 83,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580819180,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -52144,9 +52144,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 186,
 		["PlayerNum"] = 4,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580819452,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -52254,9 +52254,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 162,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1580819855,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -52402,9 +52402,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 39,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581088556,
@@ -52550,9 +52550,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 90,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581088864,
@@ -52698,9 +52698,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 173,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581089160,
@@ -52846,9 +52846,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 164,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581089446,
@@ -52994,9 +52994,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 52,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581089654,
@@ -53142,9 +53142,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 72,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581089868,
@@ -53290,9 +53290,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 190,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581090139,
@@ -53400,9 +53400,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 87,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1581372481,
 		["isArena"] = true,
+		["Time"] = 1581372481,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -53510,9 +53510,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 75,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1581372772,
 		["isArena"] = true,
+		["Time"] = 1581372772,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -53658,9 +53658,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 44,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581457797,
@@ -53806,9 +53806,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 108,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581458053,
@@ -53954,9 +53954,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 83,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581458271,
@@ -54102,9 +54102,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 83,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581458508,
@@ -54250,9 +54250,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 143,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581458822,
@@ -54398,9 +54398,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 96,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581459082,
@@ -54546,9 +54546,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 49,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581459294,
@@ -54694,9 +54694,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 61,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581459489,
@@ -54804,9 +54804,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 92,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581459707,
@@ -54914,9 +54914,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 339,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581460492,
@@ -55024,9 +55024,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 75,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581775671,
 		["isBrawl"] = false,
+		["Time"] = 1581775671,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -55134,9 +55134,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 107,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581775853,
 		["isBrawl"] = false,
+		["Time"] = 1581775853,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -55244,9 +55244,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 93,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581776032,
 		["isBrawl"] = false,
+		["Time"] = 1581776032,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -55354,9 +55354,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 154,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581776265,
 		["isBrawl"] = false,
+		["Time"] = 1581776265,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -55464,9 +55464,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 74,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581776417,
 		["isBrawl"] = false,
+		["Time"] = 1581776417,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -55574,9 +55574,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 110,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581776612,
 		["isBrawl"] = false,
+		["Time"] = 1581776612,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -55684,9 +55684,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 45,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581776745,
 		["isBrawl"] = false,
+		["Time"] = 1581776745,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -55794,9 +55794,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 77,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581776960,
 		["isBrawl"] = false,
+		["Time"] = 1581776960,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -55904,9 +55904,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 80,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581777186,
 		["isBrawl"] = false,
+		["Time"] = 1581777186,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -56014,9 +56014,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 194,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581777521,
 		["isBrawl"] = false,
+		["Time"] = 1581777521,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -56124,9 +56124,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 110,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581777739,
 		["isBrawl"] = false,
+		["Time"] = 1581777739,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -56234,9 +56234,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 183,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581778006,
 		["isBrawl"] = false,
+		["Time"] = 1581778006,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -56344,9 +56344,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 167,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581778310,
 		["isBrawl"] = false,
+		["Time"] = 1581778310,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -56454,9 +56454,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 138,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581778582,
 		["isBrawl"] = false,
+		["Time"] = 1581778582,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -56564,9 +56564,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 75,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581778759,
 		["isBrawl"] = false,
+		["Time"] = 1581778759,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -56674,9 +56674,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 66,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581778923,
 		["isBrawl"] = false,
+		["Time"] = 1581778923,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -56784,9 +56784,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 145,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581779149,
 		["isBrawl"] = false,
+		["Time"] = 1581779149,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -56894,9 +56894,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 386,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581779620,
 		["isBrawl"] = false,
+		["Time"] = 1581779620,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -57004,9 +57004,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 265,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581780002,
 		["isBrawl"] = false,
+		["Time"] = 1581780002,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -57114,9 +57114,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 115,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581780238,
 		["isBrawl"] = false,
+		["Time"] = 1581780238,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -57224,9 +57224,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 74,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581781853,
 		["isBrawl"] = false,
+		["Time"] = 1581781853,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -57334,9 +57334,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 150,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581782094,
 		["isBrawl"] = false,
+		["Time"] = 1581782094,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -57444,9 +57444,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 204,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581782421,
 		["isBrawl"] = false,
+		["Time"] = 1581782421,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -57554,9 +57554,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 202,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581782703,
 		["isBrawl"] = false,
+		["Time"] = 1581782703,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -57664,9 +57664,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 130,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581782913,
 		["isBrawl"] = false,
+		["Time"] = 1581782913,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -57774,9 +57774,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 101,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581783126,
 		["isBrawl"] = false,
+		["Time"] = 1581783126,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -57884,9 +57884,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 81,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581783380,
 		["isBrawl"] = false,
+		["Time"] = 1581783380,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -57994,9 +57994,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 157,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581783686,
 		["isBrawl"] = false,
+		["Time"] = 1581783686,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -58104,9 +58104,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 130,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581783979,
 		["isBrawl"] = false,
+		["Time"] = 1581783979,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -58214,9 +58214,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 74,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581803133,
 		["isBrawl"] = false,
+		["Time"] = 1581803133,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -58324,9 +58324,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 85,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581803301,
 		["isBrawl"] = false,
+		["Time"] = 1581803301,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -58434,9 +58434,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 67,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581803459,
 		["isBrawl"] = false,
+		["Time"] = 1581803459,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -58544,9 +58544,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 57,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581803615,
 		["isBrawl"] = false,
+		["Time"] = 1581803615,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -58654,9 +58654,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 77,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581803787,
 		["isBrawl"] = false,
+		["Time"] = 1581803787,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -58764,9 +58764,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 86,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581803950,
 		["isBrawl"] = false,
+		["Time"] = 1581803950,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -58874,9 +58874,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 120,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1581804182,
 		["isBrawl"] = false,
+		["Time"] = 1581804182,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -58984,9 +58984,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 235,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581864588,
@@ -59094,9 +59094,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 115,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581864885,
@@ -59204,9 +59204,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 197,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581865167,
@@ -59314,9 +59314,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 344,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581865598,
@@ -59424,9 +59424,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 224,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581865915,
@@ -59534,9 +59534,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 229,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581866242,
@@ -59644,9 +59644,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 133,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581866479,
@@ -59754,9 +59754,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 351,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581866918,
@@ -59864,9 +59864,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 208,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581867230,
@@ -59974,9 +59974,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 155,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581867474,
@@ -60084,9 +60084,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 159,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581867855,
@@ -60194,9 +60194,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 162,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581868119,
@@ -60304,9 +60304,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 221,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581868433,
@@ -60414,9 +60414,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 275,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581868832,
@@ -60524,9 +60524,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 194,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1581869123,
@@ -60672,9 +60672,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 85,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582203986,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -60820,9 +60820,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 70,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582204166,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -60968,9 +60968,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 162,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582204507,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -61116,9 +61116,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 81,
 		["PlayerNum"] = 4,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582204672,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -61264,9 +61264,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 136,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582204895,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -61412,9 +61412,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 118,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582205092,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -61560,9 +61560,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 117,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582205315,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -61708,9 +61708,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 69,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582205474,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -61856,9 +61856,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 100,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582205659,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -62004,9 +62004,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 130,
 		["PlayerNum"] = 5,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582205869,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -62152,9 +62152,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 138,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582206151,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -62300,9 +62300,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 259,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582206547,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -62448,9 +62448,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 204,
 		["PlayerNum"] = 5,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582206880,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -62596,9 +62596,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 148,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582207107,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -62744,9 +62744,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 132,
 		["PlayerNum"] = 4,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582207415,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -62892,9 +62892,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 92,
 		["PlayerNum"] = 4,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582207603,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -63040,9 +63040,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 83,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582207824,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -63188,9 +63188,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 115,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582208051,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -63336,9 +63336,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 58,
 		["PlayerNum"] = 5,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582208248,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -63484,9 +63484,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 47,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582208379,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -63632,9 +63632,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 124,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582208594,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -63780,9 +63780,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 440,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582209227,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -63928,9 +63928,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 175,
 		["PlayerNum"] = 4,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582452386,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -64076,9 +64076,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 176,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582452736,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -64224,9 +64224,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 139,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582453006,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -64372,9 +64372,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 151,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1582453236,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -64482,9 +64482,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 51,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1582465666,
 		["isArena"] = true,
+		["Time"] = 1582465666,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -64592,9 +64592,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 62,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1582465823,
 		["isArena"] = true,
+		["Time"] = 1582465823,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -64702,9 +64702,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 80,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1582466044,
 		["isArena"] = true,
+		["Time"] = 1582466044,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -64812,9 +64812,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 69,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1582466214,
 		["isArena"] = true,
+		["Time"] = 1582466214,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -64840,6 +64840,18 @@ REFlexDatabase = {
 	{
 		["Map"] = 1552,
 		["StatsNum"] = 0,
+		["Season"] = 29,
+		["PlayersNum"] = 4,
+		["Duration"] = 34,
+		["Hidden"] = false,
+		["PlayerNum"] = 2,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
+		["Time"] = 1582466369,
+		["isRated"] = false,
+		["Version"] = 275,
+		["Winner"] = 1,
+		["isArena"] = false,
 		["Players"] = {
 			{
 				"Бастанкара-Дракономор", -- [1]
@@ -64918,18 +64930,6 @@ REFlexDatabase = {
 				43, -- [17]
 			}, -- [4]
 		},
-		["PlayersNum"] = 4,
-		["Duration"] = 34,
-		["Season"] = 29,
-		["isArena"] = false,
-		["Time"] = 1582466369,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isRated"] = false,
-		["Version"] = 275,
-		["Winner"] = 1,
-		["PlayerNum"] = 2,
-		["Hidden"] = false,
 	}, -- [363]
 	{
 		["Map"] = 1672,
@@ -65016,9 +65016,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 81,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1582818934,
 		["isBrawl"] = false,
+		["Time"] = 1582818934,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -65126,9 +65126,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 116,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1582819165,
 		["isBrawl"] = false,
+		["Time"] = 1582819165,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -65236,9 +65236,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 96,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1582819340,
 		["isBrawl"] = false,
+		["Time"] = 1582819340,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -65346,9 +65346,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 73,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1582819520,
 		["isBrawl"] = false,
+		["Time"] = 1582819520,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -65456,9 +65456,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 83,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1582819683,
 		["isBrawl"] = false,
+		["Time"] = 1582819683,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -65566,9 +65566,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 55,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1582819818,
 		["isBrawl"] = false,
+		["Time"] = 1582819818,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -65676,9 +65676,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 78,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1582819985,
 		["isBrawl"] = false,
+		["Time"] = 1582819985,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -65786,9 +65786,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 124,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1582820479,
 		["isBrawl"] = false,
+		["Time"] = 1582820479,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -65896,9 +65896,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 182,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1582820755,
 		["isBrawl"] = false,
+		["Time"] = 1582820755,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -66006,9 +66006,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 171,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1582821061,
 		["isBrawl"] = false,
+		["Time"] = 1582821061,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -66116,9 +66116,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 139,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1582821288,
 		["isBrawl"] = false,
+		["Time"] = 1582821288,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -66226,9 +66226,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 207,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1582821600,
 		["isBrawl"] = false,
+		["Time"] = 1582821600,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -66336,9 +66336,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 71,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1582821789,
 		["isBrawl"] = false,
+		["Time"] = 1582821789,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -66363,6 +66363,1381 @@ REFlexDatabase = {
 	}, -- [376]
 	{
 		["Map"] = 30,
+		["Season"] = 29,
+		["StatsNum"] = 5,
+		["PlayerNum"] = 80,
+		["PlayersNum"] = 80,
+		["Duration"] = 1582845199,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
+		["Time"] = 1582841677,
+		["isRated"] = false,
+		["PlayersStats"] = {
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [1]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [2]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [3]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [4]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [5]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [6]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [7]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [8]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [9]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					1, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [10]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [11]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [12]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [13]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [14]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [15]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [16]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [17]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [18]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [19]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [20]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [21]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [22]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [23]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [24]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [25]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [26]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [27]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [28]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [29]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					1, -- [1]
+				}, -- [5]
+			}, -- [30]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [31]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [32]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					1, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [33]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [34]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [35]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [36]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [37]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [38]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [39]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [40]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [41]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [42]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [43]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					1, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [44]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [45]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [46]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					1, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [47]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [48]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [49]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [50]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [51]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [52]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [53]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [54]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [55]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [56]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [57]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [58]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [59]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [60]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [61]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [62]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [63]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [64]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [65]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [66]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [67]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [68]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [69]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [70]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [71]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [72]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [73]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [74]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [75]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [76]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [77]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [78]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [79]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+				{
+					0, -- [1]
+				}, -- [3]
+				{
+					0, -- [1]
+				}, -- [4]
+				{
+					0, -- [1]
+				}, -- [5]
+			}, -- [80]
+		},
+		["Winner"] = 0,
+		["Version"] = 275,
 		["Players"] = {
 			{
 				"Nitaraz-DarkmoonFaire", -- [1]
@@ -67885,13 +69260,29 @@ REFlexDatabase = {
 				191, -- [17]
 			}, -- [80]
 		},
-		["StatsNum"] = 5,
-		["Version"] = 275,
-		["PlayersNum"] = 80,
-		["Duration"] = 1582845199,
-		["PlayerNum"] = 80,
+	}, -- [377]
+	{
+		["Map"] = 2107,
+		["Season"] = 29,
+		["StatsNum"] = 2,
+		["PlayerNum"] = 13,
+		["PlayersNum"] = 30,
+		["Duration"] = 913,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["Time"] = 1582842846,
+		["isRated"] = false,
 		["PlayersStats"] = {
+			{
+				{
+					3, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+			}, -- [1]
 			{
 				{
 					0, -- [1]
@@ -67899,16 +69290,7 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [1]
+			}, -- [2]
 			{
 				{
 					0, -- [1]
@@ -67916,49 +69298,14 @@ REFlexDatabase = {
 				{
 					1, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [2]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [3]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [4]
 			{
 				{
@@ -67967,15 +69314,6 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [5]
 			{
 				{
@@ -67984,32 +69322,14 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [6]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [7]
 			{
 				{
@@ -68018,32 +69338,14 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [8]
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [9]
 			{
 				{
@@ -68052,15 +69354,6 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					1, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [10]
 			{
 				{
@@ -68069,66 +69362,30 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [11]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [12]
 			{
 				{
-					0, -- [1]
+					4, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [13]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [14]
 			{
 				{
@@ -68137,50 +69394,7 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [15]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [16]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [17]
 			{
 				{
 					1, -- [1]
@@ -68188,15 +69402,22 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
+			}, -- [16]
+			{
 				{
 					0, -- [1]
-				}, -- [3]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+			}, -- [17]
+			{
 				{
 					0, -- [1]
-				}, -- [4]
+				}, -- [1]
 				{
 					0, -- [1]
-				}, -- [5]
+				}, -- [2]
 			}, -- [18]
 			{
 				{
@@ -68205,117 +69426,54 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [19]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [20]
 			{
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [21]
 			{
 				{
+					1, -- [1]
+				}, -- [1]
+				{
 					0, -- [1]
+				}, -- [2]
+			}, -- [22]
+			{
+				{
+					4, -- [1]
 				}, -- [1]
 				{
 					1, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [22]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [23]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
 				{
-					1, -- [1]
+					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [24]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [25]
 			{
 				{
@@ -68324,15 +69482,6 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [26]
 			{
 				{
@@ -68341,49 +69490,22 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [27]
 			{
 				{
-					2, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [28]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
 			}, -- [29]
 			{
 				{
@@ -68392,877 +69514,10 @@ REFlexDatabase = {
 				{
 					0, -- [1]
 				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					1, -- [1]
-				}, -- [5]
 			}, -- [30]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [31]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [32]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					1, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [33]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [34]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [35]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [36]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [37]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [38]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [39]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [40]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [41]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [42]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [43]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					1, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [44]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [45]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [46]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					1, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [47]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [48]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [49]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [50]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [51]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [52]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [53]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [54]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [55]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [56]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [57]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [58]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [59]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [60]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [61]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [62]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [63]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [64]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [65]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [66]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [67]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [68]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [69]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [70]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [71]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [72]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [73]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [74]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [75]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [76]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [77]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [78]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [79]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-				{
-					0, -- [1]
-				}, -- [3]
-				{
-					0, -- [1]
-				}, -- [4]
-				{
-					0, -- [1]
-				}, -- [5]
-			}, -- [80]
 		},
-		["isArena"] = false,
-		["PlayerSide"] = 0,
-		["isRated"] = false,
-		["Time"] = 1582841677,
 		["Winner"] = 0,
-		["Season"] = 29,
-		["Hidden"] = false,
-	}, -- [377]
-	{
-		["Map"] = 2107,
+		["Version"] = 275,
 		["Players"] = {
 			{
 				"Ausgebombt-TwistingNether", -- [1]
@@ -69835,261 +70090,6 @@ REFlexDatabase = {
 				57, -- [17]
 			}, -- [30]
 		},
-		["StatsNum"] = 2,
-		["Version"] = 275,
-		["PlayersNum"] = 30,
-		["Duration"] = 913,
-		["PlayerNum"] = 13,
-		["isBrawl"] = false,
-		["PlayersStats"] = {
-			{
-				{
-					3, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [1]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [2]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [3]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [4]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [5]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [6]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [7]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [8]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [9]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [10]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [11]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [12]
-			{
-				{
-					4, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [13]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [14]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [15]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [16]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [17]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [18]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [19]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [20]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [21]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [22]
-			{
-				{
-					4, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [23]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [24]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [25]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [26]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [27]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [28]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [29]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [30]
-		},
-		["isArena"] = false,
-		["PlayerSide"] = 0,
-		["isRated"] = false,
-		["Time"] = 1582842846,
-		["Winner"] = 0,
-		["Season"] = 29,
-		["Hidden"] = false,
 	}, -- [378]
 	{
 		["Map"] = 1672,
@@ -70176,9 +70176,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 168,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1583343612,
@@ -70286,9 +70286,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 195,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1583343950,
@@ -70396,9 +70396,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 131,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1583344296,
@@ -70506,9 +70506,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 126,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1583344572,
@@ -70616,9 +70616,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 207,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1583344885,
@@ -70726,9 +70726,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 79,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1583345046,
@@ -70836,9 +70836,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 86,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1583345251,
@@ -70946,9 +70946,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 207,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1583345621,
@@ -71056,9 +71056,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 252,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1583347017,
@@ -71166,9 +71166,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 200,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1583347361,
@@ -71276,9 +71276,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 167,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1583347642,
@@ -71386,9 +71386,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 109,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1583347843,
@@ -71496,9 +71496,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 203,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583403979,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -71606,9 +71606,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 291,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583404359,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -71716,9 +71716,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 56,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583404497,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -71826,9 +71826,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 106,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583404680,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -71936,9 +71936,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 255,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583405114,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -72046,9 +72046,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 206,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583405443,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -72156,9 +72156,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 58,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583405576,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -72266,9 +72266,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 260,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583405934,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -72376,9 +72376,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 181,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583406342,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -72486,9 +72486,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 46,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583406588,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -72596,9 +72596,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 77,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583406809,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -72706,9 +72706,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 275,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583407397,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -72816,9 +72816,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 328,
 		["PlayerNum"] = 4,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583407842,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -72926,9 +72926,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 40,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583407959,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -73036,9 +73036,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 157,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583408192,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -73146,9 +73146,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 66,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583408334,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -73256,9 +73256,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 200,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583408663,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -73366,9 +73366,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 109,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583408891,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -73476,9 +73476,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 98,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583409082,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -73586,9 +73586,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 70,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583409316,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -73696,9 +73696,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 127,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583409566,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -73806,9 +73806,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 214,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583409919,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -73916,9 +73916,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 52,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583410104,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -74026,9 +74026,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 190,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583410383,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -74136,9 +74136,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 149,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583410640,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -74246,9 +74246,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 51,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1583410824,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -74273,261 +74273,6 @@ REFlexDatabase = {
 	}, -- [416]
 	{
 		["Map"] = 2245,
-		["Season"] = 29,
-		["StatsNum"] = 2,
-		["PlayerNum"] = 12,
-		["PlayersNum"] = 30,
-		["Duration"] = 990,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
-		["isBrawl"] = false,
-		["Time"] = 1583452798,
-		["isRated"] = false,
-		["PlayersStats"] = {
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [1]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [2]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [3]
-			{
-				{
-					3, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [4]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [5]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [6]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [7]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [8]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [9]
-			{
-				{
-					4, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [10]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [11]
-			{
-				{
-					3, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [12]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [13]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [14]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [15]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [16]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [17]
-			{
-				{
-					3, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [18]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [19]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [20]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [21]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [22]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [23]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [24]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [25]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [26]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [27]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [28]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [29]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [30]
-		},
-		["Winner"] = 0,
-		["Version"] = 275,
 		["Players"] = {
 			{
 				"Gzûziline-Antonidas", -- [1]
@@ -75100,15 +74845,13 @@ REFlexDatabase = {
 				39, -- [17]
 			}, -- [30]
 		},
-	}, -- [417]
-	{
-		["Map"] = 1035,
-		["Hidden"] = false,
 		["StatsNum"] = 2,
-		["Season"] = 29,
-		["PlayersNum"] = 20,
-		["Duration"] = 426,
-		["PlayerNum"] = 3,
+		["Time"] = 1583452798,
+		["PlayersNum"] = 30,
+		["Duration"] = 990,
+		["PlayerNum"] = 12,
+		["isBrawl"] = false,
+		["Version"] = 275,
 		["isArena"] = false,
 		["PlayersStats"] = {
 			{
@@ -75116,7 +74859,7 @@ REFlexDatabase = {
 					0, -- [1]
 				}, -- [1]
 				{
-					120, -- [1]
+					0, -- [1]
 				}, -- [2]
 			}, -- [1]
 			{
@@ -75124,39 +74867,39 @@ REFlexDatabase = {
 					0, -- [1]
 				}, -- [1]
 				{
-					80, -- [1]
+					0, -- [1]
 				}, -- [2]
 			}, -- [2]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-				{
-					290, -- [1]
-				}, -- [2]
-			}, -- [3]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					222, -- [1]
-				}, -- [2]
-			}, -- [4]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
 				{
-					50, -- [1]
+					1, -- [1]
+				}, -- [2]
+			}, -- [3]
+			{
+				{
+					3, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [4]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
 				}, -- [2]
 			}, -- [5]
 			{
 				{
-					2, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
-					78, -- [1]
+					0, -- [1]
 				}, -- [2]
 			}, -- [6]
 			{
@@ -75164,7 +74907,7 @@ REFlexDatabase = {
 					0, -- [1]
 				}, -- [1]
 				{
-					20, -- [1]
+					0, -- [1]
 				}, -- [2]
 			}, -- [7]
 			{
@@ -75172,23 +74915,23 @@ REFlexDatabase = {
 					1, -- [1]
 				}, -- [1]
 				{
-					100, -- [1]
+					0, -- [1]
 				}, -- [2]
 			}, -- [8]
 			{
 				{
-					2, -- [1]
+					0, -- [1]
 				}, -- [1]
 				{
-					270, -- [1]
+					0, -- [1]
 				}, -- [2]
 			}, -- [9]
 			{
 				{
-					2, -- [1]
+					4, -- [1]
 				}, -- [1]
 				{
-					50, -- [1]
+					0, -- [1]
 				}, -- [2]
 			}, -- [10]
 			{
@@ -75196,31 +74939,31 @@ REFlexDatabase = {
 					0, -- [1]
 				}, -- [1]
 				{
-					10, -- [1]
+					0, -- [1]
 				}, -- [2]
 			}, -- [11]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					42, -- [1]
-				}, -- [2]
-			}, -- [12]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-				{
-					94, -- [1]
-				}, -- [2]
-			}, -- [13]
 			{
 				{
 					3, -- [1]
 				}, -- [1]
 				{
-					236, -- [1]
+					0, -- [1]
+				}, -- [2]
+			}, -- [12]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [13]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
 				}, -- [2]
 			}, -- [14]
 			{
@@ -75228,7 +74971,7 @@ REFlexDatabase = {
 					0, -- [1]
 				}, -- [1]
 				{
-					10, -- [1]
+					0, -- [1]
 				}, -- [2]
 			}, -- [15]
 			{
@@ -75236,7 +74979,7 @@ REFlexDatabase = {
 					0, -- [1]
 				}, -- [1]
 				{
-					10, -- [1]
+					0, -- [1]
 				}, -- [2]
 			}, -- [16]
 			{
@@ -75249,10 +74992,10 @@ REFlexDatabase = {
 			}, -- [17]
 			{
 				{
-					1, -- [1]
+					3, -- [1]
 				}, -- [1]
 				{
-					164, -- [1]
+					0, -- [1]
 				}, -- [2]
 			}, -- [18]
 			{
@@ -75265,19 +75008,101 @@ REFlexDatabase = {
 			}, -- [19]
 			{
 				{
-					0, -- [1]
+					1, -- [1]
 				}, -- [1]
 				{
 					0, -- [1]
 				}, -- [2]
 			}, -- [20]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [21]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [22]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [23]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [24]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [25]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [26]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [27]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [28]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [29]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [30]
 		},
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isRated"] = false,
-		["Version"] = 275,
-		["Winner"] = 1,
-		["Time"] = 1583503222,
+		["PlayerSide"] = 0,
+		["Winner"] = 0,
+		["Season"] = 29,
+		["Hidden"] = false,
+	}, -- [417]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"Diér-Deathwing", -- [1]
@@ -75660,6 +75485,181 @@ REFlexDatabase = {
 				41, -- [17]
 			}, -- [20]
 		},
+		["StatsNum"] = 2,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 426,
+		["Season"] = 29,
+		["isBrawl"] = false,
+		["Time"] = 1583503222,
+		["isArena"] = false,
+		["Version"] = 275,
+		["isRated"] = false,
+		["PlayersStats"] = {
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					120, -- [1]
+				}, -- [2]
+			}, -- [1]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					80, -- [1]
+				}, -- [2]
+			}, -- [2]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+				{
+					290, -- [1]
+				}, -- [2]
+			}, -- [3]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					222, -- [1]
+				}, -- [2]
+			}, -- [4]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					50, -- [1]
+				}, -- [2]
+			}, -- [5]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+				{
+					78, -- [1]
+				}, -- [2]
+			}, -- [6]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					20, -- [1]
+				}, -- [2]
+			}, -- [7]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					100, -- [1]
+				}, -- [2]
+			}, -- [8]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+				{
+					270, -- [1]
+				}, -- [2]
+			}, -- [9]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+				{
+					50, -- [1]
+				}, -- [2]
+			}, -- [10]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					10, -- [1]
+				}, -- [2]
+			}, -- [11]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					42, -- [1]
+				}, -- [2]
+			}, -- [12]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+				{
+					94, -- [1]
+				}, -- [2]
+			}, -- [13]
+			{
+				{
+					3, -- [1]
+				}, -- [1]
+				{
+					236, -- [1]
+				}, -- [2]
+			}, -- [14]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					10, -- [1]
+				}, -- [2]
+			}, -- [15]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					10, -- [1]
+				}, -- [2]
+			}, -- [16]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [17]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					164, -- [1]
+				}, -- [2]
+			}, -- [18]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [19]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [20]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["PlayerNum"] = 3,
 	}, -- [418]
 	{
 		["Map"] = 572,
@@ -75746,9 +75746,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 99,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1584032790,
 		["isBrawl"] = false,
+		["Time"] = 1584032790,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -75856,9 +75856,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 94,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1584033006,
 		["isBrawl"] = false,
+		["Time"] = 1584033006,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -75966,9 +75966,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 198,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1584033302,
 		["isBrawl"] = false,
+		["Time"] = 1584033302,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -76076,9 +76076,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 133,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1584033527,
 		["isBrawl"] = false,
+		["Time"] = 1584033527,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -76167,9 +76167,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 3,
 		["Duration"] = 20,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1584033741,
 		["isBrawl"] = false,
+		["Time"] = 1584033741,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -76277,9 +76277,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 127,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1584033962,
 		["isBrawl"] = false,
+		["Time"] = 1584033962,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -76387,9 +76387,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 284,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1584034332,
 		["isBrawl"] = false,
+		["Time"] = 1584034332,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -76497,9 +76497,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 153,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1584034730,
 		["isBrawl"] = false,
+		["Time"] = 1584034730,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -76607,9 +76607,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 440,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1584035252,
 		["isBrawl"] = false,
+		["Time"] = 1584035252,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -76717,9 +76717,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 190,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1584035557,
 		["isBrawl"] = false,
+		["Time"] = 1584035557,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -76827,9 +76827,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 144,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584036008,
@@ -76937,9 +76937,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 40,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584036173,
@@ -77047,9 +77047,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 182,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584036463,
@@ -77157,9 +77157,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 116,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584036683,
@@ -77267,9 +77267,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 207,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584036969,
@@ -77377,9 +77377,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 126,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584037178,
@@ -77487,9 +77487,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 460,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584037788,
@@ -77597,9 +77597,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 162,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584038052,
@@ -77707,9 +77707,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 51,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584038203,
@@ -77817,9 +77817,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 98,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584038383,
@@ -77927,9 +77927,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 93,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584038568,
@@ -78037,9 +78037,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 135,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584038787,
@@ -78147,9 +78147,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 110,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584038999,
@@ -78257,9 +78257,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 105,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584039453,
@@ -78284,6 +78284,271 @@ REFlexDatabase = {
 	}, -- [442]
 	{
 		["Map"] = 1191,
+		["Season"] = 29,
+		["StatsNum"] = 1,
+		["PlayerNum"] = 32,
+		["PlayersNum"] = 50,
+		["Duration"] = 2020,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["PlayersStats"] = {
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [1]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [2]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [3]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [4]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [5]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [6]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [7]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [8]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [9]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [10]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [11]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [12]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [13]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [14]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [15]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [16]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [17]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [18]
+			{
+				{
+					5, -- [1]
+				}, -- [1]
+			}, -- [19]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [20]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [21]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [22]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [23]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [24]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [25]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [26]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [27]
+			{
+				{
+					2, -- [1]
+				}, -- [1]
+			}, -- [28]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [29]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [30]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [31]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [32]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [33]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [34]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [35]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [36]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [37]
+			{
+				{
+					7, -- [1]
+				}, -- [1]
+			}, -- [38]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [39]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [40]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [41]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [42]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [43]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [44]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [45]
+			{
+				{
+					67, -- [1]
+				}, -- [1]
+			}, -- [46]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [47]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [48]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [49]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+			}, -- [50]
+		},
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["Version"] = 275,
+		["Winner"] = 0,
+		["Time"] = 1584041835,
 		["Players"] = {
 			{
 				"Kethner-TheMaelstrom", -- [1]
@@ -79236,274 +79501,184 @@ REFlexDatabase = {
 				71, -- [17]
 			}, -- [50]
 		},
-		["StatsNum"] = 1,
-		["Time"] = 1584041835,
-		["PlayersNum"] = 50,
-		["Duration"] = 2020,
-		["PlayerNum"] = 32,
-		["isBrawl"] = false,
-		["Version"] = 275,
+	}, -- [443]
+	{
+		["Map"] = 726,
+		["Season"] = 29,
+		["StatsNum"] = 2,
+		["PlayerNum"] = 13,
+		["PlayersNum"] = 20,
+		["Duration"] = 635,
+		["Hidden"] = false,
 		["isArena"] = false,
 		["PlayersStats"] = {
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
 			}, -- [1]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [2]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [3]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
 			}, -- [4]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
 			}, -- [5]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [6]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [7]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [8]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [9]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [10]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [11]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					2, -- [1]
+				}, -- [2]
 			}, -- [12]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
 			}, -- [13]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [14]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [15]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [16]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [17]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [18]
 			{
 				{
-					5, -- [1]
+					3, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [19]
 			{
 				{
 					0, -- [1]
 				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
 			}, -- [20]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [21]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [22]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [23]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [24]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [25]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [26]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [27]
-			{
-				{
-					2, -- [1]
-				}, -- [1]
-			}, -- [28]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [29]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [30]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [31]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [32]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [33]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [34]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [35]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [36]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [37]
-			{
-				{
-					7, -- [1]
-				}, -- [1]
-			}, -- [38]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [39]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [40]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [41]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [42]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [43]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [44]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [45]
-			{
-				{
-					67, -- [1]
-				}, -- [1]
-			}, -- [46]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [47]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [48]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [49]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-			}, -- [50]
 		},
-		["isRated"] = false,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["Version"] = 275,
 		["Winner"] = 0,
-		["Season"] = 29,
-		["Hidden"] = false,
-	}, -- [443]
-	{
-		["Map"] = 726,
+		["Time"] = 1584042230,
 		["Players"] = {
 			{
 				"Ридди-Ясеневыйлес", -- [1]
@@ -79886,185 +80061,22 @@ REFlexDatabase = {
 				90, -- [17]
 			}, -- [20]
 		},
-		["StatsNum"] = 2,
-		["Time"] = 1584042230,
-		["PlayersNum"] = 20,
-		["Duration"] = 635,
-		["PlayerNum"] = 13,
-		["isBrawl"] = false,
-		["Version"] = 275,
-		["isArena"] = false,
-		["PlayersStats"] = {
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [1]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [2]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [3]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [4]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [5]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [6]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [7]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [8]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [9]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [10]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [11]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					2, -- [1]
-				}, -- [2]
-			}, -- [12]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [13]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [14]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [15]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [16]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [17]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [18]
-			{
-				{
-					3, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [19]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [20]
-		},
-		["isRated"] = false,
-		["PlayerSide"] = 1,
-		["Winner"] = 0,
-		["Season"] = 29,
-		["Hidden"] = false,
 	}, -- [444]
 	{
 		["Map"] = 2118,
 		["StatsNum"] = 0,
+		["Hidden"] = false,
+		["PlayersNum"] = 79,
+		["Duration"] = 1805,
+		["Season"] = 29,
+		["PlayerNum"] = 48,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1584044239,
+		["isRated"] = false,
+		["Version"] = 275,
+		["Winner"] = 1,
+		["isBrawl"] = false,
 		["Players"] = {
 			{
 				"Volkerputt-Norgannon", -- [1]
@@ -81568,21 +81580,184 @@ REFlexDatabase = {
 				65, -- [17]
 			}, -- [79]
 		},
-		["PlayersNum"] = 79,
-		["Duration"] = 1805,
+	}, -- [445]
+	{
+		["Map"] = 2106,
+		["Season"] = 29,
+		["StatsNum"] = 2,
+		["PlayerNum"] = 3,
+		["PlayersNum"] = 20,
+		["Duration"] = 511,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1584044239,
 		["isArena"] = false,
+		["PlayersStats"] = {
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [1]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [2]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					2, -- [1]
+				}, -- [2]
+			}, -- [3]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [4]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [5]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+			}, -- [6]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+			}, -- [7]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [8]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [9]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [10]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [11]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					1, -- [1]
+				}, -- [2]
+			}, -- [12]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [13]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [14]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [15]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [16]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [17]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [18]
+			{
+				{
+					0, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [19]
+			{
+				{
+					1, -- [1]
+				}, -- [1]
+				{
+					0, -- [1]
+				}, -- [2]
+			}, -- [20]
+		},
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["Version"] = 275,
 		["Winner"] = 1,
-		["PlayerNum"] = 48,
-		["Season"] = 29,
-	}, -- [445]
-	{
-		["Map"] = 2106,
+		["Time"] = 1584044940,
 		["Players"] = {
 			{
 				"Omniknîght-BurningLegion", -- [1]
@@ -81965,181 +82140,6 @@ REFlexDatabase = {
 				215, -- [17]
 			}, -- [20]
 		},
-		["StatsNum"] = 2,
-		["Time"] = 1584044940,
-		["PlayersNum"] = 20,
-		["Duration"] = 511,
-		["PlayerNum"] = 3,
-		["isBrawl"] = false,
-		["Version"] = 275,
-		["isArena"] = false,
-		["PlayersStats"] = {
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [1]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [2]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					2, -- [1]
-				}, -- [2]
-			}, -- [3]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [4]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [5]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [6]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [7]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [8]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [9]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [10]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [11]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					1, -- [1]
-				}, -- [2]
-			}, -- [12]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [13]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [14]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [15]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [16]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [17]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [18]
-			{
-				{
-					0, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [19]
-			{
-				{
-					1, -- [1]
-				}, -- [1]
-				{
-					0, -- [1]
-				}, -- [2]
-			}, -- [20]
-		},
-		["isRated"] = false,
-		["PlayerSide"] = 1,
-		["Winner"] = 1,
-		["Season"] = 29,
-		["Hidden"] = false,
 	}, -- [446]
 	{
 		["Map"] = 1825,
@@ -82264,9 +82264,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 109,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1584180372,
 		["isArena"] = true,
+		["Time"] = 1584180372,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -82412,9 +82412,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 122,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584181433,
@@ -82560,9 +82560,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 222,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584181742,
@@ -82708,9 +82708,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 233,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584636677,
@@ -82856,9 +82856,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 64,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584636881,
@@ -82966,9 +82966,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 66,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584638001,
@@ -83076,9 +83076,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 69,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584638177,
@@ -83186,9 +83186,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 128,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584638425,
@@ -83334,9 +83334,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 86,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584639392,
@@ -83482,9 +83482,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 213,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584639731,
@@ -83630,9 +83630,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 179,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584639994,
@@ -83778,9 +83778,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 185,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584640267,
@@ -83926,9 +83926,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 73,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584640420,
@@ -84074,9 +84074,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 118,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584640773,
@@ -84222,9 +84222,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 64,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584640973,
@@ -84370,9 +84370,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 156,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584641209,
@@ -84518,9 +84518,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 143,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584641433,
@@ -84666,9 +84666,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 132,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584641729,
@@ -84814,9 +84814,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 125,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584802537,
@@ -84962,9 +84962,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 74,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584802695,
@@ -85110,9 +85110,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 84,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584802870,
@@ -85258,9 +85258,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 88,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584803068,
@@ -85406,9 +85406,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 112,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584803322,
@@ -85554,9 +85554,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 81,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584803524,
@@ -85702,9 +85702,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 311,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584803994,
@@ -85850,9 +85850,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 133,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584804230,
@@ -85998,9 +85998,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 74,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584804438,
@@ -86146,9 +86146,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 80,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584805167,
@@ -86294,9 +86294,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 180,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584805428,
@@ -86442,9 +86442,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 94,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584805673,
@@ -86590,9 +86590,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 117,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584805873,
@@ -86738,9 +86738,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 309,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584806314,
@@ -86886,9 +86886,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 116,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1584806518,
@@ -86996,9 +86996,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 165,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585264916,
 		["isBrawl"] = false,
+		["Time"] = 1585264916,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -87106,9 +87106,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 141,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585265306,
 		["isBrawl"] = false,
+		["Time"] = 1585265306,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -87216,9 +87216,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 176,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585265562,
 		["isBrawl"] = false,
+		["Time"] = 1585265562,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -87326,9 +87326,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 116,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585265852,
 		["isBrawl"] = false,
+		["Time"] = 1585265852,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -87436,9 +87436,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 241,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585266186,
 		["isBrawl"] = false,
+		["Time"] = 1585266186,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -87546,9 +87546,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 148,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585266871,
 		["isBrawl"] = false,
+		["Time"] = 1585266871,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -87656,9 +87656,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 51,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585267040,
 		["isBrawl"] = false,
+		["Time"] = 1585267040,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -87766,9 +87766,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 136,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585267353,
 		["isBrawl"] = false,
+		["Time"] = 1585267353,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -87876,9 +87876,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 467,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585267930,
 		["isBrawl"] = false,
+		["Time"] = 1585267930,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -87986,9 +87986,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 181,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585268335,
 		["isBrawl"] = false,
+		["Time"] = 1585268335,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -88096,9 +88096,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 147,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585268615,
 		["isBrawl"] = false,
+		["Time"] = 1585268615,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -88206,9 +88206,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 200,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585268918,
 		["isBrawl"] = false,
+		["Time"] = 1585268918,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -88316,9 +88316,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 44,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585269042,
 		["isBrawl"] = false,
+		["Time"] = 1585269042,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -88426,9 +88426,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 290,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585269451,
 		["isBrawl"] = false,
+		["Time"] = 1585269451,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -88536,9 +88536,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 189,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585354055,
@@ -88646,9 +88646,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 167,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585354376,
@@ -88756,9 +88756,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 86,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585354840,
@@ -88866,9 +88866,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 164,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585355324,
@@ -88976,9 +88976,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 93,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585355495,
@@ -89086,9 +89086,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 50,
 		["PlayerNum"] = 3,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1585414198,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -89196,9 +89196,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 136,
 		["PlayerNum"] = 2,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1585414414,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -89306,9 +89306,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 51,
 		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1585414699,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -89416,9 +89416,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 196,
 		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1585414969,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -89526,9 +89526,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 303,
 		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1585415409,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -89636,9 +89636,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 374,
 		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1585415960,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -89746,9 +89746,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 312,
 		["PlayerNum"] = 3,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1585416444,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -89856,9 +89856,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 203,
 		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1585416742,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -89966,9 +89966,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 224,
 		["PlayerNum"] = 3,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1585417150,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -90076,9 +90076,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 107,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585417587,
 		["isBrawl"] = false,
+		["Time"] = 1585417587,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -90186,9 +90186,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 67,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585417784,
 		["isBrawl"] = false,
+		["Time"] = 1585417784,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -90296,9 +90296,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 55,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585418024,
 		["isBrawl"] = false,
+		["Time"] = 1585418024,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -90406,9 +90406,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 321,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585418497,
 		["isBrawl"] = false,
+		["Time"] = 1585418497,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -90516,9 +90516,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 150,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585418814,
 		["isBrawl"] = false,
+		["Time"] = 1585418814,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -90626,9 +90626,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 299,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585419283,
 		["isBrawl"] = false,
+		["Time"] = 1585419283,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -90736,9 +90736,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 145,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585419519,
 		["isBrawl"] = false,
+		["Time"] = 1585419519,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -90846,9 +90846,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 142,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585419794,
 		["isBrawl"] = false,
+		["Time"] = 1585419794,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -90956,9 +90956,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 107,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585419985,
 		["isBrawl"] = false,
+		["Time"] = 1585419985,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -91066,9 +91066,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 122,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585420196,
 		["isBrawl"] = false,
+		["Time"] = 1585420196,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -91176,9 +91176,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 47,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585420325,
 		["isBrawl"] = false,
+		["Time"] = 1585420325,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -91286,9 +91286,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 263,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585420664,
 		["isBrawl"] = false,
+		["Time"] = 1585420664,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -91396,9 +91396,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 254,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585421035,
 		["isBrawl"] = false,
+		["Time"] = 1585421035,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -91544,9 +91544,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 99,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585421449,
 		["isBrawl"] = false,
+		["Time"] = 1585421449,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -91692,9 +91692,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 132,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585421729,
 		["isBrawl"] = false,
+		["Time"] = 1585421729,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -91840,9 +91840,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 103,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585421912,
 		["isBrawl"] = false,
+		["Time"] = 1585421912,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -91988,9 +91988,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 113,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585422132,
 		["isBrawl"] = false,
+		["Time"] = 1585422132,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -92136,9 +92136,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 88,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585422324,
 		["isBrawl"] = false,
+		["Time"] = 1585422324,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -92284,9 +92284,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 67,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585422483,
 		["isBrawl"] = false,
+		["Time"] = 1585422483,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -92432,9 +92432,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 93,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585422649,
 		["isBrawl"] = false,
+		["Time"] = 1585422649,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -92580,9 +92580,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 144,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585423004,
 		["isBrawl"] = false,
+		["Time"] = 1585423004,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -92728,9 +92728,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 157,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585423317,
 		["isBrawl"] = false,
+		["Time"] = 1585423317,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -92876,9 +92876,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 176,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585423580,
 		["isBrawl"] = false,
+		["Time"] = 1585423580,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -93024,9 +93024,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 83,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585423885,
 		["isBrawl"] = false,
+		["Time"] = 1585423885,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -93172,9 +93172,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 212,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585424309,
 		["isBrawl"] = false,
+		["Time"] = 1585424309,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -93320,9 +93320,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 86,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585424512,
 		["isBrawl"] = false,
+		["Time"] = 1585424512,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -93468,9 +93468,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 123,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585424714,
 		["isBrawl"] = false,
+		["Time"] = 1585424714,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -93616,9 +93616,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 189,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585425064,
 		["isBrawl"] = false,
+		["Time"] = 1585425064,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -93764,9 +93764,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 88,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585425287,
 		["isBrawl"] = false,
+		["Time"] = 1585425287,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -93912,9 +93912,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 125,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585425568,
 		["isBrawl"] = false,
+		["Time"] = 1585425568,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -94022,9 +94022,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 166,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585426596,
 		["isBrawl"] = false,
+		["Time"] = 1585426596,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -94132,9 +94132,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 80,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585426769,
 		["isBrawl"] = false,
+		["Time"] = 1585426769,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -94242,9 +94242,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 61,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585426956,
 		["isBrawl"] = false,
+		["Time"] = 1585426956,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -94352,9 +94352,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 246,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585427298,
 		["isBrawl"] = false,
+		["Time"] = 1585427298,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -94462,9 +94462,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 200,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1585427588,
 		["isBrawl"] = false,
+		["Time"] = 1585427588,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -94572,9 +94572,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 215,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585848464,
 		["isArena"] = true,
+		["Time"] = 1585848464,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -94600,6 +94600,18 @@ REFlexDatabase = {
 	{
 		["Map"] = 980,
 		["StatsNum"] = 0,
+		["Season"] = 29,
+		["PlayersNum"] = 4,
+		["Duration"] = 85,
+		["Hidden"] = false,
+		["PlayerNum"] = 3,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
+		["Time"] = 1585848698,
+		["isRated"] = false,
+		["Version"] = 275,
+		["Winner"] = 1,
+		["isArena"] = false,
 		["Players"] = {
 			{
 				"Fricky-Sunstrider", -- [1]
@@ -94678,18 +94690,6 @@ REFlexDatabase = {
 				291, -- [17]
 			}, -- [4]
 		},
-		["PlayersNum"] = 4,
-		["Duration"] = 85,
-		["Season"] = 29,
-		["isArena"] = false,
-		["Time"] = 1585848698,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isRated"] = false,
-		["Version"] = 275,
-		["Winner"] = 1,
-		["PlayerNum"] = 3,
-		["Hidden"] = false,
 	}, -- [544]
 	{
 		["Map"] = 1825,
@@ -94776,9 +94776,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 150,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585848920,
 		["isArena"] = true,
+		["Time"] = 1585848920,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -94886,9 +94886,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 301,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585849367,
 		["isArena"] = true,
+		["Time"] = 1585849367,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -94996,9 +94996,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 126,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585849584,
 		["isArena"] = true,
+		["Time"] = 1585849584,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -95106,9 +95106,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 121,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585849795,
 		["isArena"] = true,
+		["Time"] = 1585849795,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -95216,9 +95216,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 221,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585850146,
 		["isArena"] = true,
+		["Time"] = 1585850146,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -95326,9 +95326,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 153,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585850465,
 		["isArena"] = true,
+		["Time"] = 1585850465,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -95436,9 +95436,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 80,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585850623,
 		["isArena"] = true,
+		["Time"] = 1585850623,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -95546,9 +95546,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 271,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585851326,
 		["isArena"] = true,
+		["Time"] = 1585851326,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -95656,9 +95656,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 115,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585851524,
 		["isArena"] = true,
+		["Time"] = 1585851524,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -95766,9 +95766,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 154,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585851782,
 		["isArena"] = true,
+		["Time"] = 1585851782,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -95876,9 +95876,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 84,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585851949,
 		["isArena"] = true,
+		["Time"] = 1585851949,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -95986,9 +95986,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 266,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585852295,
 		["isArena"] = true,
+		["Time"] = 1585852295,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -96096,9 +96096,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 194,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585852619,
 		["isArena"] = true,
+		["Time"] = 1585852619,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -96206,9 +96206,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 109,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585853075,
 		["isArena"] = true,
+		["Time"] = 1585853075,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -96316,9 +96316,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 387,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585853540,
 		["isArena"] = true,
+		["Time"] = 1585853540,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -96426,9 +96426,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 89,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585853770,
 		["isArena"] = true,
+		["Time"] = 1585853770,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -96536,9 +96536,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 106,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585853967,
 		["isArena"] = true,
+		["Time"] = 1585853967,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -96646,9 +96646,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 119,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585854173,
 		["isArena"] = true,
+		["Time"] = 1585854173,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -96756,9 +96756,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 165,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585854451,
 		["isArena"] = true,
+		["Time"] = 1585854451,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -96866,9 +96866,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 247,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585854821,
 		["isArena"] = true,
+		["Time"] = 1585854821,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -96976,9 +96976,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 102,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585855034,
 		["isArena"] = true,
+		["Time"] = 1585855034,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -97124,9 +97124,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 73,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585928267,
@@ -97272,9 +97272,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 171,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585928592,
@@ -97420,9 +97420,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 167,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585928912,
@@ -97568,9 +97568,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 190,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585929200,
@@ -97716,9 +97716,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 186,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585929555,
@@ -97864,9 +97864,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 75,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585929917,
@@ -98012,9 +98012,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 179,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1585934004,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -98160,9 +98160,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 214,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1585934398,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -98308,9 +98308,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 77,
 		["PlayerNum"] = 4,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1585934609,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -98456,9 +98456,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 171,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1585934942,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -98604,9 +98604,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 198,
 		["PlayerNum"] = 4,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1585935362,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -98752,9 +98752,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 80,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1585935556,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -98900,9 +98900,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 98,
 		["PlayerNum"] = 4,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1585935750,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -99048,9 +99048,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 356,
 		["PlayerNum"] = 4,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1585936224,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -99196,9 +99196,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 231,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1585936551,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -99344,9 +99344,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 81,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585936822,
 		["isArena"] = true,
+		["Time"] = 1585936822,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -99492,9 +99492,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 193,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585937111,
 		["isArena"] = true,
+		["Time"] = 1585937111,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -99640,9 +99640,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 28,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585937346,
 		["isArena"] = true,
+		["Time"] = 1585937346,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -99788,9 +99788,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 215,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585937666,
 		["isArena"] = true,
+		["Time"] = 1585937666,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -99936,9 +99936,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 55,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585938022,
 		["isArena"] = true,
+		["Time"] = 1585938022,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -100084,9 +100084,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 190,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585938338,
 		["isArena"] = true,
+		["Time"] = 1585938338,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -100232,9 +100232,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 59,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585938545,
 		["isArena"] = true,
+		["Time"] = 1585938545,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -100380,9 +100380,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 98,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585938789,
 		["isArena"] = true,
+		["Time"] = 1585938789,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -100528,9 +100528,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 91,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585938977,
 		["isArena"] = true,
+		["Time"] = 1585938977,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -100676,9 +100676,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 72,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585939186,
 		["isArena"] = true,
+		["Time"] = 1585939186,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -100824,9 +100824,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 79,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1585939522,
 		["isArena"] = true,
+		["Time"] = 1585939522,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -100972,9 +100972,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 306,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585942624,
@@ -101120,9 +101120,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 187,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585942930,
@@ -101268,9 +101268,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 111,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585943166,
@@ -101416,9 +101416,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 48,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585943347,
@@ -101564,9 +101564,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 73,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585943516,
@@ -101712,9 +101712,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 139,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585943836,
@@ -101860,9 +101860,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 162,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585944147,
@@ -102008,9 +102008,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 219,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585944552,
@@ -102156,9 +102156,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 67,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585944743,
@@ -102304,9 +102304,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 68,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585944922,
@@ -102452,9 +102452,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 163,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585945218,
@@ -102600,9 +102600,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 151,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585945514,
@@ -102748,9 +102748,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 123,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585945772,
@@ -102896,9 +102896,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 191,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585946168,
@@ -103044,9 +103044,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 118,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585946498,
@@ -103192,9 +103192,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 73,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585946651,
@@ -103340,9 +103340,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 111,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585946844,
@@ -103488,9 +103488,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 104,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585947094,
@@ -103636,9 +103636,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 229,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585947416,
@@ -103784,9 +103784,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 137,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585947632,
@@ -103932,9 +103932,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 176,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585947970,
@@ -104080,9 +104080,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 135,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585948218,
@@ -104228,9 +104228,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 169,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585948549,
@@ -104376,9 +104376,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 81,
 		["Season"] = 29,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1585948837,
@@ -104524,9 +104524,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 235,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1586036951,
 		["isBrawl"] = false,
+		["Time"] = 1586036951,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -104672,9 +104672,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 57,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1586037401,
 		["isBrawl"] = false,
+		["Time"] = 1586037401,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -104820,9 +104820,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 152,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1586037815,
 		["isBrawl"] = false,
+		["Time"] = 1586037815,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -104968,9 +104968,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 238,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1586038272,
 		["isBrawl"] = false,
+		["Time"] = 1586038272,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -105116,9 +105116,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 259,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1586038811,
 		["isBrawl"] = false,
+		["Time"] = 1586038811,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -105264,9 +105264,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 159,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1586039216,
 		["isBrawl"] = false,
+		["Time"] = 1586039216,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -105412,9 +105412,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 94,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1586039410,
 		["isBrawl"] = false,
+		["Time"] = 1586039410,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -105560,9 +105560,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 308,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1586039876,
 		["isBrawl"] = false,
+		["Time"] = 1586039876,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -105708,9 +105708,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 73,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1586445097,
 		["isArena"] = true,
+		["Time"] = 1586445097,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -105856,9 +105856,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 67,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1586445281,
 		["isArena"] = true,
+		["Time"] = 1586445281,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -106004,9 +106004,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 81,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1586445547,
 		["isArena"] = true,
+		["Time"] = 1586445547,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -106152,9 +106152,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 166,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1586445810,
 		["isArena"] = true,
+		["Time"] = 1586445810,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -106300,9 +106300,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 126,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1586446036,
 		["isArena"] = true,
+		["Time"] = 1586446036,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -106448,9 +106448,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 118,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1586446286,
 		["isArena"] = true,
+		["Time"] = 1586446286,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -106596,9 +106596,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 110,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1586446515,
 		["isArena"] = true,
+		["Time"] = 1586446515,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -106744,9 +106744,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 115,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1586446720,
 		["isArena"] = true,
+		["Time"] = 1586446720,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -106892,9 +106892,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 95,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1586446905,
 		["isArena"] = true,
+		["Time"] = 1586446905,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -107040,9 +107040,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 133,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1586447170,
 		["isArena"] = true,
+		["Time"] = 1586447170,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -107188,9 +107188,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 41,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1586447302,
 		["isArena"] = true,
+		["Time"] = 1586447302,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -107336,9 +107336,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 119,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1586447552,
 		["isArena"] = true,
+		["Time"] = 1586447552,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -107484,9 +107484,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 185,
 		["PlayerNum"] = 2,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1586525386,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -107632,9 +107632,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 58,
 		["PlayerNum"] = 2,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1586526403,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -107780,9 +107780,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 124,
 		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1586526619,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -107928,9 +107928,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 124,
 		["PlayerNum"] = 3,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1586526831,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -108076,9 +108076,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 275,
 		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1586527199,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -108224,9 +108224,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 76,
 		["PlayerNum"] = 2,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1586527389,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -108334,9 +108334,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 378,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1586780918,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -108444,9 +108444,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 328,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1586781394,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -108554,9 +108554,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 479,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1586781956,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -108664,9 +108664,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 408,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1586782534,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -108812,9 +108812,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 219,
 		["PlayerNum"] = 1,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1586783548,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -108960,9 +108960,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 313,
 		["PlayerNum"] = 2,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1586784568,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -109108,9 +109108,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 72,
 		["PlayerNum"] = 3,
-		["isArena"] = true,
-		["Version"] = 275,
 		["isBrawl"] = false,
+		["Version"] = 275,
+		["isArena"] = true,
 		["Time"] = 1586784742,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -109256,9 +109256,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 44,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1587050453,
@@ -109404,9 +109404,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 205,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1587050995,
@@ -109552,9 +109552,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 57,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1587051153,
@@ -109700,9 +109700,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 237,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1587051505,
@@ -109810,9 +109810,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 176,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1587051817,
@@ -109920,9 +109920,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 317,
 		["Season"] = 29,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
 		["Version"] = 275,
 		["isRated"] = true,
 		["Time"] = 1587052215,
@@ -110030,9 +110030,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 195,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1587283406,
 		["isBrawl"] = false,
+		["Time"] = 1587283406,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -110140,9 +110140,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 389,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1587283914,
 		["isBrawl"] = false,
+		["Time"] = 1587283914,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -110250,9 +110250,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 73,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1587284093,
 		["isBrawl"] = false,
+		["Time"] = 1587284093,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -110360,9 +110360,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 37,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1587284383,
 		["isBrawl"] = false,
+		["Time"] = 1587284383,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -110470,9 +110470,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 110,
 		["PlayerNum"] = 2,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1587924112,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -110580,9 +110580,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 274,
 		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1587924531,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -110690,9 +110690,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 117,
 		["PlayerNum"] = 2,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1587924750,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -110800,9 +110800,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 62,
 		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1587924894,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
@@ -110910,9 +110910,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 189,
 		["PlayerNum"] = 2,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1587925208,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -111020,9 +111020,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 232,
 		["PlayerNum"] = 2,
-		["isBrawl"] = false,
-		["Version"] = 275,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1587925547,
 		["isRated"] = true,
 		["PlayerSide"] = 0,
@@ -111130,9 +111130,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 167,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1588364058,
 		["isBrawl"] = false,
+		["Time"] = 1588364058,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -111240,9 +111240,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 199,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1588364343,
 		["isBrawl"] = false,
+		["Time"] = 1588364343,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -111350,9 +111350,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 30,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1588364582,
 		["isBrawl"] = false,
+		["Time"] = 1588364582,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -111460,9 +111460,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 126,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1588364802,
 		["isBrawl"] = false,
+		["Time"] = 1588364802,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -111570,9 +111570,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 83,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1588364971,
 		["isBrawl"] = false,
+		["Time"] = 1588364971,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -111680,9 +111680,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 145,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1588365232,
 		["isBrawl"] = false,
+		["Time"] = 1588365232,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -111790,9 +111790,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 185,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1588365500,
 		["isBrawl"] = false,
+		["Time"] = 1588365500,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -111900,9 +111900,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 298,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1588365913,
 		["isBrawl"] = false,
+		["Time"] = 1588365913,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -112048,9 +112048,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 164,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1588366724,
 		["isBrawl"] = false,
+		["Time"] = 1588366724,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -112196,9 +112196,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 110,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1588367021,
 		["isBrawl"] = false,
+		["Time"] = 1588367021,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -112344,9 +112344,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 167,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1588367294,
 		["isBrawl"] = false,
+		["Time"] = 1588367294,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -112492,9 +112492,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 6,
 		["Duration"] = 304,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1588367752,
 		["isBrawl"] = false,
+		["Time"] = 1588367752,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -112602,9 +112602,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 159,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1588368390,
 		["isBrawl"] = false,
+		["Time"] = 1588368390,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -112712,9 +112712,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 175,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1588368719,
 		["isBrawl"] = false,
+		["Time"] = 1588368719,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -112822,9 +112822,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 175,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1588369124,
 		["isBrawl"] = false,
+		["Time"] = 1588369124,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -112932,9 +112932,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 127,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1588369395,
 		["isBrawl"] = false,
+		["Time"] = 1588369395,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -113042,9 +113042,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 84,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1588705733,
 		["isArena"] = true,
+		["Time"] = 1588705733,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -113152,9 +113152,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 34,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1588705848,
 		["isArena"] = true,
+		["Time"] = 1588705848,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -113262,9 +113262,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 45,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1588705996,
 		["isArena"] = true,
+		["Time"] = 1588705996,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -113372,9 +113372,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 60,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1588706142,
 		["isArena"] = true,
+		["Time"] = 1588706142,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -113482,9 +113482,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 84,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1588706312,
 		["isArena"] = true,
+		["Time"] = 1588706312,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -113592,9 +113592,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 225,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1588706633,
 		["isArena"] = true,
+		["Time"] = 1588706633,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -113702,9 +113702,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 263,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1588707004,
 		["isArena"] = true,
+		["Time"] = 1588707004,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -113812,9 +113812,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 51,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1588707570,
 		["isArena"] = true,
+		["Time"] = 1588707570,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -113922,9 +113922,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 48,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1588707756,
 		["isArena"] = true,
+		["Time"] = 1588707756,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -114032,9 +114032,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 61,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1588707907,
 		["isArena"] = true,
+		["Time"] = 1588707907,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -114142,9 +114142,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 72,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1588708066,
 		["isArena"] = true,
+		["Time"] = 1588708066,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -114252,9 +114252,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 131,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1588708303,
 		["isArena"] = true,
+		["Time"] = 1588708303,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -114362,9 +114362,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 108,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1588708540,
 		["isArena"] = true,
+		["Time"] = 1588708540,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -114472,9 +114472,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 62,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1588708711,
 		["isArena"] = true,
+		["Time"] = 1588708711,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -114582,9 +114582,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 227,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1590267476,
 		["isBrawl"] = false,
+		["Time"] = 1590267476,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -114692,9 +114692,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 245,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1590267930,
 		["isBrawl"] = false,
+		["Time"] = 1590267930,
+		["isArena"] = true,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -114802,9 +114802,9 @@ REFlexDatabase = {
 		["PlayersNum"] = 4,
 		["Duration"] = 57,
 		["Hidden"] = false,
-		["isArena"] = true,
-		["Time"] = 1590268069,
 		["isBrawl"] = false,
+		["Time"] = 1590268069,
+		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -114829,8 +114829,6 @@ REFlexDatabase = {
 	}, -- [697]
 	{
 		["Map"] = 1504,
-		["PlayerNum"] = 1,
-		["StatsNum"] = 0,
 		["Players"] = {
 			{
 				"Fallkenez", -- [1]
@@ -114909,12 +114907,14 @@ REFlexDatabase = {
 				309, -- [17]
 			}, -- [4]
 		},
+		["StatsNum"] = 0,
+		["PlayerNum"] = 1,
 		["PlayersNum"] = 4,
 		["Duration"] = 78,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1595012008,
 		["isArena"] = true,
+		["Time"] = 1595012008,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -114939,8 +114939,6 @@ REFlexDatabase = {
 	}, -- [698]
 	{
 		["Map"] = 617,
-		["PlayerNum"] = 3,
-		["StatsNum"] = 0,
 		["Players"] = {
 			{
 				"Bèastmodè-TheMaelstrom", -- [1]
@@ -115019,12 +115017,14 @@ REFlexDatabase = {
 				19, -- [17]
 			}, -- [4]
 		},
+		["StatsNum"] = 0,
+		["PlayerNum"] = 3,
 		["PlayersNum"] = 4,
 		["Duration"] = 159,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1595012364,
 		["isArena"] = true,
+		["Time"] = 1595012364,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -115049,8 +115049,6 @@ REFlexDatabase = {
 	}, -- [699]
 	{
 		["Map"] = 572,
-		["PlayerNum"] = 2,
-		["StatsNum"] = 0,
 		["Players"] = {
 			{
 				"Mlord-Outland", -- [1]
@@ -115129,12 +115127,14 @@ REFlexDatabase = {
 				160, -- [17]
 			}, -- [4]
 		},
+		["StatsNum"] = 0,
+		["PlayerNum"] = 2,
 		["PlayersNum"] = 4,
 		["Duration"] = 271,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1595012763,
 		["isArena"] = true,
+		["Time"] = 1595012763,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -115159,8 +115159,6 @@ REFlexDatabase = {
 	}, -- [700]
 	{
 		["Map"] = 572,
-		["PlayerNum"] = 2,
-		["StatsNum"] = 0,
 		["Players"] = {
 			{
 				"Krecto-LesSentinelles", -- [1]
@@ -115239,12 +115237,14 @@ REFlexDatabase = {
 				36, -- [17]
 			}, -- [4]
 		},
+		["StatsNum"] = 0,
+		["PlayerNum"] = 2,
 		["PlayersNum"] = 4,
 		["Duration"] = 77,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1595012947,
 		["isArena"] = true,
+		["Time"] = 1595012947,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -115269,8 +115269,6 @@ REFlexDatabase = {
 	}, -- [701]
 	{
 		["Map"] = 1504,
-		["PlayerNum"] = 1,
-		["StatsNum"] = 0,
 		["Players"] = {
 			{
 				"Fallkenez", -- [1]
@@ -115349,12 +115347,14 @@ REFlexDatabase = {
 				285, -- [17]
 			}, -- [4]
 		},
+		["StatsNum"] = 0,
+		["PlayerNum"] = 1,
 		["PlayersNum"] = 4,
 		["Duration"] = 163,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1595013449,
 		["isArena"] = true,
+		["Time"] = 1595013449,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -115379,8 +115379,6 @@ REFlexDatabase = {
 	}, -- [702]
 	{
 		["Map"] = 1911,
-		["PlayerNum"] = 4,
-		["StatsNum"] = 0,
 		["Players"] = {
 			{
 				"Drummina-Draenor", -- [1]
@@ -115459,12 +115457,14 @@ REFlexDatabase = {
 				220, -- [17]
 			}, -- [4]
 		},
+		["StatsNum"] = 0,
+		["PlayerNum"] = 4,
 		["PlayersNum"] = 4,
 		["Duration"] = 74,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1595013616,
 		["isArena"] = true,
+		["Time"] = 1595013616,
+		["isBrawl"] = false,
 		["PlayerSide"] = 0,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -115489,8 +115489,6 @@ REFlexDatabase = {
 	}, -- [703]
 	{
 		["Map"] = 1672,
-		["PlayerNum"] = 3,
-		["StatsNum"] = 0,
 		["Players"] = {
 			{
 				"Alefa-Archimonde", -- [1]
@@ -115569,12 +115567,14 @@ REFlexDatabase = {
 				266, -- [17]
 			}, -- [4]
 		},
+		["StatsNum"] = 0,
+		["PlayerNum"] = 3,
 		["PlayersNum"] = 4,
 		["Duration"] = 71,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1595013766,
 		["isArena"] = true,
+		["Time"] = 1595013766,
+		["isBrawl"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
@@ -115599,12 +115599,6 @@ REFlexDatabase = {
 	}, -- [704]
 	{
 		["Map"] = 1672,
-		["Season"] = 29,
-		["StatsNum"] = 0,
-		["isBrawl"] = false,
-		["PlayersNum"] = 4,
-		["Duration"] = 136,
-		["Hidden"] = false,
 		["Players"] = {
 			{
 				"Triimaz-Archimonde", -- [1]
@@ -115683,13 +115677,19 @@ REFlexDatabase = {
 				312, -- [17]
 			}, -- [4]
 		},
-		["Version"] = 275,
+		["StatsNum"] = 0,
+		["Season"] = 29,
+		["PlayersNum"] = 4,
+		["Duration"] = 136,
+		["PlayerNum"] = 2,
 		["isArena"] = true,
+		["Version"] = 275,
+		["isBrawl"] = false,
 		["Time"] = 1595701366,
 		["isRated"] = true,
 		["PlayerSide"] = 1,
 		["Winner"] = 0,
-		["PlayerNum"] = 2,
+		["Hidden"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -115709,13 +115709,6 @@ REFlexDatabase = {
 	}, -- [705]
 	{
 		["Map"] = 1505,
-		["Hidden"] = false,
-		["StatsNum"] = 0,
-		["Time"] = 1595701683,
-		["PlayersNum"] = 4,
-		["Duration"] = 158,
-		["Season"] = 29,
-		["PlayerNum"] = 2,
 		["Players"] = {
 			{
 				"Fìnwë-Dalaran", -- [1]
@@ -115794,12 +115787,19 @@ REFlexDatabase = {
 				312, -- [17]
 			}, -- [4]
 		},
+		["StatsNum"] = 0,
+		["PlayerNum"] = 2,
+		["PlayersNum"] = 4,
+		["Duration"] = 158,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["Time"] = 1595701683,
 		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
 		["Winner"] = 0,
-		["isBrawl"] = false,
+		["Season"] = 29,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -115819,13 +115819,6 @@ REFlexDatabase = {
 	}, -- [706]
 	{
 		["Map"] = 1825,
-		["Hidden"] = false,
-		["StatsNum"] = 0,
-		["Time"] = 1595702614,
-		["PlayersNum"] = 6,
-		["Duration"] = 32,
-		["Season"] = 29,
-		["PlayerNum"] = 2,
 		["Players"] = {
 			{
 				"Tyrönë-Stormscale", -- [1]
@@ -115942,12 +115935,19 @@ REFlexDatabase = {
 				127, -- [17]
 			}, -- [6]
 		},
+		["StatsNum"] = 0,
+		["PlayerNum"] = 2,
+		["PlayersNum"] = 6,
+		["Duration"] = 32,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["Time"] = 1595702614,
 		["isArena"] = true,
 		["PlayerSide"] = 1,
 		["isRated"] = true,
 		["Version"] = 275,
 		["Winner"] = 0,
-		["isBrawl"] = false,
+		["Season"] = 29,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -115965,85 +115965,70 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 	}, -- [707]
-	{
-		["Map"] = 1220,
-		["StatsNum"] = 0,
-		["PlayersNum"] = 0,
-		["Duration"] = 0,
-		["Season"] = 29,
-		["Hidden"] = true,
-		["isArena"] = false,
-		["Time"] = 1595702875,
-		["isRated"] = false,
-		["Players"] = {
-		},
-		["Version"] = 275,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-	}, -- [708]
 }
 REFlexHonorDatabase = {
+	[1579730400] = 5390,
 	[1577052000] = 2560,
 	[1581372000] = 640,
-	[1580767200] = 2400,
+	[1576015200] = 395,
 	[1586030400] = 760,
-	[1579730400] = 5390,
-	[1578175200] = 1410,
+	[1584568800] = 1430,
+	[1582408800] = 720,
 	[1575928800] = 473,
-	[1588622400] = 1320,
-	[1583359200] = 2460,
+	[1590264000] = 340,
+	[1577656800] = 2455,
 	[1583964000] = 4237,
 	[1583445600] = 1348,
-	[1593115200] = 13,
-	[1586462400] = 620,
-	[1590264000] = 340,
-	[1576879200] = 2790,
+	[1588622400] = 1320,
+	[1583359200] = 2460,
+	[1581804000] = 1710,
+	[1584136800] = 477,
 	[1582840800] = 1558,
 	[1595620800] = 170,
-	[1592596800] = 5,
+	[1585857600] = 3140,
 	[1586980800] = 570,
 	[1578520800] = 250,
-	[1582754400] = 1577,
+	[1578780000] = 760,
 	[1590177600] = 43,
 	[1581717600] = 3150,
-	[1586376000] = 1110,
+	[1576101600] = 2549,
 	[1580076000] = 1460,
-	[1585857600] = 3140,
-	[1583618400] = 16,
-	[1583272800] = 1222,
-	[1580594400] = 300,
+	[1579557600] = 32,
 	[1587240000] = 410,
-	[1586289600] = 11,
+	[1583272800] = 1222,
+	[1586376000] = 1110,
 	[1578952800] = 283,
-	[1585260000] = 1480,
-	[1582149600] = 2290,
+	[1578261600] = 2214,
+	[1596571200] = 20,
 	[1579471200] = 1515,
+	[1582149600] = 2290,
 	[1594929600] = 630,
-	[1585346400] = 4893,
-	[1585771200] = 2330,
-	[1587844800] = 590,
-	[1584741600] = 1470,
 	[1578348000] = 220,
-	[1577743200] = 2270,
+	[1586289600] = 11,
+	[1585771200] = 2330,
+	[1577224800] = 1660,
+	[1588363200] = 1440,
+	[1581026400] = 760,
+	[1590523200] = 16,
 	[1579384800] = 90,
 	[1578866400] = 4549,
-	[1590523200] = 16,
-	[1588363200] = 1440,
-	[1577224800] = 1660,
-	[1581026400] = 760,
+	[1587844800] = 590,
+	[1577743200] = 2270,
+	[1584741600] = 1470,
+	[1585346400] = 4893,
 	[1586721600] = 1010,
-	[1578261600] = 2214,
+	[1585260000] = 1480,
 	[1591732800] = 2,
 	[1581458400] = 820,
-	[1578780000] = 760,
-	[1576101600] = 2549,
-	[1579557600] = 32,
-	[1584136800] = 477,
+	[1583618400] = 16,
+	[1582754400] = 1577,
+	[1580594400] = 300,
+	[1592596800] = 5,
+	[1576879200] = 2790,
+	[1586462400] = 620,
+	[1593115200] = 13,
 	[1585944000] = 1560,
-	[1582408800] = 720,
-	[1577656800] = 2455,
-	[1581804000] = 1710,
 	[1578693600] = 9,
-	[1576015200] = 395,
-	[1584568800] = 1430,
+	[1578175200] = 1410,
+	[1580767200] = 2400,
 }

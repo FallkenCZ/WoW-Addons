@@ -2,9 +2,10 @@
 ## Title: Raider.IO Mythic Plus and Raiding
 ## Notes: Shows Raider.IO Mythic+ Score and Raid Progress in-game. Make sure to load one or more region DB.
 ## Author: Vladinator (Voidzone-Ravencrest), Aspyr (Aspyrox-Skullcrusher) and Isak (Isak-Sargeras)
-## Version: 8.1.0 (v202007260744)
+## Version: 8.1.0 (v202008060742)
 ## SavedVariables: RaiderIO_Config, RaiderIO_LastCharacter, RaiderIO_MissingCharacters
 ## X-Website: https://raider.io
+## X-AddonProvider: raiderio-client
 
 db/db_regions.lua
 db/db_realms.lua

@@ -15,7 +15,7 @@ PasteDB = {
 		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
 		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
 		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
-		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
 		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
 		["Fallkenthicc - Burning Blade"] = "Fallkenthicc - Burning Blade",
 		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
@@ -29,7 +29,7 @@ PasteDB = {
 		["Fállken - Burning Blade"] = "Fállken - Burning Blade",
 		["Fällkên - Drak'thul"] = "Fällkên - Drak'thul",
 		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
-		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
 	},
 	["profiles"] = {
 		["Fállkén - Drak'thul"] = {
@@ -102,11 +102,8 @@ PasteDB = {
 				["hide"] = true,
 			},
 		},
-		["Fállkên - Drak'thul"] = {
+		["Fallkenji - Burning Blade"] = {
 			["loaded"] = true,
-			["minimap"] = {
-				["hide"] = true,
-			},
 		},
 		["Fallkenmekac - Burning Blade"] = {
 			["loaded"] = true,
@@ -139,14 +136,14 @@ PasteDB = {
 			},
 		},
 		["Fàllkén - Drak'thul"] = {
-			["whispertarget"] = "",
-			["where"] = "Default",
 			["loaded"] = true,
-			["pos"] = {
-			},
 			["minimap"] = {
 				["minimapPos"] = 347.480157565795,
 				["hide"] = true,
+			},
+			["where"] = "Default",
+			["whispertarget"] = "",
+			["pos"] = {
 			},
 		},
 		["Fâllken - Drak'thul"] = {
@@ -163,13 +160,13 @@ PasteDB = {
 			},
 		},
 		["Fallken - Burning Blade"] = {
+			["whispertarget"] = "",
+			["where"] = "Default",
 			["loaded"] = true,
 			["minimap"] = {
 				["minimapPos"] = 197.6601764358254,
 				["hide"] = true,
 			},
-			["where"] = "Default",
-			["whispertarget"] = "",
 			["pos"] = {
 				["height"] = 320,
 				["top"] = 576.39501953125,
@@ -201,15 +198,18 @@ PasteDB = {
 			["whispertarget"] = "",
 			["where"] = "Default",
 			["loaded"] = true,
+			["pos"] = {
+			},
 			["minimap"] = {
 				["minimapPos"] = 343.5810834464992,
 				["hide"] = true,
 			},
-			["pos"] = {
-			},
 		},
-		["Fallkenji - Burning Blade"] = {
+		["Fállkên - Drak'thul"] = {
 			["loaded"] = true,
+			["minimap"] = {
+				["hide"] = true,
+			},
 		},
 	},
 }

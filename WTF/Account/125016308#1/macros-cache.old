@@ -59,13 +59,18 @@ VER 3 0000000000000083 " " "INV_MISC_QUESTIONMARK"
 #showtooltip Remove Corruption
 /cast Shred
 END
-VER 3 000000000000007A " focus" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [@focus] Wild Charge
+VER 3 0000000000000085 " " "INV_MISC_QUESTIONMARK"
+/cleartarget
+/cast [@mouseover] Pick Pocket
+/script SetRaidTargetIcon("mouseover",1)
 END
 VER 3 0000000000000081 " focus" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@focus] Entangling Roots
+END
+VER 3 000000000000007A " focus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Wild Charge
 END
 VER 3 0000000000000065 " UI 1" "INV_MISC_QUESTIONMARK"
 /run MainMenuBarArtFrameBackground:Hide()
@@ -95,15 +100,6 @@ END
 VER 3 0000000000000080 "fishwq2" "INV_MISC_QUESTIONMARK"
 /run o=0 j=1 for i=1,24 do n,_,c,_,_,_,_,q=GetAchievementCriteriaInfo(10598,i) if q==0 then for k=1,#w[j] do o=Q(n,w[j][k]+41596,c) or o end j=j+1 else o=Q(n,q,c) or o end end if o==0 then print('No WQ') end
 END
-VER 3 0000000000000074 "focus" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [@focus] Mighty Bash
-END
-VER 3 000000000000007D "focus" "INV_MISC_QUESTIONMARK"
-#showtooltip Solar Beam
-/cast [@focus] Solar Beam
-/cast [@focus] Mass Entanglement
-END
 VER 3 0000000000000075 "focus" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@focus] Cyclone
@@ -112,13 +108,22 @@ VER 3 0000000000000077 "focus" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@focus] Mighty Bash
 END
-VER 3 0000000000000078 "focus" "INV_MISC_QUESTIONMARK"
+VER 3 000000000000007D "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip Solar Beam
+/cast [@focus] Solar Beam
+/cast [@focus] Mass Entanglement
+END
+VER 3 0000000000000074 "focus" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@focus] Maim
+/cast [@focus] Mighty Bash
 END
 VER 3 0000000000000076 "focus" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@focus] Skull Bash
+END
+VER 3 0000000000000078 "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Maim
 END
 VER 3 0000000000000005 "HS" "INV_MISC_QUESTIONMARK"
 #showtooltip Healthstone

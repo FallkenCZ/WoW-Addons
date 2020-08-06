@@ -14,7 +14,7 @@ DataStore_MailsDB = {
 		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
 		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
 		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
-		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
 		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
 		["Fállkén - Outland"] = "Fállkén - Outland",
 		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
@@ -28,7 +28,7 @@ DataStore_MailsDB = {
 		["Fallken - Burning Blade"] = "Fallken - Burning Blade",
 		["Fällkên - Drak'thul"] = "Fällkên - Drak'thul",
 		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
-		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -37,8 +37,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2019/10/19 10:17",
 			},
 			["Default.Drak'thul.Fàllkén"] = {
-				["lastUpdate"] = 1595710948,
-				["lastVisitDate"] = "2020/07/25 23:02",
+				["lastUpdate"] = 1596670195,
+				["lastVisitDate"] = "2020/08/06 01:29",
 			},
 			["Default.Burning Blade.Fallkenthicc"] = {
 				["lastUpdate"] = 1593736283,
@@ -85,8 +85,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2020/06/01 23:44",
 			},
 			["Default.Burning Blade.Fallken"] = {
-				["lastUpdate"] = 1595711081,
-				["lastVisitDate"] = "2020/07/25 23:04",
+				["lastUpdate"] = 1596660231,
+				["lastVisitDate"] = "2020/08/05 22:43",
 			},
 			["Default.Drak'thul.Faallken"] = {
 				["lastUpdate"] = 1593907050,
@@ -96,9 +96,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1593554628,
 				["lastVisitDate"] = "2020/07/01 00:03",
 			},
-			["Default.Drak'thul.Fàllkên"] = {
-				["lastUpdate"] = 1593907876,
-				["lastVisitDate"] = "2020/07/05 02:11",
+			["Default.Drak'thul.Fållkên"] = {
+				["lastUpdate"] = 1593905999,
+				["lastVisitDate"] = "2020/07/05 01:39",
 			},
 			["Default.Burning Blade.Fallkenji"] = {
 				["lastUpdate"] = 1591571085,
@@ -120,9 +120,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1577049955,
 				["lastVisitDate"] = "2019/12/22 22:25",
 			},
-			["Default.Drak'thul.Fållkên"] = {
-				["lastUpdate"] = 1593905999,
-				["lastVisitDate"] = "2020/07/05 01:39",
+			["Default.Drak'thul.Fàllkên"] = {
+				["lastUpdate"] = 1593907876,
+				["lastVisitDate"] = "2020/07/05 02:11",
 			},
 			["Default.Burning Blade.Fállkèn"] = {
 				["lastUpdate"] = 1593195288,
@@ -133,8 +133,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2020/06/02 01:49",
 			},
 			["Default.Drak'thul.Fallkenez"] = {
-				["lastUpdate"] = 1595706581,
-				["lastVisitDate"] = "2020/07/25 21:49",
+				["lastUpdate"] = 1596661792,
+				["lastVisitDate"] = "2020/08/05 23:09",
 			},
 		},
 	},

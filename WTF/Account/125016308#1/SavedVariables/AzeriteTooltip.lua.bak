@@ -15,7 +15,7 @@ AzeriteTooltipDB = {
 		["Fàllkèn - Burning Blade"] = "Default",
 		["Gfgdhfdghfgh - Burning Blade"] = "Default",
 		["Fållken - Burning Blade"] = "Default",
-		["Fállkên - Drak'thul"] = "Default",
+		["Fallkenji - Burning Blade"] = "Default",
 		["Fallkenmekac - Burning Blade"] = "Default",
 		["Fallkenthicc - Burning Blade"] = "Default",
 		["Fållkên - Drak'thul"] = "Default",
@@ -29,7 +29,7 @@ AzeriteTooltipDB = {
 		["Fallken - Burning Blade"] = "Default",
 		["Fällkên - Drak'thul"] = "Default",
 		["Fallkenez - Drak'thul"] = "Default",
-		["Fallkenji - Burning Blade"] = "Default",
+		["Fállkên - Drak'thul"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

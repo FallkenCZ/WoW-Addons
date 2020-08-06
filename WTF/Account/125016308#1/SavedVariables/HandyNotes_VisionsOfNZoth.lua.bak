@@ -20,7 +20,7 @@ HandyNotes_VisionsOfNZothDB = {
 		["Fàllkèn - Burning Blade"] = "Default",
 		["Gfgdhfdghfgh - Burning Blade"] = "Default",
 		["Fållken - Burning Blade"] = "Default",
-		["Fallkên - Drak'thul"] = "Default",
+		["Fállkên - Drak'thul"] = "Default",
 		["Fallken - Burning Blade"] = "Default",
 		["Fallkenchoco - Burning Blade"] = "Default",
 		["Fållkên - Drak'thul"] = "Default",
@@ -34,7 +34,7 @@ HandyNotes_VisionsOfNZothDB = {
 		["Fallkenji - Burning Blade"] = "Default",
 		["Fällkên - Drak'thul"] = "Default",
 		["Fallkenez - Drak'thul"] = "Default",
-		["Fállkên - Drak'thul"] = "Default",
+		["Fallkên - Drak'thul"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

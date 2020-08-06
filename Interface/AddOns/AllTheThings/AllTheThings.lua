@@ -1004,6 +1004,15 @@ local function GetDisplayID(data)
 		return app.NPCDisplayIDFromID[data.qgs[1]];
 	end
 end
+local function GetUnobtainableTexture(group)
+	local index = L["UNOBTAINABLE_ITEM_REASONS"][group.u or 1][1];
+	if group.itemID or group.spellID then
+		if not group.b or group.b == 2 or group.b == 3 then
+			index = 3;
+		end
+	end
+	return L["UNOBTAINABLE_ITEM_TEXTURES"][index or 1];
+end
 local function SetPortraitIcon(self, data, x)
 	self.lastData = data;
 	local displayID = GetDisplayID(data);
@@ -2174,7 +2183,7 @@ local function BuildContainsInfo(groups, entries, paramA, paramB, indent, layer)
 			if right then
 				-- Insert into the display.
 				local o = { prefix = indent, group = group, right = right };
-				if group.u then o.prefix = string.sub(o.prefix, 4) .. "|T" .. L["UNOBTAINABLE_ITEM_TEXTURES"][L["UNOBTAINABLE_ITEM_REASONS"][group.u][1]] .. ":0|t "; end
+				if group.u then o.prefix = string.sub(o.prefix, 4) .. "|T" .. GetUnobtainableTexture(group) .. ":0|t "; end
 				tinsert(entries, o);
 				
 				-- Only go down one more level.
@@ -2298,6 +2307,32 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 			end
 			
 			group = regroup;
+		elseif paramA == "azeriteEssenceID" then
+			local regroup = {};
+			local rank = ...;
+			if app.Settings:Get("AccountMode") then
+				for i,j in ipairs(group) do
+					if j.rank == rank and app.RecursiveUnobtainableFilter(j) then
+						if j.mapID or j.parent == nil or j.parent.parent == nil then
+							tinsert(regroup, setmetatable({["g"] = {}}, { __index = j }));
+						else
+							tinsert(regroup, j);
+						end
+					end
+				end
+			else
+				for i,j in ipairs(group) do
+					if j.rank == rank and app.RecursiveClassAndRaceFilter(j) and app.RecursiveUnobtainableFilter(j) and app.RecursiveGroupRequirementsFilter(j) then
+						if j.mapID or j.parent == nil or j.parent.parent == nil then
+							tinsert(regroup, setmetatable({["g"] = {}}, { __index = j }));
+						else
+							tinsert(regroup, j);
+						end
+					end
+				end
+			end
+			
+			group = regroup;
 		elseif paramA == "titleID" then
 			-- Don't do anything
 			local regroup = {};
@@ -2348,11 +2383,15 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 						paramB = itemID;
 					end
 					if #group > 0 then
-						local first = group[1];
-						if first.s then sourceID = first.s; end
-						if first.u and first.u == 7 and numBonusIds and numBonusIds ~= "" and tonumber(numBonusIds) > 0 then
-							tinsert(info, { left = L["RECENTLY_MADE_OBTAINABLE"] });
-							tinsert(info, { left = L["RECENTLY_MADE_OBTAINABLE_PT2"] });
+						for i,j in ipairs(group) do
+							if j.itemID == itemID then
+								if j.s then
+									sourceID = j.s;
+								end
+								if j.u and j.u == 2 and (not j.b or j.b == 2 or j.b == 3) and numBonusIds and numBonusIds ~= "" and tonumber(numBonusIds) > 0 then
+									tinsert(info, { left = L["RECENTLY_MADE_OBTAINABLE"] });
+								end
+							end
 						end
 					end
 				else
@@ -2377,8 +2416,11 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 			elseif paramA == "itemID" then
 				itemID = paramB;
 				if #group > 0 then
-					local first = group[1];
-					if first.s then sourceID = first.s; end
+					for i,j in ipairs(group) do
+						if j.itemID == itemID and j.s then
+							sourceID = j.s;
+						end
+					end
 				end
 			end
 			
@@ -2408,7 +2450,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 												working = true;
 											end
 											if group[1].u then
-												local texture = L["UNOBTAINABLE_ITEM_TEXTURES"][L["UNOBTAINABLE_ITEM_REASONS"][group[1].u or 1][1]];
+												local texture = GetUnobtainableTexture(group[1]);
 												if texture then
 													text = "|T" .. texture .. ":0|t";
 												else
@@ -2432,7 +2474,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 													working = true;
 												end
 												if otherATTSource.u then
-													local texture = L["UNOBTAINABLE_ITEM_TEXTURES"][L["UNOBTAINABLE_ITEM_REASONS"][otherATTSource.u or 1][1]];
+													local texture = GetUnobtainableTexture(otherATTSource);
 													if texture then
 														text = "|T" .. texture .. ":0|t";
 													else
@@ -2467,7 +2509,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 												working = true;
 											end
 											if group[1].u then
-												local texture = L["UNOBTAINABLE_ITEM_TEXTURES"][L["UNOBTAINABLE_ITEM_REASONS"][group[1].u or 1][1]];
+												local texture = GetUnobtainableTexture(group[1]);
 												if texture then
 													text = "|T" .. texture .. ":0|t";
 												else
@@ -2491,7 +2533,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 												working = true;
 											end
 											if otherATTSource.u then
-												local texture = L["UNOBTAINABLE_ITEM_TEXTURES"][L["UNOBTAINABLE_ITEM_REASONS"][otherATTSource.u or 1][1]];
+												local texture = GetUnobtainableTexture(otherATTSource);
 												if texture then
 													text = "|T" .. texture .. ":0|t";
 												else
@@ -2705,7 +2747,7 @@ local function GetCachedSearchResults(search, method, paramA, paramB, ...)
 						text = string.gsub(text, source,replacement);
 					end
 					if j.u then
-						tinsert(unfiltered, text .. " |T" .. L["UNOBTAINABLE_ITEM_TEXTURES"][L["UNOBTAINABLE_ITEM_REASONS"][j.u][1]] .. ":0|t");
+						tinsert(unfiltered, text .. " |T" .. GetUnobtainableTexture(j) .. ":0|t");
 					elseif not app.RecursiveClassAndRaceFilter(j.parent) then
 						tinsert(unfiltered, text .. " |TInterface\\FriendsFrame\\StatusIcon-Away:0|t");
 					elseif not app.RecursiveUnobtainableFilter(j.parent) then
@@ -3197,6 +3239,16 @@ end
 app.SearchForField = SearchForField;
 
 -- Item Information Lib
+local function SearchForRelativeItems(group, listing)
+	if group and group.g then
+		for i,subgroup in ipairs(group.g) do
+			SearchForRelativeItems(subgroup, listing);
+			if subgroup.itemID then
+				tinsert(listing, subgroup);
+			end
+		end
+	end
+end
 local function SearchForSourceIDQuickly(sourceID)
 	if sourceID and sourceID > 0 and app:GetDataCache() then
 		local group = rawget(rawget(fieldCache, "s"),sourceID);
@@ -3361,7 +3413,7 @@ app.SearchForLink = SearchForLink;
 
 -- Map Information Lib
 local function AddTomTomWaypoint(group, auto)
-	if TomTom and (group.visible or (app.Settings:Get("DebugMode"))) then
+	if TomTom and (group.visible or (group.objectiveID and not group.saved) or (app.Settings:Get("DebugMode"))) then
 		if group.coords or group.coord then
 			local opt = {
 				title = group.text or group.link,
@@ -4394,7 +4446,15 @@ app.BaseAzeriteEssence = {
 			return true;
 		elseif key == "collected" then
 			local info = t.info;
-			if info and info.unlocked then return 1; end
+			if info and info.unlocked then
+				if t.rank and info.rank then
+					if info.rank >= t.rank then
+						return 1;
+					end
+				else
+					return 1;
+				end
+			end
 		elseif key == "text" then
 			return t.link;
 		elseif key == "lvl" then
@@ -4754,15 +4814,15 @@ app.BaseFaction = {
 				SetDataSubMember("CollectedFactions", t.factionID, 1);
 				return 1;
 			end
-			if t.achievementID then
-				return select(4, GetAchievementInfo(t.achievementID));
-			end
 			if t.altAchievements then
 				for i,achID in ipairs(t.altAchievements) do
-					if select(4, GetAchievementInfo(achID)) or true then
+					if select(4, GetAchievementInfo(achID)) then
 						return 2;
 					end
 				end
+			end
+			if t.achievementID then
+				return select(4, GetAchievementInfo(t.achievementID));
 			end
 		elseif key == "text" then
 			local rgb = FACTION_BAR_COLORS[t.standing + (t.isFriend and 2 or 0)];
@@ -5527,10 +5587,16 @@ local function GetHolidayCache()
 		SetTempDataMember("HOLIDAY_CACHE", cache);
 		SetDataMember("HOLIDAY_CACHE", cache);
 		local date = C_Calendar.GetDate();
-		C_Calendar.SetAbsMonth(date.month, date.year);
+		if date.month > 8 then
+			C_Calendar.SetAbsMonth(date.month - 8, date.year);
+		else
+			C_Calendar.SetAbsMonth(date.month + 4, date.year - 1);
+		end
+		
 		for month=1,12,1 do
 			C_Calendar.SetMonth(1);
-			for day=1,31,1 do
+			local monthInfo = C_Calendar.GetMonthInfo();
+			for day=1,monthInfo.numDays,1 do
 				local numEvents = C_Calendar.GetNumDayEvents(0, day);
 				if numEvents > 0 then
 					for index=1,numEvents,1 do
@@ -6391,6 +6457,74 @@ app.BaseQuest = {
 };
 app.CreateQuest = function(id, t)
 	return setmetatable(constructor(id, t, "questID"), app.BaseQuest);
+end
+app.BaseQuestObjective = {
+	__index = function(t, key)
+		if key == "key" then
+			return "objectiveID";
+		elseif key == "text" then
+			local questID = t.parent.questID;
+			if questID then
+				local objectives = C_QuestLog.GetQuestObjectives(questID);
+				if objectives then
+					local objective = objectives[t.objectiveID];
+					if objective then
+						return objective.text;
+					end
+				end
+				return RETRIEVING_DATA;
+			end
+			return "INVALID: Must be relative to a Quest Object.";
+		elseif key == "questID" then
+			return t.parent.questID;
+		elseif key == "objectiveID" then
+			return 1;
+		elseif key == "icon" then
+			if t.providers then
+				for k,v in pairs(t.providers) do
+					if v[2] > 0 then
+						if v[1] == "o" then
+							return L["OBJECT_ID_ICONS"][v[2]] or "Interface\\Worldmap\\Gear_64Grey"
+						elseif v[1] == "i" then
+							local _,_,_,_,icon = GetItemInfoInstant(v[2]);
+							if icon then
+								return icon
+							end
+						end
+					end
+				end
+			end
+			return t.parent.icon or "Interface\\Worldmap\\Gear_64Grey";
+		elseif key == "trackable" then
+			return true;
+		elseif key == "collectible" then
+			return false;
+		elseif key == "repeatable" then
+			return t.parent.repeatable;
+		elseif key == "saved" then
+			-- If the parent is saved, return immediately.
+			local saved = t.parent.saved;
+			if saved then return saved; end
+			
+			-- Check to see if the objective was completed.
+			local questID = t.parent.questID;
+			if questID then
+				local objectives = C_QuestLog.GetQuestObjectives(questID);
+				if objectives then
+					local objective = objectives[t.objectiveID];
+					if objective then
+						return objective.finished and 1;
+					end
+				end
+			end
+		else
+			-- Something that isn't dynamic.
+			return table[key];
+		end
+	end
+};
+app.CreateQuestObjective = function(id, t)
+	return setmetatable(constructor(id, t, "objectiveID"), app.BaseQuestObjective);
 end
 local function RefreshQuestCompletionState(questID)
 	if questID ~= nil then
@@ -8214,7 +8348,7 @@ function app:CreateMiniListForGroup(group)
 			end;
 		elseif group.questID or group.sourceQuests then
 			-- This is a quest object. Let's show prereqs and breadcrumbs.
-			if group.questID ~= nil and group.parent.questID == group.questID then
+			if group.questID ~= nil and group.parent and group.parent.questID == group.questID then
 				group = group.parent;
             end
 			local root = CloneData(group);
@@ -8484,14 +8618,11 @@ local function SetRowData(self, row, data)
 			row.Background:Show();
 		end
 		if data.u then
-			local reason = L["UNOBTAINABLE_ITEM_REASONS"][data.u or 1];
-			if reason then
-				local texture = L["UNOBTAINABLE_ITEM_TEXTURES"][reason[1]];
-				if texture then
-					row.Indicator:SetTexture(texture);
-					row.Indicator:SetPoint("RIGHT", leftmost, relative, x, 0);
-					row.Indicator:Show();
-				end
+			local texture = GetUnobtainableTexture(data);
+			if texture then
+				row.Indicator:SetTexture(texture);
+				row.Indicator:SetPoint("RIGHT", leftmost, relative, x, 0);
+				row.Indicator:Show();
 			end
 		end
 		if data.saved then
@@ -8958,7 +9089,10 @@ local function RowOnEnter(self)
 		if reference.f and reference.f > 0 and app.Settings:GetTooltipSetting("filterID") then GameTooltip:AddDoubleLine(L["FILTER_ID"], tostring(L["FILTER_ID_TYPES"][reference.f])); end
 		if reference.achievementID and app.Settings:GetTooltipSetting("achievementID") then GameTooltip:AddDoubleLine(L["ACHIEVEMENT_ID"], tostring(reference.achievementID)); end
 		if reference.artifactID and app.Settings:GetTooltipSetting("artifactID") then GameTooltip:AddDoubleLine(L["ARTIFACT_ID"], tostring(reference.artifactID)); end
-		if reference.azeriteEssenceID and app.Settings:GetTooltipSetting("azeriteEssenceID") then GameTooltip:AddDoubleLine(L["AZERITE_ESSENCE_ID"], tostring(reference.azeriteEssenceID)); end
+		if reference.azeriteEssenceID then
+			if app.Settings:GetTooltipSetting("azeriteEssenceID") then GameTooltip:AddDoubleLine(L["AZERITE_ESSENCE_ID"], tostring(reference.azeriteEssenceID)); end
+			AttachTooltipSearchResults(GameTooltip, "azeriteEssenceID:" .. reference.azeriteEssenceID .. (reference.rank or 0), SearchForField, "azeriteEssenceID", reference.azeriteEssenceID, reference.rank);
+		end
 		if reference.difficultyID and app.Settings:GetTooltipSetting("difficultyID") then GameTooltip:AddDoubleLine(L["DIFFICULTY_ID"], tostring(reference.difficultyID)); end
 		if app.Settings:GetTooltipSetting("creatureID") then 
 			if reference.creatureID then
@@ -9189,6 +9323,107 @@ local function RowOnEnter(self)
 			if right and right ~= "" and right ~= "---" then
 				GameTooltipTextRight1:SetText(right);
 				GameTooltipTextRight1:Show();
+			end
+		end
+		
+		-- Calculate Best Drop Percentage. (Legacy Loot Mode)
+		if reference.itemID and not reference.speciesID and not reference.spellID then
+			local numSpecializations = GetNumSpecializations();
+			if numSpecializations and numSpecializations > 0 then
+				local encounterID = GetRelativeValue(reference.parent, "encounterID");
+				if encounterID then
+					local difficultyID = GetRelativeValue(reference.parent, "difficultyID");
+					local encounterCache = fieldCache["encounterID"][encounterID];
+					if encounterCache then
+						local itemList = {};
+						for i,encounter in ipairs(encounterCache) do
+							if encounter.g and GetRelativeValue(encounter.parent, "difficultyID") == difficultyID then
+								SearchForRelativeItems(encounter, itemList);
+							end
+						end
+						local specHits = {};
+						for i,item in ipairs(itemList) do
+							local specs = item.specs;
+							if specs then
+								for j,spec in ipairs(specs) do
+									specHits[spec] = (specHits[spec] or 0) + 1;
+								end
+							end
+						end
+						
+						local totalItems = #itemList;
+						local currentSpecID = select(1, GetSpecializationInfo(GetSpecialization()));
+						
+						local specs = reference.specs;
+						if specs and #specs > 0 then
+							local mySpecs = {};
+							for i=1,numSpecializations,1 do
+								mySpecs[select(1, GetSpecializationInfo(i))] = true;
+							end
+							
+							-- Available for one or more loot specialization.
+							local least, bestSpecID = 99999999;
+							local matchingSpecs = {};
+							for i,spec in ipairs(specs) do
+								local specHit = specHits[spec] or 0;
+								if mySpecs[spec] then
+									matchingSpecs[spec] = true;
+									
+									-- For Personal Loot!
+									if specHit < least then
+										least = specHit;
+										bestSpecID = spec;
+									end
+								end
+							end
+							if bestSpecID then
+								local chance = (1 / specHits[bestSpecID]) * 100;
+								local id, name, description, icon = GetSpecializationInfoByID(bestSpecID);
+								GameTooltip:AddDoubleLine(C_Loot.IsLegacyLootModeEnabled() and "Bonus Roll" or "Personal Loot",  GetNumberWithZeros(chance, 2) .. "% (" .. GetNumberWithZeros(chance / 5, 2) .. "%) |T" .. icon .. ":0|t " .. name);
+							end
+							if C_Loot.IsLegacyLootModeEnabled() then
+								local most, bestLegacySpecID = 0, -1;
+								for spec,_ in ipairs(mySpecs) do
+									local specHit = specHits[spec] or 0;
+									if not matchingSpecs[spec] then
+										if specHit > most then
+											most = specHit;
+											bestLegacySpecID = spec;
+										end
+									end
+								end
+								if bestLegacySpecID < 0 then
+									bestLegacySpecID = select(1, GetSpecializationInfo(1));
+								end
+								
+								local legacyMatchChance = ((1 / specHits[bestSpecID]) * 100) / 5;
+								local legacyNoMatchChance = ((1 / (totalItems - specHits[bestLegacySpecID])) * 100) * (4/5);
+								if legacyMatchChance > legacyNoMatchChance then
+									local id, name, description, icon = GetSpecializationInfoByID(bestSpecID);
+									GameTooltip:AddDoubleLine("Legacy Loot", GetNumberWithZeros(legacyMatchChance, 2) .. "% |T" .. icon .. ":0|t " .. name);
+								else
+									local id, name, description, icon = GetSpecializationInfoByID(bestLegacySpecID);
+									GameTooltip:AddDoubleLine("Legacy Loot", GetNumberWithZeros(legacyNoMatchChance, 2) .. "% |T" .. icon .. ":0|t " .. name);
+								end
+							end
+						elseif C_Loot.IsLegacyLootModeEnabled() then
+							-- Not available at all, best loot spec is the one with the most number of items in it.
+							local most, bestSpecID = 0;
+							for i=1,numSpecializations,1 do
+								local id = GetSpecializationInfo(i);
+								local specHit = specHits[id] or 0;
+								if specHit > most then
+									most = specHit;
+									bestSpecID = i;
+								end
+							end
+							if bestSpecID then
+								local id, name, description, icon = GetSpecializationInfo(bestSpecID);
+								GameTooltip:AddDoubleLine("Legacy Loot", GetNumberWithZeros((1 / (totalItems - specHits[id])) * 100, 2) .. "% |T" .. icon .. ":0|t " .. name);
+							end
+						end
+					end
+				end
 			end
 		end
 		
@@ -9531,6 +9766,18 @@ function app:GetDataCache()
 		end
 		
 		-- Azerite Essences
+		if app.Categories.Essences then
+			db = {}
+			db.lvl = 120
+			db.expanded = false
+			db.text = "Azerite Essences"
+			db.icon = "Interface\\ICONS\\Inv_heartofazeroth"
+			db.description = "Essences have two effects on them, one major and one minor power.\n\nPlayers may place an Essence in every unlocked Major or Minor slot in the Heart of Azeroth.\n\nThe major power will only be activated if the Essence is placed in the central Major slot.\n\nThe minor power will be activated if the Essence is placed in any Minor slot or the central Major slot.\n\nThe same Essence cannot be placed in multiple slots.\n\nEssences must be learned at the Heart Forge, but can be swapped out in any Rest Area."
+			db.g = app.Categories.Essences
+			table.insert(g, db)
+		end
+		--[[ automated category replaced by manual database. leaving this here temporarily as a reference point
+		-- TODO: Remove commented code when finished with essences.
 		db = {};
 		db.g = {};
 		db.lvl = 120;
@@ -9557,7 +9804,7 @@ function app:GetDataCache()
 		db.icon = "Interface\\ICONS\\Inv_heartofazeroth";
 		db.description = "Essences have two effects on them, one major and one minor power.\n\nPlayers may place an Essence in every unlocked Major or Minor slot in the Heart of Azeroth.\n\nThe major power will only be activated if the Essence is placed in the central Major slot.\n\nThe minor power will be activated if the Essence is placed in any Minor slot or the central Major slot.\n\nThe same Essence cannot be placed in multiple slots.\n\nEssences must be learned at the Heart Forge, but can be swapped out in any Rest Area.";
 		table.insert(g, db);
-		
+		]]--
 		-- Expansion Features
 		if app.Categories.ExpansionFeatures then
 			db = {};
@@ -10232,6 +10479,40 @@ function app:GetWindow(suffix, parent, onUpdate)
 		window:Update(true);
 	end
 	return window;
+end
+function app:BuildSearchResponse(groups, field, value)
+	if groups then
+		local t;
+		if type(field) == "function" then
+			for i,group in ipairs(groups) do
+				if field(group) then
+					if not t then t = {}; end
+					tinsert(t, CloneData(group));
+				elseif group.g then
+					local response = app:BuildSearchResponse(group.g, field, value);
+					if response then
+						if not t then t = {}; end
+						tinsert(t, setmetatable({g=response}, { __index = group }));
+					end
+				end
+			end
+		else
+			for i,group in ipairs(groups) do
+				local v = group[field];
+				if v and v == value then
+					if not t then t = {}; end
+					tinsert(t, CloneData(group));
+				elseif group.g then
+					local response = app:BuildSearchResponse(group.g, field, value);
+					if response then
+						if not t then t = {}; end
+						tinsert(t, setmetatable({g=response}, { __index = group }));
+					end
+				end
+			end
+		end
+		return t;
+	end
 end
 end)();
 
@@ -12060,6 +12341,24 @@ app:GetWindow("Tradeskills", UIParent, function(self, ...)
 					for i,group in ipairs(app.Categories.Professions) do
 						if group.requireSkill == tradeSkillID then
 							self.data = CloneData(group);
+							local requireSkill = self.data.requireSkill;
+							local response = app:BuildSearchResponse(app.Categories.Instances, "requireSkill", requireSkill);
+							if response then tinsert(self.data.g, {text=GROUP_FINDER,icon = "Interface\\LFGFRAME\\LFGIcon-ReturntoKarazhan",g=response}); end
+							response = app:BuildSearchResponse(app.Categories.Zones, "requireSkill", requireSkill);
+							if response then tinsert(self.data.g, {text=BUG_CATEGORY2,icon = "Interface/ICONS/INV_Misc_Map_01",g=response});  end
+							response = app:BuildSearchResponse(app.Categories.WorldDrops, "requireSkill", requireSkill);
+							if response then tinsert(self.data.g, {text=TRANSMOG_SOURCE_4,icon = "Interface/ICONS/INV_Misc_Map_01",g=response});  end
+							response = app:BuildSearchResponse(app.Categories.ExpansionFeatures, "requireSkill", requireSkill);
+							if response then tinsert(self.data.g, {text=GetCategoryInfo(15301),icon = "Interface\\ICONS\\Achievement_Battleground_TempleOfKotmogu_02_Green",g=response});  end
+							response = app:BuildSearchResponse(app.Categories.WorldEvents, "requireSkill", requireSkill)
+							if response then tinsert(self.data.g, app.CreateDifficulty(18, {icon = "Interface\\Icons\\inv_misc_celebrationcake_01",g=response}));  end
+							response = app:BuildSearchResponse(app.Categories.Craftables, function(o)
+								if (o.npcID and o.npcID < 0 and o.text == group.text) or (o.requireSkill and o.requireSkill == requireSkill) then
+									return true;
+								end
+							end);
+							if response then tinsert(self.data.g, {text=LOOT_JOURNAL_LEGENDARIES_SOURCE_CRAFTED_ITEM,icon = "Interface\\ICONS\\ability_repair",g=response});  end
+							
 							self.data.indent = 0;
 							self.data.visible = true;
 							BuildGroups(self.data, self.data.g);
@@ -12186,7 +12485,7 @@ app:GetWindow("Tradeskills", UIParent, function(self, ...)
 		return;
 	end
 	if self:IsVisible() then
-		if TSM_API then
+		if TSM_API and TSMAPI_FOUR then
 			if not self.cachedTSMFrame then
 				for i,f in ipairs({UIParent:GetChildren()}) do
 					if f.headerBgCenter then

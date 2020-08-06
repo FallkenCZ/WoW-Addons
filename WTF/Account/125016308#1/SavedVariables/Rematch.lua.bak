@@ -2039,30 +2039,30 @@ RematchSaved = {
 		["tab"] = 3,
 		["teamName"] = "Vil'thik Hatchling",
 	},
-	["Wastewalker Shu (2)"] = {
+	[162465] = {
 		{
-			"BattlePet-0-000006C44A7D", -- [1]
-			421, -- [2]
-			440, -- [3]
-			595, -- [4]
-			557, -- [5]
+			"BattlePet-0-0000080E4FF7", -- [1]
+			422, -- [2]
+			218, -- [3]
+			652, -- [4]
+			1238, -- [5]
 		}, -- [1]
 		{
-			"BattlePet-0-000006C449B2", -- [1]
-			515, -- [2]
-			282, -- [3]
-			779, -- [4]
-			339, -- [5]
+			"BattlePet-0-000006C449B9", -- [1]
+			1370, -- [2]
+			919, -- [3]
+			581, -- [4]
+			1532, -- [5]
 		}, -- [2]
 		{
-			"BattlePet-0-000006C449FF", -- [1]
-			0, -- [2]
-			0, -- [3]
-			0, -- [4]
-			1426, -- [5]
+			"BattlePet-0-000006C44ADC", -- [1]
+			921, -- [2]
+			364, -- [3]
+			919, -- [4]
+			1211, -- [5]
 		}, -- [3]
-		["tab"] = 10,
-		["notes"] = "Strategy added by Suddenimpact04\nStrategy modified from Carry Pet Strategy (https://wow-petguide.com/index.php?Strategy=246)\n\nTurn 1: Arcane Blast\nTurn 2: Moonfire\nTurn 3: Evanescence\nTurn 4+: Arcane Blast until Crusher dies\nPounder comes in\nTurn 1: Evanescence\nTurn 2: Moonfire\nTurn 3+: Arcane Blast until Pounder dies\nMutilator comes in\nTurn 1: Arcane Blast\nTurn 2: Evanescence\nTurn 3+: Arcane Blast until your Hatchling dies. \nBring in Darkmoon Zeppelin\nTurns 1+: Flyby until Mutilator is below 618 HP\nThen:: Explode\n",
+		["tab"] = 3,
+		["teamName"] = "Aqir Sandcrawler",
 	},
 	[71934] = {
 		{
@@ -2116,30 +2116,26 @@ RematchSaved = {
 		["notes"] = "Strategy added by Nyari\nTurn 1: Curse of Doom\nTurn 2: Pass\nTurn 3: Haunt\nBring in Ikky\nTurn 1: Black Claw\nTurns 2+: Flock - Bleakclaw dies\nAn enemy pet comes in\nTurns 1+: Savage Talon until Ikky dies\nBring in your Emerald Proto-Whelp\nTurn 1: Emerald Presence\nTurn 2: Emerald Dream\nTurns 3+: Keep Emerald Presence active and use Emerald Bite otherwise. Use Emerald Dream again if you drop low on health.\n",
 		["teamName"] = "Bleakclaw",
 	},
-	[162465] = {
+	[105386] = {
 		{
-			"BattlePet-0-0000080E4FF7", -- [1]
-			422, -- [2]
-			218, -- [3]
-			652, -- [4]
-			1238, -- [5]
+			"BattlePet-0-0000073DEDCD", -- [1]
+			384, -- [2]
+			1105, -- [3]
+			282, -- [4]
+			1450, -- [5]
 		}, -- [1]
 		{
-			"BattlePet-0-000006C449B9", -- [1]
-			1370, -- [2]
-			919, -- [3]
-			581, -- [4]
-			1532, -- [5]
+			"BattlePet-0-0000080E5EDE", -- [1]
+			0, -- [2]
+			0, -- [3]
+			282, -- [4]
+			844, -- [5]
 		}, -- [2]
 		{
-			"BattlePet-0-000006C44ADC", -- [1]
-			921, -- [2]
-			364, -- [3]
-			919, -- [4]
-			1211, -- [5]
+			0, -- [1]
 		}, -- [3]
-		["tab"] = 3,
-		["teamName"] = "Aqir Sandcrawler",
+		["teamName"] = "Rydyr",
+		["notes"] = "Strategy added by Threewolves\nI always wanted to be somebody, but now I realize I should have been more specific.\n\nTurn 1: Reflective Shield\nTurn 2: Metal Fist\nTurn 3: Explode\nBring in Any pet with Explode ability.\nTurn 1: Explode or Burst.\n",
 	},
 	[146002] = {
 		{
@@ -2167,26 +2163,30 @@ RematchSaved = {
 		["notes"] = "Strategy added by schlumpf#2707\nIt isn&#039;t too unlikely to just two-moth this.\n\nPriority 1: Moth Dust\nPriority 2: Cocoon Strike\nPriority 3: Alpha Strike\n",
 		["teamName"] = "Gnomeregan Guard Wolf",
 	},
-	[105386] = {
+	["Wastewalker Shu (2)"] = {
 		{
-			"BattlePet-0-0000073DEDCD", -- [1]
-			384, -- [2]
-			1105, -- [3]
-			282, -- [4]
-			1450, -- [5]
+			"BattlePet-0-000006C44A7D", -- [1]
+			421, -- [2]
+			440, -- [3]
+			595, -- [4]
+			557, -- [5]
 		}, -- [1]
 		{
-			"BattlePet-0-0000080E5EDE", -- [1]
-			0, -- [2]
-			0, -- [3]
-			282, -- [4]
-			844, -- [5]
+			"BattlePet-0-000006C449B2", -- [1]
+			515, -- [2]
+			282, -- [3]
+			779, -- [4]
+			339, -- [5]
 		}, -- [2]
 		{
-			0, -- [1]
+			"BattlePet-0-000006C449FF", -- [1]
+			0, -- [2]
+			0, -- [3]
+			0, -- [4]
+			1426, -- [5]
 		}, -- [3]
-		["teamName"] = "Rydyr",
-		["notes"] = "Strategy added by Threewolves\nI always wanted to be somebody, but now I realize I should have been more specific.\n\nTurn 1: Reflective Shield\nTurn 2: Metal Fist\nTurn 3: Explode\nBring in Any pet with Explode ability.\nTurn 1: Explode or Burst.\n",
+		["tab"] = 10,
+		["notes"] = "Strategy added by Suddenimpact04\nStrategy modified from Carry Pet Strategy (https://wow-petguide.com/index.php?Strategy=246)\n\nTurn 1: Arcane Blast\nTurn 2: Moonfire\nTurn 3: Evanescence\nTurn 4+: Arcane Blast until Crusher dies\nPounder comes in\nTurn 1: Evanescence\nTurn 2: Moonfire\nTurn 3+: Arcane Blast until Pounder dies\nMutilator comes in\nTurn 1: Arcane Blast\nTurn 2: Evanescence\nTurn 3+: Arcane Blast until your Hatchling dies. \nBring in Darkmoon Zeppelin\nTurns 1+: Flyby until Mutilator is below 618 HP\nThen:: Explode\n",
 	},
 	[150911] = {
 		{
@@ -2258,6 +2258,54 @@ RematchSaved = {
 		["notes"] = "Turns 1+2: Dive\nTurn 3: Acidic Goo\nTurns 4+: Ooze Touch until Pandaren Earth Spirit dies.\nSludgy comes in\nTurn 1: Acidic Goo\nTurns 2+: Ooze Touch until your Snail dies.\nBring in your Darkmoon Zeppelin\nTurns 1+: Missile until Sludgy dies\nDarnak comes in\nTurn 1: Missile\nTurn 2: Decoy\nTurns 3+: Missile until Darnak is below 618 health\nThen:: Explode\n",
 		["teamName"] = "Thundering Pandaren Spirit",
 	},
+	[66739] = {
+		{
+			87, -- [1]
+			421, -- [2]
+			440, -- [3]
+			595, -- [4]
+			87, -- [5]
+		}, -- [1]
+		{
+			"BattlePet-0-000006C449B2", -- [1]
+			515, -- [2]
+			282, -- [3]
+			779, -- [4]
+			339, -- [5]
+		}, -- [2]
+		{
+			0, -- [1]
+		}, -- [3]
+		["tab"] = 3,
+		["notes"] = "Turn 1: Arcane Blast\nTurn 2: Moonfire\nTurn 3: Evanescence\nTurns 4+: Arcane Blast until Crusher dies\nPounder comes in\nTurn 1: Evanescence\nTurns 2: Moonfire\nTurns 3+: Arcane Blast until Pounder dies\nMutilator comes in\nTurn 1: Arcane Blast\nTurn 2: Evanescence\nTurns 3+: Arcane Blast until your Hatchling dies. NOTE: Be careful not to kill Mutilator before your Darkmoon Zeppelin comes in or your level pet will not get EXP.\nBring in your Darkmoon Zeppelin\nTurns 1+: Flyby until Mutilator is below 618 health points\nThen:: Explode\n",
+		["teamName"] = "Wastewalker Shu",
+		["minXP"] = 10,
+	},
+	[142114] = {
+		{
+			"BattlePet-0-000006C449D1", -- [1]
+			110, -- [2]
+			155, -- [3]
+			159, -- [4]
+			635, -- [5]
+		}, -- [1]
+		{
+			"BattlePet-0-000006C44A60", -- [1]
+			1002, -- [2]
+			392, -- [3]
+			985, -- [4]
+			1320, -- [5]
+		}, -- [2]
+		{
+			"BattlePet-0-000006C44A6F", -- [1]
+			473, -- [2]
+			475, -- [3]
+			474, -- [4]
+			1160, -- [5]
+		}, -- [3]
+		["tab"] = 3,
+		["teamName"] = "Talia Sparkbrow",
+	},
 	[145971] = {
 		{
 			"BattlePet-0-000008AD798E", -- [1]
@@ -2283,55 +2331,6 @@ RematchSaved = {
 		["tab"] = 8,
 		["notes"] = "Strategy added by DragonsAfterDark\nTurn 1-3: Rampage\nTurn 4+: Leap until Cockroach dies\n\nRandom Enemy Pet Comes In\n\nNote 1: : There are a few different pets that will come in with Cockroach, so the turn orders won't be exact.\n\nNote 2: : Keep in mind, if you can't see the enemy attacks with an addon, Automated Drilling Machine's ability, Smoke Cloud, is on a 4 round CD, so you may need to adjust your pet's attacks\n\nNote 3: : Pass during any Undead/Dodge Rounds\n\nTurn 1: Crush\nTurn 2+: Rampage until dead\n\nBring in your Mr. Bigglesworth\nIf:: Mech pet is up: Ice Tomb > Frost Nova > Claw +\nIf the second pet is a Mech, chances are you only need to Frost Nova > Claw to finish it off\nIf:: Undead pet is up: Ice Tomb > Claw +\nIf:: Critter is up: Claw +\n\nBring in your Giant Woodworm\nTurn 1: Unstable Shield\nTurn 2: Skitter\nTurn 3: Skitter\nTurn 4+5: Burrow\nRepeat 1-5 as needed (if a critter is up, you can skip the Unstable Shield and sub for another Skitter)\n",
 		["teamName"] = "Cockroach",
-	},
-	[87123] = {
-		{
-			"BattlePet-0-000006C44A5F", -- [1]
-			299, -- [2]
-			611, -- [3]
-			593, -- [4]
-			1152, -- [5]
-		}, -- [1]
-		{
-			"BattlePet-0-0000080E5EDE", -- [1]
-			115, -- [2]
-			779, -- [3]
-			334, -- [4]
-			844, -- [5]
-		}, -- [2]
-		{
-			"BattlePet-0-000006C449FF", -- [1]
-			1335, -- [2]
-			1345, -- [3]
-			1337, -- [4]
-			1426, -- [5]
-		}, -- [3]
-		["tab"] = 10,
-		["notes"] = "Turn 1: Arcane Explosion\nTurn 2: Arcane Explosion\nTurn 3: Ancient Blessing\nTurns 4+: Keep using Arcane Explosion and use Ancient Blessing whenever it is available until Chrominius dies.\nBring in your Mechanical Pandaren Dragonling\nTurn 1: Thunderbolt\nTurns 2+: Breath until the fight is done.\n",
-		["teamName"] = "Vesharr",
-	},
-	[66739] = {
-		{
-			87, -- [1]
-			421, -- [2]
-			440, -- [3]
-			595, -- [4]
-			87, -- [5]
-		}, -- [1]
-		{
-			"BattlePet-0-000006C449B2", -- [1]
-			515, -- [2]
-			282, -- [3]
-			779, -- [4]
-			339, -- [5]
-		}, -- [2]
-		{
-			0, -- [1]
-		}, -- [3]
-		["tab"] = 3,
-		["notes"] = "Turn 1: Arcane Blast\nTurn 2: Moonfire\nTurn 3: Evanescence\nTurns 4+: Arcane Blast until Crusher dies\nPounder comes in\nTurn 1: Evanescence\nTurns 2: Moonfire\nTurns 3+: Arcane Blast until Pounder dies\nMutilator comes in\nTurn 1: Arcane Blast\nTurn 2: Evanescence\nTurns 3+: Arcane Blast until your Hatchling dies. NOTE: Be careful not to kill Mutilator before your Darkmoon Zeppelin comes in or your level pet will not get EXP.\nBring in your Darkmoon Zeppelin\nTurns 1+: Flyby until Mutilator is below 618 health points\nThen:: Explode\n",
-		["teamName"] = "Wastewalker Shu",
-		["minXP"] = 10,
 	},
 	[154928] = {
 		{
@@ -2826,27 +2825,31 @@ RematchSaved = {
 		["notes"] = "Strategy added by jtrezzo#1973\nThis is entirely solable with Molten Corgi if you happen to get two mech backline pets as well.\n\nTip: You can put in some level 1 pets (or just your pets from previous fight) to check if you have roaches, rats, or mechs, forfeit, then adjust with a combination of elemental, beast, or critter depending on what the observed backups are. \n\nTurn  1: Puppies of the Flame\nTurn 2-3: Flamethrower\nTurn 4: When he uses Feign Death, swap to beast if backup roach comes in, critter if a rat, or stay with Molten Corgi if a backup mech comes in.\nIf Mech:\nPriority 1        : Cast Cauterize when health drops below ~1000 HP\nPriority 2        : Puppies of the Flame\nPriority 3        : Flamethrower\n\nDepending on backup pet type, swap in your beast for roaches, critter for rats, or if a mech continue with Molten Corgi if still alive, or switch to backup elemental. Try to take something with a heal in case you need it.\n\nFinish off Guard Tiger when he comes back in with your elemental (or Corgi if still alive).\n\n",
 		["teamName"] = "Gnomeregan Guard Tiger",
 	},
-	[117934] = {
+	[160207] = {
 		{
-			"BattlePet-0-0000088950DF", -- [1]
-			1773, -- [2]
-			1758, -- [3]
-			518, -- [4]
-			1975, -- [5]
+			"BattlePet-0-00000A66361D", -- [1]
+			1056, -- [2]
+			1123, -- [3]
+			277, -- [4]
+			2590, -- [5]
 		}, -- [1]
 		{
-			"BattlePet-0-000006C449B1", -- [1]
-			459, -- [2]
-			566, -- [3]
-			208, -- [4]
-			1387, -- [5]
+			"BattlePet-0-00000A694DB4", -- [1]
+			753, -- [2]
+			268, -- [3]
+			404, -- [4]
+			291, -- [5]
 		}, -- [2]
 		{
-			0, -- [1]
+			"BattlePet-0-0000083A664A", -- [1]
+			360, -- [2]
+			312, -- [3]
+			163, -- [4]
+			479, -- [5]
 		}, -- [3]
-		["notes"] = "Strategy added by Aranesh\nStrategy created by Rikade (http://www.wowhead.com/npc=117934/sissix#comments:id=2482073)\n\nTurn 1: Ironskin\nTurn 2+3: Falcosaur Swarm!\nTurn 4: Predatory Strike\nTurn 5+6: Falcosaur Swarm! -   Living Pool dies\nTia Mia and Larry comes in\nTurn 1+2: Falcosaur Swarm!\nTurn 3: Predatory Strike - Tia Mia and Larry dies\nRock Lobster comes in\nTurn 1+: Falcosaur Swarm! until Direbeak Hatchling dies\nBring in your Level Pet\nTurn 1: Swap to your Iron Starlette\nTurn 2: Wind-Up\nTurn 3: Powerball - skip this if your Iron Starlette is P/P breed\nTurn 4: Supercharge\nTurn 5: Wind-Up\nTurn 6: Pass - Rock Lobster dies\n",
-		["teamName"] = "Illidari Masters: Sissix",
-		["minXP"] = 7,
+		["tab"] = 4,
+		["notes"] = "Strategy added by DragonsAfterDark\nBlizzard pushed changes to this fight on Tuesday, 21 January. I&#039;ve updated the steps &amp; script to reflect the changes. \n\nTurn 1: Disruption\nTurn 2+3: Seethe\nTurn 4: Life Exchange\nTurn 5+: Seethe until dead\n\nBring in your Singing Sunflower\n\n**~~**: If Logic is in its Mechanical state & HP is LESS THAN 155, use Photosynthesis and then proceed to Turn 1\n\nTurn 1: Sunlight\nTurn 2: Photosynthesis\nTurn 3: Solar Beam\n\n~~**~~: If Logic isn't dead: Photosynthesis > Sunlight > Photosynthesis > Solar Beam\n\nMath comes in\nTurn 1: Recovering\nTurn 2: Pass\nYour Elfin Rabbit is brought in\nTurn 1: Dodge\nTurn 2+: Stampede until Singing Sunflower is brought in\nYour Singing Sunflower is brought in\nTurn 1: Sunlight\nTurn 2: Solar Beam\n",
+		["teamName"] = "Therin Skysong",
 	},
 	[94647] = {
 		{
@@ -2874,50 +2877,6 @@ RematchSaved = {
 		["notes"] = "Turn 1: Howl\nTurns 2+: Burn until Core Hound Pup dies\nBring in your Anubisath Idol\nTurn 1: Rupture - Dreadwalker dies\nFirst enemy pet comes in\nTurn 1: Sandstorm\nTurns 2+: Crush and Rupture when available until your Anubisath Idol dies\nBring in your Emerald Proto-Whelp\nTurns 1-3: Emerald Dream\nTurn 4: Emerald Presence (keep active)\nTurns 5+: Emerald Bite until the fight is won\n",
 		["teamName"] = "Dreadwalker",
 	},
-	[161657] = {
-		{
-			"BattlePet-0-000009CBDBF1", -- [1]
-			112, -- [2]
-			919, -- [3]
-			581, -- [4]
-			2438, -- [5]
-		}, -- [1]
-		{
-			"BattlePet-0-000006F10E6A", -- [1]
-			0, -- [2]
-			0, -- [3]
-			518, -- [4]
-			1716, -- [5]
-		}, -- [2]
-		{
-			"random:3", -- [1]
-		}, -- [3]
-		["tab"] = 4,
-		["notes"] = "Strategy added by DragonsAfterDark\nTurn 1: Black Claw\nTurn 2-4: Flock\nTurn 5+: Peck until Foulfeather dies\nBring in your Fledgling Warden Owl\nTurn 1: Predatory Strike\n",
-		["teamName"] = "Ninn Jah",
-	},
-	[117950] = {
-		{
-			"BattlePet-0-0000080E5EDE", -- [1]
-			115, -- [2]
-			779, -- [3]
-			334, -- [4]
-			844, -- [5]
-		}, -- [1]
-		{
-			"BattlePet-0-0000080E4FF7", -- [1]
-			210, -- [2]
-			218, -- [3]
-			652, -- [4]
-			1238, -- [5]
-		}, -- [2]
-		{
-			0, -- [1]
-		}, -- [3]
-		["notes"] = "Strategy added by Aranesh\nTurn 1: Pass - your Unborn Val'kyr is swapped in\nTurns 2+: Shadow Slash until Imply dies\nRover comes in\nTurn 1: Haunt\nBring in your Mechanical Pandaren Dragonling\nTurns 1+: Breath until Rover is dead\nSeduction comes in\nTurn 1: Decoy\nTurn 2: Swap to your level pet\nTurn 3: Swap to your Unborn Val'kyr\nTurn 4: Curse of Doom\nTurns 5+: Shadow Slash until Unborn Val'kyr dies\nBring in your Mechanical Pandaren Dragonling\nTurn 1: Thunderbolt\nTurns 2+: Breath until the fight is won\n",
-		["teamName"] = "Illidari Masters: Madam Viciosa",
-		["minXP"] = 10,
-	},
 	[68464] = {
 		{
 			"BattlePet-0-000006C44A5F", -- [1]
@@ -2944,31 +2903,71 @@ RematchSaved = {
 		["notes"] = "Turn 1: Arcane Explosion\nTurn 2: Arcane Explosion\nTurn 3: Ancient Blessing\nTurns 4+: Use Arcane Explosion and Ancient Blessing every time it is available.\n\nOften Chrominius finishes the fight on its own. If he dies too early, bring in your Pandaren Dragonling and mop up with Thunderbolt followed by Breath.\n",
 		["teamName"] = "Whispering Pandaren Spirit",
 	},
-	[160207] = {
+	[117950] = {
 		{
-			"BattlePet-0-00000A66361D", -- [1]
-			1056, -- [2]
-			1123, -- [3]
-			277, -- [4]
-			2590, -- [5]
+			"BattlePet-0-0000080E5EDE", -- [1]
+			115, -- [2]
+			779, -- [3]
+			334, -- [4]
+			844, -- [5]
 		}, -- [1]
 		{
-			"BattlePet-0-00000A694DB4", -- [1]
-			753, -- [2]
-			268, -- [3]
-			404, -- [4]
-			291, -- [5]
+			"BattlePet-0-0000080E4FF7", -- [1]
+			210, -- [2]
+			218, -- [3]
+			652, -- [4]
+			1238, -- [5]
 		}, -- [2]
 		{
-			"BattlePet-0-0000083A664A", -- [1]
-			360, -- [2]
-			312, -- [3]
-			163, -- [4]
-			479, -- [5]
+			0, -- [1]
+		}, -- [3]
+		["notes"] = "Strategy added by Aranesh\nTurn 1: Pass - your Unborn Val'kyr is swapped in\nTurns 2+: Shadow Slash until Imply dies\nRover comes in\nTurn 1: Haunt\nBring in your Mechanical Pandaren Dragonling\nTurns 1+: Breath until Rover is dead\nSeduction comes in\nTurn 1: Decoy\nTurn 2: Swap to your level pet\nTurn 3: Swap to your Unborn Val'kyr\nTurn 4: Curse of Doom\nTurns 5+: Shadow Slash until Unborn Val'kyr dies\nBring in your Mechanical Pandaren Dragonling\nTurn 1: Thunderbolt\nTurns 2+: Breath until the fight is won\n",
+		["teamName"] = "Illidari Masters: Madam Viciosa",
+		["minXP"] = 10,
+	},
+	[117934] = {
+		{
+			"BattlePet-0-0000088950DF", -- [1]
+			1773, -- [2]
+			1758, -- [3]
+			518, -- [4]
+			1975, -- [5]
+		}, -- [1]
+		{
+			"BattlePet-0-000006C449B1", -- [1]
+			459, -- [2]
+			566, -- [3]
+			208, -- [4]
+			1387, -- [5]
+		}, -- [2]
+		{
+			0, -- [1]
+		}, -- [3]
+		["notes"] = "Strategy added by Aranesh\nStrategy created by Rikade (http://www.wowhead.com/npc=117934/sissix#comments:id=2482073)\n\nTurn 1: Ironskin\nTurn 2+3: Falcosaur Swarm!\nTurn 4: Predatory Strike\nTurn 5+6: Falcosaur Swarm! -   Living Pool dies\nTia Mia and Larry comes in\nTurn 1+2: Falcosaur Swarm!\nTurn 3: Predatory Strike - Tia Mia and Larry dies\nRock Lobster comes in\nTurn 1+: Falcosaur Swarm! until Direbeak Hatchling dies\nBring in your Level Pet\nTurn 1: Swap to your Iron Starlette\nTurn 2: Wind-Up\nTurn 3: Powerball - skip this if your Iron Starlette is P/P breed\nTurn 4: Supercharge\nTurn 5: Wind-Up\nTurn 6: Pass - Rock Lobster dies\n",
+		["teamName"] = "Illidari Masters: Sissix",
+		["minXP"] = 7,
+	},
+	[161657] = {
+		{
+			"BattlePet-0-000009CBDBF1", -- [1]
+			112, -- [2]
+			919, -- [3]
+			581, -- [4]
+			2438, -- [5]
+		}, -- [1]
+		{
+			"BattlePet-0-000006F10E6A", -- [1]
+			0, -- [2]
+			0, -- [3]
+			518, -- [4]
+			1716, -- [5]
+		}, -- [2]
+		{
+			"random:3", -- [1]
 		}, -- [3]
 		["tab"] = 4,
-		["notes"] = "Strategy added by DragonsAfterDark\nBlizzard pushed changes to this fight on Tuesday, 21 January. I&#039;ve updated the steps &amp; script to reflect the changes. \n\nTurn 1: Disruption\nTurn 2+3: Seethe\nTurn 4: Life Exchange\nTurn 5+: Seethe until dead\n\nBring in your Singing Sunflower\n\n**~~**: If Logic is in its Mechanical state & HP is LESS THAN 155, use Photosynthesis and then proceed to Turn 1\n\nTurn 1: Sunlight\nTurn 2: Photosynthesis\nTurn 3: Solar Beam\n\n~~**~~: If Logic isn't dead: Photosynthesis > Sunlight > Photosynthesis > Solar Beam\n\nMath comes in\nTurn 1: Recovering\nTurn 2: Pass\nYour Elfin Rabbit is brought in\nTurn 1: Dodge\nTurn 2+: Stampede until Singing Sunflower is brought in\nYour Singing Sunflower is brought in\nTurn 1: Sunlight\nTurn 2: Solar Beam\n",
-		["teamName"] = "Therin Skysong",
+		["notes"] = "Strategy added by DragonsAfterDark\nTurn 1: Black Claw\nTurn 2-4: Flock\nTurn 5+: Peck until Foulfeather dies\nBring in your Fledgling Warden Owl\nTurn 1: Predatory Strike\n",
+		["teamName"] = "Ninn Jah",
 	},
 	[68462] = {
 		{
@@ -3017,27 +3016,30 @@ RematchSaved = {
 		["tab"] = 3,
 		["teamName"] = "Grady Prett",
 	},
-	[66741] = {
+	[73626] = {
 		{
-			"BattlePet-0-000006C44A8B", -- [1]
-			1223, -- [2]
-			163, -- [3]
-			376, -- [4]
-			1384, -- [5]
+			"BattlePet-0-0000080E4FF7", -- [1]
+			422, -- [2]
+			218, -- [3]
+			652, -- [4]
+			1238, -- [5]
 		}, -- [1]
 		{
-			"BattlePet-0-000006C44BB6", -- [1]
-			122, -- [2]
-			168, -- [3]
-			170, -- [4]
-			489, -- [5]
+			"BattlePet-0-000006C449B9", -- [1]
+			1370, -- [2]
+			919, -- [3]
+			581, -- [4]
+			1532, -- [5]
 		}, -- [2]
 		{
-			0, -- [1]
+			"BattlePet-0-000006C44A60", -- [1]
+			1002, -- [2]
+			392, -- [3]
+			985, -- [4]
+			1320, -- [5]
 		}, -- [3]
 		["tab"] = 3,
-		["notes"] = "Strategy kindly suggested by Ethyce, thanks!\n\nTurn 1: Vicious Slice\nTurns 2-4: Stampede\nTurn 5: Headbutt - Chirrup dies\nStormlash comes in\nTurns 1-3: Stampede\nTurn 4: Vicious Slice - Hogs dies\nBring in your Spawn of Onyxia\nTurn 1: Tail Sweep - Stormlash dies\nWhiskers comes in\nTurns 1+2: Lift-Off\nTurn 3: Healing Flame\nTurn 4: Tail Sweep\nTurn 5: Swap to your Level Pet\nTurn 6: Swap back to your Spawn of Onyxia\nTurns 7+8: Lift-Off\n",
-		["teamName"] = "Aki the Chosen",
+		["teamName"] = "Little Tommy Newcomer",
 	},
 	[87125] = {
 		{
@@ -3065,30 +3067,27 @@ RematchSaved = {
 		["notes"] = "Turn 1: Pass\nTurn 2: Swap to your Nexus Whelpling\nTurn 3: Arcane Storm\nTurns 4+: Mana Surge until Nexus Whelpling dies\nBring in your Nether Faerie Dragon\nTurn 1: Moonfire\nTurns 2+: Arcane Blast until Grace is dead (if necessary)\nAtonement comes in\nTurn 1: Life Exchange\nTurns 2+: Arcane Blast until Atonement is dead as well.\n",
 		["teamName"] = "Taralune",
 	},
-	[73626] = {
+	[66741] = {
 		{
-			"BattlePet-0-0000080E4FF7", -- [1]
-			422, -- [2]
-			218, -- [3]
-			652, -- [4]
-			1238, -- [5]
+			"BattlePet-0-000006C44A8B", -- [1]
+			1223, -- [2]
+			163, -- [3]
+			376, -- [4]
+			1384, -- [5]
 		}, -- [1]
 		{
-			"BattlePet-0-000006C449B9", -- [1]
-			1370, -- [2]
-			919, -- [3]
-			581, -- [4]
-			1532, -- [5]
+			"BattlePet-0-000006C44BB6", -- [1]
+			122, -- [2]
+			168, -- [3]
+			170, -- [4]
+			489, -- [5]
 		}, -- [2]
 		{
-			"BattlePet-0-000006C44A60", -- [1]
-			1002, -- [2]
-			392, -- [3]
-			985, -- [4]
-			1320, -- [5]
+			0, -- [1]
 		}, -- [3]
 		["tab"] = 3,
-		["teamName"] = "Little Tommy Newcomer",
+		["notes"] = "Strategy kindly suggested by Ethyce, thanks!\n\nTurn 1: Vicious Slice\nTurns 2-4: Stampede\nTurn 5: Headbutt - Chirrup dies\nStormlash comes in\nTurns 1-3: Stampede\nTurn 4: Vicious Slice - Hogs dies\nBring in your Spawn of Onyxia\nTurn 1: Tail Sweep - Stormlash dies\nWhiskers comes in\nTurns 1+2: Lift-Off\nTurn 3: Healing Flame\nTurn 4: Tail Sweep\nTurn 5: Swap to your Level Pet\nTurn 6: Swap back to your Spawn of Onyxia\nTurns 7+8: Lift-Off\n",
+		["teamName"] = "Aki the Chosen",
 	},
 	[116794] = {
 		{
@@ -3173,27 +3172,31 @@ RematchSaved = {
 		["notes"] = "Strategy added by Remte\nA literal snoozefest. I used P/P Whelpling myself, thanks for the clarification comments :)\n\nTurn 1: Toxic Skin\nTurns 2-4: Emerald Dream\nTurn 5: Sleeping Gas\nTurn 6: Toxic Skin\nTurn 7: (Optional) The elemental is just for backup. Any 300+ attack incl. bonus in the tooltip is enough. (The script assumes slot #1.)\n",
 		["teamName"] = "Shred",
 	},
-	[66551] = {
+	[116786] = {
 		{
-			"BattlePet-0-0000080E57A3", -- [1]
-			406, -- [2]
-			453, -- [3]
-			0, -- [4]
-			1155, -- [5]
+			"BattlePet-0-000006C44BEF", -- [1]
+			420, -- [2]
+			506, -- [3]
+			508, -- [4]
+			1586, -- [5]
 		}, -- [1]
 		{
-			"BattlePet-0-000006C449FF", -- [1]
-			1335, -- [2]
-			1345, -- [3]
-			1337, -- [4]
-			1426, -- [5]
+			"BattlePet-0-000006C44953", -- [1]
+			420, -- [2]
+			506, -- [3]
+			508, -- [4]
+			478, -- [5]
 		}, -- [2]
 		{
-			"random:0", -- [1]
+			"BattlePet-0-00000848589B", -- [1]
+			420, -- [2]
+			506, -- [3]
+			508, -- [4]
+			718, -- [5]
 		}, -- [3]
-		["tab"] = 10,
-		["notes"] = "Turn 1: Sandstorm\nTurns 2+: Use Sandstorm on cooldown and Crush otherwise until all enemy pets are dead.\n",
-		["teamName"] = "Ras'an",
+		["tab"] = 6,
+		["notes"] = "Strategy added by CrazyFluffy#21258\nWailing Critters - Moth team\n\nAll moths use same method in all fights.\n\nNext: Moth team vs. Deviate Chomper (https://www.wow-petguide.com/index.php?Strategy=2724)\n\nTurn 1: Moth Dust\nTurn 2: Cocoon Strike\nTurn 3: Slicing Wind\nTurn 4: Slicing Wind\nRepeat until the fight is done\nIf your moth dies, swap to next moth and start at turn 1\n",
+		["teamName"] = "Deviate Smallclaw",
 	},
 	[146932] = {
 		{
@@ -3297,31 +3300,27 @@ RematchSaved = {
 		["tab"] = 3,
 		["teamName"] = "Delia Hanako",
 	},
-	[116786] = {
+	[66551] = {
 		{
-			"BattlePet-0-000006C44BEF", -- [1]
-			420, -- [2]
-			506, -- [3]
-			508, -- [4]
-			1586, -- [5]
+			"BattlePet-0-0000080E57A3", -- [1]
+			406, -- [2]
+			453, -- [3]
+			0, -- [4]
+			1155, -- [5]
 		}, -- [1]
 		{
-			"BattlePet-0-000006C44953", -- [1]
-			420, -- [2]
-			506, -- [3]
-			508, -- [4]
-			478, -- [5]
+			"BattlePet-0-000006C449FF", -- [1]
+			1335, -- [2]
+			1345, -- [3]
+			1337, -- [4]
+			1426, -- [5]
 		}, -- [2]
 		{
-			"BattlePet-0-00000848589B", -- [1]
-			420, -- [2]
-			506, -- [3]
-			508, -- [4]
-			718, -- [5]
+			"random:0", -- [1]
 		}, -- [3]
-		["tab"] = 6,
-		["notes"] = "Strategy added by CrazyFluffy#21258\nWailing Critters - Moth team\n\nAll moths use same method in all fights.\n\nNext: Moth team vs. Deviate Chomper (https://www.wow-petguide.com/index.php?Strategy=2724)\n\nTurn 1: Moth Dust\nTurn 2: Cocoon Strike\nTurn 3: Slicing Wind\nTurn 4: Slicing Wind\nRepeat until the fight is done\nIf your moth dies, swap to next moth and start at turn 1\n",
-		["teamName"] = "Deviate Smallclaw",
+		["tab"] = 10,
+		["notes"] = "Turn 1: Sandstorm\nTurns 2+: Use Sandstorm on cooldown and Crush otherwise until all enemy pets are dead.\n",
+		["teamName"] = "Ras'an",
 	},
 	[150917] = {
 		{
@@ -4077,30 +4076,31 @@ RematchSaved = {
 		["teamName"] = "Christoph VonFeasel",
 		["notes"] = "Strategy added by psofia\nStrategy by Rikade on Wowhead (https://www.wowhead.com/npc=85519/christoph-vonfeasel#comments:id=2476643), it&#039;s been around for a while and still works in 8.0.1, thought someone should finally share it on this site as it works perfectly\n\nTurn 1: Sweep\nOtto comes in\nTurn 2: Wind-Up\nSwap to your Iron Starlette\nTurn 1: Wind-Up\nTurn 2: Supercharge\nTurn 3: Wind-Up - Otto dies\nSyd comes in\nTurn 1-3: Toxic Smoke x3 - Iron Starlette dies\nSwap to your Level Pet\nSwap to your Enchanted Broom\nTurn 1: Sweep\nMr. Pointy comes in\nTurn 1: Wind-Up\nTurn 2: Wind-Up\nTurn 3: Wind-Up - Mr. Pointy dies\nSyd comes in\nTurn 1-2: Batter x2 - Syd dies\n",
 	},
-	[142114] = {
+	[87123] = {
 		{
-			"BattlePet-0-000006C449D1", -- [1]
-			110, -- [2]
-			155, -- [3]
-			159, -- [4]
-			635, -- [5]
+			"BattlePet-0-000006C44A5F", -- [1]
+			299, -- [2]
+			611, -- [3]
+			593, -- [4]
+			1152, -- [5]
 		}, -- [1]
 		{
-			"BattlePet-0-000006C44A60", -- [1]
-			1002, -- [2]
-			392, -- [3]
-			985, -- [4]
-			1320, -- [5]
+			"BattlePet-0-0000080E5EDE", -- [1]
+			115, -- [2]
+			779, -- [3]
+			334, -- [4]
+			844, -- [5]
 		}, -- [2]
 		{
-			"BattlePet-0-000006C44A6F", -- [1]
-			473, -- [2]
-			475, -- [3]
-			474, -- [4]
-			1160, -- [5]
+			"BattlePet-0-000006C449FF", -- [1]
+			1335, -- [2]
+			1345, -- [3]
+			1337, -- [4]
+			1426, -- [5]
 		}, -- [3]
-		["tab"] = 3,
-		["teamName"] = "Talia Sparkbrow",
+		["tab"] = 10,
+		["notes"] = "Turn 1: Arcane Explosion\nTurn 2: Arcane Explosion\nTurn 3: Ancient Blessing\nTurns 4+: Keep using Arcane Explosion and use Ancient Blessing whenever it is available until Chrominius dies.\nBring in your Mechanical Pandaren Dragonling\nTurn 1: Thunderbolt\nTurns 2+: Breath until the fight is done.\n",
+		["teamName"] = "Vesharr",
 	},
 	[161663] = {
 		{
@@ -4293,7 +4293,7 @@ RematchSaved = {
 RematchSettings = {
 	["QueueActiveSort"] = true,
 	["JournalUsed"] = true,
-	["DialogYPos"] = 457.4810791015625,
+	["DialogYPos"] = 417.1848449707031,
 	["NotesHeight"] = 417.2846374511719,
 	["HidePetToast"] = true,
 	["QueueSanctuary"] = {
@@ -4305,269 +4305,268 @@ RematchSettings = {
 		["BattlePet-0-00000AFAB7D0"] = "QQQ02ME",
 		["BattlePet-0-00000A2CE74A"] = "QQQ02KF",
 		["BattlePet-0-000008501399"] = "QQQ08B",
-		["BattlePet-0-000008AD8A33"] = "QQQ0EF",
+		["BattlePet-0-00000AB04F7E"] = "QQQ01I1",
 		["BattlePet-0-000006C44A23"] = "QQQ01GV",
-		["BattlePet-0-000008AD7677"] = "QQQ0CB",
+		["BattlePet-0-000008501E9B"] = "QQQ0QD",
 		["BattlePet-0-0000075AD4DE"] = "QQQ01DR",
 		["BattlePet-0-00000847774A"] = "QQQ02D",
-		["BattlePet-0-000008745B94"] = "QQQ0GK",
+		["BattlePet-0-00000B00AA89"] = "QQQ01VP",
 		["BattlePet-0-000006C44BEE"] = "QQQ01G4",
 		["BattlePet-0-000006C4498E"] = "QQQ0DQ",
-		["BattlePet-0-000006C44BE1"] = "QQQ0D2",
-		["BattlePet-0-00000B00AA89"] = "QQQ01VP",
-		["BattlePet-0-00000A72A2EB"] = "QQQ02M8",
+		["BattlePet-0-000006C449F4"] = "QQQ01H0",
+		["BattlePet-0-00000A72A2F5"] = "QQQ02M9",
 		["BattlePet-0-000006C44B6F"] = "QQQ01J",
-		["BattlePet-0-00000B0B62FD"] = "QQQ024N",
+		["BattlePet-0-000008745B94"] = "QQQ0GK",
 		["BattlePet-0-000008AD6E0A"] = "QQQ0BM",
 		["BattlePet-0-00000871EC93"] = "QQQ0K6",
-		["BattlePet-0-00000AB04F7E"] = "QQQ01I1",
+		["BattlePet-0-00000B0B62FD"] = "QQQ024N",
 		["BattlePet-0-000008777070"] = "QQQ015H",
 		["BattlePet-0-000006C44A3A"] = "QQQ073",
-		["BattlePet-0-000006C44B06"] = "QQQ0E6",
+		["BattlePet-0-0000086EFD8D"] = "QQQ07D",
 		["BattlePet-0-0000086EFC52"] = "QQQ04G",
-		["BattlePet-0-0000084C3067"] = "QQQ0EL",
-		["BattlePet-0-00000B174097"] = "QQQ02B6",
+		["BattlePet-0-000009BC6D3B"] = "QQQ02BR",
+		["BattlePet-0-0000086EFCF1"] = "QQQ0218",
 		["BattlePet-0-00000AB050A0"] = "QQQ015E",
-		["BattlePet-0-0000073BF7E0"] = "QQQ01UK",
+		["BattlePet-0-00000B174097"] = "QQQ02B6",
+		["BattlePet-0-000006C44BD3"] = "QQQ0DG",
 		["BattlePet-0-000008AED200"] = "QQQ01T7",
-		["BattlePet-0-00000AC40FAB"] = "QQQ075",
 		["BattlePet-0-00000AB04EFA"] = "QQQ02KS",
 		["BattlePet-0-00000A72A2EC"] = "QQQ02M5",
-		["BattlePet-0-000008777058"] = "QQQ021C",
-		["BattlePet-0-000009C0C234"] = "QQQ09K",
-		["BattlePet-0-000006C44B3B"] = "QQQ01DV",
-		["BattlePet-0-0000086EFD8D"] = "QQQ07D",
+		["BattlePet-0-00000AC40FAB"] = "QQQ075",
+		["BattlePet-0-000008ABED42"] = "QQQ0CJ",
+		["BattlePet-0-000008AD892B"] = "QQQ0ED",
+		["BattlePet-0-00000A9CD5CF"] = "QQQ02ON",
 		["BattlePet-0-0000086EFCFD"] = "QQQ0214",
 		["BattlePet-0-0000087F5263"] = "QQQ0210",
-		["BattlePet-0-00000AB04F88"] = "QQQ01A1",
+		["BattlePet-0-0000084FAC70"] = "QQQ0GS",
 		["BattlePet-0-000009C844EF"] = "QQQ02CE",
-		["BattlePet-0-00000A9CD5CF"] = "QQQ02ON",
-		["BattlePet-0-000008ABED42"] = "QQQ0CJ",
-		["BattlePet-0-0000085013F0"] = "QQQ04B",
+		["BattlePet-0-000006C44957"] = "QQQ03L",
+		["BattlePet-0-00000A72A2E8"] = "QQQ02MD",
+		["BattlePet-0-0000086EFD8F"] = "QQQ0151",
 		["BattlePet-0-0000084F9F7D"] = "QQQ0GR",
 		["BattlePet-0-000009ECA8E9"] = "QQQ02CI",
 		["BattlePet-0-00000A49945F"] = "QQQ02F2",
 		["BattlePet-0-000006C44970"] = "QQQ0AA",
-		["BattlePet-0-00000836C9D7"] = "QQQ0LV",
-		["BattlePet-0-00000B2E96AF"] = "QQQ02B7",
+		["BattlePet-0-00000A72A2EB"] = "QQQ02M8",
+		["BattlePet-0-000008AD7334"] = "QQQ0D0",
+		["BattlePet-0-0000084DC3B5"] = "QQQ0EJ",
 		["BattlePet-0-0000086EFD76"] = "QQQ01J1",
-		["BattlePet-0-000006C44A82"] = "QQQ0FG",
 		["BattlePet-0-00000AC40FB0"] = "QQQ06F",
-		["BattlePet-0-000006C44BD3"] = "QQQ0DG",
+		["BattlePet-0-000006C44A56"] = "QQQ0EO",
 		["BattlePet-0-000006C4494C"] = "QQQ01FB",
 		["BattlePet-0-000009130B12"] = "QQQ0A1",
 		["BattlePet-0-000006C44BFF"] = "QQQ03N",
-		["BattlePet-0-000006C4499E"] = "QQQ01D6",
-		["BattlePet-0-00000A6FC643"] = "QQQ02MB",
 		["BattlePet-0-000007B10E78"] = "QQQ01R2",
-		["BattlePet-0-000006C44B4D"] = "QQQ018",
-		["BattlePet-0-00000A4B5F7D"] = "QQQ02F0",
+		["BattlePet-0-000006C4499E"] = "QQQ01D6",
+		["BattlePet-0-0000086EFCF8"] = "QQQ06J",
+		["BattlePet-0-00000AB050BD"] = "QQQ015C",
+		["BattlePet-0-00000836C9D7"] = "QQQ0LV",
 		["BattlePet-0-000008DF9AB1"] = "QQQ02C5",
 		["BattlePet-0-000008C27978"] = "QQQ024C",
-		["BattlePet-0-000006C44A73"] = "QQQ06S",
-		["BattlePet-0-000006C44A1D"] = "QQQ03Q",
+		["BattlePet-0-00000A66361B"] = "QQQ02G0",
+		["BattlePet-0-000006C44ACF"] = "QQQ0F7",
 		["BattlePet-0-00000A070C67"] = "QQQ02K1",
 		["BattlePet-0-000006C449EA"] = "QQQ070",
-		["BattlePet-0-000008E9138F"] = "QQQ02C7",
+		["BattlePet-0-000009181D54"] = "QQQ02D9",
 		["BattlePet-0-0000086EFC3A"] = "QQQ01T8",
-		["BattlePet-0-0000086EFCFE"] = "QQQ05U",
-		["BattlePet-0-000006C44ACF"] = "QQQ0F7",
 		["BattlePet-0-000006C44921"] = "QQQ0FP",
-		["BattlePet-0-0000073BF33C"] = "QQQ01RN",
-		["BattlePet-0-000009C0C235"] = "QQQ04T",
-		["BattlePet-0-0000075CB79C"] = "QQQ01LM",
+		["BattlePet-0-000006C44A82"] = "QQQ0FG",
+		["BattlePet-0-00000796F900"] = "QQQ01T6",
+		["BattlePet-0-0000086EFC4F"] = "QQQ01C",
+		["BattlePet-0-000008ABE081"] = "QQQ0ER",
+		["BattlePet-0-00000B31AD13"] = "QQQ011H",
 		["BattlePet-0-0000086EFD5D"] = "QQQ049",
 		["BattlePet-0-000008AD47C5"] = "QQQ01QV",
-		["BattlePet-0-00000A3A40D3"] = "QQQ02D1",
-		["BattlePet-0-0000086EFC4F"] = "QQQ01C",
-		["BattlePet-0-0000085043FA"] = "QQQ09M",
+		["BattlePet-0-0000073BF33C"] = "QQQ01RN",
+		["BattlePet-0-0000085DF4A8"] = "QQQ0CO",
+		["BattlePet-0-000006C44A33"] = "QQQ020",
 		["BattlePet-0-00000877706D"] = "QQQ016K",
 		["BattlePet-0-0000086EFD72"] = "QQQ016F",
 		["BattlePet-0-00000AB050AD"] = "QQQ02N9",
-		["BattlePet-0-00000B0E6FD3"] = "QQQ018P",
+		["BattlePet-0-00000A4B5F7D"] = "QQQ02F0",
 		["BattlePet-0-00000AB04F8E"] = "QQQ0BU",
 		["BattlePet-0-00000AF92F12"] = "QQQ02PL",
-		["BattlePet-0-000006C44AFB"] = "QQQ017",
+		["BattlePet-0-0000086EFCFE"] = "QQQ05U",
 		["BattlePet-0-0000086EFC4C"] = "QQQ026",
 		["BattlePet-0-0000086EFD6C"] = "QQQ04P",
-		["BattlePet-0-00000AB04F89"] = "QQQ01UF",
-		["BattlePet-0-0000086EFD94"] = "QQQ056",
-		["BattlePet-0-000006C44B67"] = "QQQ0FR",
-		["BattlePet-0-000006C449E6"] = "QQQ07R",
+		["BattlePet-0-00000AB04EFC"] = "QQQ07F",
+		["BattlePet-0-0000087CE503"] = "QQQ01FD",
+		["BattlePet-0-00000B0ED268"] = "QQQ02LR",
+		["BattlePet-0-0000085F2544"] = "QQQ0GN",
 		["BattlePet-0-000006C44967"] = "QQQ0G6",
 		["BattlePet-0-0000086EFACF"] = "QQQ0AN",
-		["BattlePet-0-000006C449A1"] = "QQQ01G2",
+		["BattlePet-0-00000910945A"] = "QQQ0KQ",
 		["BattlePet-0-00000871ED95"] = "QQQ0GH",
-		["BattlePet-0-0000087CE503"] = "QQQ01FD",
-		["BattlePet-0-000008414583"] = "QQQ01MR",
+		["BattlePet-0-000009F038BC"] = "QQQ02F1",
+		["BattlePet-0-0000085043F7"] = "QQQ01H1",
 		["BattlePet-0-000008D563EF"] = "QQQ02BM",
 		["BattlePet-0-0000084F9FCD"] = "QQQ0CV",
 		["BattlePet-0-000006C449CB"] = "QQQ07Q",
 		["BattlePet-0-000006C44976"] = "QQQ01B",
-		["BattlePet-0-000008AD47C7"] = "QQQ091",
-		["BattlePet-0-0000085F2544"] = "QQQ0GN",
-		["BattlePet-0-0000084FAC70"] = "QQQ0GS",
+		["BattlePet-0-00000AB04F89"] = "QQQ01UF",
+		["BattlePet-0-0000075CB79C"] = "QQQ01LM",
+		["BattlePet-0-00000A3A40D3"] = "QQQ02D1",
 		["BattlePet-0-000008AD7BBE"] = "QQQ0DR",
 		["BattlePet-0-000008ABB483"] = "QQQ0CF",
 		["BattlePet-0-00000A8AB2C0"] = "QQQ02OS",
-		["BattlePet-0-00000848534D"] = "QQQ0MT",
+		["BattlePet-0-0000085043FA"] = "QQQ09M",
 		["BattlePet-0-00000A84F4EB"] = "QQQ02OJ",
+		["BattlePet-0-000006C4494D"] = "QQQ028",
 		["BattlePet-0-00000A070614"] = "QQQ02FA",
-		["BattlePet-0-00000AB04F85"] = "QQQ02B9",
 		["BattlePet-0-00000915269B"] = "QQQ083",
-		["BattlePet-0-000006C44A0A"] = "QQQ0EQ",
+		["BattlePet-0-000006C4496B"] = "QQQ0D6",
 		["BattlePet-0-000007EBE286"] = "QQQ023J",
-		["BattlePet-0-0000087F5260"] = "QQQ07T",
-		["BattlePet-0-00000A66361A"] = "QQQ02GR",
-		["BattlePet-0-00000AFB2F61"] = "QQQ02LU",
+		["BattlePet-0-000008485717"] = "QQQ0M3",
+		["BattlePet-0-0000080E7359"] = "QQQ0HQ",
+		["BattlePet-0-000008501394"] = "QQQ094",
 		["BattlePet-0-00000AFAB7D1"] = "QQQ02P1",
 		["BattlePet-0-0000088BE6DD"] = "QQQ04L",
-		["BattlePet-0-0000080E7359"] = "QQQ0HQ",
+		["BattlePet-0-000006C449A1"] = "QQQ01G2",
 		["BattlePet-0-0000085013E9"] = "QQQ01MV",
-		["BattlePet-0-0000084FA0E6"] = "QQQ0NJ",
-		["BattlePet-0-000006C4497B"] = "QQQ0EI",
+		["BattlePet-0-00000B2E96AF"] = "QQQ02B7",
+		["BattlePet-0-000008E9138F"] = "QQQ02C7",
 		["BattlePet-0-00000A2CE73E"] = "QQQ02JT",
-		["BattlePet-0-000008A007C6"] = "QQQ01HS",
+		["BattlePet-0-000006C44B67"] = "QQQ0FR",
 		["BattlePet-0-00000B17409D"] = "QQQ019G",
-		["BattlePet-0-000009181D54"] = "QQQ02D9",
-		["BattlePet-0-000006C449F7"] = "QQQ0F3",
+		["BattlePet-0-00000AB04F88"] = "QQQ01A1",
+		["BattlePet-0-00000848534D"] = "QQQ0MT",
 		["BattlePet-0-000006C44BCC"] = "QQQ01G1",
-		["BattlePet-0-000006C44972"] = "QQQ0FI",
+		["BattlePet-0-000009C1403A"] = "QQQ02D8",
+		["BattlePet-0-000006C449BB"] = "QQQ01K",
 		["BattlePet-0-00000B2ACCF7"] = "QQQ09D",
-		["BattlePet-0-0000086EFD88"] = "QQQ01GA",
 		["BattlePet-0-00000AB050B6"] = "QQQ0BT",
 		["BattlePet-0-000008AD47C3"] = "QQQ03V",
 		["BattlePet-0-000006C44A49"] = "QQQ01FK",
 		["BattlePet-0-000006C44988"] = "QQQ0CM",
-		["BattlePet-0-000009121BD0"] = "QQQ01FJ",
-		["BattlePet-0-00000A72A2F5"] = "QQQ02M9",
-		["BattlePet-0-000006C4495C"] = "QQQ0DP",
+		["BattlePet-0-00000A6A00AF"] = "QQQ0222",
+		["BattlePet-0-0000087F5260"] = "QQQ07T",
+		["BattlePet-0-000008A007C6"] = "QQQ01HS",
 		["BattlePet-0-00000AB04F78"] = "QQQ02BQ",
 		["BattlePet-0-00000AF996BB"] = "QQQ010I",
-		["BattlePet-0-00000AB04F07"] = "QQQ02KO",
-		["BattlePet-0-0000086EFD63"] = "QQQ05V",
+		["BattlePet-0-00000B0E8C9F"] = "QQQ02PK",
+		["BattlePet-0-00000A3DCC0A"] = "QQQ02MQ",
 		["BattlePet-0-000006C449B3"] = "QQQ01I",
 		["BattlePet-0-000008504442"] = "QQQ03K",
 		["BattlePet-0-0000080D886E"] = "QQQ09L",
 		["BattlePet-0-000006C44A06"] = "QQQ01LL",
 		["BattlePet-0-000006C4497D"] = "QQQ068",
-		["BattlePet-0-000009EC444A"] = "QQQ02JS",
-		["BattlePet-0-000009F038BC"] = "QQQ02F1",
-		["BattlePet-0-000006C44B07"] = "QQQ0CP",
 		["BattlePet-0-00000AB050A5"] = "QQQ06Q",
+		["BattlePet-0-0000086EFD88"] = "QQQ01GA",
+		["BattlePet-0-0000087F24A9"] = "QQQ01N5",
+		["BattlePet-0-0000084FA0E6"] = "QQQ0NJ",
 		["BattlePet-0-00000B2E96B0"] = "QQQ017S",
 		["BattlePet-0-00000847BB86"] = "QQQ01SI",
 		["BattlePet-0-000006C44AD4"] = "QQQ0CN",
 		["BattlePet-0-0000087F5278"] = "QQQ05D",
 		["BattlePet-0-000008AD47B8"] = "QQQ020U",
-		["BattlePet-0-000008FE7E66"] = "QQQ02B1",
+		["BattlePet-0-000006C44B07"] = "QQQ0CP",
 		["BattlePet-0-00000AA92068"] = "QQQ02OO",
-		["BattlePet-0-000008504408"] = "QQQ086",
-		["BattlePet-0-000006C44975"] = "QQQ08G",
+		["BattlePet-0-000008FE7E66"] = "QQQ02B1",
+		["BattlePet-0-0000080E8391"] = "QQQ0HL",
 		["BattlePet-0-00000AB04F8D"] = "QQQ02BO",
 		["BattlePet-0-000008777082"] = "QQQ01G0",
 		["BattlePet-0-000008777063"] = "QQQ01E6",
 		["BattlePet-0-000006C44BED"] = "QQQ01J0",
 		["BattlePet-0-0000086EFD84"] = "QQQ064",
-		["BattlePet-0-00000B174093"] = "QQQ06D",
+		["BattlePet-0-000006C44A73"] = "QQQ06S",
 		["BattlePet-0-00000AB050C8"] = "QQQ02BD",
-		["BattlePet-0-00000A45A87A"] = "QQQ02B4",
-		["BattlePet-0-0000086EFCFF"] = "QQQ09I",
-		["BattlePet-0-00000AFAB7DC"] = "QQQ02B8",
-		["BattlePet-0-000008573481"] = "QQQ01J4",
+		["BattlePet-0-000008777056"] = "QQQ063",
+		["BattlePet-0-000006C4495A"] = "QQQ01K1",
+		["BattlePet-0-00000AB04F6F"] = "QQQ02BC",
+		["BattlePet-0-000006C4497B"] = "QQQ0EI",
 		["BattlePet-0-000006C44954"] = "QQQ01OC",
 		["BattlePet-0-000008ADF2BD"] = "QQQ020A",
 		["BattlePet-0-000008AD84C8"] = "QQQ0K0",
-		["BattlePet-0-000008AD8764"] = "QQQ0E8",
+		["BattlePet-0-000008BF93EB"] = "QQQ02CK",
 		["BattlePet-0-000009ECB529"] = "QQQ02CR",
-		["BattlePet-0-000008ABD9A6"] = "QQQ0FF",
+		["BattlePet-0-00000B2AD197"] = "QQQ09J",
 		["BattlePet-0-0000080E7E0D"] = "QQQ0HN",
-		["BattlePet-0-00000A69733D"] = "QQQ02J",
-		["BattlePet-0-00000A91CC05"] = "QQQ0AL",
-		["BattlePet-0-000009E81D7A"] = "QQQ02D5",
+		["BattlePet-0-00000AB04F7B"] = "QQQ01T1",
+		["BattlePet-0-000008504408"] = "QQQ086",
+		["BattlePet-0-00000B174093"] = "QQQ06D",
 		["BattlePet-0-0000085043F4"] = "QQQ02V",
 		["BattlePet-0-000008AD47C1"] = "QQQ016S",
-		["BattlePet-0-0000086EFAD5"] = "QQQ0117",
+		["BattlePet-0-000009121BD0"] = "QQQ01FJ",
 		["BattlePet-0-000008AD77AB"] = "QQQ0DM",
-		["BattlePet-0-00000AB6BDD2"] = "QQQ02P4",
+		["BattlePet-0-0000086EFAD5"] = "QQQ0117",
 		["BattlePet-0-000006C44B54"] = "QQQ0AH",
-		["BattlePet-0-0000086374EA"] = "QQQ0GM",
+		["BattlePet-0-000009EC444A"] = "QQQ02JS",
 		["BattlePet-0-000006C4498A"] = "QQQ0JN",
-		["BattlePet-0-000007F9B737"] = "QQQ022V",
-		["BattlePet-0-00000A01181E"] = "QQQ02GJ",
+		["BattlePet-0-000006C44A3D"] = "QQQ0DO",
+		["BattlePet-0-000008AD8764"] = "QQQ0E8",
 		["BattlePet-0-000006C44BAC"] = "QQQ021",
-		["BattlePet-0-00000891C2EB"] = "QQQ0JT",
-		["BattlePet-0-00000AB04F7B"] = "QQQ01T1",
-		["BattlePet-0-0000085014B4"] = "QQQ095",
+		["BattlePet-0-00000A01181E"] = "QQQ02GJ",
+		["BattlePet-0-00000AFAB7DA"] = "QQQ01Q",
+		["BattlePet-0-00000A69733D"] = "QQQ02J",
 		["BattlePet-0-00000A96B9FD"] = "QQQ02FC",
-		["BattlePet-0-000006C4493D"] = "QQQ0QF",
-		["BattlePet-0-0000076D8139"] = "QQQ0224",
+		["BattlePet-0-0000085014B4"] = "QQQ095",
+		["BattlePet-0-0000086EFD92"] = "QQQ04D",
 		["BattlePet-0-0000086EFC40"] = "QQQ015T",
 		["BattlePet-0-000006C449EE"] = "QQQ07C",
-		["BattlePet-0-00000A6A917F"] = "QQQ025",
-		["BattlePet-0-000009E8A91D"] = "QQQ02D0",
+		["BattlePet-0-000006C4493D"] = "QQQ0QF",
+		["BattlePet-0-0000086EFCFF"] = "QQQ09I",
 		["BattlePet-0-000008ABB4E7"] = "QQQ0CG",
 		["BattlePet-0-0000086EFD87"] = "QQQ020H",
-		["BattlePet-0-00000A91CC04"] = "QQQ0AM",
-		["BattlePet-0-0000085DF4A8"] = "QQQ0CO",
-		["BattlePet-0-00000AFAB7C9"] = "QQQ015D",
+		["BattlePet-0-000006C44994"] = "QQQ07B",
+		["BattlePet-0-00000AB050B1"] = "QQQ02CB",
+		["BattlePet-0-000006C44A48"] = "QQQ0G5",
 		["BattlePet-0-00000A49B5FA"] = "QQQ02LT",
-		["BattlePet-0-0000073DEDD6"] = "QQQ01CM",
+		["BattlePet-0-000008ABD9A6"] = "QQQ0FF",
 		["BattlePet-0-0000086EFD06"] = "QQQ057",
 		["BattlePet-0-00000859247D"] = "QQQ016H",
 		["BattlePet-0-000008485749"] = "QQQ0M5",
-		["BattlePet-0-000006C44A3D"] = "QQQ0DO",
+		["BattlePet-0-000008573481"] = "QQQ01J4",
 		["BattlePet-0-000008777073"] = "QQQ01A0",
 		["BattlePet-0-00000A5CC2AC"] = "QQQ02MO",
+		["BattlePet-0-00000877705E"] = "QQQ055",
 		["BattlePet-0-000006C44937"] = "QQQ01OA",
-		["BattlePet-0-0000087F525A"] = "QQQ01H7",
 		["BattlePet-0-0000084C300C"] = "QQQ0HC",
-		["BattlePet-0-000006C44ABC"] = "QQQ0JQ",
-		["BattlePet-0-000006C44AA1"] = "QQQ0D3",
+		["BattlePet-0-00000AB2FFB3"] = "QQQ017I",
+		["BattlePet-0-00000AB04F74"] = "QQQ01KS",
 		["BattlePet-0-000006C44929"] = "QQQ0FC",
-		["BattlePet-0-00000B1F80C0"] = "QQQ04I",
+		["BattlePet-0-000006C44935"] = "QQQ04A",
 		["BattlePet-0-0000087F5221"] = "QQQ01LN",
 		["BattlePet-0-00000B17409A"] = "QQQ02DC",
 		["BattlePet-0-000006C44968"] = "QQQ01D",
 		["BattlePet-0-000009191BDC"] = "QQQ01TH",
 		["BattlePet-0-000008DF98F6"] = "QQQ02C2",
-		["BattlePet-0-000006C44A48"] = "QQQ0G5",
-		["BattlePet-0-000008ABB9D1"] = "QQQ0CQ",
+		["BattlePet-0-000009E81D7A"] = "QQQ02D5",
+		["BattlePet-0-00000B1F80C0"] = "QQQ04I",
 		["BattlePet-0-00000A72A2E9"] = "QQQ02FP",
 		["BattlePet-0-00000871EC4F"] = "QQQ0K4",
-		["BattlePet-0-000008AD75EE"] = "QQQ0CI",
-		["BattlePet-0-000009D0DB74"] = "QQQ08V",
-		["BattlePet-0-000009C0C232"] = "QQQ02GI",
-		["BattlePet-0-0000087F24A9"] = "QQQ01N5",
-		["BattlePet-0-00000877705E"] = "QQQ055",
-		["BattlePet-0-000008D077A7"] = "QQQ02BT",
-		["BattlePet-0-00000AB04F11"] = "QQQ06E",
-		["BattlePet-0-00000AB2FFB3"] = "QQQ017I",
-		["BattlePet-0-000008745A99"] = "QQQ0K9",
-		["BattlePet-0-000006C44A15"] = "QQQ01HE",
-		["BattlePet-0-000008AD915D"] = "QQQ0FE",
-		["BattlePet-0-0000084852D3"] = "QQQ0MS",
-		["BattlePet-0-00000A663618"] = "QQQ02G9",
-		["BattlePet-0-000008504441"] = "QQQ02L",
-		["BattlePet-0-000006C44A56"] = "QQQ0EO",
-		["BattlePet-0-000006C449F5"] = "QQQ03O",
+		["BattlePet-0-000006C449DC"] = "QQQ0EC",
 		["BattlePet-0-000008AD6D0D"] = "QQQ0FB",
-		["BattlePet-0-0000087F521A"] = "QQQ01UG",
-		["BattlePet-0-000006C4494F"] = "QQQ019",
-		["BattlePet-0-00000924A7A9"] = "QQQ02C9",
-		["BattlePet-0-00000AB4D176"] = "QQQ02P2",
-		["BattlePet-0-000008777090"] = "QQQ0199",
-		["BattlePet-0-00000877708D"] = "QQQ020F",
-		["BattlePet-0-000006C44AC9"] = "QQQ0FS",
+		["BattlePet-0-000009C0C232"] = "QQQ02GI",
+		["BattlePet-0-00000AFAB7C9"] = "QQQ015D",
+		["BattlePet-0-000007F9B737"] = "QQQ022V",
+		["BattlePet-0-000006C44B47"] = "QQQ024",
+		["BattlePet-0-00000AB04F11"] = "QQQ06E",
+		["BattlePet-0-00000891C2EB"] = "QQQ0JT",
+		["BattlePet-0-000006C44A9E"] = "QQQ0E9",
+		["BattlePet-0-00000A6A917F"] = "QQQ025",
 		["BattlePet-0-000006C44B1E"] = "QQQ014Q",
-		["BattlePet-0-00000A07C425"] = "QQQ02JO",
-		["BattlePet-0-0000073BE5EC"] = "QQQ01AL",
 		["BattlePet-0-00000A72A2EE"] = "QQQ02MA",
-		["BattlePet-0-0000086EFD00"] = "QQQ065",
+		["BattlePet-0-000008CA1308"] = "QQQ024G",
+		["BattlePet-0-0000084851E5"] = "QQQ0NC",
+		["BattlePet-0-000008745A99"] = "QQQ0K9",
+		["BattlePet-0-000006C449F5"] = "QQQ03O",
+		["BattlePet-0-00000847B5B6"] = "QQQ0178",
+		["BattlePet-0-0000087F521A"] = "QQQ01UG",
+		["BattlePet-0-00000AFAB7DC"] = "QQQ02B8",
+		["BattlePet-0-00000877705D"] = "QQQ01IT",
+		["BattlePet-0-000008AD915D"] = "QQQ0FE",
+		["BattlePet-0-0000073DEDD6"] = "QQQ01CM",
+		["BattlePet-0-00000AB6BDD2"] = "QQQ02P4",
+		["BattlePet-0-000008777090"] = "QQQ0199",
+		["BattlePet-0-000008A007BF"] = "QQQ01N4",
+		["BattlePet-0-00000A07C425"] = "QQQ02JO",
+		["BattlePet-0-0000086EFD71"] = "QQQ01OG",
+		["BattlePet-0-00000AB4D176"] = "QQQ02P2",
+		["BattlePet-0-0000085013F2"] = "QQQ01HT",
 		["BattlePet-0-0000079CFB6B"] = "QQQ01T4",
-		["BattlePet-0-000008500AA2"] = "QQQ0JV",
+		["BattlePet-0-0000086EFD07"] = "QQQ01LT",
 		["BattlePet-0-00000A2CE743"] = "QQQ02KD",
-		["BattlePet-0-00000A72A2EA"] = "QQQ02BB",
+		["BattlePet-0-0000090A6587"] = "QQQ02C4",
 		["BattlePet-0-00000B3B36FD"] = "QQQ01I5",
 		["BattlePet-0-000008484F2A"] = "QQQ0BV",
 		["BattlePet-0-00000848588E"] = "QQQ0MI",
@@ -4576,154 +4575,154 @@ RematchSettings = {
 		["BattlePet-0-00000AA8F0D4"] = "QQQ02ND",
 		["BattlePet-0-00000B1740A0"] = "QQQ024D",
 		["BattlePet-0-00000AB04F17"] = "QQQ019O",
+		["BattlePet-0-00000AB050BC"] = "QQQ02BA",
 		["BattlePet-0-000008504443"] = "QQQ01QU",
-		["BattlePet-0-000006C44A9E"] = "QQQ0E9",
 		["BattlePet-0-0000087F24B5"] = "QQQ015G",
 		["BattlePet-0-00000877707E"] = "QQQ08N",
-		["BattlePet-0-000006C44A33"] = "QQQ020",
-		["BattlePet-0-00000A0116FA"] = "QQQ02GK",
-		["BattlePet-0-00000AB050BC"] = "QQQ02BA",
+		["BattlePet-0-0000087F5227"] = "QQQ04U",
+		["BattlePet-0-0000084F9FCE"] = "QQQ0PK",
+		["BattlePet-0-000008485759"] = "QQQ0L6",
 		["BattlePet-0-000008D7F8B0"] = "QQQ02CD",
 		["BattlePet-0-00000AB04EE7"] = "QQQ06H",
 		["BattlePet-0-00000AB050AF"] = "QQQ019I",
+		["BattlePet-0-000008B9AB83"] = "QQQ024E",
 		["BattlePet-0-00000B0B62FC"] = "QQQ01LR",
-		["BattlePet-0-00000AB25E81"] = "QQQ02PM",
 		["BattlePet-0-0000085AFC6A"] = "QQQ0PN",
 		["BattlePet-0-00000AB04F83"] = "QQQ06C",
-		["BattlePet-0-00000A91A91E"] = "QQQ02PO",
+		["BattlePet-0-00000850440C"] = "QQQ02M",
 		["BattlePet-0-00000AB050C2"] = "QQQ019K",
-		["BattlePet-0-00000AB04EF5"] = "QQQ02KA",
+		["BattlePet-0-00000AA8D6A5"] = "QQQ02OP",
 		["BattlePet-0-0000084C304B"] = "QQQ0NK",
 		["BattlePet-0-000009E42438"] = "QQQ02KB",
 		["BattlePet-0-00000A0116F9"] = "QQQ02CV",
 		["BattlePet-0-0000086EFD59"] = "QQQ01T9",
-		["BattlePet-0-000006C44A0E"] = "QQQ0FH",
-		["BattlePet-0-000006C4494A"] = "QQQ048",
-		["BattlePet-0-00000872175C"] = "QQQ0GB",
-		["BattlePet-0-00000B17B3FA"] = "QQQ02BL",
-		["BattlePet-0-00000A72A2EF"] = "QQQ02G5",
+		["BattlePet-0-00000836CCA5"] = "QQQ0M7",
+		["BattlePet-0-000006C44AB4"] = "QQQ01RU",
+		["BattlePet-0-000008AD75EE"] = "QQQ0CI",
+		["BattlePet-0-00000A91A91E"] = "QQQ02PO",
+		["BattlePet-0-0000088D8E24"] = "QQQ0KC",
 		["BattlePet-0-00000AC40FA9"] = "QQQ06I",
 		["BattlePet-0-0000085F6DBE"] = "QQQ020T",
-		["BattlePet-0-00000AA8D6A5"] = "QQQ02OP",
+		["BattlePet-0-00000AB04EB9"] = "QQQ02KM",
 		["BattlePet-0-000009B6F568"] = "QQQ02EU",
-		["BattlePet-0-000006C44981"] = "QQQ0D4",
+		["BattlePet-0-000008AD4D83"] = "QQQ0GG",
 		["BattlePet-0-000007D48B08"] = "QQQ01A5",
 		["BattlePet-0-00000B26D9A9"] = "QQQ0KV",
-		["BattlePet-0-00000836CCA5"] = "QQQ0M7",
-		["BattlePet-0-000008ABDBC5"] = "QQQ0EP",
+		["BattlePet-0-00000A6FC645"] = "QQQ02M6",
+		["BattlePet-0-00000A0116FC"] = "QQQ02ET",
 		["BattlePet-0-00000B0E818E"] = "QQQ02F5",
 		["BattlePet-0-000008A007CF"] = "QQQ01E",
 		["BattlePet-0-000006C4496A"] = "QQQ0DC",
 		["BattlePet-0-00000AAEE873"] = "QQQ02NC",
 		["BattlePet-0-0000086EFC44"] = "QQQ01J2",
-		["BattlePet-0-0000085013E2"] = "QQQ01S0",
+		["BattlePet-0-000008ABECAB"] = "QQQ0CK",
 		["BattlePet-0-000008AC1B1D"] = "QQQ016G",
-		["BattlePet-0-00000A0116FC"] = "QQQ02ET",
+		["BattlePet-0-000008ABDBC5"] = "QQQ0EP",
 		["BattlePet-0-000009FDEED3"] = "QQQ02KC",
-		["BattlePet-0-000008CA1308"] = "QQQ024G",
+		["BattlePet-0-00000AB04F07"] = "QQQ02KO",
 		["BattlePet-0-0000084DC37D"] = "QQQ0149",
 		["BattlePet-0-000008501EF4"] = "QQQ010F",
 		["BattlePet-0-000006C44B0C"] = "QQQ01SB",
 		["BattlePet-0-00000A2C46A8"] = "QQQ02K5",
 		["BattlePet-0-0000087CE4FD"] = "QQQ040",
-		["BattlePet-0-0000084C2FE0"] = "QQQ0HB",
+		["BattlePet-0-000006C44A1D"] = "QQQ03Q",
 		["BattlePet-0-000008AE0792"] = "QQQ0201",
-		["BattlePet-0-000008485717"] = "QQQ0M3",
+		["BattlePet-0-00000AB04F0F"] = "QQQ02DB",
 		["BattlePet-0-000008ADB5E0"] = "QQQ014O",
 		["BattlePet-0-00000AC4309B"] = "QQQ02LS",
-		["BattlePet-0-0000084C30A3"] = "QQQ0EM",
+		["BattlePet-0-000008AD4EFB"] = "QQQ0G9",
 		["BattlePet-0-00000AFAB7CE"] = "QQQ019B",
 		["BattlePet-0-000008AD7CC8"] = "QQQ0DT",
-		["BattlePet-0-000006C44B48"] = "QQQ0CU",
+		["BattlePet-0-00000AFB2F61"] = "QQQ02LU",
 		["BattlePet-0-000006C44BFB"] = "QQQ03M",
-		["BattlePet-0-000006C44B37"] = "QQQ0D5",
+		["BattlePet-0-000008504441"] = "QQQ02L",
 		["BattlePet-0-000006C44A43"] = "QQQ03T",
-		["BattlePet-0-0000085218B2"] = "QQQ0GO",
-		["BattlePet-0-000006C4496B"] = "QQQ0D6",
+		["BattlePet-0-0000086EFD94"] = "QQQ056",
+		["BattlePet-0-00000A45A87A"] = "QQQ02B4",
 		["BattlePet-0-000008AD7E88"] = "QQQ0E5",
 		["BattlePet-0-000006C44A22"] = "QQQ01H9",
 		["BattlePet-0-0000073CAB51"] = "QQQ01V6",
 		["BattlePet-0-00000B174091"] = "QQQ02P0",
-		["BattlePet-0-00000A3DCC0A"] = "QQQ02MQ",
-		["BattlePet-0-0000090A6587"] = "QQQ02C4",
+		["BattlePet-0-00000B17B3FA"] = "QQQ02BL",
+		["BattlePet-0-000006C44ABF"] = "QQQ01N",
 		["BattlePet-0-00000A69018B"] = "QQQ062",
 		["BattlePet-0-00000AF9897C"] = "QQQ018O",
-		["BattlePet-0-0000085D29A4"] = "QQQ0K8",
 		["BattlePet-0-00000877706B"] = "QQQ09T",
+		["BattlePet-0-000006C4497A"] = "QQQ02A",
 		["BattlePet-0-0000084FB249"] = "QQQ084",
-		["BattlePet-0-0000080E8391"] = "QQQ0HL",
-		["BattlePet-0-00000AFAB7DA"] = "QQQ01Q",
+		["BattlePet-0-000006C44A0E"] = "QQQ0FH",
+		["BattlePet-0-00000B0E6FD3"] = "QQQ018P",
 		["BattlePet-0-000008A00AE1"] = "QQQ053",
 		["BattlePet-0-000006C44B76"] = "QQQ0F8",
-		["BattlePet-0-0000085FFB1B"] = "QQQ07A",
+		["BattlePet-0-00000B1F80C2"] = "QQQ02KU",
 		["BattlePet-0-000006C44A50"] = "QQQ01L9",
 		["BattlePet-0-000006C44A13"] = "QQQ01DH",
 		["BattlePet-0-000008ABEBC0"] = "QQQ0FM",
-		["BattlePet-0-00000B1F80C2"] = "QQQ02KU",
-		["BattlePet-0-00000919191B"] = "QQQ0HE",
+		["BattlePet-0-0000085FFB1B"] = "QQQ07A",
+		["BattlePet-0-0000085013F0"] = "QQQ04B",
 		["BattlePet-0-00000730A42D"] = "QQQ01LP",
 		["BattlePet-0-000006C44962"] = "QQQ02P",
 		["BattlePet-0-00000AA8EB20"] = "QQQ02OH",
 		["BattlePet-0-000009B77603"] = "QQQ02FS",
-		["BattlePet-0-000008ABECAB"] = "QQQ0CK",
-		["BattlePet-0-000006C4497A"] = "QQQ02A",
+		["BattlePet-0-00000AB04EF5"] = "QQQ02KA",
+		["BattlePet-0-0000085D29A4"] = "QQQ0K8",
 		["BattlePet-0-00000AFB203B"] = "QQQ02F4",
-		["BattlePet-0-000008B9AB83"] = "QQQ024E",
-		["BattlePet-0-0000086375D3"] = "QQQ0C1",
+		["BattlePet-0-00000919191B"] = "QQQ0HE",
+		["BattlePet-0-000008AD47C7"] = "QQQ091",
 		["BattlePet-0-0000085013F5"] = "QQQ023",
-		["BattlePet-0-00000A66361B"] = "QQQ02G0",
+		["BattlePet-0-0000087F525A"] = "QQQ01H7",
 		["BattlePet-0-000006C44987"] = "QQQ016E",
 		["BattlePet-0-00000A2CE740"] = "QQQ02KL",
+		["BattlePet-0-0000084C30A3"] = "QQQ0EM",
 		["BattlePet-0-00000A834761"] = "QQQ02OR",
-		["BattlePet-0-00000A6A00AF"] = "QQQ0222",
-		["BattlePet-0-0000086EFD92"] = "QQQ04D",
+		["BattlePet-0-00000877708D"] = "QQQ020F",
 		["BattlePet-0-00000850440D"] = "QQQ085",
 		["BattlePet-0-00000A01181B"] = "QQQ02KQ",
-		["BattlePet-0-00000850440C"] = "QQQ02M",
-		["BattlePet-0-00000B1F21E7"] = "QQQ03A",
-		["BattlePet-0-000008AD4D83"] = "QQQ0GG",
+		["BattlePet-0-00000A72A2EF"] = "QQQ02G5",
+		["BattlePet-0-0000085013E2"] = "QQQ01S0",
+		["BattlePet-0-000006C44981"] = "QQQ0D4",
 		["BattlePet-0-000008777061"] = "QQQ079",
-		["BattlePet-0-0000088D8E24"] = "QQQ0KC",
+		["BattlePet-0-00000B1F21E7"] = "QQQ03A",
 		["BattlePet-0-000008664157"] = "QQQ0JU",
-		["BattlePet-0-000006C44AB4"] = "QQQ01RU",
+		["BattlePet-0-000006C4494A"] = "QQQ048",
 		["BattlePet-0-0000084EF84C"] = "QQQ0H1",
 		["BattlePet-0-00000A6CE0B8"] = "QQQ069",
 		["BattlePet-0-00000A0DAE95"] = "QQQ02KE",
-		["BattlePet-0-00000AB04EB9"] = "QQQ02KM",
-		["BattlePet-0-00000A6FC645"] = "QQQ02M6",
+		["BattlePet-0-00000924A7A9"] = "QQQ02C9",
+		["BattlePet-0-00000AB25E81"] = "QQQ02PM",
 		["BattlePet-0-000008ABE84D"] = "QQQ0FO",
 		["BattlePet-0-000006C44B8C"] = "QQQ050",
 		["BattlePet-0-000008ABE6BB"] = "QQQ0G0",
-		["BattlePet-0-0000087F5227"] = "QQQ04U",
-		["BattlePet-0-0000084F9FCE"] = "QQQ0PK",
-		["BattlePet-0-000008501E9F"] = "QQQ0QE",
+		["BattlePet-0-00000A0116FA"] = "QQQ02GK",
+		["BattlePet-0-000006C44B48"] = "QQQ0CU",
+		["BattlePet-0-00000872175C"] = "QQQ0GB",
 		["BattlePet-0-000006C44BAE"] = "QQQ0FJ",
 		["BattlePet-0-000006C44B41"] = "QQQ02B",
-		["BattlePet-0-0000086EFD07"] = "QQQ01LT",
-		["BattlePet-0-0000085013F2"] = "QQQ01HT",
-		["BattlePet-0-0000086EFD71"] = "QQQ01OG",
-		["BattlePet-0-000008501394"] = "QQQ094",
-		["BattlePet-0-000008485759"] = "QQQ0L6",
-		["BattlePet-0-0000086EFD8F"] = "QQQ0151",
-		["BattlePet-0-000006C4495A"] = "QQQ01K1",
+		["BattlePet-0-000008D077A7"] = "QQQ02BT",
+		["BattlePet-0-0000086EFD00"] = "QQQ065",
+		["BattlePet-0-000008501E9F"] = "QQQ0QE",
+		["BattlePet-0-000006C44AC9"] = "QQQ0FS",
 		["BattlePet-0-000006C44984"] = "QQQ010G",
-		["BattlePet-0-00000AC41E93"] = "QQQ0209",
-		["BattlePet-0-00000877705D"] = "QQQ01IT",
-		["BattlePet-0-000006C44AC6"] = "QQQ0DF",
 		["BattlePet-0-000008777071"] = "QQQ0Q2",
-		["BattlePet-0-00000AB04F0F"] = "QQQ02DB",
+		["BattlePet-0-000008500AA2"] = "QQQ0JV",
+		["BattlePet-0-000009D0DB74"] = "QQQ08V",
+		["BattlePet-0-00000AC41E93"] = "QQQ0209",
+		["BattlePet-0-0000073BE5EC"] = "QQQ01AL",
+		["BattlePet-0-000006C44AC6"] = "QQQ0DF",
+		["BattlePet-0-00000A72A2EA"] = "QQQ02BB",
+		["BattlePet-0-000006C4494F"] = "QQQ019",
 		["BattlePet-0-00000AB04EB2"] = "QQQ02GO",
-		["BattlePet-0-000008A007BF"] = "QQQ01N4",
-		["BattlePet-0-000006C44B47"] = "QQQ024",
-		["BattlePet-0-000007305761"] = "QQQ01LF",
-		["BattlePet-0-000006C44935"] = "QQQ04A",
-		["BattlePet-0-00000AB04F74"] = "QQQ01KS",
+		["BattlePet-0-00000A663618"] = "QQQ02G9",
+		["BattlePet-0-000006C44A15"] = "QQQ01HE",
+		["BattlePet-0-00000A91CC05"] = "QQQ0AL",
+		["BattlePet-0-000006C44AA1"] = "QQQ0D3",
+		["BattlePet-0-000006C44ABC"] = "QQQ0JQ",
 		["BattlePet-0-00000AB04F7A"] = "QQQ02CS",
 		["BattlePet-0-000008AD764B"] = "QQQ0C8",
-		["BattlePet-0-00000847B5B6"] = "QQQ0178",
-		["BattlePet-0-000006C449DC"] = "QQQ0EC",
-		["BattlePet-0-000008AD4EFB"] = "QQQ0G9",
-		["BattlePet-0-00000AB050B1"] = "QQQ02CB",
+		["BattlePet-0-000006C44B37"] = "QQQ0D5",
+		["BattlePet-0-000007305761"] = "QQQ01LF",
+		["BattlePet-0-00000A72A2FA"] = "QQQ02FV",
+		["BattlePet-0-00000A91CC04"] = "QQQ0AM",
 		["BattlePet-0-000006C449B7"] = "QQQ0F5",
 		["BattlePet-0-00000750D846"] = "QQQ01VQ",
 		["BattlePet-0-000006C449E3"] = "QQQ014A",
@@ -4731,76 +4730,76 @@ RematchSettings = {
 		["BattlePet-0-000008AD817E"] = "QQQ0147",
 		["BattlePet-0-000006C44C01"] = "QQQ0EK",
 		["BattlePet-0-000006C44A4C"] = "QQQ01LV",
-		["BattlePet-0-000009D372C0"] = "QQQ02FM",
-		["BattlePet-0-00000A72A2FA"] = "QQQ02FV",
-		["BattlePet-0-000006C44994"] = "QQQ07B",
+		["BattlePet-0-0000086375D3"] = "QQQ0C1",
+		["BattlePet-0-000009E8A91D"] = "QQQ02D0",
+		["BattlePet-0-0000076D8139"] = "QQQ0224",
 		["BattlePet-0-0000087F24BA"] = "QQQ03U",
 		["BattlePet-0-00000AB04F0C"] = "QQQ02BP",
-		["BattlePet-0-00000AB04F01"] = "QQQ024M",
-		["BattlePet-0-000008BF93EB"] = "QQQ02CK",
-		["BattlePet-0-00000796F900"] = "QQQ01T6",
+		["BattlePet-0-0000086374EA"] = "QQQ0GM",
+		["BattlePet-0-000006C4495C"] = "QQQ0DP",
+		["BattlePet-0-000009D372C0"] = "QQQ02FM",
 		["BattlePet-0-0000085013ED"] = "QQQ01MS",
 		["BattlePet-0-00000AB050A8"] = "QQQ06K",
 		["BattlePet-0-0000087F521E"] = "QQQ05E",
 		["BattlePet-0-000006C4495B"] = "QQQ01F",
-		["BattlePet-0-00000B2AD197"] = "QQQ09J",
+		["BattlePet-0-000009C0C234"] = "QQQ09K",
 		["BattlePet-0-0000086640A1"] = "QQQ0EB",
 		["BattlePet-0-000006C44A4A"] = "QQQ0DD",
 		["BattlePet-0-000009094380"] = "QQQ02C3",
-		["BattlePet-0-00000B0E8C9F"] = "QQQ02PK",
+		["BattlePet-0-000006C44975"] = "QQQ08G",
 		["BattlePet-0-000008AD722E"] = "QQQ0CR",
-		["BattlePet-0-00000A0F3788"] = "QQQ02FL",
+		["BattlePet-0-0000086EFD63"] = "QQQ05V",
 		["BattlePet-0-0000086EFD91"] = "QQQ078",
 		["BattlePet-0-00000AB04EF1"] = "QQQ02FB",
 		["BattlePet-0-00000A4212CB"] = "QQQ052",
-		["BattlePet-0-000006C449BB"] = "QQQ01K",
+		["BattlePet-0-000006C44972"] = "QQQ0FI",
 		["BattlePet-0-000006C44B40"] = "QQQ01C3",
-		["BattlePet-0-0000084851E5"] = "QQQ0NC",
+		["BattlePet-0-000006C44B3B"] = "QQQ01DV",
 		["BattlePet-0-00000AFAB7CC"] = "QQQ015O",
 		["BattlePet-0-000008FE7E65"] = "QQQ01FE",
-		["BattlePet-0-000008777056"] = "QQQ063",
+		["BattlePet-0-0000073BF7E0"] = "QQQ01UK",
 		["BattlePet-0-00000836CBC6"] = "QQQ0HI",
 		["BattlePet-0-00000AB04F81"] = "QQQ0JL",
-		["BattlePet-0-000009C1403A"] = "QQQ02D8",
-		["BattlePet-0-000006C4494D"] = "QQQ028",
+		["BattlePet-0-000008AD8A33"] = "QQQ0EF",
+		["BattlePet-0-00000AB04F85"] = "QQQ02B9",
 		["BattlePet-0-000006C44B3F"] = "QQQ0L3",
 		["BattlePet-0-0000087C3AC2"] = "QQQ0EH",
 		["BattlePet-0-000006C44BF5"] = "QQQ0E2",
-		["BattlePet-0-000008AD7334"] = "QQQ0D0",
+		["BattlePet-0-000006C44A0A"] = "QQQ0EQ",
 		["BattlePet-0-000006C449C7"] = "QQQ01CQ",
-		["BattlePet-0-00000910945A"] = "QQQ0KQ",
-		["BattlePet-0-0000086EFCF8"] = "QQQ06J",
+		["BattlePet-0-000006C449E6"] = "QQQ07R",
+		["BattlePet-0-000008414583"] = "QQQ01MR",
 		["BattlePet-0-00000AB050A1"] = "QQQ02G4",
-		["BattlePet-0-0000085043F7"] = "QQQ01H1",
-		["BattlePet-0-000008AD892B"] = "QQQ0ED",
-		["BattlePet-0-00000B0ED268"] = "QQQ02LR",
-		["BattlePet-0-00000B31AD13"] = "QQQ011H",
+		["BattlePet-0-000006C44B06"] = "QQQ0E6",
+		["BattlePet-0-000006C44AFB"] = "QQQ017",
+		["BattlePet-0-000006C44B4D"] = "QQQ018",
+		["BattlePet-0-000009C0C235"] = "QQQ04T",
 		["BattlePet-0-000008CC5371"] = "QQQ02BF",
 		["BattlePet-0-000009D06FF7"] = "QQQ02G1",
 		["BattlePet-0-00000848572E"] = "QQQ0L5",
 		["BattlePet-0-00000B1465D4"] = "QQQ08M",
 		["BattlePet-0-000009FB9B02"] = "QQQ02KG",
-		["BattlePet-0-00000AB050BD"] = "QQQ015C",
-		["BattlePet-0-00000AB04F6F"] = "QQQ02BC",
-		["BattlePet-0-000008ABE081"] = "QQQ0ER",
+		["BattlePet-0-0000085218B2"] = "QQQ0GO",
+		["BattlePet-0-0000084C2FE0"] = "QQQ0HB",
+		["BattlePet-0-00000A6FC643"] = "QQQ02MB",
 		["BattlePet-0-0000084855D0"] = "QQQ0MR",
 		["BattlePet-0-000006C44B50"] = "QQQ04C",
 		["BattlePet-0-000006C4499D"] = "QQQ0EA",
-		["BattlePet-0-0000084DC3B5"] = "QQQ0EJ",
-		["BattlePet-0-00000A72A2E8"] = "QQQ02MD",
-		["BattlePet-0-000008501E9B"] = "QQQ0QD",
+		["BattlePet-0-00000A0F3788"] = "QQQ02FL",
+		["BattlePet-0-00000AB04F01"] = "QQQ024M",
+		["BattlePet-0-00000AB050C5"] = "QQQ024L",
 		["BattlePet-0-000006C44AA3"] = "QQQ04V",
-		["BattlePet-0-00000AB04EFC"] = "QQQ07F",
-		["BattlePet-0-000006C44957"] = "QQQ03L",
+		["BattlePet-0-00000A66361A"] = "QQQ02GR",
+		["BattlePet-0-000008AD7677"] = "QQQ0CB",
 		["BattlePet-0-00000AB04EEA"] = "QQQ08F",
 		["BattlePet-0-00000841457D"] = "QQQ01HK",
-		["BattlePet-0-00000AB050C5"] = "QQQ024L",
-		["BattlePet-0-0000086EFCF1"] = "QQQ0218",
-		["BattlePet-0-000009BC6D3B"] = "QQQ02BR",
+		["BattlePet-0-000006C449F7"] = "QQQ0F3",
+		["BattlePet-0-0000084C3067"] = "QQQ0EL",
+		["BattlePet-0-000008ABB9D1"] = "QQQ0CQ",
 		["BattlePet-0-000006C44991"] = "QQQ02E",
 		["BattlePet-0-000006C44AD8"] = "QQQ0ET",
-		["BattlePet-0-000006C44ABF"] = "QQQ01N",
-		["BattlePet-0-000006C449F4"] = "QQQ01H0",
+		["BattlePet-0-000008777058"] = "QQQ021C",
+		["BattlePet-0-000006C44BE1"] = "QQQ0D2",
 	},
 	["Sort"] = {
 		["Order"] = 2,
@@ -5765,16 +5764,6 @@ RematchSettings = {
 			163, -- [6]
 			194, -- [7]
 			3, -- [8]
-		},
-		["BattlePet-0-0000084852D3"] = {
-			1, -- [1]
-			true, -- [2]
-			732, -- [3]
-			22, -- [4]
-			1373, -- [5]
-			243, -- [6]
-			240, -- [7]
-			4, -- [8]
 		},
 		["BattlePet-0-000006C449F5"] = {
 			1, -- [1]
@@ -9981,16 +9970,6 @@ RematchSettings = {
 			276, -- [7]
 			4, -- [8]
 		},
-		["BattlePet-0-00000A91A91E"] = {
-			1, -- [1]
-			true, -- [2]
-			2872, -- [3]
-			1, -- [4]
-			156, -- [5]
-			11, -- [6]
-			12, -- [7]
-			4, -- [8]
-		},
 		["BattlePet-0-00000B17B3FA"] = {
 			1, -- [1]
 			true, -- [2]
@@ -10000,6 +9979,16 @@ RematchSettings = {
 			11, -- [6]
 			10, -- [7]
 			3, -- [8]
+		},
+		["BattlePet-0-00000A91A91E"] = {
+			1, -- [1]
+			true, -- [2]
+			2872, -- [3]
+			1, -- [4]
+			156, -- [5]
+			11, -- [6]
+			12, -- [7]
+			4, -- [8]
 		},
 		["BattlePet-0-000008501EF4"] = {
 			1, -- [1]
@@ -10021,12 +10010,12 @@ RematchSettings = {
 			10, -- [7]
 			3, -- [8]
 		},
-		["BattlePet-0-00000AAEE873"] = {
+		["BattlePet-0-00000924A7A9"] = {
 			1, -- [1]
 			true, -- [2]
-			2796, -- [3]
+			2441, -- [3]
 			1, -- [4]
-			154, -- [5]
+			155, -- [5]
 			11, -- [6]
 			11, -- [7]
 			4, -- [8]
@@ -10061,12 +10050,12 @@ RematchSettings = {
 			45, -- [7]
 			3, -- [8]
 		},
-		["BattlePet-0-00000924A7A9"] = {
+		["BattlePet-0-00000AAEE873"] = {
 			1, -- [1]
 			true, -- [2]
-			2441, -- [3]
+			2796, -- [3]
 			1, -- [4]
-			155, -- [5]
+			154, -- [5]
 			11, -- [6]
 			11, -- [7]
 			4, -- [8]
@@ -11243,29 +11232,89 @@ RematchSettings = {
 	},
 	["XPos"] = 402.40771484375,
 	["CollectionChartType"] = 7,
-	["NotesWidth"] = 358.2467041015625,
-	["ScriptFilters"] = {
+	["loadedTeam"] = 162470,
+	["NoSummonOnDblClick"] = true,
+	["FavoriteFilters"] = {
+	},
+	["CollectionChartSources"] = false,
+	["ShowSpeciesID"] = false,
+	["PromptToLoad"] = true,
+	["TeamGroups"] = {
 		{
-			"Unnamed Pets", -- [1]
-			"-- Collected pets that still have their original name.\n\nreturn owned and not customName", -- [2]
+			"General", -- [1]
+			"Interface\\Icons\\PetJournalPortrait", -- [2]
 		}, -- [1]
 		{
-			"Partially Leveled", -- [1]
-			"-- Pets that have earned some xp in battle.\n\nreturn xp and xp>0", -- [2]
+			"Stratholme", -- [1]
+			"Interface\\Icons\\PetJournalPortrait", -- [2]
 		}, -- [2]
 		{
-			"Unique Abilities", -- [1]
-			"-- Pets with abilities not shared by other pets.\n\nif not count then\n  -- create count of each ability per species\n  count = {}\n  for speciesID in AllSpeciesIDs() do\n    for abilityID in AllAbilities(speciesID) do\n      if not count[abilityID] then\n        count[abilityID] = 0\n      end\n      count[abilityID] = count[abilityID] + 1\n    end\n  end\nend\n\nfor _,abilityID in ipairs(abilityList) do\n  if count[abilityID]==1 then\n    return true\n  end\nend", -- [2]
+			"Pandaria", -- [1]
+			"Interface\\Icons\\PetJournalPortrait", -- [2]
 		}, -- [3]
 		{
-			"Pets Without Rares", -- [1]
-			"-- Collected battle pets that have no rare version.\n\nif not rares then\n  rares = {}\n  for petID in AllPetIDs() do\n    if select(5,C_PetJournal.GetPetStats(petID))==4 then\n      rares[C_PetJournal.GetPetInfoByPetID(petID)]=true\n    end\n  end\nend\n\nif canBattle and owned and not rares[speciesID] then\n  return true\nend", -- [2]
+			"Blackrock depths", -- [1]
+			"Interface\\Icons\\PetJournalPortrait", -- [2]
 		}, -- [4]
 		{
-			"Hybrid Counters", -- [1]
-			"-- Pets with three or more attack types different than their pet type.\n\nlocal count = 0\nfor _,abilityID in ipairs(abilityList) do\n  local abilityType,noHints = select(7, C_PetBattles.GetAbilityInfoByID(abilityID) )\n  if not noHints and abilityType~=petType then\n    count = count + 1\n  end\nend\n\nreturn count>=3\n", -- [2]
+			"Powerleveling", -- [1]
+			"Interface\\Icons\\PetJournalPortrait", -- [2]
 		}, -- [5]
+		{
+			"Wailing Caverns", -- [1]
+			"Interface\\Icons\\PetJournalPortrait", -- [2]
+		}, -- [6]
+		{
+			"Deadmines", -- [1]
+			"Interface\\Icons\\PetJournalPortrait", -- [2]
+		}, -- [7]
+		{
+			"Gnomergan", -- [1]
+			"Interface\\Icons\\PetJournalPortrait", -- [2]
+		}, -- [8]
+		{
+			"Celestial Tournament", -- [1]
+			"Interface\\Icons\\PetJournalPortrait", -- [2]
+		}, -- [9]
+		{
+			"awfully big", -- [1]
+			"Interface\\Icons\\PetJournalPortrait", -- [2]
+		}, -- [10]
+		{
+			"Tanaan jungle", -- [1]
+			"Interface\\Icons\\PetJournalPortrait", -- [2]
+		}, -- [11]
 	},
+	["NotesWidth"] = 358.2467041015625,
+	["Filters"] = {
+		["Other"] = {
+		},
+		["Script"] = {
+		},
+		["Types"] = {
+		},
+		["Favorite"] = {
+		},
+		["Collected"] = {
+		},
+		["Strong"] = {
+		},
+		["Sources"] = {
+		},
+		["Breed"] = {
+		},
+		["Rarity"] = {
+		},
+		["Similar"] = {
+		},
+		["Level"] = {
+		},
+		["Tough"] = {
+		},
+		["Moveset"] = {
+		},
+	},
+	["DialogXPos"] = 457.4837951660156,
 	["LevelingQueue"] = {
 		"BattlePet-0-000007EBE286", -- [1]
 		"BattlePet-0-00000AB2FFB3", -- [2]
@@ -11475,384 +11524,302 @@ RematchSettings = {
 		"BattlePet-0-000008AD8764", -- [206]
 		"BattlePet-0-00000AB04F7B", -- [207]
 		"BattlePet-0-0000084DC37D", -- [208]
-		"BattlePet-0-0000084852D3", -- [209]
-		"BattlePet-0-000006C4497A", -- [210]
-		"BattlePet-0-00000AB050A8", -- [211]
-		"BattlePet-0-000006C449BB", -- [212]
-		"BattlePet-0-000006C44975", -- [213]
-		"BattlePet-0-00000AFAB7CE", -- [214]
-		"BattlePet-0-000008D077A7", -- [215]
-		"BattlePet-0-000008777090", -- [216]
-		"BattlePet-0-00000AB04F0C", -- [217]
-		"BattlePet-0-00000AFAB7DC", -- [218]
-		"BattlePet-0-0000087CE503", -- [219]
-		"BattlePet-0-00000B17409A", -- [220]
-		"BattlePet-0-000008D563EF", -- [221]
-		"BattlePet-0-00000915269B", -- [222]
-		"BattlePet-0-000006C44935", -- [223]
-		"BattlePet-0-000006C44B4D", -- [224]
-		"BattlePet-0-000006C44BEE", -- [225]
-		"BattlePet-0-0000086EFC4C", -- [226]
-		"BattlePet-0-0000086EFD5D", -- [227]
-		"BattlePet-0-00000847774A", -- [228]
-		"BattlePet-0-00000AB04F89", -- [229]
-		"BattlePet-0-00000A070C67", -- [230]
-		"BattlePet-0-0000086EFD63", -- [231]
-		"BattlePet-0-000006C4494F", -- [232]
-		"BattlePet-0-000009BC6D3B", -- [233]
-		"BattlePet-0-000009130B12", -- [234]
-		"BattlePet-0-00000AB04F8D", -- [235]
-		"BattlePet-0-000006C44BCC", -- [236]
-		"BattlePet-0-00000A49B5FA", -- [237]
-		"BattlePet-0-000009E42438", -- [238]
-		"BattlePet-0-0000086EFD91", -- [239]
-		"BattlePet-0-00000A070614", -- [240]
-		"BattlePet-0-000008504408", -- [241]
-		"BattlePet-0-00000AB050AF", -- [242]
-		"BattlePet-0-000009E8A91D", -- [243]
-		"BattlePet-0-0000086EFD87", -- [244]
-		"BattlePet-0-00000AB050C5", -- [245]
-		"BattlePet-0-00000AB04EB9", -- [246]
-		"BattlePet-0-00000B174097", -- [247]
-		"BattlePet-0-00000B174093", -- [248]
-		"BattlePet-0-00000AC40FB0", -- [249]
-		"BattlePet-0-0000087F5227", -- [250]
-		"BattlePet-0-00000AB04EE7", -- [251]
-		"BattlePet-0-000006C44BFF", -- [252]
-		"BattlePet-0-000009B6F568", -- [253]
-		"BattlePet-0-00000A91CC04", -- [254]
-		"BattlePet-0-000006C4493D", -- [255]
-		"BattlePet-0-000006C449E3", -- [256]
-		"BattlePet-0-000008ADF2BD", -- [257]
-		"BattlePet-0-00000B2E96AF", -- [258]
-		"BattlePet-0-000006C44B3B", -- [259]
-		"BattlePet-0-0000085F6DBE", -- [260]
-		"BattlePet-0-0000086EFCFE", -- [261]
-		"BattlePet-0-000009EC444A", -- [262]
-		"BattlePet-0-00000A6A00AF", -- [263]
-		"BattlePet-0-00000AB04F85", -- [264]
-		"BattlePet-0-000006C449B3", -- [265]
-		"BattlePet-0-00000B0ED268", -- [266]
-		"BattlePet-0-0000086EFD07", -- [267]
-		"BattlePet-0-00000AB04F88", -- [268]
-		"BattlePet-0-000008B9AB83", -- [269]
-		"BattlePet-0-0000085013F5", -- [270]
-		"BattlePet-0-000008501EF4", -- [271]
-		"BattlePet-0-000006C44984", -- [272]
-		"BattlePet-0-000008501E9B", -- [273]
-		"BattlePet-0-00000B1F21E7", -- [274]
-		"BattlePet-0-0000085013F2", -- [275]
-		"BattlePet-0-000009C0C234", -- [276]
-		"BattlePet-0-00000AFB203B", -- [277]
-		"BattlePet-0-0000085043F4", -- [278]
-		"BattlePet-0-00000A91CC05", -- [279]
-		"BattlePet-0-000006C4499E", -- [280]
-		"BattlePet-0-00000A69733D", -- [281]
-		"BattlePet-0-00000AB050BC", -- [282]
-		"BattlePet-0-00000A49945F", -- [283]
-		"BattlePet-0-0000088BE6DD", -- [284]
-		"BattlePet-0-0000087F24BA", -- [285]
-		"BattlePet-0-00000AC40FA9", -- [286]
-		"BattlePet-0-00000A01181B", -- [287]
-		"BattlePet-0-000006C449EE", -- [288]
-		"BattlePet-0-000006C44AA3", -- [289]
-		"BattlePet-0-000006C44A1D", -- [290]
-		"BattlePet-0-00000850440D", -- [291]
-		"BattlePet-0-000008504441", -- [292]
-		"BattlePet-0-0000086EFD94", -- [293]
-		"BattlePet-0-00000A6CE0B8", -- [294]
-		"BattlePet-0-00000AB04EF5", -- [295]
-		"BattlePet-0-0000086EFD8D", -- [296]
-		"BattlePet-0-00000877705F", -- [297]
-		"BattlePet-0-0000085013F0", -- [298]
-		"BattlePet-0-0000085013ED", -- [299]
-		"BattlePet-0-000007D48B08", -- [300]
-		"BattlePet-0-00000AB04EEA", -- [301]
-		"BattlePet-0-00000A2CE73E", -- [302]
-		"BattlePet-0-00000AB04F78", -- [303]
-		"BattlePet-0-000008501E9F", -- [304]
-		"BattlePet-0-00000B17B3FA", -- [305]
-		"BattlePet-0-000008AD47C7", -- [306]
-		"BattlePet-0-00000A45A87A", -- [307]
-		"BattlePet-0-00000AB050A5", -- [308]
-		"BattlePet-0-000006C44B6F", -- [309]
-		"BattlePet-0-00000AB04F7E", -- [310]
-		"BattlePet-0-00000AB04F81", -- [311]
-		"BattlePet-0-00000AFB2F61", -- [312]
-		"BattlePet-0-0000086EFC4F", -- [313]
-		"BattlePet-0-0000086EFC52", -- [314]
-		"BattlePet-0-000006C44968", -- [315]
-		"BattlePet-0-0000087F525A", -- [316]
-		"BattlePet-0-000007305761", -- [317]
-		"BattlePet-0-00000AB04F0F", -- [318]
-		"BattlePet-0-000006C44938", -- [319]
-		"BattlePet-0-00000B1740A0", -- [320]
-		"BattlePet-0-00000877708D", -- [321]
-		"BattlePet-0-000006C44A3D", -- [322]
-		"BattlePet-0-00000AB04F07", -- [323]
-		"BattlePet-0-000006C44A43", -- [324]
-		"BattlePet-0-000006C4497B", -- [325]
-		"BattlePet-0-0000087CE4FD", -- [326]
-		"BattlePet-0-000006C4494C", -- [327]
-		"BattlePet-0-00000AB050AD", -- [328]
-		"BattlePet-0-00000AB04F01", -- [329]
-		"BattlePet-0-00000AB04F83", -- [330]
-		"BattlePet-0-0000085013E9", -- [331]
-		"BattlePet-0-00000A69018B", -- [332]
-		"BattlePet-0-00000AB04F6F", -- [333]
-		"BattlePet-0-000009D0DB74", -- [334]
-		"BattlePet-0-0000088D8E24", -- [335]
-		"BattlePet-0-00000AB04F11", -- [336]
-		"BattlePet-0-000008CC5371", -- [337]
-		"BattlePet-0-000008504442", -- [338]
-		"BattlePet-0-000006C44BAC", -- [339]
-		"BattlePet-0-00000AC41E93", -- [340]
-		"BattlePet-0-000006C449A1", -- [341]
-		"BattlePet-0-000006C44ABF", -- [342]
-		"BattlePet-0-00000AB04EFA", -- [343]
-		"BattlePet-0-000008A007C6", -- [344]
-		"BattlePet-0-000008CA1308", -- [345]
-		"BattlePet-0-000008A007CF", -- [346]
-		"BattlePet-0-0000086EFD92", -- [347]
-		"BattlePet-0-000008777056", -- [348]
-		"BattlePet-0-00000A72A2EA", -- [349]
-		"BattlePet-0-000009C0C235", -- [350]
-		"BattlePet-0-000006C44BFB", -- [351]
-		"BattlePet-0-0000086EFCFF", -- [352]
-		"BattlePet-0-000006C44A73", -- [353]
-		"BattlePet-0-000006C44B50", -- [354]
-		"BattlePet-0-0000087F521A", -- [355]
-		"BattlePet-0-00000AB050C8", -- [356]
-		"BattlePet-0-00000AC4309B", -- [357]
-		"BattlePet-0-000008E9138F", -- [358]
-		"BattlePet-0-000008AD6E0A", -- [359]
-		"BattlePet-0-000006C44AD8", -- [360]
-		"BattlePet-0-000006C449DC", -- [361]
-		"BattlePet-0-000006C4497D", -- [362]
-		"BattlePet-0-000006C44BE1", -- [363]
-		"BattlePet-0-000006C44C01", -- [364]
-		"BattlePet-0-000008AD7EB8", -- [365]
-		"BattlePet-0-000006C4499D", -- [366]
-		"BattlePet-0-000008AD8A33", -- [367]
-		"BattlePet-0-000006C44B06", -- [368]
-		"BattlePet-0-000006C44B67", -- [369]
-		"BattlePet-0-000006C44B41", -- [370]
-		"BattlePet-0-000006C44BF5", -- [371]
-		"BattlePet-0-000008AD7677", -- [372]
-		"BattlePet-0-000006C449EA", -- [373]
-		"BattlePet-0-0000086EFD00", -- [374]
-		"BattlePet-0-000006C4495B", -- [375]
-		"BattlePet-0-000006C44991", -- [376]
-		"BattlePet-0-000008777061", -- [377]
-		"BattlePet-0-0000084FB249", -- [378]
-		"BattlePet-0-000006C44B47", -- [379]
-		"BattlePet-0-000006C4498E", -- [380]
-		"BattlePet-0-000006C44994", -- [381]
-		"BattlePet-0-00000850440C", -- [382]
-		"BattlePet-0-000008501394", -- [383]
-		"BattlePet-0-000006C44AFB", -- [384]
-		"BattlePet-0-000006C44A4C", -- [385]
-		"BattlePet-0-000006C44976", -- [386]
-		"BattlePet-0-000006C449CB", -- [387]
-		"BattlePet-0-000008C27978", -- [388]
-		"BattlePet-0-000006C4494D", -- [389]
-		"BattlePet-0-0000073BF33C", -- [390]
-		"BattlePet-0-000006C44B3F", -- [391]
-		"BattlePet-0-000006C44957", -- [392]
-		"BattlePet-0-000006C449E6", -- [393]
-		"BattlePet-0-000006C44A3A", -- [394]
-		"BattlePet-0-000008AD47C3", -- [395]
-		"BattlePet-0-0000086EFD6C", -- [396]
-		"BattlePet-0-000006C44A33", -- [397]
-		"BattlePet-0-000008AD892B", -- [398]
-		"BattlePet-0-000006C4494A", -- [399]
-		"BattlePet-0-000008ABD9A6", -- [400]
-		"BattlePet-0-000008ABB4E7", -- [401]
-		"BattlePet-0-000006C44A0A", -- [402]
-		"BattlePet-0-0000087C3AC2", -- [403]
-		"BattlePet-0-000006C44AC9", -- [404]
-		"BattlePet-0-000008AD7E88", -- [405]
-		"BattlePet-0-000008AD764B", -- [406]
-		"BattlePet-0-000008ABDBC5", -- [407]
-		"BattlePet-0-000008AD84C8", -- [408]
-		"BattlePet-0-000008AD7CC8", -- [409]
-		"BattlePet-0-000006C44B76", -- [410]
-		"BattlePet-0-000008AD7BBE", -- [411]
-		"BattlePet-0-000008ABB483", -- [412]
-		"BattlePet-0-000006C44A82", -- [413]
-		"BattlePet-0-00000AB04EF7", -- [414]
-		"BattlePet-0-000006C449B7", -- [415]
-		"BattlePet-0-000006C449F7", -- [416]
-		"BattlePet-0-000008AD722E", -- [417]
-		"BattlePet-0-0000085DF4A8", -- [418]
-		"BattlePet-0-000006C44962", -- [419]
-		"BattlePet-0-000006C44B07", -- [420]
-		"BattlePet-0-000006C44B37", -- [421]
-		"BattlePet-0-000006C44A56", -- [422]
-		"BattlePet-0-000008ABE081", -- [423]
-		"BattlePet-0-000008ABB9D1", -- [424]
-		"BattlePet-0-000006C4498A", -- [425]
-		"BattlePet-0-000006C44988", -- [426]
-		"BattlePet-0-000006C44A9E", -- [427]
-		"BattlePet-0-000006C4496A", -- [428]
-		"BattlePet-0-000006C44AC6", -- [429]
-		"BattlePet-0-000008AD77AB", -- [430]
-		"BattlePet-0-000008AD6D0D", -- [431]
-		"BattlePet-0-000008AD915D", -- [432]
-		"BattlePet-0-000006C44929", -- [433]
-		"BattlePet-0-000006C44972", -- [434]
-		"BattlePet-0-000006C44921", -- [435]
-		"BattlePet-0-000006C4496B", -- [436]
-		"BattlePet-0-000008ABE84D", -- [437]
-		"BattlePet-0-000008ABECAB", -- [438]
-		"BattlePet-0-000008ABED42", -- [439]
-		"BattlePet-0-000008ABEBC0", -- [440]
-		"BattlePet-0-000008AD75EE", -- [441]
-		"BattlePet-0-000006C44A0E", -- [442]
-		"BattlePet-0-000006C44BAE", -- [443]
-		"BattlePet-0-000006C44A4A", -- [444]
-		"BattlePet-0-000008AD7334", -- [445]
-		"BattlePet-0-000008ABE6BB", -- [446]
-		"BattlePet-0-000006C44ACF", -- [447]
-		"BattlePet-0-000006C4495C", -- [448]
-		"BattlePet-0-000008AD4D83", -- [449]
-		"BattlePet-0-00000891C2EB", -- [450]
-		"BattlePet-0-00000A6A917F", -- [451]
-		"BattlePet-0-000006C44981", -- [452]
-		"BattlePet-0-000006C44A48", -- [453]
-		"BattlePet-0-000006C44967", -- [454]
-		"BattlePet-0-000006C44BD3", -- [455]
-		"BattlePet-0-000006C44AA1", -- [456]
-		"BattlePet-0-000008500AA2", -- [457]
-		"BattlePet-0-00000872175C", -- [458]
-		"BattlePet-0-00000871EC4F", -- [459]
-		"BattlePet-0-000008AD4EFB", -- [460]
-		"BattlePet-0-0000086375D3", -- [461]
-		"BattlePet-0-000008664157", -- [462]
-		"BattlePet-0-000008745B94", -- [463]
-		"BattlePet-0-0000085218B2", -- [464]
-		"BattlePet-0-00000871EC93", -- [465]
-		"BattlePet-0-000006C44ABC", -- [466]
-		"BattlePet-0-0000086640A1", -- [467]
-		"BattlePet-0-000006C44B48", -- [468]
-		"BattlePet-0-00000919191B", -- [469]
-		"BattlePet-0-000008745A99", -- [470]
-		"BattlePet-0-0000084C300C", -- [471]
-		"BattlePet-0-0000084FA0E6", -- [472]
-		"BattlePet-0-0000084F9FCD", -- [473]
-		"BattlePet-0-00000871ED95", -- [474]
-		"BattlePet-0-0000086374EA", -- [475]
-		"BattlePet-0-0000084C30A3", -- [476]
-		"BattlePet-0-0000085F2544", -- [477]
-		"BattlePet-0-00000836CBC6", -- [478]
-		"BattlePet-0-0000084DC3B5", -- [479]
-		"BattlePet-0-000006C44AD4", -- [480]
-		"BattlePet-0-0000084C304B", -- [481]
-		"BattlePet-0-0000084F9F7D", -- [482]
-		"BattlePet-0-0000085AFC6A", -- [483]
-		"BattlePet-0-0000085D29A4", -- [484]
-		"BattlePet-0-0000080E8391", -- [485]
-		"BattlePet-0-0000084EF84C", -- [486]
-		"BattlePet-0-000008485749", -- [487]
-		"BattlePet-0-0000080E7359", -- [488]
-		"BattlePet-0-00000836C9D7", -- [489]
-		"BattlePet-0-00000848588E", -- [490]
-		"BattlePet-0-00000848572E", -- [491]
-		"BattlePet-0-00000836CCA5", -- [492]
-		"BattlePet-0-0000080E7E0D", -- [493]
-		"BattlePet-0-0000084C3067", -- [494]
-		"BattlePet-0-000006C44A15", -- [495]
-		"BattlePet-0-0000084855D0", -- [496]
-		"BattlePet-0-000008485717", -- [497]
-		"BattlePet-0-0000084FAC70", -- [498]
-		"BattlePet-0-0000084C2FE0", -- [499]
-		"BattlePet-0-000008484F2A", -- [500]
-		"BattlePet-0-0000084851E5", -- [501]
-		"BattlePet-0-00000848534D", -- [502]
-		"BattlePet-0-000006C44A13", -- [503]
-		"BattlePet-0-000008485759", -- [504]
+		"BattlePet-0-000006C4497A", -- [209]
+		"BattlePet-0-00000AB050A8", -- [210]
+		"BattlePet-0-000006C449BB", -- [211]
+		"BattlePet-0-000006C44975", -- [212]
+		"BattlePet-0-00000AFAB7CE", -- [213]
+		"BattlePet-0-000008D077A7", -- [214]
+		"BattlePet-0-000008777090", -- [215]
+		"BattlePet-0-00000AB04F0C", -- [216]
+		"BattlePet-0-00000AFAB7DC", -- [217]
+		"BattlePet-0-0000087CE503", -- [218]
+		"BattlePet-0-00000B17409A", -- [219]
+		"BattlePet-0-000008D563EF", -- [220]
+		"BattlePet-0-00000915269B", -- [221]
+		"BattlePet-0-000006C44935", -- [222]
+		"BattlePet-0-000006C44B4D", -- [223]
+		"BattlePet-0-000006C44BEE", -- [224]
+		"BattlePet-0-0000086EFC4C", -- [225]
+		"BattlePet-0-0000086EFD5D", -- [226]
+		"BattlePet-0-00000847774A", -- [227]
+		"BattlePet-0-00000AB04F89", -- [228]
+		"BattlePet-0-00000A070C67", -- [229]
+		"BattlePet-0-0000086EFD63", -- [230]
+		"BattlePet-0-000006C4494F", -- [231]
+		"BattlePet-0-000009BC6D3B", -- [232]
+		"BattlePet-0-000009130B12", -- [233]
+		"BattlePet-0-00000AB04F8D", -- [234]
+		"BattlePet-0-000006C44BCC", -- [235]
+		"BattlePet-0-00000A49B5FA", -- [236]
+		"BattlePet-0-000009E42438", -- [237]
+		"BattlePet-0-0000086EFD91", -- [238]
+		"BattlePet-0-00000A070614", -- [239]
+		"BattlePet-0-000008504408", -- [240]
+		"BattlePet-0-00000AB050AF", -- [241]
+		"BattlePet-0-000009E8A91D", -- [242]
+		"BattlePet-0-0000086EFD87", -- [243]
+		"BattlePet-0-00000AB050C5", -- [244]
+		"BattlePet-0-00000AB04EB9", -- [245]
+		"BattlePet-0-00000B174097", -- [246]
+		"BattlePet-0-00000B174093", -- [247]
+		"BattlePet-0-00000AC40FB0", -- [248]
+		"BattlePet-0-0000087F5227", -- [249]
+		"BattlePet-0-00000AB04EE7", -- [250]
+		"BattlePet-0-000006C44BFF", -- [251]
+		"BattlePet-0-000009B6F568", -- [252]
+		"BattlePet-0-00000A91CC04", -- [253]
+		"BattlePet-0-000006C4493D", -- [254]
+		"BattlePet-0-000006C449E3", -- [255]
+		"BattlePet-0-000008ADF2BD", -- [256]
+		"BattlePet-0-00000B2E96AF", -- [257]
+		"BattlePet-0-000006C44B3B", -- [258]
+		"BattlePet-0-0000085F6DBE", -- [259]
+		"BattlePet-0-0000086EFCFE", -- [260]
+		"BattlePet-0-000009EC444A", -- [261]
+		"BattlePet-0-00000A6A00AF", -- [262]
+		"BattlePet-0-00000AB04F85", -- [263]
+		"BattlePet-0-000006C449B3", -- [264]
+		"BattlePet-0-00000B0ED268", -- [265]
+		"BattlePet-0-0000086EFD07", -- [266]
+		"BattlePet-0-00000AB04F88", -- [267]
+		"BattlePet-0-000008B9AB83", -- [268]
+		"BattlePet-0-0000085013F5", -- [269]
+		"BattlePet-0-000008501EF4", -- [270]
+		"BattlePet-0-000006C44984", -- [271]
+		"BattlePet-0-000008501E9B", -- [272]
+		"BattlePet-0-00000B1F21E7", -- [273]
+		"BattlePet-0-0000085013F2", -- [274]
+		"BattlePet-0-000009C0C234", -- [275]
+		"BattlePet-0-00000AFB203B", -- [276]
+		"BattlePet-0-0000085043F4", -- [277]
+		"BattlePet-0-00000A91CC05", -- [278]
+		"BattlePet-0-000006C4499E", -- [279]
+		"BattlePet-0-00000A69733D", -- [280]
+		"BattlePet-0-00000AB050BC", -- [281]
+		"BattlePet-0-00000A49945F", -- [282]
+		"BattlePet-0-0000088BE6DD", -- [283]
+		"BattlePet-0-0000087F24BA", -- [284]
+		"BattlePet-0-00000AC40FA9", -- [285]
+		"BattlePet-0-00000A01181B", -- [286]
+		"BattlePet-0-000006C449EE", -- [287]
+		"BattlePet-0-000006C44AA3", -- [288]
+		"BattlePet-0-000006C44A1D", -- [289]
+		"BattlePet-0-00000850440D", -- [290]
+		"BattlePet-0-000008504441", -- [291]
+		"BattlePet-0-0000086EFD94", -- [292]
+		"BattlePet-0-00000A6CE0B8", -- [293]
+		"BattlePet-0-00000AB04EF5", -- [294]
+		"BattlePet-0-0000086EFD8D", -- [295]
+		"BattlePet-0-00000877705F", -- [296]
+		"BattlePet-0-0000085013F0", -- [297]
+		"BattlePet-0-0000085013ED", -- [298]
+		"BattlePet-0-000007D48B08", -- [299]
+		"BattlePet-0-00000AB04EEA", -- [300]
+		"BattlePet-0-00000A2CE73E", -- [301]
+		"BattlePet-0-00000AB04F78", -- [302]
+		"BattlePet-0-000008501E9F", -- [303]
+		"BattlePet-0-00000B17B3FA", -- [304]
+		"BattlePet-0-000008AD47C7", -- [305]
+		"BattlePet-0-00000A45A87A", -- [306]
+		"BattlePet-0-00000AB050A5", -- [307]
+		"BattlePet-0-000006C44B6F", -- [308]
+		"BattlePet-0-00000AB04F7E", -- [309]
+		"BattlePet-0-00000AB04F81", -- [310]
+		"BattlePet-0-00000AFB2F61", -- [311]
+		"BattlePet-0-0000086EFC4F", -- [312]
+		"BattlePet-0-0000086EFC52", -- [313]
+		"BattlePet-0-000006C44968", -- [314]
+		"BattlePet-0-0000087F525A", -- [315]
+		"BattlePet-0-000007305761", -- [316]
+		"BattlePet-0-00000AB04F0F", -- [317]
+		"BattlePet-0-000006C44938", -- [318]
+		"BattlePet-0-00000B1740A0", -- [319]
+		"BattlePet-0-00000877708D", -- [320]
+		"BattlePet-0-000006C44A3D", -- [321]
+		"BattlePet-0-00000AB04F07", -- [322]
+		"BattlePet-0-000006C44A43", -- [323]
+		"BattlePet-0-000006C4497B", -- [324]
+		"BattlePet-0-0000087CE4FD", -- [325]
+		"BattlePet-0-000006C4494C", -- [326]
+		"BattlePet-0-00000AB050AD", -- [327]
+		"BattlePet-0-00000AB04F01", -- [328]
+		"BattlePet-0-00000AB04F83", -- [329]
+		"BattlePet-0-0000085013E9", -- [330]
+		"BattlePet-0-00000A69018B", -- [331]
+		"BattlePet-0-00000AB04F6F", -- [332]
+		"BattlePet-0-000009D0DB74", -- [333]
+		"BattlePet-0-0000088D8E24", -- [334]
+		"BattlePet-0-00000AB04F11", -- [335]
+		"BattlePet-0-000008CC5371", -- [336]
+		"BattlePet-0-000008504442", -- [337]
+		"BattlePet-0-000006C44BAC", -- [338]
+		"BattlePet-0-00000AC41E93", -- [339]
+		"BattlePet-0-000006C449A1", -- [340]
+		"BattlePet-0-000006C44ABF", -- [341]
+		"BattlePet-0-00000AB04EFA", -- [342]
+		"BattlePet-0-000008A007C6", -- [343]
+		"BattlePet-0-000008CA1308", -- [344]
+		"BattlePet-0-000008A007CF", -- [345]
+		"BattlePet-0-0000086EFD92", -- [346]
+		"BattlePet-0-000008777056", -- [347]
+		"BattlePet-0-00000A72A2EA", -- [348]
+		"BattlePet-0-000009C0C235", -- [349]
+		"BattlePet-0-000006C44BFB", -- [350]
+		"BattlePet-0-0000086EFCFF", -- [351]
+		"BattlePet-0-000006C44A73", -- [352]
+		"BattlePet-0-000006C44B50", -- [353]
+		"BattlePet-0-0000087F521A", -- [354]
+		"BattlePet-0-00000AB050C8", -- [355]
+		"BattlePet-0-00000AC4309B", -- [356]
+		"BattlePet-0-000008E9138F", -- [357]
+		"BattlePet-0-000008AD6E0A", -- [358]
+		"BattlePet-0-000006C44AD8", -- [359]
+		"BattlePet-0-000006C449DC", -- [360]
+		"BattlePet-0-000006C4497D", -- [361]
+		"BattlePet-0-000006C44BE1", -- [362]
+		"BattlePet-0-000006C44C01", -- [363]
+		"BattlePet-0-000008AD7EB8", -- [364]
+		"BattlePet-0-000006C4499D", -- [365]
+		"BattlePet-0-000008AD8A33", -- [366]
+		"BattlePet-0-000006C44B06", -- [367]
+		"BattlePet-0-000006C44B67", -- [368]
+		"BattlePet-0-000006C44B41", -- [369]
+		"BattlePet-0-000006C44BF5", -- [370]
+		"BattlePet-0-000008AD7677", -- [371]
+		"BattlePet-0-000006C449EA", -- [372]
+		"BattlePet-0-0000086EFD00", -- [373]
+		"BattlePet-0-000006C4495B", -- [374]
+		"BattlePet-0-000006C44991", -- [375]
+		"BattlePet-0-000008777061", -- [376]
+		"BattlePet-0-0000084FB249", -- [377]
+		"BattlePet-0-000006C44B47", -- [378]
+		"BattlePet-0-000006C4498E", -- [379]
+		"BattlePet-0-000006C44994", -- [380]
+		"BattlePet-0-00000850440C", -- [381]
+		"BattlePet-0-000008501394", -- [382]
+		"BattlePet-0-000006C44AFB", -- [383]
+		"BattlePet-0-000006C44A4C", -- [384]
+		"BattlePet-0-000006C44976", -- [385]
+		"BattlePet-0-000006C449CB", -- [386]
+		"BattlePet-0-000008C27978", -- [387]
+		"BattlePet-0-000006C4494D", -- [388]
+		"BattlePet-0-0000073BF33C", -- [389]
+		"BattlePet-0-000006C44B3F", -- [390]
+		"BattlePet-0-000006C44957", -- [391]
+		"BattlePet-0-000006C449E6", -- [392]
+		"BattlePet-0-000006C44A3A", -- [393]
+		"BattlePet-0-000008AD47C3", -- [394]
+		"BattlePet-0-0000086EFD6C", -- [395]
+		"BattlePet-0-000006C44A33", -- [396]
+		"BattlePet-0-000008AD892B", -- [397]
+		"BattlePet-0-000006C4494A", -- [398]
+		"BattlePet-0-000008ABD9A6", -- [399]
+		"BattlePet-0-000008ABB4E7", -- [400]
+		"BattlePet-0-000006C44A0A", -- [401]
+		"BattlePet-0-0000087C3AC2", -- [402]
+		"BattlePet-0-000006C44AC9", -- [403]
+		"BattlePet-0-000008AD7E88", -- [404]
+		"BattlePet-0-000008AD764B", -- [405]
+		"BattlePet-0-000008ABDBC5", -- [406]
+		"BattlePet-0-000008AD84C8", -- [407]
+		"BattlePet-0-000008AD7CC8", -- [408]
+		"BattlePet-0-000006C44B76", -- [409]
+		"BattlePet-0-000008AD7BBE", -- [410]
+		"BattlePet-0-000008ABB483", -- [411]
+		"BattlePet-0-000006C44A82", -- [412]
+		"BattlePet-0-00000AB04EF7", -- [413]
+		"BattlePet-0-000006C449B7", -- [414]
+		"BattlePet-0-000006C449F7", -- [415]
+		"BattlePet-0-000008AD722E", -- [416]
+		"BattlePet-0-0000085DF4A8", -- [417]
+		"BattlePet-0-000006C44962", -- [418]
+		"BattlePet-0-000006C44B07", -- [419]
+		"BattlePet-0-000006C44B37", -- [420]
+		"BattlePet-0-000006C44A56", -- [421]
+		"BattlePet-0-000008ABE081", -- [422]
+		"BattlePet-0-000008ABB9D1", -- [423]
+		"BattlePet-0-000006C4498A", -- [424]
+		"BattlePet-0-000006C44988", -- [425]
+		"BattlePet-0-000006C44A9E", -- [426]
+		"BattlePet-0-000006C4496A", -- [427]
+		"BattlePet-0-000006C44AC6", -- [428]
+		"BattlePet-0-000008AD77AB", -- [429]
+		"BattlePet-0-000008AD6D0D", -- [430]
+		"BattlePet-0-000008AD915D", -- [431]
+		"BattlePet-0-000006C44929", -- [432]
+		"BattlePet-0-000006C44972", -- [433]
+		"BattlePet-0-000006C44921", -- [434]
+		"BattlePet-0-000006C4496B", -- [435]
+		"BattlePet-0-000008ABE84D", -- [436]
+		"BattlePet-0-000008ABECAB", -- [437]
+		"BattlePet-0-000008ABED42", -- [438]
+		"BattlePet-0-000008ABEBC0", -- [439]
+		"BattlePet-0-000008AD75EE", -- [440]
+		"BattlePet-0-000006C44A0E", -- [441]
+		"BattlePet-0-000006C44BAE", -- [442]
+		"BattlePet-0-000006C44A4A", -- [443]
+		"BattlePet-0-000008AD7334", -- [444]
+		"BattlePet-0-000008ABE6BB", -- [445]
+		"BattlePet-0-000006C44ACF", -- [446]
+		"BattlePet-0-000006C4495C", -- [447]
+		"BattlePet-0-000008AD4D83", -- [448]
+		"BattlePet-0-00000891C2EB", -- [449]
+		"BattlePet-0-00000A6A917F", -- [450]
+		"BattlePet-0-000006C44981", -- [451]
+		"BattlePet-0-000006C44A48", -- [452]
+		"BattlePet-0-000006C44967", -- [453]
+		"BattlePet-0-000006C44BD3", -- [454]
+		"BattlePet-0-000006C44AA1", -- [455]
+		"BattlePet-0-000008500AA2", -- [456]
+		"BattlePet-0-00000872175C", -- [457]
+		"BattlePet-0-00000871EC4F", -- [458]
+		"BattlePet-0-000008AD4EFB", -- [459]
+		"BattlePet-0-0000086375D3", -- [460]
+		"BattlePet-0-000008664157", -- [461]
+		"BattlePet-0-000008745B94", -- [462]
+		"BattlePet-0-0000085218B2", -- [463]
+		"BattlePet-0-00000871EC93", -- [464]
+		"BattlePet-0-000006C44ABC", -- [465]
+		"BattlePet-0-0000086640A1", -- [466]
+		"BattlePet-0-000006C44B48", -- [467]
+		"BattlePet-0-00000919191B", -- [468]
+		"BattlePet-0-000008745A99", -- [469]
+		"BattlePet-0-0000084C300C", -- [470]
+		"BattlePet-0-0000084FA0E6", -- [471]
+		"BattlePet-0-0000084F9FCD", -- [472]
+		"BattlePet-0-00000871ED95", -- [473]
+		"BattlePet-0-0000086374EA", -- [474]
+		"BattlePet-0-0000084C30A3", -- [475]
+		"BattlePet-0-0000085F2544", -- [476]
+		"BattlePet-0-00000836CBC6", -- [477]
+		"BattlePet-0-0000084DC3B5", -- [478]
+		"BattlePet-0-000006C44AD4", -- [479]
+		"BattlePet-0-0000084C304B", -- [480]
+		"BattlePet-0-0000084F9F7D", -- [481]
+		"BattlePet-0-0000085AFC6A", -- [482]
+		"BattlePet-0-0000085D29A4", -- [483]
+		"BattlePet-0-0000080E8391", -- [484]
+		"BattlePet-0-0000084EF84C", -- [485]
+		"BattlePet-0-000008485749", -- [486]
+		"BattlePet-0-0000080E7359", -- [487]
+		"BattlePet-0-00000836C9D7", -- [488]
+		"BattlePet-0-00000848588E", -- [489]
+		"BattlePet-0-00000848572E", -- [490]
+		"BattlePet-0-00000836CCA5", -- [491]
+		"BattlePet-0-0000080E7E0D", -- [492]
+		"BattlePet-0-0000084C3067", -- [493]
+		"BattlePet-0-000006C44A15", -- [494]
+		"BattlePet-0-0000084855D0", -- [495]
+		"BattlePet-0-000008485717", -- [496]
+		"BattlePet-0-0000084FAC70", -- [497]
+		"BattlePet-0-0000084C2FE0", -- [498]
+		"BattlePet-0-000008484F2A", -- [499]
+		"BattlePet-0-0000084851E5", -- [500]
+		"BattlePet-0-00000848534D", -- [501]
+		"BattlePet-0-000006C44A13", -- [502]
+		"BattlePet-0-000008485759", -- [503]
 	},
-	["CollectionChartSources"] = false,
-	["loadedTeam"] = 154926,
-	["PromptToLoad"] = true,
-	["TeamGroups"] = {
-		{
-			"General", -- [1]
-			"Interface\\Icons\\PetJournalPortrait", -- [2]
-		}, -- [1]
-		{
-			"Stratholme", -- [1]
-			"Interface\\Icons\\PetJournalPortrait", -- [2]
-		}, -- [2]
-		{
-			"Pandaria", -- [1]
-			"Interface\\Icons\\PetJournalPortrait", -- [2]
-		}, -- [3]
-		{
-			"Blackrock depths", -- [1]
-			"Interface\\Icons\\PetJournalPortrait", -- [2]
-		}, -- [4]
-		{
-			"Powerleveling", -- [1]
-			"Interface\\Icons\\PetJournalPortrait", -- [2]
-		}, -- [5]
-		{
-			"Wailing Caverns", -- [1]
-			"Interface\\Icons\\PetJournalPortrait", -- [2]
-		}, -- [6]
-		{
-			"Deadmines", -- [1]
-			"Interface\\Icons\\PetJournalPortrait", -- [2]
-		}, -- [7]
-		{
-			"Gnomergan", -- [1]
-			"Interface\\Icons\\PetJournalPortrait", -- [2]
-		}, -- [8]
-		{
-			"Celestial Tournament", -- [1]
-			"Interface\\Icons\\PetJournalPortrait", -- [2]
-		}, -- [9]
-		{
-			"awfully big", -- [1]
-			"Interface\\Icons\\PetJournalPortrait", -- [2]
-		}, -- [10]
-		{
-			"Tanaan jungle", -- [1]
-			"Interface\\Icons\\PetJournalPortrait", -- [2]
-		}, -- [11]
-	},
-	["DialogXPos"] = 640.7926025390625,
-	["Filters"] = {
-		["Other"] = {
-		},
-		["Script"] = {
-		},
-		["Types"] = {
-		},
-		["Favorite"] = {
-		},
-		["Collected"] = {
-		},
-		["Strong"] = {
-		},
-		["Similar"] = {
-		},
-		["Breed"] = {
-		},
-		["Rarity"] = {
-		},
-		["Sources"] = {
-		},
-		["Level"] = {
-		},
-		["Tough"] = {
-		},
-		["Moveset"] = {
-		},
-	},
-	["FavoriteFilters"] = {
-	},
-	["ConflictOverwrite"] = false,
 	["NotesBottom"] = 90.41893005371094,
 	["CollapsedOptHeaders"] = {
 		true, -- [1]
@@ -11875,8 +11842,29 @@ RematchSettings = {
 	["JournalPanel"] = 2,
 	["QueueSortOrder"] = 1,
 	["CornerPos"] = "BOTTOMLEFT",
-	["ShowSpeciesID"] = false,
-	["NoSummonOnDblClick"] = true,
+	["ScriptFilters"] = {
+		{
+			"Unnamed Pets", -- [1]
+			"-- Collected pets that still have their original name.\n\nreturn owned and not customName", -- [2]
+		}, -- [1]
+		{
+			"Partially Leveled", -- [1]
+			"-- Pets that have earned some xp in battle.\n\nreturn xp and xp>0", -- [2]
+		}, -- [2]
+		{
+			"Unique Abilities", -- [1]
+			"-- Pets with abilities not shared by other pets.\n\nif not count then\n  -- create count of each ability per species\n  count = {}\n  for speciesID in AllSpeciesIDs() do\n    for abilityID in AllAbilities(speciesID) do\n      if not count[abilityID] then\n        count[abilityID] = 0\n      end\n      count[abilityID] = count[abilityID] + 1\n    end\n  end\nend\n\nfor _,abilityID in ipairs(abilityList) do\n  if count[abilityID]==1 then\n    return true\n  end\nend", -- [2]
+		}, -- [3]
+		{
+			"Pets Without Rares", -- [1]
+			"-- Collected battle pets that have no rare version.\n\nif not rares then\n  rares = {}\n  for petID in AllPetIDs() do\n    if select(5,C_PetJournal.GetPetStats(petID))==4 then\n      rares[C_PetJournal.GetPetInfoByPetID(petID)]=true\n    end\n  end\nend\n\nif canBattle and owned and not rares[speciesID] then\n  return true\nend", -- [2]
+		}, -- [4]
+		{
+			"Hybrid Counters", -- [1]
+			"-- Pets with three or more attack types different than their pet type.\n\nlocal count = 0\nfor _,abilityID in ipairs(abilityList) do\n  local abilityType,noHints = select(7, C_PetBattles.GetAbilityInfoByID(abilityID) )\n  if not noHints and abilityType~=petType then\n    count = count + 1\n  end\nend\n\nreturn count>=3\n", -- [2]
+		}, -- [5]
+	},
+	["ConflictOverwrite"] = false,
 	["UseTypeBar"] = true,
 	["CustomScaleValue"] = 100,
 	["PetNotes"] = {

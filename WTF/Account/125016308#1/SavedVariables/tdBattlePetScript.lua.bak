@@ -14,7 +14,7 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 		["Fàllkèn - Burning Blade"] = "Default",
 		["Gfgdhfdghfgh - Burning Blade"] = "Default",
 		["Fållken - Burning Blade"] = "Default",
-		["Fállkên - Drak'thul"] = "Default",
+		["Fallkên - Drak'thul"] = "Default",
 		["Fallken - Burning Blade"] = "Default",
 		["Fallkenthicc - Burning Blade"] = "Default",
 		["Fållkên - Drak'thul"] = "Default",
@@ -28,7 +28,7 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 		["Fallkenji - Burning Blade"] = "Default",
 		["Fällkên - Drak'thul"] = "Default",
 		["Fallkenez - Drak'thul"] = "Default",
-		["Fallkên - Drak'thul"] = "Default",
+		["Fállkên - Drak'thul"] = "Default",
 	},
 	["global"] = {
 		["version"] = 80100.01,
@@ -418,13 +418,13 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "Netherfist",
 					["code"] = "quit [self(#1).dead & enemy(#1).hp > 500]\n\ncatch [enemy(#2).active & enemy(#2).quality > 2 & enemy(#3).quality < 4]\ncatch [enemy(#3).active & enemy(#3).quality > 2]\n\nability(919) [!enemy.aura(Black Claw).exists]\nability(581)\n\nability(Sandstorm)\nability(Crush)\n\nability(525) [self.aura(245).exists & enemy.hp < 600 & self.hp > 200]\nability(598) [self.hp < 1100]\nability(597) [self.aura(823).duration <= 1]\nability(525)\n\nchange(#2)\nchange(#3)",
 				},
-				[161663] = {
-					["name"] = "Tempton",
-					["code"] = "ability(#2) [!enemy.aura(Shattered Defenses:542).exists]\nability(#3)\nability(#1)",
-				},
 				[72290] = {
 					["name"] = "Zao, Calfling of Niuzao",
 					["code"] = "ability(Ironskin:1758) [round=1]\nability(Predatory Strike:518) [enemy.aura(Shattered Defenses:542).exists]\nability(Savage Talon:1370) [enemy.aura(Shattered Defenses:542).exists]\nability(Falcosaur Swarm!:1773)\nchange(next)",
+				},
+				[68465] = {
+					["name"] = "Thundering Pandaren Spirit",
+					["code"] = "if [enemy(#1).active]\nability(Dive:564) [self.round =1]\nability(Acidic Goo:369) [self.round =3]\nability(Ooze Touch:445)\nendif\n\nif [enemy(#2).active]\nability(Acidic Goo:369) [enemy.round =1]\nability(Ooze Touch:445)\nchange(#2) [self(#1).dead]\nability(777)\nendif\n\nif [enemy(#3).active]\nability(334) [enemy.round =2]\nability(282) [enemy.hp < 618]\nability(777)\nendif",
 				},
 				[160207] = {
 					["name"] = "Therin Skysong",
@@ -458,37 +458,37 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "Christoph VonFeasel",
 					["code"] = "if [ self(Enchanted Broom:213).active ]\nability(Sweep:457) [ self.round == 1 ]\nability(Wind-Up:459) [ self.round ==2 ]\nchange(Iron Starlette:1387) [ self.round ==3 ]\nendif\nif [ self(Iron Starlette:1387).active ]\nability(Wind-Up:459) [ self.round ==1 ]\nability(Supercharge:208) [ self.round ==2 ]\nability(Wind-Up:459) [ self.round ==3 ]\nability(Toxic Smoke:640) [ self.round > 3 ]\nchange(#2) [ self(Iron Starlette:1387).dead ]\nendif\nchange(Enchanted Broom:213) [ self(#2).active ]\nif [ self(Enchanted Broom:213).active ]\nability(Sweep:457) [ self.round ==1 ]\nability(Wind-Up:459) [ self.round > 1 & self.round < 5 ]\nability(Batter:455) [ self.round > 4 ]\nendif",
 				},
-				[97709] = {
-					["name"] = "Flummoxed",
-					["code"] = "ability(218)\nability(652)\nchange(#2) [self(#1).dead]\nability(919) [!enemy.aura(918).exists]\nability(581)",
+				[94601] = {
+					["name"] = "Felsworn Sentry",
+					["code"] = "if [enemy(#1).active & !enemy(#2).dead]\nability(Inferno Herding:1356)\nendif\n\nif [enemy(#2).active]\nability(Superbark:1357)\nability(Flamethrower:503) [enemy.hp > 188 & self.ability(Flamethrower:503).weak]\nability(Flamethrower:503) [enemy.hp > 280]\nstandby [!self.ability(Inferno Herding:1356).usable]\nability(Immolation:409) [!self.aura(Immolation:408).exists]\nability(Wild Magic:592) [!enemy.aura(Wild Magic:591).exists]\nability(Burn:113)\nchange(#2)\nendif\n\nif [enemy(#1).active & !enemy(#3).dead]\nability(Inferno Herding:1356)\nendif\n\nif [enemy(#3).active]\nability(Superbark:1357) [enemy.hpp > 50]\nability(Flamethrower:503)\nendif\n\nif [enemy(#1).active & enemy(#2).dead & enemy(#3).dead]\nability(Wild Magic:592) [!enemy.aura(Wild Magic:591).exists]\nability(Black Claw:919) [!enemy.aura(Black Claw:918).exists]\nability(Hunting Party:921)\nchange(#3)\nendif",
 				},
 				[150918] = {
 					["name"] = "Tommy the Cruel",
 					["code"] = "ability(706) [self.round=1]\nability(119) [self.round=4]\nability(119) [self.round=5]\nstandby [self.round=6]",
 				},
-				[94601] = {
-					["name"] = "Felsworn Sentry",
-					["code"] = "if [enemy(#1).active & !enemy(#2).dead]\nability(Inferno Herding:1356)\nendif\n\nif [enemy(#2).active]\nability(Superbark:1357)\nability(Flamethrower:503) [enemy.hp > 188 & self.ability(Flamethrower:503).weak]\nability(Flamethrower:503) [enemy.hp > 280]\nstandby [!self.ability(Inferno Herding:1356).usable]\nability(Immolation:409) [!self.aura(Immolation:408).exists]\nability(Wild Magic:592) [!enemy.aura(Wild Magic:591).exists]\nability(Burn:113)\nchange(#2)\nendif\n\nif [enemy(#1).active & !enemy(#3).dead]\nability(Inferno Herding:1356)\nendif\n\nif [enemy(#3).active]\nability(Superbark:1357) [enemy.hpp > 50]\nability(Flamethrower:503)\nendif\n\nif [enemy(#1).active & enemy(#2).dead & enemy(#3).dead]\nability(Wild Magic:592) [!enemy.aura(Wild Magic:591).exists]\nability(Black Claw:919) [!enemy.aura(Black Claw:918).exists]\nability(Hunting Party:921)\nchange(#3)\nendif",
+				[66551] = {
+					["name"] = "Ras'an",
+					["code"] = "ability(453)\nability(406)",
 				},
 				[66822] = {
 					["name"] = "Goz Banefury",
 					["code"] = "change(#3) [enemy.aura(Dark Rebirth:796).exists]\nchange(#2) [self(#3).dead]\nuse(Bubble:934)\nuse(Mudslide:572) [enemy(Helios:986).active & self.round=2]\nuse(Water Jet:118)\nuse(Bombing Run:647) [enemy(Helios:986).active & enemy.round=2]\nuse(Decoy:334)\nuse(Breath:115)\nstandby [self(Elekk Plushie:1426).active]\nchange(next)",
 				},
-				[66557] = {
-					["name"] = "Bloodknight Antari",
-					["code"] = "if [enemy(#1).active]\nability(779)\nability(334)\nability(115)\nendif\n\nif [enemy(#2).active]\nability(115) [enemy.round =1]\nability(779)\nchange(#2) [self(#1).active]\nability(453)\nability(406)\nendif\n\nif [enemy(#3).active]\nability(406)\nchange(#1) [self(#2).dead]\nability(334)\nability(779)\nability(115)\nendif",
-				},
 				[94649] = {
 					["name"] = "Skrillix",
 					["code"] = "if [ self(#1).active ]\nability(Curse of Doom)\nstandby [ enemy.round=2 ]\nstandby [ enemy.round=3 ]\nability(#3)\nendif\nchange(#2) [ self(#1).dead ]\nif [ self(#2).active ]\nability(#2) [!self.aura(Undead).exists]\nability(#1)\nendif\nchange(#3) [ self(#2).dead ]\nif [ self(#3).active ]\nability(Emerald Dream) [ self.hp<700 ]\nability(Emerald Presence) [ self.aura(Emerald Presence).duration<=1 ]\nability(Emerald Bite)\nendif",
+				},
+				[97709] = {
+					["name"] = "Flummoxed",
+					["code"] = "ability(218)\nability(652)\nchange(#2) [self(#1).dead]\nability(919) [!enemy.aura(918).exists]\nability(581)",
 				},
 				[155413] = {
 					["name"] = "Postmaster Malown",
 					["code"] = "if [enemy(#1).active]\n ability(Flurry:360) [enemy.aura(Shattered Defenses:542).exists]\n ability(Dodge:312)\n ability(Stampede:163)\nendif\n\nability(Stampede:163)\nability(Flame Breath:501) [enemy(#2).active]\nability(Glowing Toxin:270) [!enemy.aura(Glowing Toxin:271).exists]\nability(Burrow:159)\nability(#1)\nchange(next)",
 				},
-				[68464] = {
-					["name"] = "Whispering Pandaren Spirit",
-					["code"] = "ability(611) [self.round> 2]\nability(299)\nchange(#2) [self(#1).dead]\nability(779)\nability(115)\nstandby",
+				[161661] = {
+					["name"] = "Wilbur",
+					["code"] = "ability(Black Claw:919) [round=1]\nability(Flock:581) [round=2]\nability(Explode:282) [enemy.hp.can_explode]\nability(#1)\nchange(next)",
 				},
 				[161662] = {
 					["name"] = "Char",
@@ -498,9 +498,9 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "Seeker Zusshi",
 					["code"] = "if [enemy(#1).active]\nability(453)\nability(490)\nability(406)\nendif\n\nif [enemy(#2).active]\nability(490) [enemy.round=3]\nability(406) [enemy.round <=2]\nchange(#2) [self(#1).active]\nability(597) [!self.aura(823).exists]\nability(612) [enemy.round= 8]\nability(525)\nendif\n\nif [enemy(#3).active]\nability(525)\nchange(#1) [self(#2).dead]\nability(490) [enemy.aura(269).exists]\nability(453)\nability(406)\nstandby\nendif",
 				},
-				[117934] = {
-					["name"] = "Illidari Masters: Sissix",
-					["code"] = "standby [enemy.aura(Undead:242).exists]\nchange(#2) [self(#3).active]\nuse(Ironskin:1758) [round=1]\nuse(Predatory Strike:518) [enemy.aura(Shattered Defenses:542).exists]\nuse(Powerball:566) [enemy.hp<333]\nif [self.aura(Wind-Up:458).exists]\n  use(Powerball:566) [!self.aura(Speed Boost:831).exists & self.power<341]\n  use(Supercharge:208)\nendif\nuse(Falcosaur Swarm!:1773)\nuse(Wind-Up:459)\nchange(#3)",
+				[68464] = {
+					["name"] = "Whispering Pandaren Spirit",
+					["code"] = "ability(611) [self.round> 2]\nability(299)\nchange(#2) [self(#1).dead]\nability(779)\nability(115)\nstandby",
 				},
 				[117950] = {
 					["name"] = "Illidari Masters: Madam Viciosa",
@@ -530,25 +530,25 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "Flowing Pandaren Spirit",
 					["code"] = "if [enemy(#1).active]\nability(312) [enemy.round=3]\nability(504)\nendif\n\nif [enemy(#2).active]\nability(312)\nability(504)\nendif\n\nif [enemy(#3).active]\nability(312) [enemy.round=4]\nability(504)\nendif",
 				},
-				[66552] = {
-					["name"] = "Narrok",
-					["code"] = "ability(453)\nability(406)\nstandby",
-				},
-				[161661] = {
-					["name"] = "Wilbur",
-					["code"] = "ability(Black Claw:919) [round=1]\nability(Flock:581) [round=2]\nability(Explode:282) [enemy.hp.can_explode]\nability(#1)\nchange(next)",
-				},
 				[116787] = {
 					["name"] = "Deviate Flapper",
 					["code"] = "change(next) [self.dead]\nuse(Moth Dust:508)\nuse(Cocoon Strike:506)\nuse(Slicing Wind:420)\nstandby",
+				},
+				[117934] = {
+					["name"] = "Illidari Masters: Sissix",
+					["code"] = "standby [enemy.aura(Undead:242).exists]\nchange(#2) [self(#3).active]\nuse(Ironskin:1758) [round=1]\nuse(Predatory Strike:518) [enemy.aura(Shattered Defenses:542).exists]\nuse(Powerball:566) [enemy.hp<333]\nif [self.aura(Wind-Up:458).exists]\n  use(Powerball:566) [!self.aura(Speed Boost:831).exists & self.power<341]\n  use(Supercharge:208)\nendif\nuse(Falcosaur Swarm!:1773)\nuse(Wind-Up:459)\nchange(#3)",
+				},
+				[66552] = {
+					["name"] = "Narrok",
+					["code"] = "ability(453)\nability(406)\nstandby",
 				},
 				[94650] = {
 					["name"] = "Defiled Earth",
 					["code"] = "ability(218)\nability(Haunt)\n\nability(1370) [enemy.round > 6]\nability(919) [!enemy.aura(918).exists]\nability(581)\n\nability(525) [self.aura(Dragonkin).exists & enemy.hp < 600 & self.hp > 200]\nability(598) [self.hp < 1100]\nability(597) [self.aura(Emerald Presence).duration <= 1]\nability(525)\n\nchange(#2)\nchange(#3)",
 				},
-				[66551] = {
-					["name"] = "Ras'an",
-					["code"] = "ability(453)\nability(406)",
+				[66557] = {
+					["name"] = "Bloodknight Antari",
+					["code"] = "if [enemy(#1).active]\nability(779)\nability(334)\nability(115)\nendif\n\nif [enemy(#2).active]\nability(115) [enemy.round =1]\nability(779)\nchange(#2) [self(#1).active]\nability(453)\nability(406)\nendif\n\nif [enemy(#3).active]\nability(406)\nchange(#1) [self(#2).dead]\nability(334)\nability(779)\nability(115)\nendif",
 				},
 				[105387] = {
 					["name"] = "Andurs",
@@ -562,9 +562,9 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "Wastewalker Shu",
 					["code"] = "standby [self(#1).active & enemy(#3).hp<618]\nchange(#2) [self(#1).active & self.dead]\nuse(Arcane Blast:421) [enemy.hp<370]\nuse(Evanescence:440) [self.aura(Whirlpool:512).exists]\nuse(Evanescence:440) [enemy(#3).active & enemy.round=2]\nuse(Moonfire:595) [enemy.round=2]\nuse(Arcane Blast:421)\nuse(Explode:282) [enemy(#3).hp<618]\nuse(Flyby:515)",
 				},
-				[68465] = {
-					["name"] = "Thundering Pandaren Spirit",
-					["code"] = "if [enemy(#1).active]\nability(Dive:564) [self.round =1]\nability(Acidic Goo:369) [self.round =3]\nability(Ooze Touch:445)\nendif\n\nif [enemy(#2).active]\nability(Acidic Goo:369) [enemy.round =1]\nability(Ooze Touch:445)\nchange(#2) [self(#1).dead]\nability(777)\nendif\n\nif [enemy(#3).active]\nability(334) [enemy.round =2]\nability(282) [enemy.hp < 618]\nability(777)\nendif",
+				[161663] = {
+					["name"] = "Tempton",
+					["code"] = "ability(#2) [!enemy.aura(Shattered Defenses:542).exists]\nability(#3)\nability(#1)",
 				},
 				[117951] = {
 					["name"] = "Illidari Masters: Nameless Mystic",

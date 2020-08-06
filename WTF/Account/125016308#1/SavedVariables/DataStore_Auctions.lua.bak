@@ -14,7 +14,7 @@ DataStore_AuctionsDB = {
 		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
 		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
 		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
-		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
 		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
 		["Fállkén - Outland"] = "Fállkén - Outland",
 		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
@@ -28,12 +28,12 @@ DataStore_AuctionsDB = {
 		["Fallken - Burning Blade"] = "Fallken - Burning Blade",
 		["Fällkên - Drak'thul"] = "Fällkên - Drak'thul",
 		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
-		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Drak'thul.Fàllkén"] = {
-				["lastUpdate"] = 1595710993,
+				["lastUpdate"] = 1596670195,
 				["lastVisitDate"] = "2020/01/14 23:49",
 			},
 			["Default.Drak'thul.Fällkên"] = {
@@ -52,15 +52,14 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2019/12/20 16:17",
 			},
 			["Default.Burning Blade.Fallken"] = {
-				["lastUpdate"] = 1595712800,
-				["lastVisitDate"] = "2020/07/23 12:58",
+				["lastUpdate"] = 1596646575,
+				["lastVisitDate"] = "2020/07/28 18:27",
 			},
 			["Default.Drak'thul.Fállkén"] = {
 				["lastUpdate"] = 1593181490,
 			},
-			["Default.Drak'thul.Fallkên"] = {
-				["lastUpdate"] = 1576144747,
-				["lastVisitDate"] = "2019/12/12 10:59",
+			["Default.Burning Blade.Fállkèn"] = {
+				["lastUpdate"] = 1587504387,
 			},
 			["Default.Drak'thul.Fållkên"] = {
 				["lastUpdate"] = 1593905982,
@@ -73,17 +72,18 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1593200613,
 				["lastVisitDate"] = "2020/01/14 00:52",
 			},
-			["Default.Burning Blade.Fállkèn"] = {
-				["lastUpdate"] = 1587504387,
-			},
-			["Default.Drak'thul.Fàllkên"] = {
-				["lastUpdate"] = 1593181978,
+			["Default.Drak'thul.Fallkên"] = {
+				["lastUpdate"] = 1576144747,
+				["lastVisitDate"] = "2019/12/12 10:59",
 			},
 			["Default.Drak'thul.Faallken"] = {
 				["lastUpdate"] = 1593178344,
 			},
+			["Default.Drak'thul.Fàllkên"] = {
+				["lastUpdate"] = 1593181978,
+			},
 			["Default.Drak'thul.Fallkenez"] = {
-				["lastUpdate"] = 1595706535,
+				["lastUpdate"] = 1596661652,
 				["lastVisitDate"] = "2020/02/12 00:39",
 			},
 		},

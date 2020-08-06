@@ -7,7 +7,7 @@ Postal3DB = {
 		["Fãllkên - Drak'thul"] = "Fãllkên - Drak'thul",
 		["Fállkèn - Burning Blade"] = "Fállkèn - Burning Blade",
 		["Fàllkên - Drak'thul"] = "Fàllkên - Drak'thul",
-		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
 		["Faallken - Drak'thul"] = "Faallken - Drak'thul",
 		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
 		["Fallkenxd - Burning Blade"] = "Fallkenxd - Burning Blade",
@@ -15,7 +15,7 @@ Postal3DB = {
 		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
 		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
 		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
-		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
 		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
 		["Fallken - Burning Blade"] = "Fallken - Burning Blade",
 		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
@@ -107,7 +107,12 @@ Postal3DB = {
 				},
 			},
 		},
-		["Fallkenji - Burning Blade"] = {
+		["Fállkên - Drak'thul"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fallkên|Drak'thul|Alliance", -- [1]
+				},
+			},
 		},
 		["Faallken - Drak'thul"] = {
 			["BlackBook"] = {
@@ -120,9 +125,10 @@ Postal3DB = {
 		["Fallkenez - Drak'thul"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Fàllkén-Drak'thul|Drak'thul|Horde", -- [1]
-					"Fallken-Burning Blade|Drak'thul|Horde", -- [2]
-					"Fàllkén|Drak'thul|Horde", -- [3]
+					"Fallken-Burning Blade|Drak'thul|Horde", -- [1]
+					"Fàllkén-Drak'thul|Drak'thul|Horde", -- [2]
+					"Fallken-BurningBlade|Drak'thul|Horde", -- [3]
+					"Fàllkén|Drak'thul|Horde", -- [4]
 				},
 			},
 		},
@@ -154,20 +160,15 @@ Postal3DB = {
 				},
 			},
 		},
-		["Fállkên - Drak'thul"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Fallkên|Drak'thul|Alliance", -- [1]
-				},
-			},
+		["Fallkenji - Burning Blade"] = {
 		},
 		["Fallkenmekac - Burning Blade"] = {
 		},
 		["Fallken - Burning Blade"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Fàllkén-Drak'thul|Burning Blade|Horde", -- [1]
-					"Fallkenez-Drak'thul|Burning Blade|Horde", -- [2]
+					"Fallkenez-Drak'thul|Burning Blade|Horde", -- [1]
+					"Fàllkén-Drak'thul|Burning Blade|Horde", -- [2]
 					"Fållken-Burning Blade|Burning Blade|Horde", -- [3]
 					"Fållkên-Drak'thul|Burning Blade|Horde", -- [4]
 					"Fällkèn-Drak'thul|Burning Blade|Horde", -- [5]

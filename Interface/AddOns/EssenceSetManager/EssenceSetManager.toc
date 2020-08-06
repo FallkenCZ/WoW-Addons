@@ -1,0 +1,13 @@
+## Interface: 80300
+## Title: Essence Set Manager
+## Author: Metriss - Stormrage
+## Version: 1.07
+## SavedVariablesPerCharacter: EssenceSetManager
+## Notes: Adds buttons to the Heart of Azeroth interface to quickly save and load essence sets.
+
+#@no-lib-strip@
+libs\libs.xml
+#@end-no-lib-strip@
+
+EssenceSetManager.lua
+ldb.lua

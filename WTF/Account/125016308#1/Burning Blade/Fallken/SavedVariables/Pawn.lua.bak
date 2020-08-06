@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0329,
+	["LastPlayerFullName"] = "Fallken-Burning Blade",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 171003,
@@ -90,9 +93,7 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:172201:5949:::::::120:102::6:5:4824:6516:6513:1517:4786:::|h[Bloodstained Ritual Athame]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Fallken-Burning Blade",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128306] = {
 			["Relics"] = {
@@ -117,7 +118,6 @@ PawnOptions = {
 			["Name"] = "Underlight Angler",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DRUID",

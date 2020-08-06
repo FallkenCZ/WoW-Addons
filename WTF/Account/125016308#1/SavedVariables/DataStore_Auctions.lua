@@ -8,13 +8,13 @@ DataStore_AuctionsDB = {
 		["Fállkèn - Burning Blade"] = "Fállkèn - Burning Blade",
 		["Fàllkên - Drak'thul"] = "Fàllkên - Drak'thul",
 		["Faallken - Drak'thul"] = "Faallken - Drak'thul",
-		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
+		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
 		["Fallkenxd - Burning Blade"] = "Fallkenxd - Burning Blade",
 		["Fallkenez - Drak'thul"] = "Fallkenez - Drak'thul",
 		["Fàllkèn - Burning Blade"] = "Fàllkèn - Burning Blade",
 		["Gfgdhfdghfgh - Burning Blade"] = "Gfgdhfdghfgh - Burning Blade",
 		["Fållken - Burning Blade"] = "Fållken - Burning Blade",
-		["Fallkenji - Burning Blade"] = "Fallkenji - Burning Blade",
+		["Fállkên - Drak'thul"] = "Fállkên - Drak'thul",
 		["Fallkenmekac - Burning Blade"] = "Fallkenmekac - Burning Blade",
 		["Fällkên - Drak'thul"] = "Fällkên - Drak'thul",
 		["Fållkên - Drak'thul"] = "Fållkên - Drak'thul",
@@ -32,9 +32,8 @@ DataStore_AuctionsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Drak'thul.Fàllkén"] = {
-				["lastUpdate"] = 1595710993,
-				["lastVisitDate"] = "2020/01/14 23:49",
+			["Default.Drak'thul.Faallken"] = {
+				["lastUpdate"] = 1593178344,
 			},
 			["Default.Drak'thul.Fällkên"] = {
 				["lastUpdate"] = 1593906308,
@@ -52,24 +51,11 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2019/12/20 16:17",
 			},
 			["Default.Burning Blade.Fallken"] = {
-				["lastUpdate"] = 1595715725,
-				["lastVisitDate"] = "2020/07/23 12:58",
+				["lastUpdate"] = 1596646575,
+				["lastVisitDate"] = "2020/07/28 18:27",
 			},
 			["Default.Drak'thul.Fállkén"] = {
 				["lastUpdate"] = 1593181490,
-			},
-			["Default.Burning Blade.Fállkèn"] = {
-				["lastUpdate"] = 1587504387,
-			},
-			["Default.Drak'thul.Fàllkên"] = {
-				["lastUpdate"] = 1593181978,
-			},
-			["Default.Drak'thul.Fällkèn"] = {
-				["lastUpdate"] = 1593177005,
-			},
-			["Default.Burning Blade.Fållken"] = {
-				["lastUpdate"] = 1593200613,
-				["lastVisitDate"] = "2020/01/14 00:52",
 			},
 			["Default.Drak'thul.Fallkên"] = {
 				["lastUpdate"] = 1576144747,
@@ -79,11 +65,25 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1593905982,
 				["lastVisitDate"] = "2020/07/05 01:39",
 			},
-			["Default.Drak'thul.Faallken"] = {
-				["lastUpdate"] = 1593178344,
+			["Default.Drak'thul.Fällkèn"] = {
+				["lastUpdate"] = 1593177005,
+			},
+			["Default.Burning Blade.Fållken"] = {
+				["lastUpdate"] = 1593200613,
+				["lastVisitDate"] = "2020/01/14 00:52",
+			},
+			["Default.Burning Blade.Fállkèn"] = {
+				["lastUpdate"] = 1587504387,
+			},
+			["Default.Drak'thul.Fàllkén"] = {
+				["lastUpdate"] = 1596670391,
+				["lastVisitDate"] = "2020/01/14 23:49",
+			},
+			["Default.Drak'thul.Fàllkên"] = {
+				["lastUpdate"] = 1593181978,
 			},
 			["Default.Drak'thul.Fallkenez"] = {
-				["lastUpdate"] = 1595706535,
+				["lastUpdate"] = 1596661652,
 				["lastVisitDate"] = "2020/02/12 00:39",
 			},
 		},

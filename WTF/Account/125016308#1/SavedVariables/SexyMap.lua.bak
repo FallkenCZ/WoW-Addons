@@ -32,11 +32,23 @@ SexyMap2DB = {
 			["showPing"] = true,
 			["showAt"] = "map",
 		},
-		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
+		["buttons"] = {
+			["radius"] = 10,
+			["lockDragging"] = false,
+			["allowDragging"] = true,
+			["visibilitySettings"] = {
+				["MinimapZoomIn"] = "never",
+				["MinimapZoneTextButton"] = "always",
+				["MiniMapWorldMapButton"] = "never",
+				["QueueStatusMinimapButton"] = "always",
+				["GarrisonLandingPageMinimapButton"] = "always",
+				["MinimapZoomOut"] = "never",
+				["MiniMapMailFrame"] = "always",
+				["TimeManagerClockButton"] = "always",
 			},
-			["lock"] = false,
+			["dragPositions"] = {
+			},
+			["controlVisibility"] = true,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -127,28 +139,21 @@ SexyMap2DB = {
 			["xOffset"] = 0,
 			["yOffset"] = 0,
 		},
-		["buttons"] = {
-			["radius"] = 10,
-			["lockDragging"] = false,
-			["allowDragging"] = true,
-			["visibilitySettings"] = {
-				["MinimapZoomIn"] = "never",
-				["MinimapZoneTextButton"] = "always",
-				["MiniMapWorldMapButton"] = "never",
-				["QueueStatusMinimapButton"] = "always",
-				["GarrisonLandingPageMinimapButton"] = "always",
-				["MinimapZoomOut"] = "never",
-				["MiniMapMailFrame"] = "always",
-				["TimeManagerClockButton"] = "always",
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
 			},
-			["dragPositions"] = {
-			},
-			["controlVisibility"] = true,
+			["lock"] = false,
 		},
 	},
 	["Fâllken-Drak'thul"] = "global",
 	["Fallkên-Drak'thul"] = "global",
 	["Fållkèn-Drak'thul"] = "global",
+	["presets"] = {
+	},
+	["Fàllkén-Drak'thul"] = "global",
+	["Fállkèn-Burning Blade"] = "global",
+	["Fàllkèn-Burning Blade"] = "global",
 	["global"] = {
 		["core"] = {
 			["clamp"] = true,
@@ -175,12 +180,6 @@ SexyMap2DB = {
 			},
 			["yOffset"] = 10,
 		},
-		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
-			},
-			["lock"] = false,
-		},
 		["buttons"] = {
 			["radius"] = 10,
 			["lockDragging"] = false,
@@ -206,17 +205,23 @@ SexyMap2DB = {
 				["MinimapZoomIn"] = "never",
 			},
 			["dragPositions"] = {
-				["MiniMapInstanceDifficulty"] = 208.8631549969737,
+				["MiniMapInstanceDifficulty"] = 219.3905643715709,
 				["MiniMapMailFrame"] = 172.4016627300504,
 				["GameTimeFrame"] = 139.8821296911681,
 				["MiniMapWorldMapButton"] = 246.573142651936,
 				["LibDBIcon10_SimulationCraft"] = 187.5697556961329,
 				["LibDBIcon10_REFlex"] = -60.36689247355884,
-				["GarrisonLandingPageMinimapButton"] = 235.6749419453139,
-				["GuildInstanceDifficulty"] = 211.7040005377491,
+				["GarrisonLandingPageMinimapButton"] = 238.1553261526383,
+				["GuildInstanceDifficulty"] = 207.2614800174727,
 				["MiniMapTracking"] = 158.0289691828316,
 			},
 			["controlVisibility"] = true,
+		},
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
+			},
+			["lock"] = false,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -290,13 +295,16 @@ SexyMap2DB = {
 			["showAt"] = "map",
 		},
 	},
-	["Fàllkén-Drak'thul"] = "global",
-	["Fallkenez-Drak'thul"] = "global",
-	["Fàllkèn-Burning Blade"] = "global",
-	["presets"] = {
-	},
 	["Fållkên-Drak'thul"] = "global",
 	["Fallkenmekac-Burning Blade"] = "global",
+	["Fállkên-Drak'thul"] = "global",
+	["Fallkenez-Drak'thul"] = "global",
+	["Fallkenfurry-Drak'thul"] = "global",
+	["Fállkén-Drak'thul"] = "global",
+	["Fallken-Burning Blade"] = "global",
+	["Fällkên-Drak'thul"] = "global",
+	["Fallkenchoco-Burning Blade"] = "global",
+	["Fàllkên-Drak'thul"] = "global",
 	["Fallkengold-Sylvanas"] = {
 		["core"] = {
 			["clamp"] = true,
@@ -319,12 +327,6 @@ SexyMap2DB = {
 			},
 			["yOffset"] = 10,
 		},
-		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
-			},
-			["lock"] = false,
-		},
 		["buttons"] = {
 			["radius"] = 10,
 			["lockDragging"] = false,
@@ -342,6 +344,12 @@ SexyMap2DB = {
 			["dragPositions"] = {
 			},
 			["controlVisibility"] = true,
+		},
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
+			},
+			["lock"] = false,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -437,14 +445,6 @@ SexyMap2DB = {
 			["showAt"] = "map",
 		},
 	},
-	["Fállkèn-Burning Blade"] = "global",
-	["Fallkenfurry-Drak'thul"] = "global",
-	["Fállkén-Drak'thul"] = "global",
-	["Fallken-Burning Blade"] = "global",
-	["Fällkên-Drak'thul"] = "global",
-	["Fállkên-Drak'thul"] = "global",
-	["Fàllkên-Drak'thul"] = "global",
-	["Fallkenchoco-Burning Blade"] = "global",
 	["Fallkenthicc-Burning Blade"] = "global",
 	["Fallkenji-Burning Blade"] = "global",
 }
@@ -475,12 +475,6 @@ SexyMap82 = {
 				},
 				["yOffset"] = 10,
 			},
-			["movers"] = {
-				["enabled"] = false,
-				["framePositions"] = {
-				},
-				["lock"] = false,
-			},
 			["buttons"] = {
 				["radius"] = 10,
 				["lockDragging"] = false,
@@ -498,6 +492,12 @@ SexyMap82 = {
 				["dragPositions"] = {
 				},
 				["controlVisibility"] = true,
+			},
+			["movers"] = {
+				["enabled"] = false,
+				["framePositions"] = {
+				},
+				["lock"] = false,
 			},
 			["clock"] = {
 				["bgColor"] = {

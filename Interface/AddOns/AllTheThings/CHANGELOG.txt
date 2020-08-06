@@ -1,91 +1,327 @@
-2.0.5 Release Notes
+2.0.6 Release Notes
 Contributions made by Crieve:
-* Final version. Works pretty good.
-* Appropriate auto-summarizing commit by build type.
-* Added some more drop locations for the Titanium Links of Lore in Pit of Saron.
-* Super secret project.
-* The Sync Tool now minimizes itself in the taskbar.
-* You can once again export all of your account data to CSV files.
-* Ignore the log file.
-* Removed an unused function.
-* Added the "altAchievements" field for conditions where it is impossible to have Exalted with 2 opposing factions and there's an associated achievement for getting both to Exalted on one character at different times. (Hero if Shattrath)
-* Fixed a bug with the mini and main list scale ratios when customized in the addon.
-* Implemented a DEV ONLY section for code that does NOT go to Live by using the Build Tool!
-* GetDataCache optimization!
-* Updated the Update function to not lag like shit by calling collectgarbage().
-* Mini list no longer refreshes for the same map ID.
-* You can once again toggle the Mini List.
-* New itemDB. Please let me know if something got messed up from this, I need to make a more in-depth way of managing this database module so that I can measure changes in the Blizzard API.
-* Wolf Riding no longer prevents you from executing the parser without hitting Enter.
-* Added a bit more of this source quest chain.
-* Missed a connecting bit.
-* Fixed some Silithus breadcrumbs.
-* I meant to say *Tanaris!
+* Added the Quest Objective class.
+* Fixed an issue with the tooltips that showed shared appearances and unobtainable flags for items linked to other items via the cost property.
+* Moved the quest for the Claw of Anger to the Quests header to match current design specification requirements.
+* Merge pull request #482 from texke/master
+* Added the Ancient Mogu Key.
+* Merge pull request #483 from texke/master
+* Parser now understands what "rank" is.
+* Added an "az" and "azeriteEssence" shortcut to main.
+* Azerite Essence Ranks now check off correctly?
+* Merge pull request #487 from texke/master
+* Fixed the name of some holidays caused by lack of information in the Blizzard API for Holidays.
+* Merge pull request #488 from texke/master
+* Merge pull request #489 from texke/master
+* Azerite Essences... I'm sorry.
+* Source Locations for Azerite Essences.
+* Secret Feature, not ready yet.
+* Made an adjustment for AltAchievements.
+* Added the Headhunters to the Garrison followers list so that it appears in the tooltip.
+* Now calculating the best loot specialization to be in for Personal Loot and Legacy Loot (when eligible).
+* Updated the Arena Treasure Chest.
+* ITEM SETS PURGE ROUND 1. Garrison Sets, Instance Sets, Tier Sets. Seat of Triumvirate hierarchy change.
+* Unobtainable Filters getting Enum treatment.
+* REFACTOR: Unobtainable ID 2 is now marked as REMOVED_FROM_GAME.
+* REFACTOR: Unobtainable ID 1 is now marked as NEVER_IMPLEMENTED. [Note to contribs, may want to search for NEVER_IMPLEMENTED and double check that this is actually correct. I found a few that I knew were not never implemented and we simply removed from the game.]
+* REFACTOR: Unobtainable ID 3 (Blizzard Promotion) is now marked as REMOVED_FROM_GAME. (Hardly anyone used this filter.)
+* REFACTOR: Unobtainable ID 4 (Legacy Achievement) is now marked as REMOVED_FROM_GAME. (Hardly anyone used this filter... Also those aren't achievements! Don't confuse people!)
+* REFACTOR: Unobtainable ID 5 (Recipe: BOP Craftable Removed) is now marked as REMOVED_FROM_GAME. (Since this used timeline...  none of the items actually used this.)
+* REFACTOR: Unobtainable ID 12 (Legacy Instance) is now marked as REMOVED_FROM_GAME. (Hardly anyone used this filter.)
+* REFACTOR: Unobtainable ID 33 (Legacy Vendor) is now marked as REMOVED_FROM_GAME. (Hardly anyone used this filter. Referenced by exactly one vendor.)
+* REFACTOR: Unobtainable ID 34 (Legacy Quest Reward) is now marked as REMOVED_FROM_GAME. (Hardly anyone used this filter.)
+* Professions now show profession related content from Dungeons & Raids, Outdoor Zones, Expansion Features, World Events, and Crafted Items in the Profession Mini List.
+* REFACTOR: Unobtainable ID 37 (Titles) is now marked as REMOVED_FROM_GAME.
+* REFACTOR: Unobtainable ID 37 (Legacy Titles) is now marked as REMOVED_FROM_GAME.
+* REFACTOR: Unobtainable ID 40 (Legacy Quest) is now marked as REMOVED_FROM_GAME. (This was heavily used by contribs and lead to a lot of confusion / inconsistent design, but barely used by players.)
+* REFACTOR: Unobtainable ID 43 (Legacy NPC) is now marked as REMOVED_FROM_GAME.
+* REFACTOR: Unobtainable ID 32 (Reworked Rewards) is now marked as REMOVED_FROM_GAME.
+* Fixed the bug posted in #errors by Beornwulf.
+* REFACTOR: Unobtainable ID 7 (BoE Unobtainable) is now marked as REMOVED_FROM_GAME. In addition, Removed from Game Unobtainables that are BoE are now colorized with a green icon automatically. There is no longer a different message in the tooltip for these items.
+* "Possible Chance" is done. Shifted leftover Unobtainable reasons around.
+* REFACTOR: Unobtainable ID 8 (BoE Unobtainable Recipe) is now marked as REMOVED_FROM_GAME.
+* REFACTOR: Unobtainable ID 6 (Collector's Edition) is now marked as REMOVED_FROM_GAME.
+* REFACTOR: Unobtainable ID 16 (BlizzCon) is now marked as REMOVED_FROM_GAME.
+* Fixed a couple of incorrectly tagged objects.
+* Found another one.
+* Potentially fixed an issue that one of the contribs found.
+* Oracles and Frenzyheart now utilize altAchievements to show collected if the Mercenary of Sholazar achievement has been earned by your current character.
+* Merge pull request #493 from texke/development
+* TSMAPI_FOUR added as a conditional.
+* Increased the maximum ItemID in Classic to 24358.
 
-Contributions made by slumber:
-* added entrance coords for atal'dazar, kings' rest, temple of sethraliss, and the underrot
-* more nazmir, added dart to pet database so it tracks properly as collected/uncollected
-* added missing shrine of the storm wq
-* boon of bonk
-* tidied garrison salvage crate sets
-* cleaned up fishing file
-* added altQuests to remaining raid skips
-* corrected npcID for mestrah in battle of dazar'alor
-* added entrance coords for siege of boralus - collectible = false on "losing my profession" achievement headers since not all criteria are collectible in one location - added some missing horde WQs and quests
-* some more bfa dungeon entrance coords - more missing horde WQs and quests
-* more BFA dungeon/raid coordinates - some tracking quests
-* added some missing horde WQs - some tracking quests - clarified description on some horde war campaign quests
-* added missing leather rewards to a tiragarde sound quest - removed unnecessary SQ from a horde war campaign quest - added some legacy DMF quests - a tracking quest
-* added a missing leather azerite reward to "storm's judgment" in stormsong valley
-* added some missing azerite gear to a tiragarde sound quest
-* added missing azerite reward to a stormsong valley quest
-* some horde WQs
-* why
-* thunderfury = all classes that can equip 1h swords
-* uhhhhhhhhhh
-* added coordinates to currency descriptions as requested
-* added some missing horde world quests / quests
-* added some missing horde WQs/quests
-* more island rep item junk for consistency
-* removed wq from wrong zone
-* added a missing horde WQ
+Contributions made by TKTalonzor:
+* Added Garrison Campaign: The Search for Owynn Graddock questline
+* Added Garrison Campaign: Every Rose Has Its Thorn quest line
+* Removed Celestial Tournament duplicate pets, the pets and achievement criteria is under the vendor.
+* Moved the Celestial pets under the Pet Battles and removed the vendor from TImeless Isles.
 
-Contributions made by mogwai316:
-* Added Skeletal Gauntlets as Westfall zone drop.  Marked On the Outskirts as horde only.
-* Added prereqs for Documenting The Timeways quest
-* Peak of Serenity is not Pandaren-only.  The Monk class restriction is sufficient.
-* Marked She Sells These Shells as a daily quest
-* Added a Cata world drop ring that was unsorted
-
-Contributions made by Gold:
-* item fix
-* some chromie scenario rework/relisting (5/8 areas done)
-* added every item to the chromie scenario and sorted it
-* removed zone drop from world drop, didnt parse
-* quest for chromie, gave timeline bop item an extra tag (probably 10-20 more items need that)
-* some nyi shaman gear and wod s3 fix
-* removed couple world drops from world drops due the items only dropping from specific mobs
-* no message
-
-Contributions made by Gromwind:
-* Quest 'Strained Supplies' (10017) marked as repeatable
-* Fixed duplication of numbers on MoP inscription staves & offhands
-
-Contributions made by Gaulish:
-* Ub3r-Spanner spellid removed.
-* Tagged profession books uncollectible.
-* More profession books.
+Contributions made by Pr3vention:
+* Added blacklist template file. NOT FOR PLAYER USE
+* Warrior order hall quests up to first zone selection
+* Added legion warrior teleport trackers
+* Added more warrior order hall quests
+* Added the remaining warrior order hall quests until lvl 110
+* Added missing details for Zandalari heritage armor
+* Updated formatting of other heritage armor sets for shorter tooltips and maintenance
+* Fixed Southern Barrens bonefire mapIDs for midsummer fire festival
+* Added cost to midsummer fire festival vendor items
+* Improved coordinate accuracy of Horde's "Honor the Flame" quests on Kalimdor
+* Improved coordinate accuracy of Horde's "Honor the Flame" quests on Eastern Kingdoms
+* Improved coordinate accuracy of midsummer achievements on Kalimdor and EK for Horde
+* Flag for picking daggers for Nisha in Vol'dun
+* Set up azerite essence container to be more easily maintained
+* Added quest trigger for Hanzabu's dialog near Zo'bal in Nazmir
+* Added quest trigger for activating the spirits at Zo'bal Ruins in Nazmir
+* Added quest trigger for Hir'eek's summoning in Nazmir
+* Added more warrior order hall quests up
+* Fixed The Invasion of Niskara showing up for non-demon hunters
+* Added the remaining info for part 1 of the Warrior order hall
+* Added coords for "A Call to Action"
+* Added warrior order hall quests through Champions of Legionfall
+* Minor adjustments and cleanup on the broken shore
+* Fixed conqueror/liberator of orgrimmar wrongly showing on heroic difficulty
+* Fixed skyhold mapID for balance of power
+* Removed multiple duplicate references to legacy legion quests An Island of War, Desperate Times, Win the Crowd
+* Added legion quest Delivering Lost Knowledge
+* Added details for a couple more warrior order hall quests
+* Removed duplicates for legacy legion quest To Battle!
+* Added a few remaining details in the warrior order hall
+* Finished the Warrior Order Hall
+* Fixed the BMAH illusions header
+* Fixed a couple source quests in the Worgen starting area
+* Added the first two known steps for Jenafur
+* Temple of jade serpent LFG quest trigger
+* Added missing quest "Step Three: Prophet!" in Shadowmoon Valley
+* Added Alliance garrison founding tracking quest
+* Added missing trigger for Qiana Moonshadow
+* Added a couple tracking events from Mists of Pandaria
+* Added a missing tracker for Scout Valdez in Shadowmoon Valley
+* Significant updates to Mage order hall - part 1
+* Added two triggering event quests when submitted "The Call for Allies" in stormwind
+* Added a couple missing triggering events in Vol'dun for alliance war campaign
+* More updates to the mage order hall
+* Added Mage order hall triggers for scouting missions used in "When There's a Will, There's a Way"
+* Fixed multiple quest exclusivity issues with the Shadowbarb Drone questline in Uldum
+* Merge pull request #495 from texke/master
+* Added missing breadcrumb in the alliance war campaign
+* Added two triggers in Drustvar for the Alliance
+* Added drustvar tracker for "A Drust Cause" invasion completion
+* Added a triggering event for the alliance war campaign in Zuldazar
+* Added two missing quests in Zuldazar for the alliance war campaign
+* Added tracker for having learned Felo'melorn's hidden appearance
+* Added Witchdoctor Grgl-Brgl loot tracking event ID
+* Fixed the "Boxing Match" achievements being associated to the wrong faction
+* Added missing map used during the "Hunting Blood Prince Dreven" quest
+* Added a missing tracking event for Kings' Rest dungeon unlock during the war campaign
+* Fixed Headhunter Lee'za in Zuldazar not being flagged as a world quest mob
+* Mage order hall now content-complete
 
 Contributions made by Dmitry Volodin:
-* some hidden triggers
-* added descriptions to some Un'Goro quest clarifying when they become unavailable - attached Gorian Artifact Fragment and Highmaul Relic to their quests
-* attached Misprinted Draenic Coin to quests
-* updated mount drops in Island Expedition boxes
-* moved some quest triggers to outposts quests we need to revisit it later
+* legacy Midsummer Festival quest
+* world bosses from 13th Anniversary event are now hidden  when they should be - some unsorted items
+* some hidden triggers and unsorted items
+* used blacklist to deal with some consumables I added previously
+* added more items to MOTHER The Businesswoman
+* tank/healer restrictions on MOTHER essences
+* cleaned up class trials a bit (WIP) - removed tooltips from some useless items
+* some internal cleanup, no functional changes
+* some formatting fixes
+* hidden quest trigger - blacklisted another uncollectable item
+* reduced some internal duplication
+* Some more quests added & sorted for issue #398 (#491)
+* corrected some descriptions - fixed some Cataclysm questlines (I hate breadcrumbs)
+* more Cataclysm quests fixed
+* more Hyjal quest fixes
+* removed leftover line I missed before
+* more Hyjal quest fixes
+* ...
+* removed more useless items from database - corrected description on Brann Bronzebeard's Lost Letter - added coord to "The Seven Burdens of Shaohao" achievement -- The Emperor's Burden - Part 3 in Jade Forest and added parts of this achievement to the zone list - some quest fixes in Jade Forest
+* some internal formatting changes
+* revert some internal formatting changes
+* more Jade Forest quest fixes - added quests in The Veiled Stair - added "The Dark Heart of the Mogu" quest - Pandaria scenarios achievements will now show up on the scenario storytellers, just like LFR achievements for raids
+* corrected Pandaria scenarios tooltip on storytellers (not all scenarios have heroic version)
+* added some achievement coords in Valley Of The Four Winds and added them to the zone list
+* added Formula: Enchant Neck - Mark of the Hidden Satyr Rank 2 normal/heroic drops
+* fixes to recently added achievs in Pandaria reformatted SoO a bit
+* proper fix for achievements
+* some quest fixes in Pandaria
+* added breadcrumb for Mechagon race unlock
+* fixed Valiant Of Sen'jin for Zandalari
+* some hidden quest triggers
+* ... reformatted artifacts file a bit, no functional changes parse
+* used named constants in code
+* split Riding the Skies quest into 3 quests for each color (all 3 is in ATT now) you get credit for all 3 when completing so should be fine without altQuests
+* hidden trigger from #errors
+* Hyjal quest fixes
+* fix last
 
-Contributions made by sadidorf:
-* Added Ogom the Mangler/Ogom's Manacles to /attbounty (Please Blizzard fix this)
-* Made the Thunderfury, Blessed Blade of the Windseeker Achievemnt only obtainable to classes that can equip it
-* Fixed the Class Hall Druidflightform SpellID
-* Fixed the currency issue on non english clients
+Contributions made by Gold:
+* removed sym link to see the sources again (wod s3 aspirant gear)
+* crafted item fix, sent by ahuuuu
+* updated pet battle rewards a bit
+* added more items to the ordos cache. should include every possible item now
+
+Contributions made by Gromwind:
+* Added Ice Shards (11976) as altQuest for Shards of Ahune (11972)
+* Corrected map ID for Otela (155944)
+* Added Broken Shore WQ - Magical Beasts (46754)
+* Broken Shore WQ - Magical Beasts (46754) marked mage-only
+* Marked Jorhuttam (42204) as warrior only
+* Hidden quest trigger (44351)
+* Added hidden quest trigger (45488)
+* Added quest Raw Beast Hides (38287) to Draenor Garrison
+* Added hidden quest triggers (56479), (56722)
+* Added some Legion LW quests
+* Added some Druid Campaign (Legion) quests
+* Added Druid Class Hall (Legion) quests and general tidy
+* Added Recipe:Warhide Bindings (Rank 3) (137876) as a normal difficulty drop
+* Correcting the LW recipe reward from Shoulder the Burden (40185)
+* Nothing to see (parsing)
+* Added Recipe: Battlebound Treads to normal and heroic difficulty
+* Added a hidden quest trigger
+* Added some hidden quest triggers for Highmountain rares
+* Druid Class Hall clean up
+* A mix of hidden quest triggers
+* And now categories as well
+* More Druid Class Hall updates
+* Added some hidden quest triggers from Druid Class Hall
+* Quest Furthering Knowledge marked as removed from game
+* Hidden quest triggers for monk class hall
+* Marked Eye of Azshara: Into the Eye of Azshara (43552) as removed from game in DH Class Hall
+* Added hidden quest triggers to WOD garrison command table & assault missives
+* Added some Talador hidden quest triggers
+
+Contributions made by Gaulish:
+* Added cache of the fallen mogu
+* LFR siege drops??
+* essence testing
+* Temp fix for island expedition tooltips.
+* MOTHERs essences.
+* more MOTHERs essences.
+* Ranks to MOTHERS's essences.
+* Rank 1 is needed.
+* Invisible shoulders.
+* Reaves modules collectible.  Sourced Uuna secret.
+* altSpecies added to guild herald/page in the (dead?)pet journal.
+* Updated corrupted glad titleID.
+* Fishing breadcrumb tagged repeatable.
+* Speakers Call tagged unobtainable.
+* Quest 58703 and 55629 tagged never available.
+* Various quest work.
+
+Contributions made by Jens Rogier:
+* Adding some legacy quests for issue #398 - 4324 --  Yuka Screwspigot - 4907 -- Tinkee Steamboil - 4941 -- Eitrigg's Wisdom
+* Added the Horde version of quest "Bloodied Sentinel's Blade"
+* Moved quest rewards of legacy quest to cat 34
+* More legacy quests for issue #398
+* Added cost for "Flimsy Yellow Balloon"
+* Added a helpful note to a hard to find quest
+* Toy "Lucille's Handkerchief" is only available to the Alliance
+* Added hidden DMF tracker
+* Added quest 54483 for both factions
+* Added quest Enchanted Formulae for both factions
+* Added quest Fresh Dishes for both factions Removed commented triggerquest that has been added
+* Some more quests added & sorted for issue #398 Removed some ToDo's which are already done
+* Merge branch 'master' of https://github.com/DFortun81/AllTheThings
+* Added questID for mission "Outpost Upgrade: Zul'jan Ruins"
+* Added hidden quest trigger in Nazjatar
+* Better sorting...
+* Added legacy quest 29485 to DMF
+* Fixed a switched questID, added some missing questID's for Outpost upgrades
+* Added all the minis hidden quest flags
+* Added some tracking quests
+* Added the "Petrified Forest" questline
+* Added quest 48203 Cleaned up Todo
+* Quest trigger in Nazmir
+* Marked quest 32413 as Bloodelf or Orc race + Warrior or Warlock class only (wowhead)
+* Added legacy quest 46940 for all classes
+* Added some hidden quest triggers
+* Merge branch 'master' of https://github.com/DFortun81/AllTheThings into development
+* Added level requirements to some War Board quests
+* Merge branch 'master' of https://github.com/DFortun81/AllTheThings
+* Merge branch 'master' of https://github.com/DFortun81/AllTheThings
+* Merge branch 'master' of https://github.com/DFortun81/AllTheThings
+* Added some coords Cleaned up mage quest "Redundancy" Added quest Knowledge is power for every class
+* See previous commit, now with the files... Moved quest Nether Disruptor to the same location as the other 2 Added and sorted a bunch of hidden WQ flag quests
+* Added & sorted a bunch of hidden quest flags
+* Removed a bonus objective from Azsuna since it's also in the Hidden Quest Triggers with comment 'putting bonus objectives here because it'd be impossible to do them all unless you locked your XP and did all the quests in every legion zone.'
+
+Contributions made by Oxlotus:
+* All collector's editions from MoP onward are marked as in-game store instead of low quantities online.
+* The Wraps of the Blood-Soaked Brawler is no longer marked unobtainable, as it's obtainable through random brawls using the Bag of Chipped Dice.
+* The Mardivas reagents now include the rares they summon, and any items they drop, within their tooltips. (eg. Strange Volcanic Rock)
+* Sorted several items.
+* The Essence tokens from Garrosh now show the uncollected transmog you need through the tokens it can purchase on their tooltips.
+
+Contributions made by slumber:
+* accidentally overwrote "she sells these shells" being marked as daily, whoops
+* some more horde WQs/quests, some tracking quests, truly riveting stuff
+* expansion features > EF (in tooltip)
+* more horde outpost quests, quests, and world quests
+* added mission that gives relic of rukhmar to garrison tables
+* ripped apart some allianceAchievementID/hordeAchievementID hideousness
+* marked a glyph as unobtainable
+* added ["cost"] to relinquished tokens
+* an essence tracking quest
+* added m+ difficulty ID to bfa dungeons
+* added honorbound warhammer to arathi highlands common boss drops
+* added modID = 14 to island crates
+* modID for weekly cache reward
+* some nazjatar dailies and tracking quests
+* added another nazjatar rep item to island boxes for each faction
+* some island tracking quests
+* a missing horde wq + kua'fon daily
+* some unsorted cleanup
+* moved chamber of heart file to match its in-game location
+* shortcuts bayBEE
+* started adding azerite essence ranks (WIP af)
+* more essences and a couple nightfallen rep items
+* added unwavering ward
+* added spirit of preservation
+* added classes to an artifact quest and marked a couple legion lw breadcrumbs
+* added worldvein resonance
+* added ripple in space
+* added vision of perfection
+* added memory of lucid dreams
+* added conflict and strife
+* added aegis of the deep
+* added nullification dynamo
+* added sphere of suppression
+* added azeroth's undying gift
+* added anima of life and death
+* directionally challenged wrt backslashes/forward slashes
+* added the ever-rising tide
+* added the well of existence
+* added artifice of time
+* added life-binder's invocation
+* added vitality conduit
+* added the unbound force
+* added purification protocol
+* added blood of the enemy
+* added essence of the focusing iris
+* finished adding azerite essence ranks (added condensed life-force)
+* added some crs to common boss drops in ToT, fixed a typo in a quest provider
+* forgot to add description to an essence rank
+* lucille's handkerchief can be used by horde characters, although it needs to be collected on alliance alts
+* put cost in the wrong place on some essences
+* i continue to be bad
+* added entrance coords for eternal palace
+* accidentally deleted a line in my previous push
+* sorted azerite essences by ranks to make collection order more apparent at first glance
+* removed goggles from heroic operation: mechagon - workshop
+* added a missing horde wq
+* fixed a description
+* more ToT crs to make common boss drops consistent across tooltips in fights with more than one boss npc
+* marked alliance-only rewards on a neutral quest as such
+* a tracking quest
+
+Contributions made by Jens:
+* More additions for issue #398 (#492)
+
+Contributions made by mogwai316:
+* Fixed Honorbound Warhammer's itemid in Arathi
+
+Contributions made by Alex:
+* Added the Imperial Quilen and Lucky Quilen Cub to the in-game shop.
 

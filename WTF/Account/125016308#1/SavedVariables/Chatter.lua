@@ -300,9 +300,9 @@ ChatterDB = {
 							["g"] = 0.6666666865348816,
 							["r"] = 0.6666666865348816,
 						},
-						["FILTERED"] = {
+						["MONEY"] = {
 							["r"] = 1,
-							["g"] = 0,
+							["g"] = 1,
 							["b"] = 0,
 						},
 						["RAID"] = {
@@ -315,9 +315,9 @@ ChatterDB = {
 							["g"] = 0.4705882668495178,
 							["b"] = 0.03921568766236305,
 						},
-						["MONEY"] = {
+						["FILTERED"] = {
 							["r"] = 1,
-							["g"] = 1,
+							["g"] = 0,
 							["b"] = 0,
 						},
 						["TEXT_EMOTE"] = {
@@ -410,20 +410,20 @@ ChatterDB = {
 							["g"] = 0.7529412508010864,
 							["b"] = 0.7529412508010864,
 						},
-						["ACHIEVEMENT"] = {
-							["r"] = 1,
-							["g"] = 1,
-							["b"] = 0,
-						},
 						["ARENA_POINTS"] = {
 							["r"] = 1,
 							["g"] = 1,
 							["b"] = 1,
 						},
-						["INSTANCE_CHAT"] = {
+						["ACHIEVEMENT"] = {
 							["r"] = 1,
-							["g"] = 0.4980392456054688,
+							["g"] = 1,
 							["b"] = 0,
+						},
+						["General"] = {
+							["r"] = 0.7647059559822083,
+							["g"] = 0.9019608497619629,
+							["b"] = 0.9098039865493774,
 						},
 						["Instance Leader"] = {
 							["b"] = 0.03529411926865578,
@@ -505,10 +505,10 @@ ChatterDB = {
 							["g"] = 0.7843137979507446,
 							["r"] = 0.4627451300621033,
 						},
-						["General"] = {
-							["r"] = 0.7647059559822083,
-							["g"] = 0.9019608497619629,
-							["b"] = 0.9098039865493774,
+						["INSTANCE_CHAT"] = {
+							["r"] = 1,
+							["g"] = 0.4980392456054688,
+							["b"] = 0,
 						},
 						["Instance"] = {
 							["b"] = 0,
@@ -834,9 +834,9 @@ ChatterDB = {
 							["g"] = 0.4705882668495178,
 							["r"] = 1,
 						},
-						["MONEY"] = {
+						["FILTERED"] = {
 							["b"] = 0,
-							["g"] = 1,
+							["g"] = 0,
 							["r"] = 1,
 						},
 						["TEXT_EMOTE"] = {
@@ -929,20 +929,20 @@ ChatterDB = {
 							["g"] = 0.7529412508010864,
 							["r"] = 1,
 						},
-						["INSTANCE_CHAT"] = {
-							["b"] = 0,
-							["g"] = 0.4980392456054688,
-							["r"] = 1,
-						},
-						["ARENA_POINTS"] = {
-							["b"] = 1,
-							["g"] = 1,
-							["r"] = 1,
-						},
 						["General"] = {
 							["r"] = 1,
 							["g"] = 0.7529412508010864,
 							["b"] = 0.7529412508010864,
+						},
+						["ACHIEVEMENT"] = {
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["INSTANCE_CHAT"] = {
+							["b"] = 0,
+							["g"] = 0.4980392456054688,
+							["r"] = 1,
 						},
 						["Instance Leader"] = {
 							["r"] = 1,
@@ -1024,8 +1024,8 @@ ChatterDB = {
 							["g"] = 0.7843137979507446,
 							["b"] = 1,
 						},
-						["ACHIEVEMENT"] = {
-							["b"] = 0,
+						["ARENA_POINTS"] = {
+							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
@@ -1064,9 +1064,9 @@ ChatterDB = {
 							["g"] = 0.4980392456054688,
 							["r"] = 1,
 						},
-						["FILTERED"] = {
+						["MONEY"] = {
 							["b"] = 0,
-							["g"] = 0,
+							["g"] = 1,
 							["r"] = 1,
 						},
 						["PET_BATTLE_COMBAT_LOG"] = {
@@ -1121,38 +1121,38 @@ ChatterDB = {
 			["realm"] = {
 				["Drak'thul"] = {
 					["history"] = {
-						"/wa", -- [1]
-						"/kiss", -- [2]
-						"/kiss", -- [3]
-						"/kiss", -- [4]
-						"/kiss", -- [5]
-						"/kiss", -- [6]
-						"/kiss", -- [7]
-						"/kiss", -- [8]
-						"/kiss", -- [9]
-						"/kiss", -- [10]
-						"/kiss", -- [11]
-						"/kiss", -- [12]
-						"/p my fps went down aswell", -- [13]
-						"/p idk why", -- [14]
-						"/p oh sec", -- [15]
-						"/p gotta disableflyplatebuffs", -- [16]
-						"/p shit addon", -- [17]
-						"/p hey", -- [18]
-						"/p one sec wc", -- [19]
-						"/p rdy", -- [20]
-						"/p doesn't matter", -- [21]
-						"/p I tried to stop the spites by cheap shoting", -- [22]
-						"/p mage was in melee", -- [23]
-						"/p I trinketed didn't mattter", -- [24]
-						"/p just bubble", -- [25]
-						"/p yea it doesn't :D", -- [26]
-						"/p I trinketed it dude", -- [27]
-						"/p why is that?", -- [28]
-						"/p that's what I was trying to do", -- [29]
-						"/p but mage was in melee", -- [30]
-						"/p so he feared me", -- [31]
-						"/p I already told you", -- [32]
+						"/s idiot", -- [1]
+						"/y acn you fucking kill the mobs you pickpocket you ape", -- [2]
+						"/y kysa", -- [3]
+						"/reload", -- [4]
+						"/s nig", -- [5]
+						"/s r", -- [6]
+						"/s kys", -- [7]
+						"/s kl", -- [8]
+						"/s gl", -- [9]
+						"/s bitch boy", -- [10]
+						"/s suck", -- [11]
+						"/s my", -- [12]
+						"/s balls", -- [13]
+						"/s gl", -- [14]
+						"/s :)", -- [15]
+						"/s fucker :)", -- [16]
+						"/y are you mentally", -- [17]
+						"/y retarded", -- [18]
+						"/s xD", -- [19]
+						"/s bitch boy", -- [20]
+						"/s show yourself", -- [21]
+						"/m", -- [22]
+						"/cw Imahottie inv", -- [23]
+						"/cw Yönt inv", -- [24]
+						"/s dude", -- [25]
+						"/s can ytou", -- [26]
+						"/s fuck off", -- [27]
+						"/s suck", -- [28]
+						"/s a d ick", -- [29]
+						"/s idiot", -- [30]
+						"/p hi", -- [31]
+						"/reload", -- [32]
 					},
 				},
 				["Sylvanas"] = {
@@ -1162,38 +1162,38 @@ ChatterDB = {
 				},
 				["Burning Blade"] = {
 					["history"] = {
-						"/way 44 48 in the hut", -- [1]
-						"/paste show", -- [2]
-						"/way 26.9 28.6", -- [3]
-						"/way 27.3 25.6", -- [4]
-						"/way 28.1 38.4", -- [5]
-						"/way 29.3 38.3", -- [6]
-						"/way 31.8 38.6", -- [7]
-						"/way 33.9 38.6", -- [8]
-						"/way 34.0 37.2", -- [9]
-						"/way 34.9 31.3", -- [10]
-						"/way 35.6 32.8", -- [11]
-						"/way 38.3 33.6", -- [12]
-						"/way 38.8 37.5", -- [13]
-						"/way 45.0 29.0", -- [14]
-						"/cway", -- [15]
-						"/tar tian", -- [16]
-						"/tar tian disc", -- [17]
-						"/paste show", -- [18]
-						"/way Unga 31.21 72.87 Boat", -- [19]
-						"/way Unga 79.18 54.22 End of the path", -- [20]
-						"/way Unga 79.44 40.66 Cave", -- [21]
-						"/way Unga 29.69 23.64 Island", -- [22]
-						"/paste show", -- [23]
-						"/way 31.21 72.87 Boat", -- [24]
-						"/way 79.18 54.22 End of the path", -- [25]
-						"/way 79.44 40.66 Cave", -- [26]
-						"/way 29.69 23.64 Island", -- [27]
-						"/bigger scale 14", -- [28]
-						"/bigger", -- [29]
-						"/m", -- [30]
-						"/s any fooders", -- [31]
-						"/s |cffffff00|Hachievement:221:Player-1092-0844A0F9:0:0:0:-1:0:0:0:0|h[Alterac Grave Robber]|h|r", -- [32]
+						"/cw Fróstí-Blackhand tell me when you're about to lose it pls xD", -- [1]
+						"/s xD", -- [2]
+						"/s kasu rekt you quite nicely", -- [3]
+						"/s drop", -- [4]
+						"/raid there is no reason to create a big raid btw", -- [5]
+						"/raid the alliance here could be handled with less than 10 ppl", -- [6]
+						"/raid and you only split honor gains", -- [7]
+						"/2 it spawns when the player loses it", -- [8]
+						"/raid kick lok afker", -- [9]
+						"/raid soaking my honors", -- [10]
+						"/raid lock", -- [11]
+						"/raid anoli", -- [12]
+						"/raid should've recorded this xD", -- [13]
+						"/raid this is so broken", -- [14]
+						"/raid azerfighter buff and reaping flames", -- [15]
+						"/cw Imahottie-Drak'thul inv", -- [16]
+						"/raid 123", -- [17]
+						"/cw Imahottie-Drak'thul jdem na rogunu asi co?", -- [18]
+						"/cw Imahottie-Drak'thul :D jestli to feo uhealuje :D", -- [19]
+						"/s rly", -- [20]
+						"/question", -- [21]
+						"/s imagine", -- [22]
+						"/s being such a little bitch", -- [23]
+						"/s that you have to 5 man a deathmatch", -- [24]
+						"/s I don't ", -- [25]
+						"/s it's sometimes this happens", -- [26]
+						"/s get good", -- [27]
+						"/p hu", -- [28]
+						"/p I'm not swedish", -- [29]
+						"/p czechia", -- [30]
+						"/p thx for the run guys", -- [31]
+						"/p bb :)", -- [32]
 					},
 				},
 			},
@@ -1217,11 +1217,11 @@ ChatterDB = {
 		["Fállkèn - Burning Blade"] = "Default",
 		["Fàllkên - Drak'thul"] = "Default",
 		["Faallken - Drak'thul"] = "Default",
-		["Fállkên - Drak'thul"] = "Default",
+		["Fallkenji - Burning Blade"] = "Default",
 		["Fàllkèn - Burning Blade"] = "Default",
 		["Gfgdhfdghfgh - Burning Blade"] = "Default",
 		["Fållken - Burning Blade"] = "Default",
-		["Fallkenji - Burning Blade"] = "Default",
+		["Fállkên - Drak'thul"] = "Default",
 		["Fallkenmekac - Burning Blade"] = "Default",
 		["Fallkenchoco - Burning Blade"] = "Default",
 		["Fållkên - Drak'thul"] = "Default",
